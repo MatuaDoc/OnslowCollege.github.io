@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1 {
+  padding-top: 1em;
+  border-top: 1px solid lightgrey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1c5b52;
+}
+
+.page-header {
+  padding: 2em 0;
+  background: #1c5b52 !important;
+}
+
+.project-name {
+  display: none;
+}
