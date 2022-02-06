@@ -1,6 +1,6 @@
 <div id="breadcrumbs">
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-  <a href="/" class="btn"><img src="/img/tiny_logo.png"> Home</a>
+  <a href="/" class="btn"><img src="/img/logo.svg" height=16> Home</a>
   {% for crumb in crumbs offset: 1 %}
   {% if forloop.last %}
   <a href="#" class="btn">{{ page.title }}</a>
