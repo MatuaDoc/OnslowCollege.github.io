@@ -2,7 +2,7 @@
 
 | | | |
 | :-: | :-: | :-: |
-| <a href="programming"><image src="../img/programming.svg" title="Programming" width=100><br>Programming</a> | <a href="design"><image src="../img/design.svg" title="Design" width=100><br>Design</a> | <a href="hci"><image src="../img/hci.svg" title="HCI" width=100><br>HCI</a> |
+| <a href="programming"><image src="../img/programming.svg" title="Programming" width=100><br>Programming | <a href="design"><image src="../img/design.svg" title="Design" width=100><br>Design | <a href="hci"><image src="../img/hci.svg" title="HCI" width=100><br>HCI |
 
 You will also learn to use [Visual Studio Code](https://code.visualstudio.com/) and [Github](https://github.com/).
 
