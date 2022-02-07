@@ -1,4 +1,6 @@
-# 13DTC: Programming & Computer Science
+---
+title: 13DTC Programming & Computer Science
+---
 
 | | | |
 | :-: | :-: | :-: |
