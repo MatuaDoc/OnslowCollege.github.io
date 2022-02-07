@@ -1,9 +1,8 @@
 # 11DIT: Programming & Digital Media
 
-| | |
-| :-: | :-: |
-| [<image src="../img/classroom.svg" title="Classroom" width=100><br>**Classroom**](../classroom) | [<image src="../img/programming.svg" title="Programming" width=100><br>**Programming**](programming)
-| [<image src="../img/design.svg" title="Design" width=100><br>**Design & Digital Media**](design) | [<image src="../img/hci.svg" title="Human Computer Interaction" width=100><br>**HCI**](hci) |
+| | | |
+| :-: | :-: | :-: |
+| <a href="programming"><image src="../img/programming.svg" title="Programming" width=100><br>Programming</a> | <a href="design"><image src="../img/design.svg" title="Design" width=100><br>Design</a> | <a href="hci"><image src="../img/hci.svg" title="HCI" width=100><br>HCI</a> |
 
 You will also learn to use [Visual Studio Code](https://code.visualstudio.com/) and [Github](https://github.com/).
 
