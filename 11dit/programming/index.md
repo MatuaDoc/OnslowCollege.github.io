@@ -1,4 +1,8 @@
-# Programming
+---
+title: Programming
+---
+
+# Course
 
 1. [ℹ️ Getting started](01.setup)
     - set up OneDrive
