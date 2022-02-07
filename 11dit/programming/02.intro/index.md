@@ -1,4 +1,6 @@
-# 2. (Re)Intro to Python
+---
+title: (Re)Intro to Python
+---
 
 **Learning Intentions**
 

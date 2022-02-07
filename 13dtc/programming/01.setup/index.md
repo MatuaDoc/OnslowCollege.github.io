@@ -1,4 +1,6 @@
-# Set up your programming environment
+---
+title: Set up your programming environment
+---
 
 **Learning intentions**
 

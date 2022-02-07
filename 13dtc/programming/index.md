@@ -1,4 +1,6 @@
-# Programming
+---
+title: Programming
+---
 
 ## Set up
 

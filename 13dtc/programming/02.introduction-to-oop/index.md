@@ -1,4 +1,7 @@
-# Introduction to object-oriented programming
+---
+title:  Introduction to object-oriented programming
+---
+
 ## Learning intentions
 
 You will learn:

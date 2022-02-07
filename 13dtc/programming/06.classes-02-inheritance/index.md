@@ -1,4 +1,6 @@
-# Classes II: Inheritance
+---
+title: Classes II — Inheritance
+---
 
 ## Learning intentions
 

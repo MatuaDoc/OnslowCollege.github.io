@@ -1,4 +1,7 @@
-# Members and Properties
+---
+title:  Members and Properties
+---
+
 ## Learning intentions
 
 You will learn:

@@ -1,4 +1,6 @@
-# Classes I: Protocols
+---
+title:  Classes I — Protocols
+---
 
 ## Learning intentions
 

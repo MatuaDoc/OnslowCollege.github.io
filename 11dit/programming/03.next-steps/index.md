@@ -1,4 +1,6 @@
-# 3. Next steps
+---
+title: Next steps
+---
 
 **Learning Intentions**
 
