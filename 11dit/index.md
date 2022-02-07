@@ -1,9 +1,9 @@
 # 11DIT: Programming & Digital Media
 
-- 🎓 [Classroom](../classroom)
-- 💻 [Programming](programming)
-- 🎨 [Design & Digital Media](media)
-- 🌏 [Human Computer Interaction (HCI)](hci)
+| | |
+| :-: | :-: |
+| [<image src="../img/classroom.svg" title="Classroom" width=100><br>**Classroom**](../classroom) | [<image src="../img/programming.svg" title="Programming" width=100><br>**Programming**](programming)
+| [<image src="../img/design.svg" title="Design" width=100><br>**Design & Digital Media**](design) | [<image src="../img/hci.svg" title="Human Computer Interaction" width=100><br>**HCI**](hci) |
 
 You will also learn to use [Visual Studio Code](https://code.visualstudio.com/) and [Github](https://github.com/).
 
