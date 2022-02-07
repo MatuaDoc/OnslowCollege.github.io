@@ -1,5 +1,5 @@
 ---
-title: 11DIT: Programming & Digital Media
+title: 11DIT Programming & Digital Media
 ---
 
 | [Programming](programming) | [Design](design) | [HCI](hci) |

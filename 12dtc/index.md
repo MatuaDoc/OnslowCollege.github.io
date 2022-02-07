@@ -1,5 +1,5 @@
 ---
-title:  12DTC: Programming & Computer Science
+title: 12DTC Programming & Computer Science
 ---
 
 | [Programming](programming) | [Project Management](projman) | [Database](database) | [Computer Science](compsci) |
