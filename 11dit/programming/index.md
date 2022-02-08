@@ -2,12 +2,16 @@
 title: Programming
 ---
 
-# Course
+## Github
+
+- [🎓 Set up Github Classroom](../../classroom/classroom.md)
+- [🌍 Check out from/commit to Github](../../classroom/github.md)
+
+## Course
 
 1. [ℹ️ Getting started](01.setup)
     - set up OneDrive
     - set up Python
-    - set up Git
     - set up Visual Studio Code
 2. [🐍 (Re)Intro to Python](02.intro)
     - assigning and using variables
