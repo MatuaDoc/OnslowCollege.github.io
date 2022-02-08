@@ -13,7 +13,9 @@ title: Programming
 
 ## Course
 
-1. [1️⃣ Set up your development environment](setup.md)
-2. [🐍 Recap](recap.md)
+1. [🐍 Recap](recap.md)
     - revise Python from 11DIT
     - loops, conditions, variables, constants
+2. [📦 Lists](lists.md)
+    - modify lists
+    - join list items into strings

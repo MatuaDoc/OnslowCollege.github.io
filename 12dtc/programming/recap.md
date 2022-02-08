@@ -25,11 +25,11 @@ If you took 11DIT at Onslow College last year, then welcome back! It's time to g
 
 --------
 
-# Task 2.1 Room Area Calculator
+# Task 1.1 Room Area Calculator
 
 > **Filename**: area.py
 
-## 2.1.1 Requirements
+## 1.1.1 Requirements
 
 In this task, you will be asked to make a program that calculates the area of a room.
 
@@ -37,14 +37,14 @@ In this task, you will be asked to make a program that calculates the area of a 
 - Convert the answers to a floating point number
 - Print out the area of the room in square metres (``m²``)
 
-## 2.1.2 First steps
+## 1.1.2 First steps
 
 1. [Accept this Github Classroom assignment](https://classroom.github.com/a/2s6ssiNL)
 2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
 3. Edit the code to pass the tests
 4. [Commit and push your code to Github](/classroom/github.md) for autograding
 
-## 2.1.4 Statements to use
+## 1.1.4 Statements to use
 
 - ``print()``
 - ``input()``
@@ -53,7 +53,7 @@ In this task, you will be asked to make a program that calculates the area of a 
 - ``if``
 - ``*``
 
-## 2.1.5 Example output
+## 1.1.5 Example output
 
 ```
 Enter the room width in metres: 2
@@ -62,28 +62,28 @@ Enter the room length in metres: 4.5
 Your room is 9 m²
 ```
 
-# Task 2.2 Convert to US units
+# Task 1.2 Convert to US units
 
 > **Filename**: area.py
 
-## 2.2.1 Requirements
+## 1.2.1 Requirements
 
 In this task, you will be asked to improve the room area calculator with the following features:
 
 - Ask the user if they wish to see the area in metres or feet
 - Calculate the room area in both metres and feet
 
-## 2.2.2 Statements to use
+## 1.2.2 Statements to use
 
 - ``*``
 - ``/``
 - ``if``
 
-## 2.2.3 Hint
+## 1.2.3 Hint
 
 1 foot is 0.3048 metres. 1 metre is 3.28084 feet.
 
-## 2.2.4 Example output
+## 1.2.4 Example output
 
 ```
 Enter the room width in metres: 2
@@ -94,11 +94,11 @@ Type m for metres or f for feet: f
 Your room is 29.52756 ft²
 ```
 
-# Task 2.3 Calculate the room volume
+# Task 1.3 Calculate the room volume
 
 > **Filename**: area.py
 
-## 2.3.1 Requirements
+## 1.3.1 Requirements
 
 In this task, you will be asked to improve the room area calculator with the following features:
 
@@ -106,13 +106,13 @@ In this task, you will be asked to improve the room area calculator with the fol
 - If so, ask for the height of the room
 - Print out the volume of the room in cubic metres/feet (``m³``/``ft³``)
 
-## 2.3.2 Statements to use
+## 1.3.2 Statements to use
 
 - ``if``
 - ``else``
 - ``*``
 
-## 2.3.3 Example output
+## 1.3.3 Example output
 
 ```
 Enter the room width in metres: 2
@@ -125,11 +125,11 @@ Type m for metres or f for feet: m
 Your room is 13.5 m³
 ```
 
-# Task 2.4 Extension: Made for US users
+# Task 1.4 Extension: Made for US users
 
 > **Filename**: area.py
 
-## 2.4.1 Requirements
+## 1.4.1 Requirements
 
 In this task, you will be asked to improve the room area calculator with the following features:
 
@@ -137,7 +137,7 @@ In this task, you will be asked to improve the room area calculator with the fol
 - The program must still be able to calculate the area/volume in metres
 - Always show the calculation in both metres **and** feet
 
-## 2.4.2 Example output
+## 1.4.2 Example output
 
 ```
 Type m to enter in metres or f in feet: f
@@ -150,11 +150,11 @@ Type m for metres or f for feet: m
 Your room is 105 ft² / 9.7548192 m²
 ```
 
-# Task 2.5 Extension: Furniture
+# Task 1.5 Extension: Furniture
 
 > **Filename**: area.py
 
-## 2.5.1 Requirements
+## 1.5.1 Requirements
 
 In this task, you will be asked to improve the room area calculator with the following features:
 
@@ -164,7 +164,7 @@ In this task, you will be asked to improve the room area calculator with the fol
 - Calculate the *remaining* volume of the room by subtracting the combined volume of the furniture from the total volume of the room
 - If the combined furniture volume is greater than the volume of the room itself, tell the user that they need to choose an item of furniture to remove
 
-## 2.5.2 Statements to use
+## 1.5.2 Statements to use
 
 - ``if``
 - ``else``
@@ -172,7 +172,7 @@ In this task, you will be asked to improve the room area calculator with the fol
 - Constants
 - Lists
 
-## 2.5.3 Volumes
+## 1.5.3 Volumes
 
 - TV
   - Width: 1.25 m
@@ -195,7 +195,7 @@ In this task, you will be asked to improve the room area calculator with the fol
   - Height: 2.5 m
   - Depth: 0.4 m
 
-## 2.4.4 Example output
+## 1.4.4 Example output
 
 ```
 Enter the room width in metres: 2
