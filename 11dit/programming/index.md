@@ -2,25 +2,24 @@
 title: Programming
 ---
 
+## Setup
+
+- [ℹ️ Set up your development environment](/classroom/setup.md)
 ## Github
 
-- [🎓 Set up Github Classroom](../../classroom/classroom.md)
-- [🌍 Check out from/commit to Github](../../classroom/github.md)
+- [🎓 Set up Github Classroom](/classroom/classroom.md)
+- [🌍 Check out from/commit to Github](/classroom/github.md)
 
 ## Course
 
-1. [ℹ️ Getting started](01.setup)
-    - set up OneDrive
-    - set up Python
-    - set up Visual Studio Code
-2. [🐍 (Re)Intro to Python](02.intro)
+1. [🐍 (Re)Intro to Python](intro.md)
     - assigning and using variables
     - printing text and getting user input
     - doing basic maths in code
-3. [⏭ Next Steps](03.next-steps)
+2. [⏭ Next Steps](next-steps.md)
     - use loops to repeat code
     - doing maths with decimals
     - use conditional statements
-4. [💬 Comments](04.comments)
+3. [💬 Comments](comments.md)
     - add header comments
     - add block comments
