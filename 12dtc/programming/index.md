@@ -2,6 +2,10 @@
 title: Programming
 ---
 
+## Setup
+
+- [ℹ️ Set up your development environment](/classroom/setup.md)
+
 ## Github
 
 - [🎓 Set up Github Classroom](../../classroom/classroom.md)
@@ -9,7 +13,7 @@ title: Programming
 - 
 ## Course
 
-1. [1️⃣ Set up your development environment](01.setup)
-2. [🐍 Recap](02.recap)
+1. [1️⃣ Set up your development environment](setup.md)
+2. [🐍 Recap](recap.md)
     - revise Python from 11DIT
     - loops, conditions, variables, constants

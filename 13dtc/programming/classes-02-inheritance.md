@@ -34,7 +34,7 @@ As the name implies, inheritance works by a hierarchy: something receives the da
 - Superclasses
 - Subclasses
 
-![Hierarchy graph of base class A, superclasses B and E which inherit from A, subclasses C and D which inherit from B, and subclass E which inherits from E](classes.jpg)
+![Hierarchy graph of base class A, superclasses B and E which inherit from A, subclasses C and D which inherit from B, and subclass E which inherits from E](img/classes.jpg)
 
 ### Base class
 
