@@ -7,6 +7,7 @@ title: Programming
 1. [ℹ️ Getting started](01.setup)
     - set up OneDrive
     - set up Python
+    - set up Git
     - set up Visual Studio Code
 2. [🐍 (Re)Intro to Python](02.intro)
     - assigning and using variables
