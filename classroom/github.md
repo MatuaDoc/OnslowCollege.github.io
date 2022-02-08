@@ -26,13 +26,23 @@ There are two ways to download code from Github into Visual Studio Code.
 6. Click on the Clone Repository button
 7. In the command palette, copy-paste the URL that you copied in step 3
 
-# Commiting code to Github
-
-When you make changes to a file or multiple files, commit the changes back to Github. This way, the files are stored on Github and you won't lose them.
-
-# 4. Commit your work regularly
+# Commit your work regularly
 
 As you work on the code contained in the assignments, be sure to commit your code. This is a record of what you changed.
+
+## Set up your Github details
+
+1. Open a Terminal that can run ``git``
+   - On Windows, open the Git Bash program
+   - On macOS/Linux, open the Terminal app
+2. Enter the following commands
+
+```bash
+git config user.name yourgithubusername
+git config user.email yourgithub@email.com
+```
+
+## Stage your changes
 
 1. When you have written your commit message, click on the tick icon.
 2. Click on the **…** icon and click Push. Your code will be sent to Github.
@@ -51,6 +61,7 @@ As you work on the code contained in the assignments, be sure to commit your cod
          Previously, the kumara price was the item price multiplied by the quantity. I adjusted it to also account for GST.
          ```
 
+## Commit your code
 
 6. After you have staged your changes and entered a commit message, click on the ![Commit](../img/check.svg) Commit button.
 7. There are two ways to push the commit(s) to Github:
