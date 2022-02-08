@@ -4,11 +4,12 @@ title: Programming
 
 ## Setup
 
-- [ℹ️ Set up your development environment](/classroom/setup.md)
+- [ℹ️ Set up your development environment](../../classroom/setup.md)
+
 ## Github
 
-- [🎓 Set up Github Classroom](/classroom/classroom.md)
-- [🌍 Check out from/commit to Github](/classroom/github.md)
+- [🎓 Set up Github Classroom](../../classroom/classroom.md)
+- [🌍 Check out from/commit to Github](../../classroom/github.md)
 
 ## Course
 
