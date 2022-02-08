@@ -38,8 +38,8 @@ As you work on the code contained in the assignments, be sure to commit your cod
 2. Enter the following commands
 
 ```bash
-git config user.name yourgithubusername
-git config user.email yourgithub@email.com
+git config --global user.name yourgithubusername
+git config --global user.email "yourgithub@email.com"
 ```
 
 ![git config](img/config.png)
