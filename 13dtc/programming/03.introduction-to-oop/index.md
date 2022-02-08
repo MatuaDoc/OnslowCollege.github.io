@@ -110,8 +110,8 @@ print(alan_kay.age) # 17
 Now it's your turn to create a class and instantiate it!
 
 1. [Accept this Github Classroom assignment](https://classroom.github.com/a/UirLo6m3)
-2. Open the repository in Visual Studio Code ([instructions here](../../Classroom/README.md))
+2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
 3. Edit the code to pass the tests
-4. Commit and push your code to Github for autograding
+4. [Commit and push your code to Github](/classroom/github.md) for autograding
 
 [^1]: Adapted from [Object-oriented programming](https://simple.wikipedia.org/wiki/Object-oriented_programming), Simple English Wikipedia (retrieved 15/11/2021, emphasis added).

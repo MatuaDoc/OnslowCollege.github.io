@@ -113,6 +113,6 @@ Notice that the properties also contain the reference to ``self`` in the method 
 Now it's your turn to create properties in a class!
 
 1. [Accept this Github Classroom assignment](#task)
-2. Open the repository in Visual Studio Code ([instructions here](../../Classroom/README.md))
+2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
 3. Edit the code to pass the tests
-4. Commit and push your code to Github for autograding
+4. [Commit and push your code to Github](/classroom/github.md) for autograding
