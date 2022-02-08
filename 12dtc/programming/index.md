@@ -9,7 +9,7 @@ title: Programming
 ## Github
 
 - [🎓 Set up Github Classroom](../../classroom/classroom.md)
-- [🌍 Check out from/commit to Github](../../classroom/github.md)
+- [📡 Check out from/commit to Github](../../classroom/github.md)
 
 ## Course
 
