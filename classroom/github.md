@@ -30,10 +30,29 @@ There are two ways to download code from Github into Visual Studio Code.
 
 When you make changes to a file or multiple files, commit the changes back to Github. This way, the files are stored on Github and you won't lose them.
 
-1. Click on the ![Source Control](../img/source-control.svg) Source Control tab
-2. You will see a list of files with changes. To send them to Github, you need to **stage the changes** to commit. Click on the ![Add](../img/add.svg) Add button next to those files.
-3. In the box that reads Message, click and type a **commit message** that sums up the changes you have made. See this guide [how to write commit messages](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53).
-4. After you have staged your changes and entered a commit message, click on the ![Commit](../img/check.svg) Commit button.
-5. There are two ways to push the commit(s) to Github:
+# 4. Commit your work regularly
+
+As you work on the code contained in the assignments, be sure to commit your code. This is a record of what you changed.
+
+1. When you have written your commit message, click on the tick icon.
+2. Click on the **…** icon and click Push. Your code will be sent to Github.
+
+3. Click on the ![Source Control](../img/source-control.svg) Source Control tab
+4. You will see a list of files with changes. To send them to Github, you need to **stage the changes** to commit. Click on the ![Add](../img/add.svg) Add button next to those files.
+5. In the box that reads Message, click and type a **commit message** that sums up the changes you have made.
+
+   - Commit messages start with a **subject**. This is a brief description of what changes you made. It is 50 characters or fewer and it does not end with a full-stop.
+      - Add a blank line under the subject.
+      - Any other comments you wish to make should be made here. Explain **what and why**, not **how**.
+      - Example commit message:
+         ```
+         Fixed kumara total price calculation
+
+         Previously, the kumara price was the item price multiplied by the quantity. I adjusted it to also account for GST.
+         ```
+
+
+6. After you have staged your changes and entered a commit message, click on the ![Commit](../img/check.svg) Commit button.
+7. There are two ways to push the commit(s) to Github:
    1. Click on the Sync Changes button (if it is showing), **or**
    2. Click on the ![Ellipsis](../img/ellipsis.svg) button then click Push.
