@@ -35,10 +35,16 @@ As you work on the code contained in the assignments, be sure to commit your cod
 1. Open a Terminal that can run ``git``
    - On Windows, open the Git Bash program
    - On macOS/Linux, open the Terminal app
-2. Enter the following commands
+2. Enter the following command
 
 ```bash
 git config --global user.name yourgithubusername
+```
+
+3. Press enter
+4. Enter the following command
+
+```bash
 git config --global user.email "yourgithub@email.com"
 ```
 
