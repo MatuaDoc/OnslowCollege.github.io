@@ -23,5 +23,8 @@ title: Programming
 3. [✂️ Lists II: Modifying](lists-02-modifying.md)
     - add items to a list
     - remove items from a list
-4. [🖨 Lists III: Formatting](lists-03-formatting.md)
+4. [⏪ Lists III: Other Functions](lists-03-functions.md)
+    - reversing the order of list items
+    - sorting list items
+5. [🖨 Lists IV: Formatting](lists-04-formatting.md)
     - printing a list with a custom format
