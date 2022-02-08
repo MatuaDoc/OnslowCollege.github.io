@@ -42,6 +42,8 @@ git config user.name yourgithubusername
 git config user.email yourgithub@email.com
 ```
 
+![git config](img/config.png)
+
 ## Stage your changes
 
 1. When you have written your commit message, click on the tick icon.
