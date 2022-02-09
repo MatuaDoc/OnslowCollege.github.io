@@ -20,7 +20,7 @@ title: Programming
 3. [ℹ️ Introduction to Object-Oriented Programming](introduction-to-oop.md)
     - learn what object-oriented programming (OOP) means
     - what benefit OOP offers
-4. [📝 Members and Properties](members-and-properties.md)
+4. [📝 Members and Properties](members.md)
     - learn what class members and properties are
     - what benefits members and properties offer
     - how to declare and define members and properties
