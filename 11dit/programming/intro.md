@@ -136,3 +136,5 @@ Please type the wall height in metres: 3
 
 You will need 12 L of paint.
 ```
+
+##### When you are finished, move on to [Next Steps](next-steps.md)
