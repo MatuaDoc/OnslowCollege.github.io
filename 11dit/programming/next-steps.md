@@ -58,7 +58,7 @@ Never done loops before?
     ```
   - ```python
     answer = ""
-    while answer = "":
+    while answer == "":
         answer = input("Should we continue? ")
     ```
 
