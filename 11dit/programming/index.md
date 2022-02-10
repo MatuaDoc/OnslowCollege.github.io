@@ -23,3 +23,6 @@ title: Programming
     - declare lists with multiple items
     - access an item from a list using an index
     - determine the length of a list
+5. [🎗 For loops](for-loops.md)
+    - loop over the items in a list
+    - print out the items
