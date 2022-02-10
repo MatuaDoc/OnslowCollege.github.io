@@ -83,6 +83,8 @@ In this task, you will be asked to improve the room area calculator with the fol
 
 1 foot is 0.3048 metres. 1 metre is 3.28084 feet.
 
+If you output in square feet, make sure to convert the two measurements to feet **before** you multiply them.
+
 ## 2.2.4 Example output
 
 ```
@@ -91,7 +93,7 @@ Enter the room length in metres: 4.5
 
 Type m for metres or f for feet: f
 
-Your room is 29.52756 ft²
+Your room is 96.875331184 ft²
 ```
 
 # Task 2.3 Calculate the room volume
