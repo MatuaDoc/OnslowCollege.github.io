@@ -19,3 +19,7 @@ title: Programming
 3. [💬 Comments](comments.md)
     - add header comments
     - add block comments
+4. [🛒 Lists](lists.md)
+    - declare lists with multiple items
+    - access an item from a list using an index
+    - determine the length of a list
