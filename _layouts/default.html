@@ -43,8 +43,8 @@
 
         {% if page.learning_intentions %}
         {% if page.success_criteria %}
-        <div id="lisc"></div>
-        {% include lisc.html learning_intentions=page.learning_intentions success_criteria=page.success_criteria %}
+        <div id="lisc">
+            {% include lisc.html learning_intentions=page.learning_intentions success_criteria=page.success_criteria %}
         </div>
         {% endif %}
         {% endif %}
