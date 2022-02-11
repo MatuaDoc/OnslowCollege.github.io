@@ -61,7 +61,7 @@ from dataclasses import dataclass, field
 from datetime import Date
 
 @dataclass
-class Date:
+class Document:
     # Properties
     _creator_name: str
     created_date: Date    # Note: this is not protected, nor a property
@@ -156,8 +156,8 @@ For instance, the following examples:
 3. All of the above
 
 ```python
-@name.setter
-def name(self, new_name: str):
+@creator_name.setter
+def creator_name(self, new_name: str):
     if len(new_name) > 0:
         self._name = new_name
     else:
@@ -165,18 +165,35 @@ def name(self, new_name: str):
 ```
 
 ```python
-@name.setter
-def name(self, new_name: str):
+@creator_name.setter
+def creator_name(self, new_name: str):
     self._name = new_name.replace(" ", "_")
 ```
 
 ```python
-@name.setter
-def name(self, new_name: str):
+@creator_name.setter
+def creator_name(self, new_name: str):
     if len(new_name) > 0:
         self._name = new_name.replace(" ", "_")
     else:
         raise ValueError("Name must contain at least one character")
+```
+
+### Step 3: Frozen properties
+
+If you wish for a value to **never** change after it is defined, you can mark a property as frozen. To do this, add ``(frozen=True)`` to the ``@property`` declaration.
+
+```python
+@property(frozen=True)
+def creator_name(self):
+    return self._creator_name
+```
+
+If you try to modify the value of a frozen property, a ``FrozenInstanceError`` is raised.
+
+```python
+my_document.creator_name = "New name"
+# FrozenInstanceError raised, program crashes
 ```
 
 # Task
