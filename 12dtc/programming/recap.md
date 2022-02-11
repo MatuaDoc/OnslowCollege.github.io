@@ -1,29 +1,10 @@
 ---
 title: (Re)Intro to Python
+learning_intentions: ["To assign and use data stored in variables", "Printing text and getting user input", "Converting strings to numbers and back", "Repeating code with loops", "Checking for conditions with ``if``, ``else``, and ``elif`` statements"]
+success_criteria: ["You have created a functioning version of the Room Area/Volume Calculator"]
 ---
 
-**Learning Intentions**
-
-- If you learnt Python in 11DIT, to revise the basic Python statements
-  - Assigning and using variables
-  - Printing text and getting input
-  - Converting numbers to strings
-  - Repeating code with loops
-  - Checking for conditions with if statements
-- If you have not learnt Python before, to get to know the basics
-
-**Success Criteria**
- 
-You will know that you have completed this lesson's learning when:
--   You have created a room area calculator
-
---------
-
-## Welcome (back) to Python! 🐍
-
 If you took 11DIT at Onslow College last year, then welcome back! It's time to get our minds back into programming. Hopefully you haven't forgotten all your Python — if you have, don't worry, it's just like riding a bike! (and if you haven't been on a bike before, don't worry, it'll all come back just the same!)
-
---------
 
 # Task 1.1 Room Area Calculator
 
@@ -40,9 +21,10 @@ In this task, you will be asked to make a program that calculates the area of a 
 ## 1.1.2 First steps
 
 1. [Accept this Github Classroom assignment](https://classroom.github.com/a/2s6ssiNL)
-2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
-3. Edit the code to pass the tests
-4. [Commit and push your code to Github](/classroom/github.md) for autograding
+2. Open the repository in Visual Studio Code ([instructions](../../classroom/classroom.md))
+3. Read the instructions
+4. Edit the code to pass the tests
+5. [Commit and push your code to Github](../../classroom/github.md)
 
 ## 1.1.4 Statements to use
 

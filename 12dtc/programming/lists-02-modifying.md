@@ -1,17 +1,8 @@
 ---
 title: List formatting
+learning_intentions: ["Adding and removing items from an established list"]
+success_criteria: ["You have added an item to the end, start, and specified position in an established list", "You have removed a specified item from an established list"]
 ---
-
-## Learning intentions
-
-- Adding and removing items from an established list
-
-## Success criteria
-
-You will know that you have completed this lesson's learning when:
-
-- You have added an item to an established list
-- You have removed an item from an established list
  
 # 3.1 Modifying the list items
 

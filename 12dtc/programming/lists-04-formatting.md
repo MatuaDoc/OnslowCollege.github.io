@@ -1,17 +1,8 @@
 ---
 title: List formatting
+learning_intentions: ["Foramtting the printed output of a list"]
+success_criteria: ["You have printed a list with custom formatting for each item", "You have printed a list slice with custom formatting"]
 ---
-
-## Learning intentions
-
-- Formatting the printed output of a list
-
-## Success criteria
-
-You will know that you have completed this lesson's learning when:
-
-- You have printed a list with custom formatting
-- You have printed a list slice with custom formatting
 
 # 4.1 Joining a list into a string
 

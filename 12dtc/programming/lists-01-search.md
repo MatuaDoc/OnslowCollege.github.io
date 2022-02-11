@@ -1,19 +1,8 @@
 ---
 title: Lists
+learning_intentions: ["Search for specific items/ranges within a list", "Get a range of items in a list"]
+success_criteria: ["You have checked if an item is in a list", "You have determined the index of an item in the list", "You have created a list subsection containing the specified items"]
 ---
-
-## Learning Intentions
-
-- Search for specific items/ranges within in a list
-- Get a range of items in a list
-
-## Success Criteria
-
-You will know that you have completed this lesson's learning when:
-
-- Checked if an item is in a list
-- You have searched for the index of an item in a list
-- You have created a list subsection
 
 # 2.1 Searching for list items
 
