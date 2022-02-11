@@ -1,15 +1,13 @@
-<div id="lisc">
-    <p class="lisc_heading">Learning intentions</p>
-    <ol>
-        {% for li in include.learning_intentions %}
-        <li>{{ li }}</li>
-        {% endfor %}
-    </ol>
-    <p class="lisc_heading">Success criteria</p>
-    <p>You will know that you have completed this lesson's learning when:</p>
-    <ol>
-        {% for sc in include.success_criteria %}
-        <li>{{ sc }}</li>
-        {% endfor %}
-    </ol>
-</div>
+<p class="lisc_heading">Learning intentions</p>
+<ol>
+    {% for li in include.learning_intentions %}
+    <li>{{ li }}</li>
+    {% endfor %}
+</ol>
+<p class="lisc_heading">Success criteria</p>
+<p>You will know that you have completed this lesson's learning when:</p>
+<ol>
+    {% for sc in include.success_criteria %}
+    <li>{{ sc }}</li>
+    {% endfor %}
+</ol>
