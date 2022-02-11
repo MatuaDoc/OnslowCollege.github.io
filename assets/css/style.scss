@@ -42,6 +42,16 @@ h5 {
   display: none;
 }
 
+#lisc {
+  border: 1px solid darkgrey;
+  background-color: lightgoldenrodyellow;
+}
+
+#lisc .lisc-heading {
+  color: #1c5b52;
+  font-weight: 900;
+}
+
 .main-content table {
   display: inline-table;
 }

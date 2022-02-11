@@ -1,11 +1,11 @@
 <div id="lisc">
-    <h2>Learning intentions</h2>
+    <p class="lisc_heading">Learning intentions</p>
     <ol>
         {% for li in include.learning_intentions %}
         <li>{{ li }}</li>
         {% endfor %}
     </ol>
-    <h2>Success criteria</h2>
+    <p class="lisc_heading">Success criteria</p>
     <p>You will know that you have completed this lesson's learning when:</p>
     <ol>
         {% for sc in include.success_criteria %}
