@@ -21,8 +21,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-header {
-  padding: 2em 0;
-  background: #1c5b52 !important;
+  padding: 1em 0;
+  background: #ddd !important;
 }
 
 .project-name {
@@ -31,4 +31,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-content table {
   display: inline-table;
+}
+
+#breadcrumbs a:link a:visited {
+  color: #1c5b52;
 }
