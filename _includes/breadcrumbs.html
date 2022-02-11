@@ -1,14 +1,17 @@
 <div id="breadcrumbs">
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-  <a href="/" class="btn"><img src="/img/logo.svg" height=16> Home</a>
+  <a href="/" class="btn">
+    <image src="/img/logo.svg" height=16> Home
+  </a>
   {% for crumb in crumbs offset: 1 %}
   {% if forloop.last %}
   <a href="#" class="btn">{{ page.title }}</a>
   {% else %}
   <a class="btn"
-    href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}"><img
-      src="/img/{{
-    crumb | replace:'-',' ' | remove:'.html' }}.svg" height=16></a>
+    href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
+    <image src="/img/{{
+    crumb | replace:'-',' ' | remove:'.html' }}.svg" height=24>
+  </a>
   {% endif %}
   {% endfor %}
 </div>
