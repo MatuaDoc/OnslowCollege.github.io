@@ -1,28 +1,12 @@
 ---
 title: Next steps
+learning_intentions: ["Use loops to repeat code", "Convert numbers to floating point values (numbers with decimals)", "Use conditional statements (such as ``if``, ``else``, and ``elif``) to apply logic"]
+success_criteria: ["Added new features to the wall paint calculator according to the new specifications"]
 ---
-
-**Learning Intentions**
-
-- Revise loops
-- Revise floating point numbers
-- Revise Booleans and conditional statements (``if``, ``else``, and ``elif``)
-
-**Success Criteria**
-
-You will know that you have completed this lesson's learning when:
-		
-- You have made a new version of the wall paint calculator with new specifications
-
---------
-
-## And when you're down here, you'll float too! 🤡🎈
 
 If you've finished the recap tasks in 1.0, well done! If not, you'll need to go back and finish the wall paint calculator before you move on to these tasks. Don't worry if it takes you a bit longer — it's important that you revise fully rather than race through the activities.
 	
 In this lesson, you will use floating point numbers, loops, and conditional statements. You've already used integers so this will only require a minor change. Some of the other constructions, such as loops and conditional statements, might need a bit of revision.
-
---------
 
 # Task 3.1 Hello, student!
 

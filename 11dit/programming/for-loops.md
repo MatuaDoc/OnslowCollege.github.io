@@ -1,22 +1,10 @@
 ---
 title: for loops
+learning_intentions: ["To loop over list items with a for loop"]
+success_criteria: ["You have used a for loop to print every item in a list, one at a time", "You have added some special logic to your loops to only print certain items"]
 ---
 
-## Learning intentions
-
-1. To learn how to use a for loop
-2. To loop over items in a list
-
-## Success criteria
-
-You will know that you have completed the learning when:
-
-1. You have used a for list to print every item in a list, one at a time
-2. You have added some special logic to your loops to only print certain items
-
-# For loops
-
-In 10DIT, you learn about ``while`` loops and have practiced using them so far. These are useful because they help us repeat code a certain number of times or until a condition fails to be met.
+In 10DIT, you learnt about ``while`` loops and have practiced using them so far. These are useful because they help us repeat code a certain number of times or until a condition fails to be met.
 
 However, if you are wanting to loop over the items in a list, there is a much more efficient loop called a **for loop**.
 

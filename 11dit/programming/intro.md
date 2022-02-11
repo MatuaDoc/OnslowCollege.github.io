@@ -1,28 +1,10 @@
 ---
 title: (Re)Intro to Python
+learning_intentions: ["To assign and use data stored in variables", "Printing text and getting user input", "Converting strings to numbers and back"]
+success_criteria: ["You have created the 'Hello, student!' program, tested it, and shown your teacher that it works", "You have created the basic wall calculator program"]
 ---
 
-**Learning Intentions**
-
-- If you learnt Python in 10DIT, to revise the basic Python statements
-  - Assigning and using variables
-  - Printing text and getting input
-  - Converting numbers to strings
-- If you have not learnt Python before, to get to know the basics
-
-**Success Criteria**
- 
-You will know that you have completed this lesson's learning when:
--   You have created the "Hello, student!" program, tested it, and verified that it works
--   You have created the wall paint calculator program
-
---------
-
-## Welcome (back) to Python! 🐍
-
 If you took 10DIT at Onslow College last year, then welcome back! It's time to get our minds back into programming. Hopefully you haven't forgotten all your Python — if you have, don't worry, it's just like riding a bike! (and if you haven't been on a bike before, don't worry, it'll all come back just the same!)
-
---------
 
 # Task 2.1 Hello, student!
 

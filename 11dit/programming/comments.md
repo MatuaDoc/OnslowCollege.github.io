@@ -1,26 +1,12 @@
 ---
 title: Comments
+learning_intentions: ["Revise good commenting practices"]
+success_criteria: ["You have added comment headers to ``hello.py`` and ``paint3.py``"]
 ---
-
-**Learning Intentions**
-
-- Revise good commenting practices
-
-**Success Criteria**
-
-You will know that you have completed this lesson's learning when:
-		
-- You have added comment headers to ``hello.py`` and ``paint3.py``
-
---------
-
-## Did you say something? 💬
 
 An important part of programming is commenting. After all, most code is read rather than written. You'll thank yourself for writing comments when you come back to a piece of code later, having completely forgotten what it's for.
 
 Not only that: good commenting is required for the assessment!
-
---------
 
 # 4.1 Header comments
 
