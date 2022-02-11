@@ -41,13 +41,13 @@
             {% include toc.html html=content h_max=1 %}
         </div>
 
-        <div id="lisc">
-            {% if page.learning_intentions %}
-            {% if page.success_criteria %}
-            {% include lisc.html learning_intentions=page.learning_intentions success_criteria=page.success_criteria %}
-            {% endif %}
-            {% endif %}
+        {% if page.learning_intentions %}
+        {% if page.success_criteria %}
+        <div id="lisc"></div>
+        {% include lisc.html learning_intentions=page.learning_intentions success_criteria=page.success_criteria %}
         </div>
+        {% endif %}
+        {% endif %}
 
         {{ content }}
 
