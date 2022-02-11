@@ -196,7 +196,4 @@ my_document.created_date = date.today()
 
 # Task
 
-1. [Accept this Github Classroom assignment](#)
-2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
-3. Edit the code to pass the tests
-4. [Commit and push your code to Github](/classroom/github.md) for autograding
+{% include task.html task_url=jTwLK5Zc %}
