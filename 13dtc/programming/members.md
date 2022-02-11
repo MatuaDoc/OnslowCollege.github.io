@@ -58,14 +58,14 @@ A strong benefit of this is that we fully understand what happens when a class' 
 
 ```python
 from dataclasses import dataclass, field
-from datetime import Date
+from datetime import date
 
 @dataclass
 class Document:
     # Properties
     _creator_name: str
-    created_date: Date    # Note: this is not protected, nor a property
-    _modified_date: Date
+    _created_date: date    # Note: this is not protected, nor a property
+    _modified_date: date
 
     @property
     def creator_name(self) -> str:
@@ -81,12 +81,16 @@ class Document:
             raise ValueError("Name must contain at least one character")
 
     @property
-    def _modified_date(self) -> int:
+    def _created_date(self) -> date:
+        return self._created_date
+
+    @property
+    def _modified_date(self) -> date:
         return self._modified_date
 
     @age.setter
-    def date(self, new_date: Date):
-        # Validates that the age is within the correct range
+    def _modified_date(self, new_date: date):
+        # Validates that the date is within the correct range
         # else raises an error
         if new_date > self._modified_date:
             self._modified_date = new_date
@@ -104,7 +108,7 @@ As you can see, we create methods that do the following:
 
 But how does it actually do it?
 
-### Step 1: Protect the variables
+## Protect the variables
 
 To start with, we modify the names of the variables to include an underscore at the front. You will notice that ``creator_name`` and ``modified_date`` have become ``_creator_name`` and ``_modified_date``.
 
@@ -179,21 +183,15 @@ def creator_name(self, new_name: str):
         raise ValueError("Name must contain at least one character")
 ```
 
-### Step 3: Frozen properties
+## Immutable properties
 
-If you wish for a value to **never** change after it is defined, you can mark a property as frozen. To do this, add ``(frozen=True)`` to the ``@property`` declaration.
+If you wish for a value to **never** change after it is defined, you can make the property immutable by defining a getter but not defining a setter.
 
-```python
-@property(frozen=True)
-def creator_name(self):
-    return self._creator_name
-```
-
-If you try to modify the value of a frozen property, a ``FrozenInstanceError`` is raised.
+If you try to modify the value of a frozen property, a ``AttributeError`` is raised.
 
 ```python
-my_document.creator_name = "New name"
-# FrozenInstanceError raised, program crashes
+my_document.created_date = date.today()
+# AttributeError raised, program crashes
 ```
 
 # Task
