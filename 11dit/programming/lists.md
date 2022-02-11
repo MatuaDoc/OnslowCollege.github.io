@@ -1,20 +1,8 @@
 ---
 title: Intro to Lists
+learning_intentions: ["To store multiple items in a single variable", "To access an item stored in a list"]
+success_criteria: ["You have successfully declared and populated a list", "You access the first, last, and any other item in the list", "You have printed a list item"]
 ---
-
-## Learning intentions
-
-- To store multiple items in a single variable
-- To access an item stored in a list
-
-## Success criteria
-
-You will know that you have completed this lesson's learning when:
-
-- You have successfully declared and populated a list
-- You can access the first item in the list
-- You can access the last item in the list
-- You can access any other item in the list
 
 # Lists
 
