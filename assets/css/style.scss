@@ -10,12 +10,13 @@ h1 {
 }
 
 h1:first-of-type {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   border-top: none;
   font-size: 30pt;
   font-weight: 900;
   text-decoration: none;
+  text-align: center;
 }
 
 h5 {
@@ -33,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 .page-header {
   padding: 1em 0;
   background: white !important;
-  box-shadow: 0 10px 10px black;
+  box-shadow: 0 5px 10px darkgrey;
 }
 
 .project-name {
