@@ -1,0 +1,14 @@
+<div id="lisc">
+    <h2>Learning intentions</h2>
+    <ol>
+        {% for li in include.learning_intentions %}
+        <li>{{ li }}</li>
+        {% endfor }
+    </ol>
+    <h2>Success criteria</h2>
+    <ol>
+        {% for sc in include.success_criteria %}
+        <li>{{ sc }}</li>
+        {% endfor }
+    </ol>
+</div>
