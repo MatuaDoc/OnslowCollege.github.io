@@ -1,22 +1,8 @@
 ---
-title:  Classes I — Protocols
+title:  Protocols
+learning_intentions: ["What a protocol is", "When to use a protocol", "How to declare a protocol class", "How to declare that a class conforms to a protocol"]
+success_criteria: ["You have declared a protocol class", "You have declared at least two classes that conform to the protocol by implementing the necessary methods"]
 ---
-
-## Learning intentions
-
-You will learn:
-
-- what a protocol is
-- when to use a protocol
-- how to declare a protocol class
-- how to declare that a class conforms to a protocol
-
-### Success criteria
-
-You will know that you have completed the learning when:
-
-- you have declared a protocol class
-- you have declared at least two classes that conform to the protocol
 
 # What is a protocol?
 
@@ -65,7 +51,7 @@ for thing in my_honking_things:
 # Beep!
 ```
 
-## More complex protocols
+# More complex protocols
 
 A more useful protocol would be one that defines a method that returns a value. The protocol can act as a guarantee that:
 
@@ -117,11 +103,4 @@ print(total_weight + " kg")
 # 1523.7 kg
 ```
 
-# Task
-
-Now it's your turn to create properties in a class!
-
-1. [Accept this Github Classroom assignment](#task)
-2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
-3. Edit the code to pass the tests
-4. [Commit and push your code to Github](/classroom/github.md) for autograding
+{% include task.html task_code="potato" %}

@@ -1,22 +1,9 @@
 ---
 title:  Introduction to object-oriented programming
+learning_intentions: ["What benefits object-oriented programming can provide", "How to define a class", "How to instantiate a class to create an object"]
+success_criteria: ["You have completed the Intro to OOP task"]
 ---
-
-## Learning intentions
-
-You will learn:
-
-- what benefits object-oriented programming can provide
-- how to:
-    - defined a class, and
-    - instantiate an object from a class
-
-### Success criteria
-
-You will know that you have completed the learning when:
-
-- you can correctly complete the [OOP quiz task](#task)
-- 
+ 
 # What is object-oriented programming?
 
 In year 13, you will be expected to use object-oriented programming techniques as part of the computer program standard.
@@ -105,13 +92,6 @@ alan_kay.name = "Alan"
 print(alan_kay.age) # 17
 ```
 
-# Task
-
-Now it's your turn to create a class and instantiate it!
-
-1. [Accept this Github Classroom assignment](https://classroom.github.com/a/UirLo6m3)
-2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
-3. Edit the code to pass the tests
-4. [Commit and push your code to Github](/classroom/github.md) for autograding
+{% include task.html task_code="UirLo6m3" %}
 
 [^1]: Adapted from [Object-oriented programming](https://simple.wikipedia.org/wiki/Object-oriented_programming), Simple English Wikipedia (retrieved 15/11/2021, emphasis added).

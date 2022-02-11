@@ -27,11 +27,11 @@ title: Programming
 5. [🧪 Methods](methods.md)
     - learn what class methods are
     - how to declare methods
-6. [📜 Classes I: Protocols](classes-01-protocols.md)
+6. [📜 Protocols](protocols.md)
     - learn what protocols are used for
     - when and how to declare protocols
     - how to make classes conform to protocols
-7. [👪 Classes II: Inheritance](classes-02-inheritance.md)
+7. [👪 Inheritance](inheritance.md)
     - learn what inheritance is and what it is used for
     - what base classes, superclasses, and subclasses are
     - how to declare, define, and use subclasses

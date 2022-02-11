@@ -1,5 +1,7 @@
 ---
 title:  Methods
+learning_intentions: ["What a method is", "How to declare an instance method"]
+success_criteria: ["You have declared an instance method in a class", "You have called a method on an object"]
 ---
 
 ## Learning intentions
@@ -108,11 +110,4 @@ class Duck:
 
 Notice that the properties also contain the reference to ``self`` in the method declarations.
 
-# Task
-
-Now it's your turn to create properties in a class!
-
-1. [Accept this Github Classroom assignment](#task)
-2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
-3. Edit the code to pass the tests
-4. [Commit and push your code to Github](/classroom/github.md) for autograding
+{% include task.html task_code="potato" %}

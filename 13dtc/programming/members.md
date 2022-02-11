@@ -1,24 +1,10 @@
 ---
 title: Members & Properties
+learning_intentions: ["What a class member is and how to declare one", "How to protect members", "How to expose a member as a property", "How to make properties immutable (non-editable)"]
+success_criteria: ["You have declared members for a class", "You have exposed members as properties", "You have marked some properties as mutable and others as immutable"]
 ---
 
-## Learning intentions
-
-- Learn what a class member is
-- Learn how to declare a class member
-- Learn how to expose a member as a property
-
-## Success criteria
-
-You will know that you have completed the learning when:
-
-- you have declared a class member and converted it to a property
-- you have accessed the property or properties of an object
-- completed the [members task](#task)
-
 # Members
-
-## What is a member?
 
 In object-oriented programming, a **member** is a value stored in a class or object. Members include variables, constants, and [properties](##what-is-a-property).
 
@@ -114,9 +100,7 @@ To start with, we modify the names of the variables to include an underscore at 
 
 The underscore at the front is a signal to other Python developers that the variable should not be accessed directly; rather, fetching the value and changing it should be done through the use of a property.
 
-### Step 2: Getters and setters
-
-#### Getters
+# Getters
 
 In order to validate the data when it is changed, we first need to define a special function that returns the value of the variable. This is called a **getter**: it *gets* the variable!
 
@@ -149,7 +133,7 @@ document = Document("Alan Partridge", Date(), Date(), "A-ha!")
 print(document.creator_initials) # AP
 ```
 
-#### Setters
+# Setters
 
 The true magic happens in **setters**. Using setters, you can validate or run custom code when a variable's value is changed.
 

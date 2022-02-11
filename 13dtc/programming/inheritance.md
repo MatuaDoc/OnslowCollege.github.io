@@ -1,24 +1,8 @@
 ---
-title: Classes II — Inheritance
+title: Inheritance
+learning_intentions: ["What inheritance is", "When to use inheritance", "What base classes, superclasses, and superclasses are", "How to declare a base class", "How to declare a subclass which inherits from a base class or superclass"]
+success_criteria: ["You have declared a base class (A)", "You have declared two subclasses (B, C) that inherit from the base class (A)", "You have declared two more subclasses (D, E), one each inheriting from the already-defined subclasses (D inherits from B, E inherits from C)"]
 ---
-
-## Learning intentions
-
-You will learn:
-
-- what inheritance is
-- when to use inheritance
-- what base classes, superclasses, and subclasses are
-- how to declare a base class
-- how to declare that a class inherits from a superclass
-
-### Success criteria
-
-You will know that you have completed the learning when:
-
-- you have declared a base class (A)
-- you have declared two subclasses (B, C) that inherit from the base class
-- you have declared two more subclasses (D, E), one each that inherits from the two other subclasses (D inherits from B, E inherits from C)
 
 # What is inheritance?
 
@@ -129,10 +113,4 @@ school = SchoolBuilding(3, 300, 10)
 print(school.number_of_elevators)
 ```
 
-# Task
-
-Now it's your turn to create properties in a class!
-
-2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
-3. Edit the code to pass the tests
-4. [Commit and push your code to Github](/classroom/github.md) for autograding
+{% include task.html task_code="potato" %}
