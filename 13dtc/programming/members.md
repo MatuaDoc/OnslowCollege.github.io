@@ -194,6 +194,4 @@ my_document.created_date = date.today()
 # AttributeError raised, program crashes
 ```
 
-# Task
-
 {% include task.html task_code="jTwLK5Zc" %}
