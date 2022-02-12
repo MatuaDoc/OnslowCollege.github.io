@@ -56,11 +56,8 @@ There will be **NO** extensions.
 
 # Problem statements
 
-You are to select ONE of the problem statements to use in the development of your prototype.
-
-With teacher approval, you may propose your own project.
-
-## Option 1: Attractiveness of uncertain reward
+You are to select ONE of the problem statements to use in the development of your outcome.
+## Option 1: Uncertain reward test
 
 You will develop an educational game, on a topic of your choice, with an "uncertain reward". In other words, it should contain an element of chance — the player could win something or lose something at each step.
 
@@ -73,6 +70,12 @@ You will develop an educational game, on a topic of your choice, with an "uncert
 5. if the user answers the next question correctly, they receive their "uncertain reward"
 6. if the user answers incorrectly, they do not receive their reward or even lose points
 
+### Possible topics
+
+- Onslow College values
+- Maths basic facts
+- Learn basic phrases in another language
+
 ## Option 2: RPG battle simulator
 
 You will develop an RPG battle simulator that will educate the player on a topic of your choice.
@@ -81,11 +84,22 @@ The simulator will allow the player to a computer opponent. The format of the ba
 
 ### Requirements
 
-1. the thematic elements of the game must promote the educational topic that you have chosen
-2. a user should be able to make a decision about the sort of attack (or weapon) they will choose
+1. the thematic elements of the game must promote the educational topic of your choice (below)
+2. a user should be able to make a decision about the sort of attack/weapon/etc. they will choose
 3. the amount of damage for each successful attack (by both player and computer) will be determined by the selected attack, as well as a random component
 4. the battle will continue until either the player's or computer's character is defeated
    - it may take several attacks for a player to be defeated
+5. there must be at least five opponents to battle
+6. if a user wins a battle, they are rewarded money
+7. if a user loses a battle, the game is over
+8. after each battle, the user must be offered a chance to purchase healing in exchange for money or continue
+
+### Possible topics
+
+- Dental Hygiene Simulator — fight plaque, tartar, and tooth decay
+- Fenix Right: Student Mediator — help resolve arguments between students
+- Pokémon Onslow Teal — battle your teachers' favourite Pokémon!
+  - note: Doc's favourite is Gengar 👻
 
 ## Option 3: Interactive fiction
 
@@ -107,6 +121,12 @@ You will develop your own education text-based adventure game on a topic of your
 4. the game must include a 5x5 grid to walk around
     - the grid tiles could represent locations
     - certain tiles could contain items/dangers
+
+### Possible topics
+
+- Maui and the Great Fish — guide Maui from Hawaiki to fishing up Aotearoa
+- Fire Evacuation — get every student down to the field in the time limit
+- Where in Onslow College is Irene Indiana? — follow the clues found in each classroom to locate a missing student
 
 {% include task.html task_code="potato" %}
 
