@@ -1,33 +1,54 @@
+{% assign hide_title_pages = "/11dit/|/12dtc/|/13dtc/" | split: "|" %}
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+
 <div id="breadcrumbs">
-  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-  <div class="breadcrumb">
+  <div class="breadcrumbs-left">
     <a href="/">
-      <image src="/img/home.svg" height=64><span class="breadcrumb-text">Home</span>
+      <image src="/img/home.svg" height=64>
+    </a>
+    <a href="/11dit">
+      <image src="/img/11dit.svg" height=64>
+    </a>
+    <a href="/12dtc">
+      <image src="/img/12dtc.svg" height=64>
+    </a>
+    <a href="/13dtc">
+      <image src="/img/13dtc.svg" height=64>
     </a>
   </div>
-  {% for crumb in crumbs offset: 1 %}
-  {% assign crumb_name = crumb | replace:'-',' ' | remove:'.html' %}
-  {% if forloop.last %}
-  <div class="breadcrumb">
-    <a href="#">
-      {% assign target_path = crumb_name | prepend: '/img/' | append: '.svg' %}
-      {% assign file_exists = site.static_files | where: "path", target_path | first %}
-      <image src="{% if file_exists %}{{ target_path }}{% else %}/img/page.svg{% endif %}" height=64></image><span
-        class="breadcrumb-text">{{ page.title }}</span>
-    </a>
-  </div>
-  {% else %}
-  <div class="breadcrumb">
+  <div class="breadcrumbs-right">
+    {% for crumb in crumbs offset: 1 %}
+    {% assign crumb_name = crumb | replace:'-',' ' | remove:'.html' %}
+    {% if forloop.last %}
+    <div class="breadcrumb hideable">
+      <a href="#">
+        {% assign target_path = crumb_name | prepend: '/img/' | append: '.svg' %}
+        {% assign file_exists = site.static_files | where: "path", target_path | first %}
+        <image src="{% if file_exists %}{{ target_path }}{% else %}/img/page.svg{% endif %}" height=64></image><span
+          class="breadcrumb-text">{{ page.title }}</span>
+      </a>
+    </div>
+    {% else %}
     {% capture crumb_url %}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit:
     crumb_limit %}{{ crumb |
     append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}{% endcapture %}
-    {% assign page_exists = site.pages | where: "url", crumb_url | first %}
-    <a href="{{ crumb_url }}">
-      <image src="/img/{{
-    crumb_name }}.svg" height=64><span class="breadcrumb-text">{% if page_exists %}{{ page_exists.title }}{% else
-          %}Moo{% endif %}</span>
-    </a>
-    {% endif %}
+
+    {% if hide_title_pages contains crumb_url %}
+    {% assign page_title = "" %}
+    <div class="breadcrumb hideable">
+      {% else %}
+      <div class="breadcrumb">
+        {% assign page_exists = site.pages | where: "url", crumb_url | first %}
+        {% if page_exists %}
+        {% assign page_title = page_exists.title %}
+        {% endif %}
+        {% endif %}
+        <a href="{{ crumb_url }}">
+          <image src="/img/{{
+    crumb_name }}.svg" height=64><span class="breadcrumb-text">{{ page_title }}</span>
+        </a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
   </div>
-  {% endfor %}
-</div>

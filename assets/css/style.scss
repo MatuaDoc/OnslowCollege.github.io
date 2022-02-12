@@ -30,12 +30,33 @@ h5 {
 }
 
 #breadcrumbs {
+  display: grid;
+  grid-template-areas: 'left right';
   color: black;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-#breadcrumbs a {
-  margin-left: 20px;
-  margin-right: 20px;
+@media only screen and (max-width: 720px) {
+  #breadcrumbs .breadcrumb-text {
+    display: none;
+  }
+
+  #breadcrumbs .hideable {
+    display: none;
+  }
+}
+
+#breadcrumbs .breadcrumbs-left {
+  grid-area: left;
+}
+
+#breadcrumbs .breadcrumbs-right {
+  grid-area: right;
+  text-align: right;
+}
+
+#breadcrumbs .breadcrumbs-right a {
   color: white;
 }
 
@@ -64,6 +85,7 @@ h5 {
   padding: 1rem 0;
   background: #1c5b52 !important;
   box-shadow: 0 5px 10px darkgrey;
+  text-align: left;
 }
 
 .project-name {
