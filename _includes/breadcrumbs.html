@@ -1,18 +1,23 @@
 <div id="breadcrumbs">
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+  {% if file %}<img src="{{ jpg_path }}">{% endif %}
   <a href="/">
     <image src="/img/home.svg" height=64> Home
-  </a> ▸
+  </a>
   {% for crumb in crumbs offset: 1 %}
+  {% assign crumb_name = crumb | replace:'-',' ' | remove:'.html' %}
   {% if forloop.last %}
-  {{ page.title }}
+  <a href="#">
+    {% assign curr_page_icon = site.static_files | where: "path", "img/{{ crumb_name }}.svg" | first %}
+    <image src="img/{% if curr_page_icon %}{{ crumb_name }}{% else %}page{% endif %}.svg" height=64> {{ page.title }}
+  </a>
   {% else %}
   <a
     href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
     <image src="/img/{{
-    crumb | replace:'-',' ' | remove:'.html' }}.svg" height=64> {{
-      crumb | replace:'-',' ' | remove:'.html' | capitalize }}
-  </a> ▸
+    crumb_name }}.svg" height=64> {{
+      crumb_name | capitalize }}
+  </a>
   {% endif %}
   {% endfor %}
 </div>
