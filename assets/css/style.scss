@@ -10,18 +10,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   margin-top: 5rem !important;
   padding-top: 1rem;
-  border-top: 1px solid darkgrey;
-  text-decoration: underline;
+  border-top: 1px solid black;
 }
 
 h1:first-of-type {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-top: none;
-  font-size: 30pt;
-  font-weight: 900;
-  text-decoration: none;
-  text-align: center;
+  border-top: none !important;
 }
 
 h2 {
@@ -34,6 +27,17 @@ h5 {
 /* color: white; */
   padding: 1rem;
   font-size: larger;
+}
+
+#page-title {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: none;
+  font-size: 30pt;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
 }
 
 .page-header {
