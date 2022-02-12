@@ -1,6 +1,5 @@
 <div id="breadcrumbs">
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-  {% if file %}<img src="{{ jpg_path }}">{% endif %}
   <a href="/">
     <image src="/img/home.svg" height=64> Home
   </a>
@@ -9,7 +8,7 @@
   {% if forloop.last %}
   <a href="#">
     {% assign curr_page_icon = site.static_files | where: "path", "/img/{{ crumb_name }}.svg" | first %}
-    {{ curr_page_icon }}
+    <span>{{ curr_page_icon }}</span>
     <image src="/img/{% if curr_page_icon %}{{ crumb_name }}{% else %}page{% endif %}.svg" height=64> {{ page.title }}
   </a>
   {% else %}
