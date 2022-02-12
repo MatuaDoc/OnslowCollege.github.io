@@ -2,9 +2,9 @@
 title: 12DTC Programming Practice
 ---
 
-| Standard | Level | Int/Ext | Credits |
-| :-- | :-: | :-: | :-: |
-| [AS91896](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91896.pdf) Use advanced programming techniques to develop a computer program | 2 | Internal | 6 |
+| Standard | Name | Level | Int/Ext | Credits |
+| :-- | :-- | :-: | :-: | :-: |
+| [AS91896](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91896.pdf) | Use advanced programming techniques to develop a computer program | 2 | Internal | 6 |
 
 # Explanation from the standard
 
