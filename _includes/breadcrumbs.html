@@ -14,7 +14,7 @@
     {% assign image_name = 'page' %}
     {% endif %}
     {% endfor %}
-    <image src="/img/{{ image_name }}.svg" height=64></image>
+    <image src="/img/{{ image_name }}.svg" height=64></image> {{ page.title }}
   </a>
   {% else %}
   <a
