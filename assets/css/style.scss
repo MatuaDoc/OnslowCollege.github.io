@@ -29,6 +29,15 @@ h5 {
   font-size: larger;
 }
 
+#breadcrumbs {
+  display: flex;
+  justify-content: center;
+}
+
+#breadcrumbs > img {
+  vertical-align: middle;
+}
+
 #page-title {
   margin-top: 1rem;
   padding-top: 1rem;
