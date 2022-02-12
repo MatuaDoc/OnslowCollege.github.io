@@ -7,13 +7,13 @@
   {% assign crumb_name = crumb | replace:'-',' ' | remove:'.html' %}
   {% if forloop.last %}
   <a href="#">
-    {% assign iconPath = '/img/' %}
-    {% if {{ crumb_name | append: ".svg" | prepend: iconPath }} != nil %}
-    <image src="/img/{{ crumb_name }}.svg" height=64>
-      {% else %}
-      <image src="/img/page.svg" height=64>
-        {% endif %}
-        {{ page.title }}
+    {% for static_file in site.static_files %}
+    {% if static_file.path == '/img/{{ crumb_name }}.svg' %}
+    <image src="/img/{{ crumb_name }}.svg" height=64></image>
+    {% else %}
+    <image src="/img/page.svg" height=64></image>
+    {% endif %}
+    {% endfor %}
   </a>
   {% else %}
   <a
