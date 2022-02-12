@@ -104,11 +104,4 @@ last_four = ducks[2:]
 | :-- | :-: | :-: | :-: | :-: |
 | | "Llewellyn" | "Webbigail" | "Lena" | "Violet" |
 
-# Task
-
-Now it's your turn to create a class and instantiate it!
-
-1. [Accept this GitHub Classroom assignment](https://classroom.github.com/a/JUXCXzyE)
-2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
-3. Edit the code to pass the tests
-4. [Commit and push your code to GitHub](/classroom/github.md) for autograding
+{% include task.html task_code="JUXCXzyE" %}

@@ -93,11 +93,14 @@ print(", ".join(ducks))
 # Hubert, Llewellyn, Scrooge, Webbigail, Lena, Violet
 ```
 
-# Task
+# 3.3 Joining lists together
 
-Now it's your turn to create a class and instantiate it!
+Just like adding an item to a list using another single-item list, you can join lists together using the ``+`` operator.
 
-1. [Accept this GitHub Classroom assignment](#)
-2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
-3. Edit the code to pass the tests
-4. [Commit and push your code to GitHub](/classroom/github.md) for autograding
+```python
+boys = ["Hubert", "Dewford", "Llewellyn"]
+girls = ["Webbigail", "Lena", "Violet"]
+ducks = boys + girls
+```
+
+{% include task.html task_code="0nOwXzRd" %}
