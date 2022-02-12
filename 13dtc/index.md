@@ -47,7 +47,7 @@ In 13DTC, you will learn to do all of these. However, only two complex technique
 
 In class, you will use Python 3.10 (or higher) including some of its newer features like [structural pattern matching](https://www.python.org/dev/peps/pep-0634/), [3.5's type hints](https://www.python.org/dev/peps/pep-0483/), and [union types](https://www.python.org/dev/peps/pep-0604/).
 
-You will also learn to use [Visual Studio Code](https://code.visualstudio.com/) and [Github](https://github.com/). You will present your documentation on Github via [Github-Flavoured Markdown](https://github.github.com/gfm/) documents *(you're actually reading one right now!)*.
+You will also learn to use [Visual Studio Code](https://code.visualstudio.com/) and [GitHub](https://github.com/). You will present your documentation on GitHub via [GitHub-Flavoured Markdown](https://github.github.com/gfm/) documents *(you're actually reading one right now!)*.
 
 ## Project management tools and techniques
 

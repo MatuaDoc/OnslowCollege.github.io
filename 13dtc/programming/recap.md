@@ -20,10 +20,10 @@ In this task, you will be asked to make a program that calculates the area of a 
 
 ## 2.1.2 First steps
 
-1. [Accept this Github Classroom assignment](https://classroom.github.com/a/uWqEfLsV)
+1. [Accept this GitHub Classroom assignment](https://classroom.github.com/a/uWqEfLsV)
 2. Open the repository in Visual Studio Code ([instructions here](/classroom/classroom.md))
 3. Edit the code to pass the tests
-4. [Commit and push your code to Github](/classroom/github.md) for autograding
+4. [Commit and push your code to GitHub](/classroom/github.md) for autograding
 
 ## 2.1.4 Statements to use
 

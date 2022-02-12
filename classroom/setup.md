@@ -121,8 +121,8 @@ Open Visual Studio Code on your computer. When you first open it, you will see a
     - Download Python packages from Visual Studio Code.
   - **GitLens** (by GitKraken)
     - Improved Git integration.
-  - **Github Classroom** (by GitHub)
-    - Integrated access to Github Classroom exercises.
+  - **GitHub Classroom** (by GitHub)
+    - Integrated access to GitHub Classroom exercises.
   - **Error Lens** (by Alexander)
     - Shows the line where coding errors are occurring as well as a hint on how to fix it
   - **indent-rainbow** (by oderwat)

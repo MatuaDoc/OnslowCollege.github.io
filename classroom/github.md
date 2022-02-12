@@ -2,22 +2,22 @@
 title: Using git
 ---
 
-# Downloading code from Github
+# Downloading code from GitHub
 
-There are two ways to download code from Github into Visual Studio Code.
+There are two ways to download code from GitHub into Visual Studio Code.
 
-1. Using [Github Classroom](classroom.md)
+1. Using [GitHub Classroom](classroom.md)
 2. [Manually, by checking out code via URL](#checking-out-code-manually-via-url)
 
 ## Checking out code manually via URL
 
-### Copy the URL from Github
+### Copy the URL from GitHub
 
-1. Go to [Github.com](https://github.com/)
+1. Go to [GitHub.com](https://github.com/)
 2, In the Repositories section on the left, click on your assignment repository
 3. Click on the Code button (1) and click the copy button (2)
 
-![Checkout from Github](img/checkout.png)
+![Checkout from GitHub](img/checkout.png)
 
 ### Check out the code in Visual Studio Code
 
@@ -30,7 +30,7 @@ There are two ways to download code from Github into Visual Studio Code.
 
 As you work on the code contained in the assignments, be sure to commit your code. This is a record of what you changed.
 
-## Set up your Github details
+## Set up your GitHub details
 
 1. Open a Terminal that can run ``git``
    - On Windows, open the Git Bash program
@@ -53,10 +53,10 @@ git config --global user.email "yourgithub@email.com"
 ## Stage your changes
 
 1. When you have written your commit message, click on the tick icon.
-2. Click on the **…** icon and click Push. Your code will be sent to Github.
+2. Click on the **…** icon and click Push. Your code will be sent to GitHub.
 
 3. Click on the ![Source Control](../img/source-control.svg) Source Control tab
-4. You will see a list of files with changes. To send them to Github, you need to **stage the changes** to commit. Click on the ![Add](../img/add.svg) Add button next to those files.
+4. You will see a list of files with changes. To send them to GitHub, you need to **stage the changes** to commit. Click on the ![Add](../img/add.svg) Add button next to those files.
 5. In the box that reads Message, click and type a **commit message** that sums up the changes you have made.
 
    - Commit messages start with a **subject**. This is a brief description of what changes you made. It is 50 characters or fewer and it does not end with a full-stop.
@@ -72,6 +72,6 @@ git config --global user.email "yourgithub@email.com"
 ## Commit your code
 
 6. After you have staged your changes and entered a commit message, click on the ![Commit](../img/check.svg) Commit button.
-7. There are two ways to push the commit(s) to Github:
+7. There are two ways to push the commit(s) to GitHub:
    1. Click on the Sync Changes button (if it is showing), **or**
    2. Click on the ![Ellipsis](../img/ellipsis.svg) button then click Push.
