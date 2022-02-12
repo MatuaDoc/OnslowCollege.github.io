@@ -9,7 +9,7 @@
   {% if forloop.last %}
   <a href="#">
     {% assign curr_page_icon = site.static_files | where: "path", "img/{{ crumb_name }}.svg" | first %}
-    <image src="img/{% if curr_page_icon %}{{ crumb_name }}{% else %}page{% endif %}.svg" height=64> {{ page.title }}
+    <image src="/img/{% if curr_page_icon %}{{ crumb_name }}{% else %}page{% endif %}.svg" height=64> {{ page.title }}
   </a>
   {% else %}
   <a
