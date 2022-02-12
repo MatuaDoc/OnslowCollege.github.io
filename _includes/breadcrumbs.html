@@ -7,7 +7,7 @@
   {% assign crumb_name = crumb | replace:'-',' ' | remove:'.html' %}
   {% if forloop.last %}
   <a href="#">
-    {% assign target_path = crumb_name | prepend: '/img/' | append: '.svg' }
+    {% assign target_path = crumb_name | prepend: '/img/' | append: '.svg' %}
     {% for static_file in site.static_files %}
     {% if static_file.path contains target_path %}
     {% assign image_path = target_name %}
