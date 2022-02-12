@@ -8,6 +8,7 @@
   {% if forloop.last %}
   <a href="#">
     {% for static_file in site.static_files %}
+    <span>{{ static_file.path }}</span>
     {% if static_file.path == '/img/{{ crumb_name }}.svg' %}
     {% assign image_name = '{{ crumb_name }}' %}
     {% else %}
