@@ -9,11 +9,12 @@
   <a href="#">
     {% for static_file in site.static_files %}
     {% if static_file.path == '/img/{{ crumb_name }}.svg' %}
-    <image src="/img/{{ crumb_name }}.svg" height=64></image>
+    {% assign image_name = '{{ crumb_name }}' %}
     {% else %}
-    <image src="/img/page.svg" height=64></image>
+    {% assign image_name = 'page' %}
     {% endif %}
     {% endfor %}
+    <image src="/img/{{ image_name }}.svg" height=64></image>
   </a>
   {% else %}
   <a
