@@ -30,18 +30,23 @@ h5 {
 }
 
 #breadcrumbs {
-  display: flex;
-  justify-content: center;
   color: black;
 }
 
 #breadcrumbs a {
   margin-left: 20px;
   margin-right: 20px;
+  color: white;
 }
 
 #breadcrumbs img {
   vertical-align: middle;
+}
+
+.breadcrumb {
+  display: inline-block;
+  height: 64px;
+  line-height: 64px;
 }
 
 #page-title {
@@ -57,7 +62,7 @@ h5 {
 
 .page-header {
   padding: 1rem 0;
-  background: white !important;
+  background: #1c5b52 !important;
   box-shadow: 0 5px 10px darkgrey;
 }
 

@@ -1,29 +1,33 @@
 <div id="breadcrumbs">
   {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-  <a href="/">
-    <image src="/img/home.svg" height=64> Home
-  </a>
+  <div class="breadcrumb">
+    <a href="/">
+      <image src="/img/home.svg" height=64><span class="breadcrumb-text">Home</span>
+    </a>
+  </div>
   {% for crumb in crumbs offset: 1 %}
   {% assign crumb_name = crumb | replace:'-',' ' | remove:'.html' %}
   {% if forloop.last %}
-  <a href="#">
-    {% assign target_path = crumb_name | prepend: '/img/' | append: '.svg' %}
-    {% for static_file in site.static_files %}
-    {% if static_file.path == target_path %}
-    {% assign image_path = target_path %}
-    {% else %}
-    {% assign image_path = '/img/page.svg' %}
-    {% endif %}
-    {% endfor %}
-    <image src="{{ image_path }}" height=64></image> {{ page.title }}
-  </a>
+  <div class="breadcrumb">
+    <a href="#">
+      {% assign target_path = crumb_name | prepend: '/img/' | append: '.svg' %}
+      {% assign file_exists = site.static_files | where: "path", target_path | first %}
+      <image src="{% if file_exists %}{{ target_path }}{% else %}/img/page.svg{% endif %}" height=64></image><span
+        class="breadcrumb-text">{{ page.title }}</span>
+    </a>
+  </div>
   {% else %}
-  <a
-    href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
-    <image src="/img/{{
-    crumb_name }}.svg" height=64> {{
-      crumb_name | capitalize }}
-  </a>
-  {% endif %}
+  <div class="breadcrumb">
+    {% capture crumb_url %}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit:
+    crumb_limit %}{{ crumb |
+    append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}{% endcapture %}
+    {% assign page_exists = site.pages | where: "url", crumb_url | first %}
+    <a href="{{ crumb_url }}">
+      <image src="/img/{{
+    crumb_name }}.svg" height=64><span class="breadcrumb-text">{% if page_exists %}{{ page_exists.title }}{% else
+          %}Moo{% endif %}</span>
+    </a>
+    {% endif %}
+  </div>
   {% endfor %}
 </div>
