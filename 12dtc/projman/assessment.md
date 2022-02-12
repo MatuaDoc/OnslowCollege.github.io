@@ -125,7 +125,7 @@ You will develop your own education text-based adventure game on a topic of your
 ### Possible topics
 
 - Maui and the Great Fish — guide Maui from Hawaiki to fishing up Aotearoa
-- Fire Evacuation — get every student down to the field in the time limit
+- [Locate the Lost LEGO](https://news.sky.com/story/lego-lost-at-sea-how-a-search-for-five-million-figurines-lost-off-the-coast-of-cornwall-in-1997-uncovered-an-underwater-world-of-plastic-toys-12531058) — teach users about how things turn from toys to pollution by cleaning up the ocean
 - Where in Onslow College is Irene Indiana? — follow the clues found in each classroom to locate a missing student
 
 {% include task.html task_code="potato" %}
