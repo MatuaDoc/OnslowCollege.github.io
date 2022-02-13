@@ -158,23 +158,3 @@ if number_of_pets > 6:
 else:
   print("Have a nice day with your pets!")
 ```
-
-# Task 3.4 Extension
-
-> **Filename**: lists4.py
-
-## Requirements
-
-Copy the code from ``lists3.py`` into ``lists4.py``, then add the following features:
-
-1. Create a list containing all the other lists, stored in a variable called ``lists``
-2. Add the following ``while`` loop
-
-```python
-counter = len(lists)
-while counter > 0:
-  # Put some code here
-  counter = counter - 1
-```
-
-3. In the section marked "``# Put some code here``", add code that does the same as Task 3.3
