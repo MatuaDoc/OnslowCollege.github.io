@@ -23,6 +23,7 @@ title: Programming
 3. [✂️ Lists II: Modifying](lists-02-modifying.md)
     - add items to a list
     - remove items from a list
+    - joining lists together
 4. [⏪ Lists III: Other Functions](lists-03-functions.md)
     - joining list items into a string
     - custom formatting of list strings
