@@ -24,7 +24,11 @@ title: Programming
     - add items to a list
     - remove items from a list
 4. [⏪ Lists III: Other Functions](lists-03-functions.md)
+    - joining list items into a string
+    - custom formatting of list strings
     - reversing the order of list items
     - sorting list items
-5. [🖨 Lists IV: Formatting](lists-04-formatting.md)
-    - printing a list with a custom format
+5. [🗺 Lists IV: Comprehensions](lists-04-comprehensions.md)
+    - learn list comprehension syntax
+    - quickly transforming values in a list
+    - filter which items to transform

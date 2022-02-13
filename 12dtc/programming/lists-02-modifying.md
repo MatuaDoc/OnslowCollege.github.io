@@ -1,5 +1,5 @@
 ---
-title: List formatting
+title: List modification
 learning_intentions: ["Adding and removing items from an established list"]
 success_criteria: ["You have added an item to the end, start, and specified position in an established list", "You have removed a specified item from an established list"]
 ---

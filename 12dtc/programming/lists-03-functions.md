@@ -1,6 +1,6 @@
 ---
-title: List formatting
-learning_intentions: ["Foramtting the printed output of a list"]
+title: List functions
+learning_intentions: ["Foramtting the printed output of a list", "Reversed the items in a list", "Sorted items in a list"]
 success_criteria: ["You have printed a list with custom formatting for each item", "You have printed a list slice with custom formatting"]
 ---
 
