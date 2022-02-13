@@ -26,3 +26,7 @@ title: Programming
 5. [🎗 For loops](for-loops.md)
     - loop over the items in a list
     - print out the items
+6. [🎊 Functions](functions.md)
+    - define a function
+    - modify a global variable
+    - return a value
