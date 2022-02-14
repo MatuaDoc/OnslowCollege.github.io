@@ -135,3 +135,5 @@ print(", ".join(reversed_ducks)) # Violet, Lena, Webbigail, Llewellyn, Dewford, 
 ```
 
 > **Note**: don't forget the ``list()`` function surrounding the ``reversed()`` function. Technically, ``reversed()`` does not return a list so the surrounding ``list()`` is important to cast to a list.
+
+{% include task.html task_code="daSE-R9P" %}
