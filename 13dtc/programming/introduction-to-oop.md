@@ -65,6 +65,7 @@ For example, we can create a class that keeps the information for a student in o
 ```python
 from dataclasses import dataclass
 
+@dataclass
 class Student:
     """Personal information for a student"""
     name: str
