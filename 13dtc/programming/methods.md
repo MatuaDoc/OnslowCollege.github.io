@@ -41,7 +41,7 @@ my_duck = Duck()
 duck.make_sound() # Quack
 ```
 
-### A special argument: ``self``
+# A special argument: ``self``
 
 Notice the method's declaration. It accepts an argument, ``self``. Furthermore, ``self`` is used within the method definition.
 
@@ -49,14 +49,14 @@ The ``self`` argument is a reference to the object itself. It is how you can ref
 
 All methods must contain ``self`` as the first argument in order to be called on an object.
 
-## Methods are functions
+# Methods do what functions do
 
 Just the same as functions, methods can:
 1. modify members
 2. accept arguments
 3. return values
 
-### Modify variables
+## Modify variables
 
 ```python
 @dataclass
@@ -76,7 +76,7 @@ class Duck:
         return self.animal_sound[0]
 ```
 
-## Properties are methods
+# Properties are methods
 
 Did you notice that [properties](02.members-and-properties.md) are also methods? Let's add an ``animal_sound`` property for the ``Duck`` class:
 
@@ -95,5 +95,35 @@ class Duck:
 ```
 
 Notice that the properties also contain the reference to ``self`` in the method declarations.
+
+# Static methods
+
+There is one type of method you can write that does **not** require ``self``. This is because the function is called on the class itself, not the object. This is called a **static method**.
+
+Static methods are useful when you would like to generate some information or perform a task that is related to a class but does not work with any variables. For example, the method could generate some data in a convenient fashion, such as a list of random numbers:
+
+```python
+@dataclass
+class Dog:
+    name: str
+    age: int
+
+    # Normal method that uses object data
+    def bark() -> str:
+        return name + ", woof!"
+
+    @staticmethod
+    def generate_collar_serial() -> str:
+        serial = ""
+        for i in range(10):
+            serial = serial + str(randint(10))
+        return serial
+
+spot = Dog(name="Spot", age=7)
+spot.bark() # Spot, woof!
+
+# Call to static method
+serial = Dog.generate_collar_serial()
+```
 
 {% include task.html task_code="potato" %}
