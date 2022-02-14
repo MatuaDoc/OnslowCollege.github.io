@@ -4,22 +4,6 @@ learning_intentions: ["What a method is", "How to declare an instance method"]
 success_criteria: ["You have declared an instance method in a class", "You have called a method on an object"]
 ---
 
-## Learning intentions
-
-You will learn:
-
-- what a method is
-  - when you should use one
-  - how to declare an instance method
-
-### Success criteria
-
-You will know that you have completed the learning when:
-
-- you have declared an instance method
-- you have used an instance method on an object instance
-- completed the [methods task](#task)
-
 # What is a method?
 
 In object-oriented programming, a **method** is a function that is attached to a class/object. Typically, methods operate on members stored within the class/object.
@@ -63,7 +47,9 @@ Notice the method's declaration. It accepts an argument, ``self``. Furthermore, 
 
 The ``self`` argument is a reference to the object itself. It is how you can refer to other members or methods within the object.
 
-## Properties are functions
+All methods must contain ``self`` as the first argument in order to be called on an object.
+
+## Methods are functions
 
 Just the same as functions, methods can:
 1. modify members
