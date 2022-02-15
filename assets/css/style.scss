@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 body {
-  font-family: 'Lexend', sans-serif;
+  font-family: 'Lexend', 'Avenir', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -107,6 +107,19 @@ h5 {
   font-weight: 900;
 }
 
+.main-content {
+  line-height: 2em;
+}
+
 .main-content table {
   display: inline-table;
 }
+
+.main-content code {
+  font-family: Menlo, Monaco, Consolas, monospace;
+  font-weight: 500;
+}
+
+.highlight .cm, .highlight .c1, .highlight .cs, .highlight .c, .highlight .cd, .highlight .ge { font-style: italic; }
+
+.highlight .cp, .highlight .cs, .highlight .gs, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .k, .highlight .kv, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .ow, .highlight .o { font-weight: 700; }
