@@ -20,40 +20,6 @@ But ask yourself these questions. How can you determine:
 
 Without objects, any variables that we declare are effectively available to any code in the same scope, including functions. This means that a variable's value may change at some point and, short of printing a statement every time any variable's value changes, we can't be entirely sure what variables have changed or what piece of code caused the change.
 
-For instance, consider some variables for a program that keeps track of a student's details.
-
-```python
-student_name = ""
-student_age = -1
-
-def set_student_name():
-    """Asks for a name, verifies that it is non-zero in length"""
-    name = ""
-    while len(name) == 0:
-        name = input("Enter a name: ")
-    student_name = name
-
-def set_student_age():
-    """Asks for an age, verifies that it is a valid integer"""
-    age = -1
-    while not age in range(11, 22):
-        try:
-            age = int(input("Enter an age: "))
-        except:
-            print("Please type a valid integer")
-    student_age = age
-
-def set_student_details():
-    """Quickly sets student details"""
-    student_name = input("Enter a name: ")
-    student_age = input("Enter an age: ")
-    # No validation!
-```
-
-Notice that we have two functions that validate the user's inputted name and age. However, there is also another function that performs no validation whatsoever. Of course, we could just fix the code to perform proper validation. Even better, it could just call the previously-defined functions that do that for us.
-
-However, that's still no guarantee that *other* code within the program won't have the issue as the ``set_student_details()`` function. It only takes a moment of absent-mindedness or perhaps working with another programmer unfamiliar with your validation techniques to cause bugs.
-
 # Classes and objects
 
 ## Classes
@@ -83,14 +49,28 @@ This is all great but how do we actually *use* the class? To actually use the ``
 Remember: if the class is a blueprint for something, the object is the actual thing!
 
 ```python
-# Create an instance of the Student class
-alan_kay = Student(name="Alan", age=17)
+from dataclasses import dataclass
 
-# Modify the alan_kay object
-alan_kay.name = "Alan"
+# Create a class called Student
+@dataclass
+class Student:
+    """Personal information for a student"""
+    name: str
+    age: int
 
-# Print the alan_kay object's age
-print(alan_kay.age) # 17
+# Create a Student object called student1
+student1 = Student(name="Alan", age=17)
+
+# Print the student1 object's age and name
+print(student1.age) # 17
+print(student1.name) # Alan
+
+# Change the student1 object's value
+student1.name = "Zack"
+
+# Print the student1 object's age and name after change
+print(student1.age) # 17
+print(student1.name) # Zack
 ```
 
 {% include task.html task_code="UirLo6m3" %}

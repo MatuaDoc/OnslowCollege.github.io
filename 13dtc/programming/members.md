@@ -14,21 +14,20 @@ For example, the following ``Document`` class has a few members defining who wro
 
 ```python
 from dataclasses import dataclass
-from datetime import Date
 
 @dataclass
 class Document:
     # The following are members
     creator_name: str
-    created_date: Date
-    modified_date: Date
+    created_date: int
+    modified_date: int
     text_content: str
 ```
 
-When instantiating a ``Document`` object, the members can be accessed using [dot notation](https://www.askpython.com/python/built-in-methods/dot-notation) — the object, a dot, then the name of the member.
+When creating a ``Document`` object, the members can be accessed using [dot notation](https://www.askpython.com/python/built-in-methods/dot-notation) — the object, a dot, then the name of the member.
 
 ```python
-my_document = Document("RJA", Date(), Date(), "Hello, world!")
+my_document = Document("RJA", 20220212, 20220214, "Hello, world!")
 my_document.text_content = "Bonjour, tout le monde !"
 print(my_document.text_content)
 ```
@@ -44,20 +43,19 @@ A strong benefit of this is that we fully understand what happens when a class' 
 
 ```python
 from dataclasses import dataclass, field
-from datetime import date
 
 @dataclass
 class Document:
-    # Properties
+    # Protected Members
     _creator_name: str
-    _created_date: date    # Note: this is not protected, nor a property
-    _modified_date: date
+    _created_date: int
+    _modified_date: int
 
     @property
     def creator_name(self) -> str:
         return self._creator_name
 
-    @name.setter
+    @creator_name.setter
     def creator_name(self, new_name: str):
         # Validates that the name is non-empty
         # else raises an error
@@ -66,16 +64,17 @@ class Document:
         else:
             raise ValueError("Name must contain at least one character")
 
+    # Two properties below cannot be changed as the setter is not defined
     @property
-    def _created_date(self) -> date:
+    def created_date(self) -> int:
         return self._created_date
 
     @property
-    def _modified_date(self) -> date:
+    def modified_date(self) -> int:
         return self._modified_date
 
-    @age.setter
-    def _modified_date(self, new_date: date):
+    @modified_date.setter
+    def modified_date(self, new_date: int):
         # Validates that the date is within the correct range
         # else raises an error
         if new_date > self._modified_date:
@@ -96,7 +95,7 @@ But how does it actually do it?
 
 ## Protect the variables
 
-To start with, we modify the names of the variables to include an underscore at the front. You will notice that ``creator_name`` and ``modified_date`` have become ``_creator_name`` and ``_modified_date``.
+To start with, we modify the names of the members to include an underscore at the front. You will notice that ``creator_name`` and ``modified_date`` have become ``_creator_name`` and ``_modified_date``.
 
 The underscore at the front is a signal to other Python developers that the variable should not be accessed directly; rather, fetching the value and changing it should be done through the use of a property.
 
@@ -113,7 +112,7 @@ def creator_name(self):
 When dealing with objects, you don't need to call the getter like a function; it behaves like a variable or constant.
 
 ```python
-document = Document("Alan Partridge", Date(), Date(), "A-ha!")
+document = Document("Alan Partridge", 20220214, 20220216, "A-ha!")
 print(document.creator_name) # Alan Partridge
 ```
 
@@ -121,16 +120,13 @@ It's also possible to have getters perform custom behaviours. Say we store names
 
 ```python
 @property
-def creator_initials(self):
-    initials = []
-    for word in self._creator_name.split(" "):
-        initials.append(word[0])
-    return ''.join(initials)
+def uppercase_creator_name(self):
+    return self._creator_name.upper()
 ```
 
 ```python
-document = Document("Alan Partridge", Date(), Date(), "A-ha!")
-print(document.creator_initials) # AP
+document = Document("Alan Partridge", 20220214, 20220216, "A-ha!")
+print(document.uppercase_creator_name) # ALAN PARTRIDGE
 ```
 
 # Setters
@@ -171,10 +167,10 @@ def creator_name(self, new_name: str):
 
 If you wish for a value to **never** change after it is defined, you can make the property immutable by defining a getter but not defining a setter.
 
-If you try to modify the value of a frozen property, a ``AttributeError`` is raised.
+If you try to change the value of a member with no @setter, an ``AttributeError`` is raised.
 
 ```python
-my_document.created_date = date.today()
+my_document.created_date = 20220218
 # AttributeError raised, program crashes
 ```
 
