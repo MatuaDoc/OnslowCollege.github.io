@@ -89,3 +89,30 @@ big_numbers = [x * 10 for x in numbers if x % 2 == 0]
 print(", ".join(big_numbers)) # 20, 40
 ```
 
+# 5.3 Ternary operations
+
+In addition to filtering, you can also make a choice between whether to include one item or another based on a condition. This is called a **ternary operation**. Ternary means "relating to the number three", and three things are involved in such an operation:
+
+- the original value
+- two potential values
+
+In the case of a list comprehension, the original value is whatever is in the first list. The potential values are two possible values that could take that item's place in the new list.
+
+For example, adding ``True`` or ``False`` to a list depending on whether a number is less than 50:
+
+```python
+numbers = [10, 95, 25, 80, 30, 75, 45, 60, 50]
+under_50 = [True if x < 50 else False for x in numbers]
+```
+
+Another example, assigning Team 1 in a list if a duck's name starts with a letter between A and M, or Team 2 if it starts with a letter between N and Z.
+
+```python
+TEAM_1_LETTERS = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"]
+TEAM_2_LETTERS = ["N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+
+ducks = ["Hubert", "Dewford", "Llewellyn", "Webbigail", "Lena", "Violet"]
+
+duck_teams = [1 if duck[0] in TEAM_1_LETTERS else 2 for duck in ducks]
+print(", ".join(duck_teams)) # 1, 1, 1, 2, 1, 2
+```
