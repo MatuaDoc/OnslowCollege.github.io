@@ -19,27 +19,11 @@
 <body>
     <header class="page-header" role="banner">
         <nav>
-            <!-- <a href="{{ site.url }}/11dit" class="btn">11DIT</a>
-            <a href="{{ site.url }}/12dtc" class="btn">12DTC</a>
-            <a href="{{ site.url }}/13dtc" class="btn">13DTC</a>
-            {% if site.github.is_project_page %}
-            <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-            {% endif %}
-            {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-            {% endif %} -->
             {% include breadcrumbs.html %}
         </nav>
     </header>
 
     <main id="content" class="main-content" role="main">
-        <p id="page-title">{{ page.title }}</p>
-
-        <div>
-            {% include toc.html html=content h_max=1 %}
-        </div>
-
         {% if page.learning_intentions %}
         {% if page.success_criteria %}
         <div id="lisc">
@@ -47,6 +31,13 @@
         </div>
         {% endif %}
         {% endif %}
+
+        {% unless page.hide_toc == true %}
+        <div id="toc">
+            <p>Table of Contents</p>
+            {% include toc.html html=content h_max=2 %}
+        </div>
+        {% endunless %}
 
         {{ content }}
 

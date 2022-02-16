@@ -1,8 +1,22 @@
-{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-{% assign crumbs_size = crumbs | size %}
-
 <div id="breadcrumbs">
+
   <div class="breadcrumbs-left">
+    <div class="dropdown">
+      <a href="/">
+        <image src="/img/home.svg" width=64>
+      </a>
+      <ul class="dropdown-content">
+        <li><a href="/classroom">
+            <image src="/img/home_bw.svg" width=48> Classroom Home
+          </a></li>
+        <li><a href="/classroom/setup.html">
+            <image src="/img/setup_bw.svg" width=48><span>Setup Python & VS Code</span>
+          </a></li>
+        <li><a href="/classroom/github.html">
+            <image src="/img/github_bw.svg" width=48> GitHub Guide
+          </a></li>
+      </ul>
+    </div>
     <div class="dropdown">
       <a href="/11dit">
         <image src="/img/11dit.svg" width=64>
@@ -12,7 +26,7 @@
             <image src="/img/home_bw.svg" width=48> 11DIT Home
           </a></li>
         <li><a href="/11dit/programming">
-            <image src="/img/programming_bw.svg" width=48> Programming
+            <image src="/img/programming_bw.svg" width=48><span>Programming</span>
           </a></li>
         <li><a href="/11dit/design">
             <image src="/img/design_bw.svg" width=48> Design
@@ -64,33 +78,10 @@
       </ul>
     </div>
   </div>
+
   <div class="breadcrumbs-right">
-    {% unless crumbs_size == 0 %}<span style="color: white">You are reading: </span>{% endunless %}
-    {% for crumb in crumbs offset: 1 %}
-    {% assign crumb_name = crumb | replace:'-',' ' | remove:'.html' %}
-    {% if forloop.last %}
-    <div class="breadcrumb hideable">
-      <a href="#">
-        {% assign target_path = crumb_name | prepend: '/img/' | append: '.svg' %}
-        {% assign file_exists = site.static_files | where: "path", target_path | first %}
-        <image src="{% if file_exists %}{{ target_path }}{% else %}/img/page.svg{% endif %}" height=64></image>
-      </a>
-    </div>
-    {% else %}
-    {% capture crumb_url %}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit:
-    crumb_limit %}{{ crumb |
-    append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}{% endcapture %}
-    {% if hide_title_pages contains crumb_url %}
-    <div class="breadcrumb hideable">
-      {% else %}
-      <div class="breadcrumb">
-        {% endif %}
-        <a href="{{ crumb_url }}">
-          <image src="/img/{{
-    crumb_name }}.svg" width=64>
-        </a>
-        {% endif %}
-      </div>
-      {% endfor %}
+    <div class="breadcrumb">
+      {{ page.title }}
     </div>
   </div>
+</div>

@@ -50,12 +50,12 @@ h5 {
 }
 
 @media only screen and (max-width: 720px) {
-  #breadcrumbs .breadcrumb-text {
-    display: none;
+  #breadcrumbs .breadcrumb {
+    font-size: medium;
   }
 
-  #breadcrumbs .hideable {
-    display: none;
+  #toc {
+    display: block;
   }
 }
 
@@ -80,21 +80,25 @@ h5 {
   display: inline-block;
   height: 64px;
   line-height: 64px;
+  color: white;
+  font-size: xx-large;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.dropdown {
-  position: relative;
+.dropdown, .dropdown-submenu {
+  /*position: relative;*/
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdown-content, .dropdown-submenu-content {
   display: none;
   position: absolute;
   list-style-type: none;
   background-color: #f9f9f9;
   min-width: 300px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
+  padding: 6px 8px;
   z-index: 1;
   border-radius: 8px;
   opacity: 95%;
@@ -102,7 +106,7 @@ h5 {
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 6px 8px;
   text-decoration: none;
   display: block;
 }
@@ -116,6 +120,17 @@ h5 {
 
 .dropdown:hover .dropdown-content {
   display:inline;
+}
+
+#toc {
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  display: table;
+  font-size: 95%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 20px;
+  display: block;
 }
 
 #page-title {
@@ -134,6 +149,12 @@ h5 {
   background: #1c5b52 !important;
   box-shadow: 0 5px 10px darkgrey;
   text-align: left;
+  width: 100%;
+  position: fixed;
+}
+
+.main-content {
+  padding-top: 10rem;
 }
 
 .project-name {
