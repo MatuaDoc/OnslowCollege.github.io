@@ -116,3 +116,5 @@ ducks = ["Hubert", "Dewford", "Llewellyn", "Webbigail", "Lena", "Violet"]
 duck_teams = [1 if duck[0] in TEAM_1_LETTERS else 2 for duck in ducks]
 print(", ".join(duck_teams)) # 1, 1, 1, 2, 1, 2
 ```
+
+{% include task.html task_code="LUToAm78" %}
