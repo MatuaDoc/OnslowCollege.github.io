@@ -1,17 +1,14 @@
 ---
-title: Programming
+title: 13DTC Programming
+hide_toc: true
 ---
 
-## Setup
+# Classroom
 
-- [ℹ️ Set up your development environment](../../classroom/setup.md)
+- [📦 Set Python and Visual Studio Code](../../classroom/setup.md)
+- [📡 GitHub Guide](../../classroom/github.md)
 
-## GitHub
-
-- [🎓 Set up GitHub Classroom](../../classroom/classroom.md)
-- [🌍 Check out from/commit to GitHub](../../classroom/github.md)
-
-## Course
+# Course
 
 2. [🐍 Recap](recap.md)
     - revise Python from 12DTC

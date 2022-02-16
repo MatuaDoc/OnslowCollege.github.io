@@ -1,5 +1,6 @@
 ---
 title: 13DTC Programming & Computer Science
+hide_toc: true
 ---
 
 | [Programming](programming) | [Project Management](projman) | [Computer Science](compsci) |

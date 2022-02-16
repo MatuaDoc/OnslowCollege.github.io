@@ -1,17 +1,14 @@
 ---
-title: Programming
+title: 12DTC Programming
+hide_toc: true
 ---
 
-## Setup
+# Classroom
 
-- [ℹ️ Set up your development environment](../../classroom/setup.md)
+- [📦 Set Python and Visual Studio Code](../../classroom/setup.md)
+- [📡 GitHub Guide](../../classroom/github.md)
 
-## GitHub
-
-- [🎓 Set up GitHub Classroom](../../classroom/classroom.md)
-- [📡 Check out from/commit to GitHub](../../classroom/github.md)
-
-## Course
+# Course
 
 1. [🐍 Recap](recap.md)
     - revise Python from 11DIT

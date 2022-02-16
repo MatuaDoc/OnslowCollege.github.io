@@ -1,5 +1,6 @@
 ---
 title: Onslow College Digital Technologies
+hide_toc: true
 ---
 
 | [11DIT](11dit) | [12DTC](12dtc) | [13DTC](13dtc) |

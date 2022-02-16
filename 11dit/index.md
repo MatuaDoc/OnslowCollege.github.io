@@ -1,5 +1,6 @@
 ---
 title: 11DIT Programming & Digital Media
+hide_toc: true
 ---
 
 | [Programming](programming) | [Design](design) | [HCI](hci) |

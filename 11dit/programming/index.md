@@ -1,10 +1,11 @@
 ---
-title: Programming
+title: 11DIT Programming
+hide_toc: true
 ---
 
 ## Setup
 
-- [ℹ️ Set up your development environment](../../classroom/setup.md)
+- [📦 Set up your development environment](../../classroom/setup.md)
 
 ## Course
 
