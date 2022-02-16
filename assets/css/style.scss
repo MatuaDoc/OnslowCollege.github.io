@@ -57,6 +57,14 @@ h5 {
   #toc {
     display: block;
   }
+
+  .page-header {
+    padding: 1rem 0 !important;
+  }
+
+  .dropdown-content {
+    left: 80px;
+  }
 }
 
 #breadcrumbs .breadcrumbs-left {
