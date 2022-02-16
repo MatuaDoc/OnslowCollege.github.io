@@ -82,6 +82,42 @@ h5 {
   line-height: 64px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  border-radius: 8px;
+  opacity: 95%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  filter: invert(100%);
+  background-color: white;
+  border-radius: 6px;
+}
+
+.dropdown:hover .dropdown-content {
+  display:inline;
+}
+
 #page-title {
   margin-top: 1rem;
   padding-top: 1rem;

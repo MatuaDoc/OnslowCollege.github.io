@@ -3,22 +3,57 @@
 
 <div id="breadcrumbs">
   <div class="breadcrumbs-left">
-    <a href="/">
-      <image {% unless crumbs_size==0 %}class="invert" {% endunless %} src="/img/home{% unless crumbs_size==0
-        %}_bw{% endunless %}.svg" height=64>
-    </a>
-    <a href="/11dit">
-      <image {% unless page.url contains '11dit' %}class="invert" {% endunless %}
-        src="/img/11dit{% unless page.url contains '11dit' %}_bw{% endunless %}.svg" height=64>
-    </a>
-    <a href="/12dtc">
-      <image {% unless page.url contains '12dtc' %}class="invert" {% endunless %}
-        src="/img/12dtc{% unless page.url contains '12dtc' %}_bw{% endunless %}.svg" height=64>
-    </a>
-    <a href="/13dtc">
-      <image {% unless page.url contains '13dtc' %}class="invert" {% endunless %}
-        src="/img/13dtc{% unless page.url contains '13dtc' %}_bw{% endunless %}.svg" height=64>
-    </a>
+    <div class="dropdown">
+      <a href="/11dit">
+        <image src="/img/11dit.svg" height=64>
+      </a>
+      <ul class="dropdown-content">
+        <li><a href="/11dit/programming">
+            <image src="/img/programming_bw.svg" height=48> Programming
+          </a></li>
+        <li><a href="/11dit/design">
+            <image src="/img/design_bw.svg" height=48> Design
+          </a></li>
+        <li><a href="/11dit/hci">
+            <image src="/img/hci_bw.svg" height=48> HCI
+          </a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="/12dtc">
+        <image src="/img/12dtc.svg" height=64>
+      </a>
+      <ul class="dropdown-content">
+        <li><a href="/12dtc/programming">
+            <image src="/img/programming_bw.svg" height=48> Programming
+          </a></li>
+        <li><a href="/12dtc/projman">
+            <image src="/img/projman_bw.svg" height=48> Project Management
+          </a></li>
+        <li><a href="/12dtc/database">
+            <image src="/img/database_bw.svg" height=48> Database
+          </a></li>
+        <li><a href="/12dtc/compsci">
+            <image src="/img/compsci_bw.svg" height=48> Computer Science
+          </a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="/13dtc">
+        <image src="/img/13dtc.svg" height=64>
+      </a>
+      <ul class="dropdown-content">
+        <li><a href="/13dtc/programming">
+            <image src="/img/programming_bw.svg" height=48> Programming
+          </a></li>
+        <li><a href="/13dtc/projman">
+            <image src="/img/projman_bw.svg" height=48> Project Management
+          </a></li>
+        <li><a href="/13dtc/compsci">
+            <image src="/img/compsci_bw.svg" height=48> Computer Science
+          </a></li>
+      </ul>
+    </div>
   </div>
   <div class="breadcrumbs-right">
     {% unless crumbs_size == 0 %}<span style="color: white">You are reading: </span>{% endunless %}
