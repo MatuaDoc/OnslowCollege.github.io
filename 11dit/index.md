@@ -3,6 +3,10 @@ title: 11DIT Programming & Digital Media
 hide_toc: true
 ---
 
+| **Internal 1** | **Internal 2** | **Internal 3** | **External** |
+| :-: | :-: | :-: | :-: |
+| <a href="11dit/programming"><image src="../img/programming.svg" title="Programming" width=100><br>Programming | <a href="11dit/design"><image src="../img/design.svg" title="Design" width=100><br>Design | | <a href="11dit/hci"><image src="../img/hci.svg" title="HCI" width=100><br>HCI |
+
 # Standards
 
 * Programming (3 credits)

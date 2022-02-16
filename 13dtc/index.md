@@ -3,6 +3,10 @@ title: 13DTC Programming & Computer Science
 hide_toc: true
 ---
 
+| **Internal 1** | **Internal 2** | **Internal 3** | **External** |
+| :-: | :-: | :-: | :-: |
+| <a href="13dtc/programming"><image src="../img/programming.svg" title="Programming" width=100><br>Programming | <a href="13dtc/projman"><image src="../img/projman.svg" title="Project Management" width=100><br>PM | | <a href="13dtc/compsci"><image src="../img/compsci.svg" title="Computer Science" width=100><br>CompSci |
+
 # Learning objectives
 ## Develop a computer program
 
