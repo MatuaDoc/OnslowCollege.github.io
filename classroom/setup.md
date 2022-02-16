@@ -18,7 +18,7 @@ You will know that you have completed this lesson's learning when:
 
 --------
 
-# Task 1: Set up your school OneDrive
+# 1. Set up your school OneDrive
 
 In your courses, you will need to have access to some files at school and at home. The simplest way to achieve this is by using your school OneDrive.
 
@@ -49,7 +49,7 @@ After you have signed in and set up OneDrive, your files will sync to your noteb
 
 From this point onwards, make sure **all** your work is saved to OneDrive. If you save any files on the school computer or your network drive, you will **not** be able to access your work at home.
 
-# Task 2: Set up Python
+# 2. Set up Python
 
 ## 2.1 Download Python
 
@@ -68,7 +68,7 @@ Download Python 3.10.2:
       pyenv global 3.10.2
       ```
 
-# Task 3 Set up Git
+# 3. Set up Git
 
 ## 3.1 Download and install Git
 
@@ -82,11 +82,11 @@ Download Python 3.10.2:
     sudo apt install build-essential
     ```
 
-# 3.2 Install GitHub Desktop
+## 3.2 Install GitHub Desktop
 
 Download [GitHub Desktop](https://desktop.github.com) for Windows and macOS
 
-# Task 4: Set and install Visual Studio Code
+# 4. Set up Visual Studio Code
 
 To edit your Python code, you will use Visual Studio Code. This is an integrated development environment that makes it easy to manage your Python files, test code, and get helpful suggestions when you're editing code.
 
