@@ -5,8 +5,6 @@ hide_toc: true
 
 ## Recap
 
-## Recap
-
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-- | :-- | :-- |
 | [🐍 1. Recap](recap.md)<br>Revise Python from 10DIT | [🪜 2. Next Steps](next-steps.md)<br>Loops, floats, and if statements | [💬 3. Comments](comments.md)<br>Document your program |
