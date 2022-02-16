@@ -3,32 +3,22 @@ title: 13DTC Programming
 hide_toc: true
 ---
 
-# Classroom
+## Recap
 
-- [📦 Set Python and Visual Studio Code](../../classroom/setup.md)
-- [📡 GitHub Guide](../../classroom/github.md)
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :-- | :-- | :-- |
+| [🐍 1. Recap](recap.md)<br>Revise Python from 12DTC |
 
-# Course
+## Object-Oriented Programming
 
-2. [🐍 Recap](recap.md)
-    - revise Python from 12DTC
-    - loops, conditions, variables, constants
-    - 2D lists, dictionaries, functions
-3. [ℹ️ Introduction to Object-Oriented Programming](introduction-to-oop.md)
-    - learn what object-oriented programming (OOP) means
-    - what benefit OOP offers
-4. [📝 Members and Properties](members.md)
-    - learn what class members and properties are
-    - what benefits members and properties offer
-    - how to declare and define members and properties
-5. [🧪 Methods](methods.md)
-    - learn what class methods are
-    - how to declare methods
-6. [📜 Protocols](protocols.md)
-    - learn what protocols are used for
-    - when and how to declare protocols
-    - how to make classes conform to protocols
-7. [👪 Inheritance](inheritance.md)
-    - learn what inheritance is and what it is used for
-    - what base classes, superclasses, and subclasses are
-    - how to declare, define, and use subclasses
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :-- | :-- | :-- |
+| [🎉 2. Intro to OOP](introduction-to-oop.md)<br>Add functions to classes | [🛡 3. Members](members.md)<br>Create your first object-oriented code | [🧪 4. Methods](methods.md)<br>Define and protect the data in a class |
+| [📜 5. Protocols](protocols.md)<br>Define what methods classes will implement | [👪 6. Inheritance](inheritance.md)<br>Subclass for greater flexibility | [🏆 7. OOP Task](#)<br>Practice task |
+
+## Graphical User Interfaces
+
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :-- | :-- | :-- |
+| [🎉 8. Intro to PyQt6](#)<br>Learn the basics of building a GUI | [🪟 9. Window Layouts](#)<br>Layouts that adapt to different sizes | [🔌 10. Actions](#)<br>Respond to UI events |
+| [⛔️ 11. Alerts](#)<br>Alerts, notices, and panels | [👩‍🎨 12. QSS](#)<br>Style your app like a website | [🏆 13. GUI Task](#)<br>Practice task | 

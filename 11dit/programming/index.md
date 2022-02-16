@@ -3,31 +3,16 @@ title: 11DIT Programming
 hide_toc: true
 ---
 
-## Setup
+## Recap
 
-- [📦 Set up your development environment](../../classroom/setup.md)
+## Recap
 
-## Course
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :-- | :-- | :-- |
+| [🐍 1. Recap](recap.md)<br>Revise Python from 10DIT | [🪜 2. Next Steps](next-steps.md)<br>Loops, floats, and if statements | [💬 3. Comments](comments.md)<br>Document your program |
 
-1. [🐍 (Re)Intro to Python](intro.md)
-    - assigning and using variables
-    - printing text and getting user input
-    - doing basic maths in code
-2. [⏭ Next Steps](next-steps.md)
-    - use loops to repeat code
-    - doing maths with decimals
-    - use conditional statements
-3. [💬 Comments](comments.md)
-    - add header comments
-    - add block comments
-4. [🛒 Lists](lists.md)
-    - declare lists with multiple items
-    - access an item from a list using an index
-    - determine the length of a list
-5. [🎗 For loops](for-loops.md)
-    - loop over the items in a list
-    - print out the items
-6. [🎊 Functions](functions.md)
-    - define a function
-    - modify a global variable
-    - return a value
+## Programming Basics
+
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :-- | :-- | :-- |
+| [🛒 4. Lists](lists.md)<br>Store multiple items in one variable | [🎗 5. For loops](for-loops.md)<br>Loop over items in a list | [🧪 6. Functions](functions.md)<br>Keep your code clean |

@@ -3,30 +3,23 @@ title: 12DTC Programming
 hide_toc: true
 ---
 
-# Classroom
+## Recap
 
-- [📦 Set Python and Visual Studio Code](../../classroom/setup.md)
-- [📡 GitHub Guide](../../classroom/github.md)
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :-- | :-- | :-- |
+| [🐍 1. Recap](recap.md)<br>Revise Python from 11DIT |
 
-# Course
+## Collections
 
-1. [🐍 Recap](recap.md)
-    - revise Python from 11DIT
-    - loops, conditions, variables, constants
-2. [📦 Lists I: Search](lists-01-search.md)
-    - search for items in a list
-    - get list items' indices
-    - create list slices
-3. [✂️ Lists II: Modifying](lists-02-modifying.md)
-    - add items to a list
-    - remove items from a list
-    - joining lists together
-4. [⏪ Lists III: Other Functions](lists-03-functions.md)
-    - joining list items into a string
-    - custom formatting of list strings
-    - reversing the order of list items
-    - sorting list items
-5. [🗺 Lists IV: Comprehensions](lists-04-comprehensions.md)
-    - learn list comprehension syntax
-    - quickly transforming values in a list
-    - filter which items to transform
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :-- | :-- | :-- |
+| [🛒 2. Lists: Search](lists-01-search.md)<br>Search for items, slice lists up | [✂️ 3. Lists: Modifying](lists-02-modifying.md)<br>Add and remove items from lists | [🛍 4. Lists: Other functions](lists-03-functions.md)<br>Create strings, format items, sort and reverse |
+| [📜 5. List Comprehensions](lists-04-comprehensions.md)<br>Transform values in a list | [🧊 6. 2D Lists](lists-05-2d.md)<br>Lists in lists | [❄️ 7. Sets](#)<br>Lists with no duplicates |
+| [📕 8. Dictionaries](#)<br>Associate data with words | [🏆 9. Collections Task](#)<br>Practice task | |
+
+## Functions
+
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :-- | :-- | :-- |
+| [🧪 10. Intro to Functions](functions-01-basic.md)<br>Create your first functions | [🤬 11. Arguments](functions-02-arguments.md)<br>Supply information to functions | [🔂 12. Recursion](#)<br>Functions that call themselves |
+| [🏆 13. Functions Task](#)<br>Practice task | | |

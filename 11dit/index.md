@@ -3,12 +3,6 @@ title: 11DIT Programming & Digital Media
 hide_toc: true
 ---
 
-| [Programming](programming) | [Design](design) | [HCI](hci) |
-| :---------: | :----: | :---: |
-| <a href="programming" class="image-link"><img src="../img/programming.svg" title="Programming" width="100"></a> | <a href="design" class="image-link"><img src="../img/design.svg" title="Design" width="100"></a> | <a href="hci" class="image-link"><img src="../img/hci.svg" title="HCI" width="100"></a> |
-
-You will also learn to use [Visual Studio Code](https://code.visualstudio.com/) and [GitHub](https://github.com/).
-
 # Standards
 
 * Programming (3 credits)

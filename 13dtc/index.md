@@ -3,10 +3,6 @@ title: 13DTC Programming & Computer Science
 hide_toc: true
 ---
 
-| [Programming](programming) | [Project Management](projman) | [Computer Science](compsci) |
-| :-: | :-: | :-: |
-| <a href="programming"><image src="../img/programming.svg" title="Programming" width=100> | <a href="projman"><image src="../img/projman.svg" title="Project Management" width=100> | <a href="compsci"><image src="../img/compsci.svg" title="Computer Science" width=100> |
-
 # Learning objectives
 ## Develop a computer program
 
