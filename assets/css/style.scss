@@ -7,229 +7,222 @@ body {
   font-family: 'Lexend', 'Avenir', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #1c5b52 !important;
-}
-
-h1 {
-  margin-top: 5rem !important;
-  padding-top: 5rem;
-  border-top: 1px solid black;
-}
-
-h1:first-of-type {
-  border-top: none !important;
-}
+h1, h2, h3, h4, h5, h6 { color: #1c5b52 !important; }
 
 h2 {
-  margin-top: 2.5rem !important;
+    margin-top:2.5rem !important
 }
 
 h5 {
-  border: 5pt solid;
-/* background-color: #159957; */
-/* color: white; */
-  padding: 1rem;
-  font-size: larger;
+    border: 5pt solid;
+    padding: 1rem;
+    font-size:larger
 }
 
 #breadcrumbs {
-  display: grid;
-  grid-template-areas: 'left right';
-  color: black;
-  padding-left: 10px;
-  padding-right: 10px;
+    display: grid;
+    grid-template-areas: 'left right';
+    color: black;
+    padding-left: 10px;
+    padding-right:10px
 }
 
 .invert {
-  filter: invert(100%);
+    filter:invert(90%)
 }
 
 .invert:hover {
-  filter: invert(100%) drop-shadow(0px 0px 5px white);
+    filter:invert(100%) drop-shadow(0px 0px 5px #fff)
 }
 
 @media only screen and (max-width: 720px) {
-  #breadcrumbs .breadcrumb {
-    display: none;
-  }
+    #breadcrumbs .breadcrumb {
+        display:none
+    }
 
-  #toc {
-    display: block;
-  }
+    #toc {
+        display:block
+    }
 
-  .page-header {
-    padding: 1rem 0 !important;
-  }
+    .page-header {
+        padding:1rem 0 !important
+    }
 
-  .dropdown-content {
-    left: 80px;
-  }
+    .dropdown-content {
+        left:80px
+    }
 }
 
 #breadcrumbs .breadcrumbs-left {
-  grid-area: left;
+    grid-area:left
 }
 
 #breadcrumbs .breadcrumbs-right {
-  grid-area: right;
-  text-align: right;
+    grid-area: right;
+    text-align:right
 }
 
 #breadcrumbs .breadcrumbs-right a {
-  color: white;
+    color:white
 }
 
 #breadcrumbs img {
-  vertical-align: middle;
+    vertical-align:middle
 }
 
 .breadcrumb {
-  display: inline-block;
-  height: 64px;
-  line-height: 64px;
-  color: white;
-  width: 400px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    display: inline-block;
+    height: 64px;
+    line-height: 64px;
+    color: white;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display:inline-block
 }
 
 .dropdown img {
-  width: 64px;
-  margin: 0 -5px;
+    width: 64px;
+    margin:0 -5px
 }
 
 .dropdown-content {
-  display: none;
-  position: fixed;
-  top: 4em;
-  transform:translateX(-4em);
-  width: 300px;
-  list-style-type: none;
-  background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 6px 8px;
-  border-radius: 8px;
-  opacity: 95%;
+    display: none;
+    position: fixed;
+    top: 4em;
+    transform: translateX(-4em);
+    width: 300px;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 1.0);
+    @supports (backdrop-filter: blur(16px)) or (-webkit-backdrop-filter: blur(16px)) {
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 6px 8px;
+    border-radius: 8px;
 }
 
 .dropdown-content img {
-  width: 48px;
-  margin-left: 0.5em;
-  margin-right: 1em;
+    width: 48px;
+    margin-left: 0.5em;
+    margin-right:1em
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 6px 8px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display:block
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #1c5b52;
-  color: white;
-  border-radius: 6px;
+    background-color: #1c5b52;
+    color: white;
+    border-radius:6px;
 }
 
 .dropdown-content a:hover img {
-  filter: invert(100%);
+    filter:invert(100%)
 }
 
 .dropdown:hover .dropdown-content {
-  display:inline-block;
+    display:inline-block
 }
 
 #toc {
-  background: #f9f9f9 none repeat scroll 0 0;
-  border: 1px solid #aaa;
-  display: table;
-  font-size: 95%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 20px;
-  display: block;
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    display:block
 }
 
 #page-title {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-top: none;
-  font-size: 30pt;
-  line-height: 1.5em;
-  font-weight: 900;
-  text-decoration: none;
-  text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: none;
+    font-size: 30pt;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-decoration: none;
+    text-align:center
 }
 
 .page-header {
-  padding: 1rem 2em;
-  background: rgb(28, 91, 82) !important;
-  box-shadow: 0 5px 10px darkgrey;
-  text-align: left;
-  width: 100%;
-  position: fixed;
+    padding: 1rem 2em;
+    background: #1c5b52 !important;
+    box-shadow: 0 5px 10px darkgrey;
+    text-align: left;
+    width: 100%;
+    position: fixed
 }
 
 html:not([data-scroll='0']) .page-header {
-  background-color: rgba(28, 91, 82, 0.9) !important;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
+    background-color: rgba(28, 91, 82, 0.9) !important;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter:blur(4px)
 }
 
 .main-content {
-  padding-top: 8em;
+    padding-top:8em
 }
 
 .project-name {
-  display: none;
+    display:none
 }
 
 #lisc {
-  border: 1px solid darkgrey;
-  background-color: lightgoldenrodyellow;
-  padding: 1rem;
+    border: 1px solid darkgrey;
+    background-color: lightgoldenrodyellow;
+    padding:1rem
 }
 
 #lisc .lisc-heading {
-  color: #1c5b52;
-  font-weight: 900;
+    color: #1c5b52;
+    font-weight:900
 }
 
 .main-content {
-  line-height: 2em;
+    line-height:2em
 }
 
 .main-content img {
-  max-height: 400px;
+    max-height:400px
 }
 
 .main-content table {
-  display: inline-table;
+    display:inline-table
 }
 
 .main-content code {
-  font-family: Menlo, Monaco, Consolas, monospace;
-  font-weight: 500;
+    font-family: Menlo, Monaco, Consolas, monospace;
+    font-weight:500
 }
 
 .main-content table thead {
-  background-color: gainsboro;
+    background-color:gainsboro
 }
 
 .main-content table th, .main-content table td {
-  border: 1px solid grey;
-  vertical-align: top;
+    border: 1px solid grey;
+    vertical-align:top
 }
 
-.highlight .cm, .highlight .c1, .highlight .cs, .highlight .c, .highlight .cd, .highlight .ge { font-style: italic; }
+.highlight .cm, .highlight .c1, .highlight .cs, .highlight .c, .highlight .cd, .highlight .ge {
+    font-style:italic
+}
 
-.highlight .cp, .highlight .cs, .highlight .gs, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .k, .highlight .kv, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .ow, .highlight .o { font-weight: 700; }
+.highlight .cp, .highlight .cs, .highlight .gs, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .k, .highlight .kv, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .ow, .highlight .o {
+    font-weight: 700
+}
