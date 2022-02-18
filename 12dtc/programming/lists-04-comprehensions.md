@@ -118,3 +118,5 @@ print(", ".join(duck_teams)) # 1, 1, 1, 2, 1, 2
 ```
 
 {% include task.html task_code="LUToAm78" %}
+
+Hint: you can reverse a string with ``str(reversed(my_string))``
