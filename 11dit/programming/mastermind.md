@@ -59,6 +59,10 @@ Player 2, guess the password: 1432
 Player 2, guess the password: 1234
 🟢 🟢 🟢 🟢
 
+🟢 🟥 🟥 🟥
+🟢 🟥 🟢 🟥
+🟢 🟢 🟢 🟢
+
 Congratulations! You guessed the password.
 ```
 
@@ -95,6 +99,17 @@ Player 2, guess the password: 1221
 Player 2, guess the password: 1231
 🟢 🟢 🟢 🟥
 
+🟥 🟥 🟥 🟥
+🟥 🟥 🟥 🟥
+🟥 🟥 🟥 🟥
+🟥 🟢 🟥 🟥
+🟥 🟢 🟥 🟥
+🟥 🟢 🟢 🟥
+🟥 🟥 🟥 🟥
+🟥 🟥 🟢 🟥
+🟢 🟢 🟥 🟥
+🟢 🟢 🟢 🟥
+
 Sorry, you did not guess in time.
 The password was: 1234
 ```
@@ -106,6 +121,7 @@ Improve the game with the following features:
 1. Allow the password to contain all digits (0 to 9)
 2. Instead of asking for a password, generate a random one
 3. If a user guesses a correct digit but it is in the wrong location, print "🔶"
+4. When printing the guess lines at the end, also tell the user how many guesses they made.
 
 ### Extension example output
 
@@ -120,4 +136,10 @@ Player 2, guess the password: 1733
 
 Player 2, guess the password: 1234
 🟢 🟢 🟢 🟢
+
+🟢 🟧 🟢 🟥
+🟢 🟥 🟢 🟧
+🟢 🟢 🟢 🟢
+
+Congratulations! You guessed the password in 3 guesses.
 ```
