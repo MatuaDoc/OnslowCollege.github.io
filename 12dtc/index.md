@@ -17,7 +17,7 @@ hide_toc: true
 - setting out program code clearly
 - documenting the code with appropriate variable and module names and comments that describe code function and behaviour
 - following common conventions for the chosen programming language (PEP-8)
-- comprehensively testing and debugging the program to ensure that it works on a sample of expected cases, relevant boundary cases, and invalid cases
+- comprehensively testing and debugging the program to ensure that it works on a sample of expected cases, relevant boundary cases, and handles invalid cases
 - ensuring that the program is a well-structured, logical response to the specified task
 - making the program flexible and reliable
 
