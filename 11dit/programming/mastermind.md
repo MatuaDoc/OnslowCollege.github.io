@@ -14,12 +14,12 @@ Create a program that allows one user to specify a password, then allows another
 2. Clear the screen by printing 100 blank links so that the second user can't see the password
 3. The program then asks another user to guess the password
 4. The user has up to 10 guesses
-    - If the user guesses correctly within 10 guesses, congratulate them for guessing correctly
-    - If the user does **not** guess correctly, reveal the password
 5. For each guess, print out the digit, replacing each digit with the following:
     1. For each correct guess, print "🟢"
     2. For each wrong guess, print "🟥"
-
+6. At the end of the game, print out the correct and incorrect guess lines.
+7. If the user guesses correctly within 10 guesses, congratulate them for guessing correctly
+    - If the user does **not** guess correctly, reveal the password
 ## Hint
 
 Strings can be treated the same as lists:
