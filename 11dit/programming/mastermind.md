@@ -104,7 +104,8 @@ The password was: 1234
 Improve the game with the following features:
 
 1. Allow the password to contain all digits (0 to 9)
-2. If a user guesses a correct digit but it is in the wrong location, print "🔶"
+2. Instead of asking for a password, generate a random one
+3. If a user guesses a correct digit but it is in the wrong location, print "🔶"
 
 ### Extension example output
 
