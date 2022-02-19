@@ -6,19 +6,21 @@ success_criteria: ["You have completed the Intro to OOP task"]
  
 # What is object-oriented programming?
 
+<div style='max-width: 1280px'><div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'><iframe width="1280" height="720" src="https://web.microsoftstream.com/embed/video/0cc66752-a0e5-4795-84c3-c1e68765e83e?autoplay=false&showinfo=true" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
 In year 13, you will be expected to use object-oriented programming techniques as part of the computer program standard.
 
-> Object-oriented programming (OOP) is a way of writing computer programs using "objects" to stand for **data and methods**. Computer programs that are not object-oriented are a list of instructions for the computer, telling it to do certain things in a certain way, which is called procedural programming. However, in object-oriented programming, computer programs use objects that talk to one another to change the data in those objects […]  Because of the way object-oriented programming is designed, it helps the developer by allowing for code to be easily reused by other parts of the program or even by other people.[^1]
+Object-oriented programming offers two benefits: **encapsulation** and **composition, inheritance, and delegation**. To begin with, let's look at encapsulation.
 
-As stated by the definition above, object-oriented programming is another way to write programs. So far, you've written programs as a series of steps one after the other — variables get declared, some code might update the values, and so on until the program closes.
+## Encapsulation
 
-But ask yourself these questions. How can you determine:
+So far, you've written programs as a series of steps one after the other — variables get declared, some code might update the values, and so on until the program closes. You can declare variables and functions, but there is no explicit link between them.
 
-- what variables are related to each other?
-- which functions can use the variables and which cannot?
-- when the variable is no longer required?
+This means that a variable's value may change at some point and, short of printing a statement every time any variable's value changes, we can't be entirely sure what variables have changed or what piece of code caused the change — there is no link between when the data is changed and what part of code caused it to happen.
 
-Without objects, any variables that we declare are effectively available to any code in the same scope, including functions. This means that a variable's value may change at some point and, short of printing a statement every time any variable's value changes, we can't be entirely sure what variables have changed or what piece of code caused the change.
+Encapsulation gathers the data and functions into a single place: an **object**.
+
+But first, to create an object, we must define what data and functions the object will contain. This is done with classes.
 
 # Classes and objects
 
