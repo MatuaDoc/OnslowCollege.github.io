@@ -34,6 +34,10 @@ print(my_document.text_content)
 
 # Properties
 
+<div style='max-width: 1280px'><div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'><iframe width="1280" height="720" src="https://web.microsoftstream.com/embed/video/127b1648-f3b4-4db8-88c6-ac91f41179ea?autoplay=false&showinfo=true&amp;st=481" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+[If you can't watch the video above, watch it on Microsoft Stream](https://web.microsoftstream.com/video/127b1648-f3b4-4db8-88c6-ac91f41179ea?st=481)
+
 After creating a class, we can restrict what actions can be performed on its members — for example, we could disallow changing a member's value, ensure that only certain values can be entered, or even make it so that getting a value returns it in a specific format.
 
 A strong benefit of this is that we fully understand what happens when a class' data is changed, how, and even why. In the example below, we modify the ``Document`` class to validate the following:
