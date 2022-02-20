@@ -8,6 +8,8 @@ success_criteria: ["You have completed the Intro to OOP task"]
 
 <div style='max-width: 1280px'><div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'><iframe width="1280" height="720" src="https://web.microsoftstream.com/embed/video/127b1648-f3b4-4db8-88c6-ac91f41179ea?autoplay=false&showinfo=true" allowfullscreen style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
+[If you can't load the video above, watch it on Microsoft Stream](https://web.microsoftstream.com/video/127b1648-f3b4-4db8-88c6-ac91f41179ea)
+
 In year 13, you will be expected to use object-oriented programming techniques as part of the computer program standard.
 
 Object-oriented programming offers two benefits: **encapsulation** and **composition, inheritance, and delegation**. To begin with, let's look at encapsulation.
