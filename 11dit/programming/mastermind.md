@@ -129,16 +129,16 @@ If the password is ``1234``:
 
 ```
 Player 2, guess the password: 1337
-🟢 🟧 🟢 🟥
+🟢 🔶 🟢 🟥
 
 Player 2, guess the password: 1733
-🟢 🟥 🟢 🟧
+🟢 🟥 🟢 🔶
 
 Player 2, guess the password: 1234
 🟢 🟢 🟢 🟢
 
-🟢 🟧 🟢 🟥
-🟢 🟥 🟢 🟧
+🟢 🔶 🟢 🟥
+🟢 🟥 🟢 🔶
 🟢 🟢 🟢 🟢
 
 Congratulations! You guessed the password in 3 guesses.
