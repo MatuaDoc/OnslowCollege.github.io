@@ -15,8 +15,8 @@ Create a program that allows one user to specify a password, then allows another
 3. The program then asks another user to guess the password
 4. The user has up to 10 guesses
 5. For each guess, print out the digit, replacing each digit with the following:
-    1. For each correct guess, print "🟢"
-    2. For each wrong guess, print "🟥"
+    1. For each correct guess, print 🟢
+    2. For each wrong guess, print 🟥
 6. At the end of the game, print out the correct and incorrect guess lines.
 7. If the user guesses correctly within 10 guesses, congratulate them for guessing correctly
     - If the user does **not** guess correctly, reveal the password
@@ -120,7 +120,7 @@ Improve the game with the following features:
 
 1. Allow the password to contain all digits (0 to 9)
 2. Instead of asking for a password, generate a random one
-3. If a user guesses a correct digit but it is in the wrong location, print "🔶"
+3. If a user guesses a correct digit but it is in the wrong location, print 🔶
 4. When printing the guess lines at the end, also tell the user how many guesses they made.
 
 ### Extension example output
