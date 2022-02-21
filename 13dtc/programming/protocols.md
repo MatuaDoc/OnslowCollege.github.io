@@ -103,4 +103,4 @@ print(total_weight + " kg")
 # 1523.7 kg
 ```
 
-{% include task.html task_code="potato" %}
+{% include task.html task_code="AWAHBFd3" %}
