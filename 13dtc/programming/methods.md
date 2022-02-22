@@ -116,7 +116,7 @@ class Dog:
     def generate_collar_serial() -> str:
         serial = ""
         for i in range(10):
-            serial = serial + str(randint(10))
+            serial = serial + str(randint(0, 10))
         return serial
 
 spot = Dog(name="Spot", age=7)
