@@ -18,22 +18,41 @@ except:
     # If no Exception is raised, this code will not run
 ```
 
+For example, you could print a message out:
+
+```python
+try:
+    x = 1 / 0
+    print(x)
+except:
+    print("Cannot divide by zero")
+```
+
 # Task 1
 
 > **Filename**: tryexcept1.py
 
 ## Requirements
 
-1. Add exceptions to the following code:
+1. Add ``try``/``except`` to the following code:
    - ```python
      a = int(input('Which floor do you live on?'))
      if a > 6:
          print("Wow, you live above me!")
-     elif a < 6:
+     elif a < 6 and a > 0:
          print("What's it like down there?")
+     elif a < 0:
+         print("You live in the basement?")
      else:
          print("Hey, we're neighbours!")
      ```
+2. Fix the ``if`` statements so that entering floor number ``0`` says ``"Uh, you live in the lobby?"``
+3. Test that your exception handler works by:
+   - Typing the floor number ``potato``
+   - Typing the floor number ``12``
+   - Typing the floor number ``-1``
+   - Typing the floor number ``6``
+   - Typing the floor number ``0``
 
 # Task 2
 
