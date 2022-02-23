@@ -6,124 +6,108 @@ success_criteria: ["You have declared an instance method in a class", "You have 
 
 # What is a method?
 
-In object-oriented programming, a **method** is a function that is attached to a class/object. Typically, methods operate on members stored within the class/object.
+In object-oriented programming, a **method** is a function that is part of an object. Typically, methods work with the members stored in the object.
 
-Methods exist in opposition to **free functions** which is what you have learnt so far. Free functions are not declared as part of a class.
+These are different to the functions you have already made in the following ways:
 
-## Examples
-
-To explain methods, let's use an example: animals making sounds. Imagine we have a ``Duck`` class.
-
-```python
-@dataclass
-class Duck:
-    animal_sound = "Quack"
-```
-
-Suppose we have an instance of the ``Duck`` class and we want to make it quack. You could use a free function, ``print()``, like so:
-
-```python
-my_duck = Duck()
-print(my_duck.animal_sound) # Quack
-```
-
-However, we can associate a function with the class that prints the message out for us. Here is the ``make_sound()`` method:
-
-```python
-@dataclass
-class Duck:
-    animal_sound = "Quack"
-
-    def make_sound(self):
-        print(self.animal_sound)
-
-my_duck = Duck()
-duck.make_sound() # Quack
-```
-
-# A special argument: ``self``
-
-Notice the method's declaration. It accepts an argument, ``self``. Furthermore, ``self`` is used within the method definition.
-
-The ``self`` argument is a reference to the object itself. It is how you can refer to other members or methods within the object.
-
-All methods must contain ``self`` as the first argument in order to be called on an object.
-
-# Methods do what functions do
+- they are declared inside a class
+- they must be called on a class or object
+- instance methods always contain ``self``
 
 Just the same as functions, methods can:
-1. modify members
-2. accept arguments
-3. return values
+- modify the value of variables
+- accept arguments
+- return values
 
-## Modify variables
+# How to write a method
+
+Writing a method is just like writing a function, except that it must be written as part of a the class.
+
+Also, all methods (with exceptions listed below) must have ``self`` as the first argument.
 
 ```python
 @dataclass
-class Duck:
-    animal_sound = "Quack"
+class Building:
+    street_number: int
+    street_name: int
 
-    # 1. Modify variables
-    def set_animal_sound(self, new_sound):
-        self.animal_sound = new_sound
-
-    # 2. Accept arguments
-    def make_sound(self, number_of_times=1):
-        print(self.animal_sound * number_of_times)
-
-    # 3. Return values
-    def first_letter_of_animal_sound(self):
-        return self.animal_sound[0]
+    def ring_fire_alarm(self):
+        print("DING DING DING DING!")
 ```
 
+To use this method, we first need to have an object on which to call it:
+
+```python
+brady_house = Building(4222, "Clinton Way")
+brady_house.ring_fire_alarm() # DING DING DING DING!
+```
 # Properties are methods
 
-Did you notice that [properties](02.members-and-properties.md) are also methods? Let's add an ``animal_sound`` property for the ``Duck`` class:
+[Properties](02.members-and-properties.md) are also methods. This is because they can do certain things when accessed or modified. Let's protect the ``Building`` class' members and add properties — using methods!
 
 ```python
 @dataclass
-class Duck:
-    _animal_sound = "Quack"
+class Building:
+    _street_number: int
+    _street_name: int
 
     @property
-    def animal_sound(self):
-        return self._animal_sound
+    def street_number(self) -> int:
+        return self._street_number
 
-    @property.setter
-    def animal_sound(self, new_sound):
-        self._animal_sound = new_sound
+    @street_number.setter
+    def street_number(self, new_number):
+        if new_number > 0:
+            self._street_number = new_number
+        else:
+            raise ValueError("Street numbers begin at 1")
+
+    @property
+    def street_name(self) -> int:
+        return self._street_name
+
+    @street_name.setter
+    def street_name(self, new_name):
+        name_length = len(new_name)
+        if name_length > 0 and name_length <= 50:
+            self._street_name = new_name
+        else:
+            raise ValueError("Street name must be between 1 and 50 characters")
+
 ```
-
-Notice that the properties also contain the reference to ``self`` in the method declarations.
 
 # Static methods
 
-There is one type of method you can write that does **not** require ``self``. This is because the function is called on the class itself, not the object. This is called a **static method**.
+There is one type of method you can write that does **not** require ``self``. This is because the function is called on the class itself, not on objects. This is called a **static method**.
 
-Static methods are useful when you would like to generate some information or perform a task that is related to a class but does not work with any variables. For example, the method could generate some data in a convenient fashion, such as a list of random numbers:
+Static methods:
+
+- are used to perform tasks that are related to the class
+- are not related to any individual object
+  - (i.e. buildings in general, but not a specific building)
+- do not use access or modify any of the members
+- start with ``@staticmethod``
+
+For example, ``Building`` could have a static method that generates a 5 digit serial code for the building to be used in building consent documents:
 
 ```python
 @dataclass
-class Dog:
-    name: str
-    age: int
-
-    # Normal method that uses object data
-    def bark() -> str:
-        return name + ", woof!"
+class Building:
+    # Members and properties here
+    # ...
 
     @staticmethod
-    def generate_collar_serial() -> str:
+    def generate_serial() -> str:
         serial = ""
-        for i in range(10):
+        for i in range(5):
             serial = serial + str(randint(0, 10))
         return serial
 
-spot = Dog(name="Spot", age=7)
-spot.bark() # Spot, woof!
+# Call to static method — notice, it is called
+# on Building directly, not on an object such as school_house
+serial = Building.generate_serial()
 
-# Call to static method
-serial = Dog.generate_collar_serial()
+print(serial) # 41930 (for example)
 ```
 
 {% include task.html task_code="ntrQNfgF" %}
