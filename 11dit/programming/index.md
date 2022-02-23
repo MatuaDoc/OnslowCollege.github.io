@@ -14,9 +14,10 @@ hide_toc: true
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-- | :-- | :-- |
 | [🛒 4. Lists](lists.md)<br>Store multiple items in one variable | [🎗 5. For loops](for-loops.md)<br>Loop over items in a list | [🟢 6. Password Checker](mastermind.md)<br>Make a guessing game |
+| [🧪 7. Functions](functions.md)<br>Keep your code clean |
 
 ## Programming Refinement
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-- | :-- | :-- |
-| | [🧪 8. Functions](functions.md)<br>Keep your code clean | |
+| [💥 7. Try/Except](tryexcept.md)<br>Prevent crashes in your code | [8️⃣ 8. PEP-8](pep8.md)<br>Conform to Python style guidelines | [👩‍🔬 9. Testing](testing.md)<br>Formal testing procedure |
