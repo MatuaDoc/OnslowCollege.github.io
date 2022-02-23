@@ -4,103 +4,160 @@ learning_intentions: ["What a protocol is", "When to use a protocol", "How to de
 success_criteria: ["You have declared a protocol class", "You have declared at least two classes that conform to the protocol by implementing the necessary methods"]
 ---
 
-# What is a protocol?
+# Protocols
 
-**Protocols** allow you to define a set of methods inside a *protocol class*. These methods are only declared; they contain no implementation. For example:
+**Protocols** allow you to define a set of methods inside a *protocol class*.
 
-```python
-from typing import Protocol
+Protocol classes contain a series of methods that:
+- state if they return a value, and what type (i.e. ``def my_method() -> str`` returns a string)
+- contains no implementation — the only thing they do is ``pass``
 
-class HonkProtocol(Protocol):
-	def honk() -> None:
-		pass
-```
+## Why use protocols?
 
-Above, we have declared a protocol class called ``HonkProtocol``. Within that, we have also declared a method called ``honk()``. This method doesn't currently do anything.
+The purpose of a protocol class is to act as a **contract**. The contract states:
 
-However, we then create another class *conforms* to the protocol.
+- any class that **conforms** to the protocol will **implement** these methods
+  - that is to say, the functions will do something, not just ``pass``
+- any class that conforms to the protocol will return values with the same types
 
-```python
-class Goose():
-	def honk() -> None:
-		print("Honk!")
-```
+This helps to enforce an old adage: if it walks like a duck and it quacks like a duck, then it must be a duck.
 
-Because the ``Goose`` class contains same declaration for a method called ``honk()``, we know that ``Goose`` conforms to ``HonkProtocol``.
+# Declaring a protocol
 
-Let's add another class that conforms to ``HonkProtocol``.
+Let's declare a protocol. This involves:
 
-```python
-class Motorcar():
-	def honk() -> None:
-		print("Beep!")
-```
-
-As you can see, ``Motorcar`` declares the same ``honk()`` method but has a different implementation. Instead of printing "Honk!", it prints "Beep!". However, the implementation is irrelevant — the important thing is that both classes contain the appropriate method. Therefore, you can do this:
-
-```python
-my_goose = Goose()
-my_car = Motorcar()
-
-my_honking_things = [my_goose, my_car]
-
-for thing in my_honking_things:
-	thing.honk()
-
-# Honk!
-# Beep!
-```
-
-# More complex protocols
-
-A more useful protocol would be one that defines a method that returns a value. The protocol can act as a guarantee that:
-
-- the method **must** return a value
-- the method **must** return the same type, no matter what each conformant class' implementation does
-
-This is very useful if you have a collection of instances of different classes but want to perform the same task for all of them. For instance, let's add a ``weight()`` function to ``HonkProtocol`` — it will guarantee that:
-
-- anything that can honk **must** weight something
-- the weight of anything that can honk **must** be measurable as a ``float``
+1. importing ``Protocol`` from the ``typing`` module
+2. defining the protocol class' name
+3. declaring that the protocol class [inherits](inheritance.md) from the ``Protocol`` class
+4. defining the method names, types, and making them all ``pass``
 
 ```python
 from typing import Protocol
 
-class HonkProtocol(Protocol):
-	def honk() -> None:
+class AlarmRingable(Protocol):
+	def ring_fire_alarm(self) -> None:
 		pass
 
-	def weight() -> float:
+	@property
+	def fire_alarm_sound(self) -> str:
 		pass
-
-class Goose():
-	def honk() -> None:
-		print("Honk!")
-
-	def weight() -> float:
-		return 1.7 #kg
-
-class Motorcar():
-	def honk() -> None:
-		print("Beep!")
-
-	def weight() -> float:
-		return 1524.0 #kg
 ```
 
-Because we can guarantee that both ``Goose`` and ``Motorcar`` will produce output of the same type, ``float``, and their method definitions match that given in ``HonkProtocol`` exactly, we can be confident about doing things like the following:
+Above, we have declared a protocol class called ``AlarmRingable``. It has two methods. Currently, neither do anything.
+
+# Conforming to a protocol
+
+We then create another class that *conforms* to the protocol. In this case, let's add a school building.
+
+To conform to a protocol:
+
+1. Add the protocol name within brackets next to the class name
+2. Copy the protocol class' methods
+3. Remove ``pass`` and add code to each of the functions
 
 ```python
-total_weight = 0.0
-for thing in my_honking_things:
-	total_weight = total_weight + thing.weight()
-	thing.honk()
+@dataclass
+class TableMountainBuilding(AlarmRingable):
+	def ring_alarm(self) -> None:
+		print(self.fire_alarm_sound * 5)
 
-print(total_weight + " kg")
+	@property
+	def alarm_sound(self) -> str:
+		return "DING"
 
-# Honk!
-# Beep!
-# 1523.7 kg
+room_62 = TableMountainBuilding()
+room_62.ring_alarm() # DINGDINGDINGDINGDING
+```
+
+# The power of protocols
+
+When we know that a class conforms to a protocol, we know exactly methods can be called on it without having to look at each individual method in it. This "contract" becomes even more flexible when:
+
+- multiple classes in your code conform to the same protocol
+- classes conform to multiple protocols at once
+
+## Multiple classes conforming to the same protocol
+
+In the following example, multiple classes conform to ``AlarmRingable``. This is our contract that guarantees that all of these buildings have alarms installed. When each class implements the protocol methods, they can define their own separate alarm sounds and behaviours.
+
+```python
+@dataclass
+class TableMountainBuilding(AlarmRingable):
+	def ring_alarm(self) -> None:
+		print(self.fire_alarm_sound * 5)
+
+	@property
+	def alarm_sound(self) -> str:
+		return "DING"
+
+@dataclass
+class OfficeBuilding(AlarmRingable):
+	def ring_alarm(self) -> None:
+		print(self.alarm_sound)
+
+	@property
+	def alarm_sound(self) -> str:
+		return "WOOOOOOOOOOOOOOOOOOOOOOOOOO"
+
+@dataclass
+class GymBuilding(AlarmRingable):
+	def ring_alarm(self) -> None:
+		print(self.alarm_sound * 10)
+
+	@property
+	def alarm_sound(self) -> str:
+		return "DKK"
+
+room_62 = TableMountainBuilding()
+office = OfficeBuilding()
+gym = GymBuilding()
+
+buildings = [room_62, office, gym]
+
+for building in builds:
+	# Ringing the fire alarm in each building.
+	# We only know that we can call ring_fire_alarm() on them
+	# because we know the classes conform to AlarmRingable
+	building.ring_alarm()
+
+# DINGDINGDINGDINGDING
+# WOOOOOOOOOOOOOOOOOOOOOOOOOO
+# DKKDKKDKKDKKDKK
+```
+
+## Classes conforming to multiple protocols
+
+In the following example, we create another class that conforms to another protocol.
+
+To do this:
+1. when defining the class, add all the protocols to which it conforms inside brackets next to the class name
+2. separate the protocols by a comma and space
+
+We will create a protocol called ``SelfLockable`` that designates that a building can lock itself in case of a fire. Let's make the office able to lock its own doors in case of a lockdown:
+
+```python
+@dataclass
+class SelfLockable(Protocol):
+	def self_lock(self) -> None:
+		pass
+
+@dataclass
+class OfficeBuilding(AlarmRingable, SelfLockable):
+	doors: list
+
+	# AlarmRingable
+	def ring_alarm(self) -> None:
+		self.self_lock()
+		print(self.fire_alarm_sound)
+
+	@property
+	def alarm_sound(self) -> str:
+		return "WOOOOOOOOOOOOOOOOOOOOOOOOOO"
+
+	# SelfLockable
+	def self_lock(self) -> None:
+		for door in self.doors:
+			door.lock()
 ```
 
 {% include task.html task_code="AWAHBFd3" %}
