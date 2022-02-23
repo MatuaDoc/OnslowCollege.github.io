@@ -65,7 +65,7 @@ class House(Building):
     # Overriding the original address property's behaviour
     @property
     def address(self):
-        print(f"{self._street_letter}{self._street_number} {self._street_name}")
+        return f"{self._street_letter}{self._street_number} {self._street_name}"
 ```
 
 You can also use the superclass' version of the function within the subclass, even as part of overriding it. In the following example, we use the original superclass' ``address`` property as part of the apartment address.
