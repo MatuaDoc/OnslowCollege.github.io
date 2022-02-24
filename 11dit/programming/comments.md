@@ -1,18 +1,18 @@
 ---
 title: Comments
 learning_intentions: ["Revise good commenting practices"]
-success_criteria: ["You have added comment headers to ``hello.py`` and ``paint3.py``"]
+success_criteria: ["You have added comment headers to ``hello.swift`` and ``paint3.swift``"]
 ---
 
 An important part of programming is commenting. After all, most code is read rather than written. You'll thank yourself for writing comments when you come back to a piece of code later, having completely forgotten what it's for.
 
 Not only that: good commenting is required for the assessment!
 
-# 4.1 Header comments
+# Task 1 Header comments
 
-> **Filename**: paint3.py
+> **Filename**: paint3.swift
 
-## 4.1.1 Requirements
+## 1.1 Requirements
 
 In this file, you are going to create a header comment for ``paint3.py``. This header comment will tell us some basic information about the program contained in the file:
 	
@@ -20,11 +20,11 @@ In this file, you are going to create a header comment for ``paint3.py``. This h
 - When they started writing it
 - When it was last updated
 
-## 4.1.2 Comment syntax
+## 1.2 Comment syntax
 
 Remember: comments start with the ``#``. This is called a pound sign, not a hash tag.
 
-## 4.1.3 Example
+## 1.3 Example
 
 ```python
 ##
@@ -34,11 +34,11 @@ Remember: comments start with the ``#``. This is called a pound sign, not a hash
 # Updated:    03/02/2022
 ```
 
-# 4.2 Block comments
+# Task 2 Block comments
 
 > **Filename**: paint3.py
 
-## 4.2.1 Requirements
+## 2.1 Requirements
 
 In this file, you will add the following comments:
 	
@@ -48,7 +48,7 @@ In this file, you will add the following comments:
 	- ``if``
     - ``input``
 
-## 4.2.2 Comment syntax
+## 2.2 Comment syntax
 
 For each of the block comments, give a brief, one-sentence description of what the code block does. For ``while`` and ``if`` blocks, you could also describe what the condition tests.
 
