@@ -6,17 +6,17 @@ success_criteria: ["You have created the 'Hello, student!' program, tested it, a
 
 If you took 10DIT at Onslow College last year, then welcome back! It's time to get our minds back into programming. Hopefully you haven't forgotten all your Python — if you have, don't worry, it's just like riding a bike! (and if you haven't been on a bike before, don't worry, it'll all come back just the same!)
 
-# Task 2.1 Hello, student!
+# Task 1 Hello, student!
 
 > **Filename**: hello.py
 
-## 2.1.1 Requirements
+## 1.1 Requirements
 
 In this task, you will be asked to make a **very** simple program. Using Python, you will:
 -   Ask the user for their name.
 -   Greet the user by their name.
 
-## 2.1.2 First steps
+## 1.2 First steps
 
 In order to create the program:
 - Open Visual Studio Code
@@ -26,16 +26,7 @@ In order to create the program:
 - Write your code on the right
 - Run your code by clicking the Run Python File at the top-right
 
-## 2.1.3 CodeAvengers
-
-Never touched Python before? Need a refresher? Check out these lessons on CodeAvengers:
-
-- [Strings and print statements](https://learn.codeavengers.com/python/11#1.1)
-  - Do parts 1, 2, 3, 4, and 5
-- [Joining things in print statements](https://learn.codeavengers.com/python/11#3.1)
-  - Do parts 1 and 2
-
-## 2.1.4 Statements to use
+## 1.3 Statements to use
 
 - ``print()``
   - This function will 'print' the text that is contained within the brackets and quotation marks to the screen
@@ -49,18 +40,18 @@ Never touched Python before? Need a refresher? Check out these lessons on CodeAv
     age = input("How old are you?")
     ```
 
-## 2.1.5 Example output
+## 1.4 Example output
 
 ```
 Please type your name: Bob
 Hello, Bob!
 ```
 
-# Task 2.2: Wall paint calculator
+# Task 2 Wall paint calculator
 
 > **Filename**: paint1.py
 
-## 2.2.1 Requirements
+## 2.1 Requirements
 
 In this task, you will do some simple maths to calculate how many litres of paint will be required to coat a wall. Using Python, you will:
 
@@ -72,13 +63,7 @@ For every square metre, the user will need 2 L of paint.
 
 (Yes, this is excessive, but it's an exercise, go with it)
 
-## 2.2.2 CodeAvengers
-
-If you're unsure how to handle numbers in code, try these CodeAvengers activities:
-
-- [Math calculations and operators](https://learn.codeavengers.com/python/11#2.1)
-  - Do parts 1, 2, 3, 4, and 5
-## 2.2.3 Statements to use
+## 2.2 Statements to use
 
 This task will involve casting. This means you will convert a variable from a string to an integer. To do this, make use of the ``int()`` function:
 
@@ -103,14 +88,14 @@ This task will involve casting. This means you will convert a variable from a st
     half_age = age / 2
     ```
 
-## 2.2.4 Hint
+## 2.3 Hint
 
 If maths isn't your strong point, don't worry. The formula for determining how much paint is needed for the wall is simple:
 ```
 width * height * paint_per_litre
 ```
 
-## 2.2.5 Example output
+## 2.4 Example output
 
 ```
 Please type the wall width in metres: 4
