@@ -24,7 +24,7 @@ In this file, you are going to create a header comment for ``paint3.py``. This h
 
 Remember: comments start with the ``#``. This is called a pound sign, not a hash tag.
 
-## 1.3 Example
+## 1.3 Header comment example
 
 ```python
 ##
@@ -42,7 +42,7 @@ Remember: comments start with the ``#``. This is called a pound sign, not a hash
 
 In this file, you will add the following comments:
 	
-1. A header comment, like Task 4.1
+1. A header comment
 2. Comments above each of the following types of statement
 	- ``while``
 	- ``if``
@@ -69,8 +69,8 @@ For each of the block comments, give a brief, one-sentence description of what t
   - ```python
     counter = 3
 
-	# Uses a while loop to run 3 times
-	while counter > 0:
-	    print("Beep")
-	    counter = counter - 1
+    # Uses a while loop to run 3 times
+    while counter > 0:
+        print("Beep")
+        counter = counter - 1
     ```
