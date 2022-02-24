@@ -8,7 +8,7 @@ An important part of programming is commenting. After all, most code is read rat
 
 Not only that: good commenting is required for the assessment!
 
-# Task 1 Header comments
+# Task 1: Header comments
 
 > **Filename**: paint3.swift
 
@@ -34,7 +34,7 @@ Remember: comments start with the ``#``. This is called a pound sign, not a hash
 # Updated:    03/02/2022
 ```
 
-# Task 2 Block comments
+# Task 2: Block comments
 
 > **Filename**: paint3.py
 

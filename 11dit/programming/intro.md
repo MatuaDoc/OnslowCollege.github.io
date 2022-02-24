@@ -6,7 +6,7 @@ success_criteria: ["You have created the 'Hello, student!' program, tested it, a
 
 If you took 10DIT at Onslow College last year, then welcome back! It's time to get our minds back into programming. Hopefully you haven't forgotten all your Python — if you have, don't worry, it's just like riding a bike! (and if you haven't been on a bike before, don't worry, it'll all come back just the same!)
 
-# Task 1 Hello, student!
+# Task 1: Hello, student!
 
 > **Filename**: hello.py
 
@@ -47,7 +47,7 @@ Please type your name: Bob
 Hello, Bob!
 ```
 
-# Task 2 Wall paint calculator
+# Task 2: Wall paint calculator
 
 > **Filename**: paint1.py
 
