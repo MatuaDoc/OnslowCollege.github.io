@@ -8,22 +8,18 @@ If you've finished the recap tasks in 1.0, well done! If not, you'll need to go 
 	
 In this lesson, you will use floating point numbers, loops, and conditional statements. You've already used integers so this will only require a minor change. Some of the other constructions, such as loops and conditional statements, might need a bit of revision.
 
-# Task 3.1 Hello, student!
+# Task 1: Improved wall paint calculator
 
 > **Filename**: paint2.py
 
-## 3.1.1 Requirements
+## 1.1 Requirements
 
 In this task, you will improve the wall paint calculator to match the following new specifications:
 
 1. Instead of 1 L of paint per square metre, the walls now require 0.8 L of paint per square metre
 2. After you have told the user how much paint they need, ask for the next wall.
 
-## 3.1.2 CodeAvengers
-
-Never done loops before?
-
-## 3.1.3 Statements to use
+## 1.2 Statements to use
 
 - ``float()``
   - This function converts strings representing a valid decimal number to a number type. You should store this in a variable
@@ -46,7 +42,7 @@ Never done loops before?
         answer = input("Should we continue? ")
     ```
 
-## 3.1.4 Example output
+## 1.3 Example output
 
 ```
 Please type the wall width in metres: 4
@@ -60,11 +56,11 @@ Please type the wall height in metres: 3.4
 You will need 16.32 L of paint.
 ```
 
-# Task 3.2: Wall paint calculator
+# Task 2: Refined wall paint calculator
 
 > **Filename**: paint3.py
 
-## 3.2.1 Requirements
+## 2.1 Requirements
 
 In this task, you will improve the wall paint calculator (again) to match the following new specifications:
 	
@@ -72,14 +68,7 @@ In this task, you will improve the wall paint calculator (again) to match the fo
 2. If they answer yes, ask for the next wall.
 3. If they answer no, calculate the total litres of paint needed for all the walls that was calculated, print it, and then close the program.
 
-## 3.2.2 CodeAvengers
-
-If you're unsure how to handle numbers in code, try these CodeAvengers activities:
-
-- [Math calculations and operators](https://learn.codeavengers.com/python/11#2.1)
-  - Do parts 1, 2, 3, 4, and 5
-
-## 3.2.3 Statements to use
+## 2.2 Statements to use
 
 - ``if``
   - This block will only cause the code contained within it to run if the condition evaluates to True
@@ -112,7 +101,7 @@ If you're unsure how to handle numbers in code, try these CodeAvengers activitie
         print(my_value)
     ```
 
-## 3.2.4 Example output
+## 2.3 Example output
 
 ```
 Please type the wall width in metres: 4

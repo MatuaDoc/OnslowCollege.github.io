@@ -2,11 +2,11 @@
 title: Password Checker
 ---
 
-# Password Checker
+# Task 1: Password Checker
 
 Create a program that allows one user to specify a password, then allows another user to guess the password.
 
-## Requirements
+## 1.1 Requirements
 
 1. The program must ask the user for a password. The password must conform to the following criteria:
     1. It may only be four characters in length
@@ -20,14 +20,15 @@ Create a program that allows one user to specify a password, then allows another
 6. At the end of the game, print out the correct and incorrect guess lines.
 7. If the user guesses correctly within 10 guesses, congratulate them for guessing correctly
     - If the user does **not** guess correctly, reveal the password
-## Hint
+
+## 1.2 Hint
 
 Strings can be treated the same as lists:
 - They can be accessed with a subscript
 - You can use a for loop on a string
   - Each character in the string is the individual list item
 
-## Example output
+## 1.3 Example output
 
 ### Player 1 sets a password
 
@@ -114,7 +115,9 @@ Sorry, you did not guess in time.
 The password was: 1234
 ```
 
-## Extension
+# Task 2: Extension
+
+## 2.1 Requirements
 
 Improve the game with the following features:
 
@@ -123,7 +126,7 @@ Improve the game with the following features:
 3. If a user guesses a correct digit but it is in the wrong location, print 🔶
 4. When printing the guess lines at the end, also tell the user how many guesses they made.
 
-### Extension example output
+## 2.2 Example output
 
 If the password is ``1234``:
 

@@ -49,9 +49,11 @@ It's best to use a list to contain data of the same type, usually related to the
 - a list of favourite colours
 - a list of pets
 
-# Task 3.1 My first lists
+# Task 1: My first lists
 
 > **Filename**: lists1.py
+
+## 1.1 Requirements
 
 Create **four** lists, stored in variables, that contain the following data:
 
@@ -60,11 +62,11 @@ Create **four** lists, stored in variables, that contain the following data:
 3. any seven **even** numbers (as ``int`` numbers)
 4. any eight multiples of ten (as ``int`` numbers)
 
-# Task 3.2 Access list items
+# Task 2 Access list items
 
 > **Filename**: lists2.py
 
-## Requirements
+## 2.1 Requirements
 
 Copy the lists from ``lists1.py`` into ``lists2.py``, then add the following features:
 
@@ -73,7 +75,7 @@ Copy the lists from ``lists1.py`` into ``lists2.py``, then add the following fea
 3. From the even numbers list, print the third item
 4. From the multiples-of-ten list, print the second item
 
-## An index, many indices
+## 2.2 An index, many indices
 
 When you want to work with one particular item in the list, such as to ``print`` it out, you must first work out the item's **index**.
 
@@ -93,7 +95,7 @@ students = ["Ash", "Misty", "Brock", "Tracey", "May", "Dawn"]
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | Ash | Misty | Brock | Tracey | May | Dawn|
 
-## Access the first item in a list
+## 2.3 Access the first item in a list
 
 Let's print out the first name in a list of students:
 
@@ -105,7 +107,7 @@ print(ash) # Ash
 
 As you can see, we access the ``students`` variable and then access index ``0`` in square brackets. This is called a **subscript**.
 
-## How to write a subscript
+## 2.4 How to write a subscript
 
 To retrieve an item from a list using a subscript:
 
@@ -118,17 +120,17 @@ my_list[index]
 3. Enter the index you wish to access as a number
 4. Type a right square bracket ``]``
 
-## Common indices
+## 2.5 Common indices
 
 - The first item is **always** located at the zeroth index. ``[0]``
 - The last item can be quickly located using the following index: ``[-1]``
   - You can also work out the second-to-last item with ``[-2]``, third-to-last with ``[-3]``, etc.
 
-# Task 3.3 List lengths
+# Task 3: List lengths
 
 > **Filename**: lists3.py
 
-## Requirements
+## 3.1 Requirements
 
 Copy the lists from ``lists1.py`` to ``lists3.py``, then add the following features:
 
@@ -136,7 +138,7 @@ Copy the lists from ``lists1.py`` to ``lists3.py``, then add the following featu
 2. If a list has **six or more** items, print the first item
 3. Otherwise, print the last item
 
-## Determine the length of a list
+## 3.2 Determine the length of a list
 
 You can determine how long a list is using the ``len(x)`` function, replacing ``x`` with the list to examine.
 

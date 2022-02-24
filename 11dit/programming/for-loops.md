@@ -24,11 +24,11 @@ for tea in teas:
 3. Add the word ``in``
 4. Finish with the name of the list to loop over
 
-# Task 4.1 First for loops
+# Task 1: First for loops
 
 > **Filename**: for_loops1.py
 
-## Requirements
+## 1.1 Requirements
 
 1. Copy the following list into ``for_loops1.py``:
 
@@ -38,7 +38,7 @@ primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
 
 2. Use a for loop to print each number on its own line
 
-## Example output
+## 1.2 Example output
 
 ```
 2
@@ -58,16 +58,16 @@ primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
 47
 ```
 
-# Task 4.2 For loops with maths
+# Task 2: For loops with maths
 
 > **Filename**: for_loops2.py
 
-## Requirements
+## 2.1 Requirements
 
 1. Copy the **animal** list you created from ``lists1.py`` into ``for_loops2.py``
 2. Use a for loop to print each animal with "crackers in my soup" added afterwards
 
-## Example output
+## 2.2 Example output
 
 ```
 Monkey crackers in my soup
@@ -77,18 +77,18 @@ Tiger crackers in my soup
 Walrus crackers in my soup
 ```
 
-# Task 4.3 For loops with indices
+# Task 3: For loops with indices
 
 > **Filename**: for_loops3.py
 
-## Requirements
+## 3.1 Requirements
 
 1. Copy the **colour** list you created from ``lists1.py`` into ``for_loops3.py``
 2. Use a for loop to print the index and colour, separated by a dash
 3. Adjust the *printed* index so that the list starts at 1 instead of 0
    - You must still print **all five** items
 
-## How to use for loops with indices
+## 3.2 How to use for loops with indices
 
 If you need to work with the indices of a list, you can loop over the indices of the list instead of the list items themselves.
 
@@ -107,7 +107,7 @@ for i in range(teas_length):
     - You can perform maths with the index
     - To access list items, use ``trains[index]``
 
-## Example output
+## 3.3 Example output
 
 ```
 1 - Red
@@ -117,11 +117,11 @@ for i in range(teas_length):
 5 - Purple
 ```
 
-# Task 4.4 Extension
+# Task 4: Extension
 
 > **Filename**: for_loops4.py
 
-## Requirements
+## 4.1 Requirements
 
 You're organising a party and you have invited 10 people to come. You will need some drinks, snacks, and decorations. Instead of providing them yourself, you've asked each person to bring something to contribute.
 
@@ -141,7 +141,7 @@ decorations = ["balloons", "streamers", "bunting", "tinsel", "party hats", "gift
    - a random number of packets of a randomly-chosen snack
    - a random decoration
 
-## Example output
+## 4.2 Example output
 
 ```
 Rose is bringing 3 bottles of orange juice, 2 packets of chips, and tinsel

@@ -28,11 +28,11 @@ except:
     print("Cannot divide by zero")
 ```
 
-# Task 1
+# Task 1: First try/except
 
 > **Filename**: tryexcept1.py
 
-## Requirements
+## 1.1 Requirements
 
 1. Add ``try``/``except`` to the following code:
    - ```python
@@ -54,11 +54,11 @@ except:
    - Typing the floor number ``6``
    - Typing the floor number ``0``
 
-# Task 2
+# Task 2: try/except for specified Exceptions
 
 > **Filename**: tryexcept2.py
 
-## Requirements
+## 2.1 Requirements
 
 1. Add ``try``/``except`` to the following code:
    - ```python
@@ -72,7 +72,7 @@ except:
    2. Typing the index ``-1``
    3. Typing the index ``5``
 
-## Exception types
+## 2.2 Exception types
 
 There are many different types of ``Exception``s. Each type is raised in response to a different error.
 
@@ -86,7 +86,7 @@ For example:
 
 [You can see a list of other common ``Exceptions`` here.](https://www.tutorialsteacher.com/python/error-types-in-python)
 
-## Handling specific Exceptions
+## 2.3 Handling specific Exceptions
 
 You can handle specific errors by putting the ``Exception`` name after the ``except`` keyword.
 
@@ -99,9 +99,9 @@ except:
     # Code that happens if any other exception is raised
 ```
 
-# Task 3
+# Task 3: try/except in context
 
-## Requirements
+## 3.1 Requirements
 
 > **Filename**: tryexcept3.py
 
@@ -143,9 +143,11 @@ except:
     - Typing the age ``19``
     - Typing the age ``100``
 
-# Task 4
+# Task 4: try/except in your own code
 
 > **Filename**: password_tryexcept.py
+
+## 4.1 Requirements
 
 - Copy your Password Checker code into ``password_tryexcept.py``
 - Add ``try``/``except`` to handle all ``Exceptions``

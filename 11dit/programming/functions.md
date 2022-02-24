@@ -75,25 +75,25 @@ else:
     # do the other
 ```
 
-# Task 5.1: First function
+# Task 1: First function
 
 > **Filename**: function1.py
 
-## Requirements
+## 1.1 Requirements
 
 Define a function that prints out the text ``"Hello, world!"``, and then call it.
 
-## Example output
+## 1.2 Example output
 
 ```
 Hello, world!
 ```
 
-# Task 5.2: x-ponential growth
+# Task 2: x-ponential growth
 
 > **Filename**: functions2.py
 
-## Requirements
+## 2.1 Requirements
 
 1. Create a variable called ``x`` with a value of ``2``
 2. Define a function called ``exponentialise``
@@ -105,7 +105,7 @@ Hello, world!
 5. Write code in the function to print the value of ``x``
 6. Call the function five times
 
-## Example output
+## 2.2 Example output
 
 ```
 4
@@ -115,11 +115,11 @@ Hello, world!
 4294967296
 ```
 
-# Task 5.3 Function that returns a value
+# Task 3 Function that returns a value
 
 > **Filename**: functions3.py
 
-## Requirements
+## 3.1 Requirements
 
 1. Define a function called ``non_empty_input``
 2. Write code in the function to ask the user for their name
@@ -128,7 +128,7 @@ Hello, world!
 5. Call the ``non_empty_input`` function and store the returned value in a variable called ``name``
 6. Greet the user by their name
 
-## Example output
+## 3.2 Example output
 
 ```
 Please enter your name:
@@ -136,7 +136,7 @@ Please enter your name: Bob
 Hello, Bob
 ```
 
-## How to return values in function
+## 3.3 How to return values in function
 
 Instead of making all the variables you want to modify into globals, it's sometimes more useful to return a value instead. This means that the value that is returned can be stored in a variable.
 
@@ -157,15 +157,15 @@ def get_user_menu_choice():
 choice = get_user_menu_choice()
 ```
 
-# Task 5.4 Extension
+# Task 3 Extension
 
 > **Filename**: functions4.py
 
-## Requirements
+## 3.1 Requirements
 
 Copy the code from ``functions2.py`` into ``functions4.py``, then add the following features:
 
-1. Instead of using a global variable, return the new value
+1. Instead of using a ``global`` variable, return the new value
 2. Delete the ``print()`` statement inside the function
 3. When you call the ``exponentialise`` function, store the returned value in the ``x`` variable
 4. After each call, print ``x``
