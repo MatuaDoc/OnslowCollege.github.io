@@ -39,14 +39,12 @@ To edit your Python code, you will use Visual Studio Code. This is an integrated
   - ```ps
     scoop install vscode
     ```
- 
-When you first open it, you will see a window like this:
-
-![First-run screen for Visual Studio Code](img/vscode01.png)
 
 ## 2.2 Set up extensions for Visual Studio Code
 
 - Open Visual Studio Code
+  - When you first open it, you will see a window like this:
+  - ![First-run screen for Visual Studio Code](img/vscode01.png)
 - Click on the ![Extensions](/img/extensions.svg) Extensions tab
 - Search for "Onslow College DIT Extensions", then click Install
  
