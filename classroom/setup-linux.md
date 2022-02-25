@@ -6,6 +6,9 @@ title: Set up your programming environment
 
 ## 1.1 Install developer tools
 
+- Open Terminal
+- Copy and paste the following commands (dependant on your distribution) and press Enter after each:
+
 - Ubuntu, Debian, ChromeOS with Linux Beta
   - ```bash
     sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev git
@@ -13,7 +16,8 @@ title: Set up your programming environment
 - Fedora, RedHat
   - ```bash
     sudo dnf groupinstall "Development Tools" -y
-
+    ```
+  - ```bash
     sudo dnf install zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel libffi-devel findutils -y
     ```
 
@@ -21,20 +25,34 @@ title: Set up your programming environment
 
 ## 2.1 Install pyenv
 
-```bash
-git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
-exec "$SHELL"
-```
+- If it is not open already, open Terminal
+- Copy and paste the following commands and press Enter after each:
+  - ```bash
+    git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+    ```
+  - ```bash
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+    ```
+  - ```bash
+    echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+    ```
+  - ```bash
+    echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
+    ```
+  - ```bash
+    exec "$SHELL"
+    ```
 
 ## 2.2 Install Python
 
-```bash
-pyenv install 3.10:latest
-pyenv global 3.10:latest
-```
+- If it is not open already, open Terminal
+- Copy and paste the following commands and press Enter after each:
+  - ```bash
+    pyenv install 3.10:latest
+    ```
+  - ```bash
+    pyenv global 3.10:latest
+    ```
 
 # 3. Set up Visual Studio Code
 
@@ -46,13 +64,12 @@ To edit your Python code, you will use Visual Studio Code. This is an integrated
   - Debian-based (Ubuntu, Mint, ChromeOS): download and install the ``.deb`` package
   - Fedora-based: download and install the ``.rpm`` package
 - Open Visual Studio Code
- 
-When you first open it, you will see a window like this:
-
-![First-run screen for Visual Studio Code](img/vscode01.png)
 
 ## 3.2 Set up extensions for Visual Studio Code
 
+- Open Visual Studio Code
+  - When you first open it, you will see a window like this:
+  - ![First-run screen for Visual Studio Code](img/vscode01.png)
 - Click on the ![Extensions](/img/extensions.svg) Extensions tab
 - Search for "Onslow College DIT Extensions", then click Install
  
