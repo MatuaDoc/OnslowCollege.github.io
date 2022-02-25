@@ -11,15 +11,15 @@ You will require Apple's command-line tools installed. There are two options:
 1. Install [Xcode](https://apps.apple.com/nz/app/xcode/id497799835?mt=12) from the App Store, **OR**
 2. Install *just* the command-line tools using the following instructions:
 
-  - Open Terminal (``/Applications/Terminal.app``)
-  - Copy the following command:
-    - ```zsh
-      xcode-select --install
-      ```
-  - Paste the command in to the Terminal
-  - Press Enter
-  - Click to install the command-line tools
-  - Wait until they have finished installing before you continue
+    - Open Terminal (``/Applications/Terminal.app``)
+    - Copy the following command:
+      - ```zsh
+        xcode-select --install
+        ```
+    - Paste the command in to the Terminal
+    - Press Enter
+    - Click to install the command-line tools
+    - Wait until they have finished installing before you continue
 
 ## 1.2 Install Homebrew
 
