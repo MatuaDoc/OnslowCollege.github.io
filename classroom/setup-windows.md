@@ -31,9 +31,14 @@ To edit your Python code, you will use Visual Studio Code. This is an integrated
 
 ## 2.1 Install Visual Studio Code
 
-- [Download Visual Studio Code](https://code.visualstudio.com)
-- Run the installer
-- Open Visual Studio Code
+- If it is not open already, open Windows PowerShell
+- Copy the following commands. After copying each command, right-click on the PowerShell window to paste it then press Enter. 
+  - ```ps
+    scoop bucket add extras
+    ```
+  - ```ps
+    scoop install vscode
+    ```
  
 When you first open it, you will see a window like this:
 
@@ -41,6 +46,7 @@ When you first open it, you will see a window like this:
 
 ## 2.2 Set up extensions for Visual Studio Code
 
+- Open Visual Studio Code
 - Click on the ![Extensions](/img/extensions.svg) Extensions tab
 - Search for "Onslow College DIT Extensions", then click Install
  
