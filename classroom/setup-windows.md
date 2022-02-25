@@ -7,15 +7,17 @@ title: Set up your programming environment
 ## 1.1 Install Scoop
 
 - Open Windows PowerShell
-- Copy the following command:
+- Copy the following commands. After copying each command, right-click on the PowerShell window to paste it then press Enter. 
+  - ```ps
+    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+    ```
   - ```ps
     iwr -useb get.scoop.sh | iex
     ```
-- Right-click on the PowerShell window to paste the command
-- Press Enter
 
 ## 1.2 Install git and python
 
+- If it is not open already, open Windows PowerShell
 - Copy the following command:
   - ```ps
     scoop install git python
