@@ -1,5 +1,6 @@
 ---
 title: Set up your programming environment
+hide_toc: true
 ---
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
