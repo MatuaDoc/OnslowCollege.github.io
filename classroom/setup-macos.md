@@ -37,14 +37,17 @@ You will require Apple's command-line tools installed. There are two options:
 
 - If it is not open already, open Terminal (``/Applications/Terminal.app``)
 - Copy and paste the following commands into the Terminal then press Enter. 
-  - ```bash
+  - ```zsh
     brew install pyenv
     ```
-  - ```bash
+  - ```zsh
     pyenv install 3.10:latest
     ```
-  - ```
+  - ```zsh
     pyenv global 3.10:latest
+    ```
+  - ```zsh
+    python3 -m pip install pytest
     ```
 
 # 3. Set up Visual Studio Code
@@ -54,53 +57,15 @@ To edit your Python code, you will use Visual Studio Code. This is an integrated
 ## 3.1 Install Visual Studio Code
 
 - If it is not open already, open Terminal (``/Applications/Terminal.app``)
-- Copy the following command:
+- Copy and paste the following commands and press Enter after each:
   - ```zsh
     brew install --cask visual-studio-code
     ```
+  - ```zsh
+    code --install-extension OnslowCollege.onslow-college-dit-extensions
+    ```
 - Paste the command in to the Terminal
 - Press Enter
-
-## 3.2 Set up extensions for Visual Studio Code
-
-- Open Visual Studio Code (``/Applications/Visual Studio Code.app``)
-  - When you first open it, you will see a window like this:
-  - ![First-run screen for Visual Studio Code](img/vscode01.png)
-- Click on the ![Extensions](/img/extensions.svg) Extensions tab
-- Search for "Onslow College DIT Extensions", then click Install
- 
-This will download and install the following extensions:
-- **Python** (by Microsoft)
-  - Adds support for the Python language.
-- **Pylance** (by Microsoft)
-  - Improved Python language support.
-- **Pip Manager** (by slightc)
-  - Download Python packages from Visual Studio Code.
-- **GitLens** (by GitKraken)
-  - Improved Git integration.
-- **GitHub Classroom** (by GitHub)
-  - Integrated access to GitHub Classroom exercises.
-- **Error Lens** (by Alexander)
-  - Shows the line where coding errors are occurring as well as a hint on how to fix it
-- **indent-rainbow** (by oderwat)
-  - Shows your current indentation level using colours
-- **Markdown All in One** (by Yu Zhang)
-  - Preview Markdown documents in Visual Studio Code while you write them.
-
-## 3.3 Set up Visual Studio Code to use Python 3.10.2
-
-- Click ``View menu → Command Palette…`` or press Ctrl-Shift-P to show the Command Palette.
-  - A text box will show at the top of the screen. 
-  - Type "select interpreter". You will see an option called "Python: Select Interpreter" in the menu. Click on it.
-    - ![Command palette](img/vscode02.png)
-  - Click on the option for Python 3.10.2
-    - ![Python interpreter selection](img/vscode03.png)
-
-## 3.4 Set up Pytest
-
-- After you have installed the Pip Manager extension, click on the Pip Manager icon on the left (it looks like a book or three stacked sheets of paper)
-- Click the ![Add](/img/add.svg) Add button at the top
-- In the Command Palette, type ``pytest`` and press Enter
 
 ## 3.5 Set up Settings Sync in Visual Studio Code
 
