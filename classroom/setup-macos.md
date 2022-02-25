@@ -6,6 +6,11 @@ title: Set up your programming environment
 
 ## 1.1 Install command-line tools
 
+You will require Apple's command-line tools installed. There are two options:
+
+1. Install [Xcode](https://apps.apple.com/nz/app/xcode/id497799835?mt=12) from the App Store, **OR**
+2. Install *just* the command-line tools using the following instructions:
+
 - Open Terminal (``/Applications/Terminal.app``)
 - Copy the following command:
   - ```zsh
@@ -14,10 +19,11 @@ title: Set up your programming environment
 - Paste the command in to the Terminal
 - Press Enter
 - Click to install the command-line tools
+- Wait until they have finished installing before you continue
 
 ## 1.2 Install Homebrew
 
-- Open Terminal (``/Applications/Terminal.app``)
+- If it is not open already, open Terminal (``/Applications/Terminal.app``)
 - Copy the following command:
   - ```zsh
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -27,18 +33,19 @@ title: Set up your programming environment
 
 # 2. Install Python
 
-## 2.1 Install pyenv
+## 2.1 Install Python 3.10
 
-```bash
-brew install pyenv
-```
-
-## 2.2 Install Python 3.10.2
-
-```bash
-pyenv install 3.10:latest
-pyenv global 3.10:latest
-```
+- If it is not open already, open Terminal (``/Applications/Terminal.app``)
+- Copy and paste the following commands into the Terminal then press Enter. 
+  - ```bash
+    brew install pyenv
+    ```
+  - ```bash
+    pyenv install 3.10:latest
+    ```
+  - ```
+    pyenv global 3.10:latest
+    ```
 
 # 3. Set up Visual Studio Code
 
@@ -46,9 +53,15 @@ To edit your Python code, you will use Visual Studio Code. This is an integrated
 
 ## 3.1 Install Visual Studio Code
 
-- [Download Visual Studio Code](https://code.visualstudio.com)
-- Copy Visual Studio code to the ``/Applications`` folder
-- Open Visual Studio Code
+- If it is not open already, open Terminal (``/Applications/Terminal.app``)
+- Copy the following command:
+  - ```zsh
+    brew install --cask visual-studio-code
+    ```
+- Paste the command in to the Terminal
+- Press Enter
+
+When the package has 
  
 When you first open it, you will see a window like this:
 
@@ -56,6 +69,7 @@ When you first open it, you will see a window like this:
 
 ## 3.2 Set up extensions for Visual Studio Code
 
+- Open Visual Studio Code
 - Click on the ![Extensions](/img/extensions.svg) Extensions tab
 - Search for "Onslow College DIT Extensions", then click Install
  
