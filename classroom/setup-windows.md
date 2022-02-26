@@ -4,6 +4,8 @@ title: Set up your programming environment
 
 # 1. Fast install
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5l0Q8hOMRU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Open Windows PowerShell
 - Copy the following block of commands
   - ```ps
@@ -15,6 +17,7 @@ title: Set up your programming environment
     scoop install vscode
     code --install-extension OnslowCollege.onslow-college-dit-extensions
     code
+    echo Done
     ```
 - After copying, right-click on the PowerShell window to paste it
 - Press Enter, then wait for Visual Studio Code to open
