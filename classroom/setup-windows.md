@@ -2,20 +2,37 @@
 title: Set up your programming environment
 ---
 
-# 1. Set up dependencies
+# 1. Fast install
 
-## 1.1 Install Scoop
+- Open Windows PowerShell
+- Copy the following block of commands
+  - ```ps
+    Set-ExecutionPolicy RemoteSigned -scope CurrentUser -Force
+    iwr -useb get.scoop.sh | iex
+    scoop install git python
+    python3 -m pip install pytest
+    scoop bucket add extras
+    scoop install vscode
+    code --install-extension OnslowCollege.onslow-college-dit-extensions
+    code
+    ```
+- After copying, right-click on the PowerShell window to paste it
+- Press Enter, then wait for Visual Studio Code to open
+
+# 2. Step-by-step instructions
+
+## 2.1 Install Scoop
 
 - Open Windows PowerShell
 - Copy the following commands. After copying each command, right-click on the PowerShell window to paste it then press Enter. 
   - ```ps
-    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+    Set-ExecutionPolicy RemoteSigned -scope CurrentUser -Force
     ```
   - ```ps
     iwr -useb get.scoop.sh | iex
     ```
 
-## 1.2 Install git and python
+## 2.2 Install git and python
 
 - If it is not open already, open Windows PowerShell
 - Copy the following commands. After copying each command, right-click on the PowerShell window to paste it then press Enter:
@@ -26,9 +43,7 @@ title: Set up your programming environment
     python3 -m pip install pytest
     ```
 
-# 2. Set up Visual Studio Code
-
-## 2.1 Install Visual Studio Code
+## 2.3 Install Visual Studio Code
 
 - If it is not open already, open Windows PowerShell
 - Copy the following commands. After copying each command, right-click on the PowerShell window to paste it then press Enter. 
@@ -42,7 +57,7 @@ title: Set up your programming environment
     code --install-extension OnslowCollege.onslow-college-dit-extensions
     ```
 
-## 2.2 Set up Settings Sync in Visual Studio Code
+## 2.4 Set up Settings Sync in Visual Studio Code
 
 - Open Visual Studio Code
 - Click on the ![Accounts](/img/account.svg) Accounts tab
