@@ -12,6 +12,8 @@ $baseurl: "{{ site.url }}";
 
     --main-rgb: var(--onslow-rgb);
     --main-color: rgb(var(--main-rgb));
+
+    --content-indent: 2em;
 }
 
 body {
@@ -32,12 +34,13 @@ h1:first-of-type {
 }
 
 h1~p, h1~ul, h1~ol, h1~.highlighter-rouge, h1~table {
-    margin-left: 2em !important;
+    margin-left: var(--content-indent) !important;
 }
 
 h1~table {
-    max-width: 50%;
+    width: calc(100% - var(--content-indent)) !important;
     margin: 6px;
+    margin-left: var(--content-indent);
 }
 
 h2 {
