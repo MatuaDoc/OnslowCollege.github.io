@@ -26,4 +26,4 @@ hide_toc: true
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-- | :-- | :-- |
-| [💥 7. Try/Except](tryexcept.md)<br>Prevent crashes in your code | [8️⃣ 8. PEP-8](pep8.md)<br>Conform to Python style guidelines | [👩‍🔬 9. Testing](testing.md)<br>Formal testing procedure |
+| [💥 7. Try/Except](tryexcept.md)<br>Prevent crashes in your code | [8️⃣ 8. PEP-8](pep.md)<br>Conform to Python style guidelines | [👩‍🔬 9. Testing](testing.md)<br>Formal testing procedure |
