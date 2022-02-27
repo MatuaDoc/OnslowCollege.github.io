@@ -134,8 +134,10 @@ For Achieved, you must:
 
 You must also:
 
-- contain data in **at least TWO** collections (lists or dictionaries), **OR**
+- contain data in **at least TWO** lists, **OR**
 - define and use **at least TWO** functions
+
+You may use both lists and functions, but you must use **at least TWO** of one, the other, or both.
 
 ## Achieved with Merit
 
