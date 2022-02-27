@@ -3,6 +3,12 @@ title: 12DTC Programming
 hide_toc: true
 ---
 
+## Setup
+
+| <img width=300 /> | <img width=750 /> | <img width=750 /> |
+| --: | :-: | :-: |
+| **Setup** | <a href="/classroom/setup"><image src="/img/setup.svg" title="Set up" width=100><br>Set up your development environment | <a href="/classroom/github"><image src="/img/github_bw.svg" title="GitHub Guide" width=100><br>GitHub Guide |
+
 ## Recap
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
