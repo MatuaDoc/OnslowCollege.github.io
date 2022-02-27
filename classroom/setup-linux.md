@@ -2,33 +2,33 @@
 title: Set up your programming environment
 ---
 
+**Important**: the following instructions apply to **Ubuntu 20.04.03** and later. These instructions may also apply to Debian, Linux Mint, and ChromeOS with Linux.
+
 # 1. Fast install
 
 - Open Terminal
 - Copy the following block of commands
-  - Debian, Ubuntu, Mint, ChromeOS
-    - ```bash
-      sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev git
-      
-      git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-      echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-      echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-      echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
-      ~/.pyenv install 3.10:latest
-      ~/.pyenv global 3.10:latest
-      pip -m install pytest
+  - ```bash
+    sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev git
+    
+    git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+    echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+    echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
+    ~/.pyenv install 3.10:latest
+    ~/.pyenv global 3.10:latest
+    pip -m install pytest
 
-      wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-      sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
-      sudo apt update
-      sudo apt install code
+    wget -q "https://go.microsoft.com/fwlink/?LinkID=760868" -O "vscode.deb"
+    dpkg -i ./vscode.deb
 
-      code --install-extension OnslowCollege.onslow-college-dit-extensions
-      code
-      echo "Done"
-      ```
+    code --install-extension OnslowCollege.onslow-college-dit-extensions
+    code
+    echo "Done"
+    ```
 - Paste the commands into Terminal
-- Press Enter, then wait for Visual Studio Code to open
+- Press Enter
+- You may be asked to enter your user password or press a key at certain points
 
 # 2. Step-by-step instructions
 
@@ -84,10 +84,14 @@ title: Set up your programming environment
 
 ## 2.4 Install Visual Studio Code
 
-- [Download Visual Studio Code](https://code.visualstudio.com)
-  - Debian-based (Ubuntu, Mint, ChromeOS): download and install the ``.deb`` package
-  - Fedora-based: download and install the ``.rpm`` package
--  Open the package and install it
+- If it is not open already, open Terminal
+- Copy and paste the following commands and press Enter after each:
+  - ```bash
+    wget -q "https://go.microsoft.com/fwlink/?LinkID=760868" -O "vscode.deb"
+    ```
+  - ```bash
+    dpkg -i ./vscode.deb
+    ```
 
 ## 2.5 Install the Visual Studio Code extensions
 
