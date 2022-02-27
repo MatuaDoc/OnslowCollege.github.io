@@ -57,6 +57,7 @@ There will be **NO** extensions.
 # Problem statements
 
 You are to select ONE of the problem statements to use in the development of your outcome.
+
 ## Option 1: Uncertain reward test
 
 You will develop an educational game, on a topic of your choice, with an "uncertain reward". In other words, it should contain an element of chance — the player could win something or lose something at each step.
