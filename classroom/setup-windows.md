@@ -11,18 +11,22 @@ title: Set up your programming environment
   - ```ps
     Set-ExecutionPolicy RemoteSigned -scope CurrentUser -Force
     iwr -useb get.scoop.sh | iex
+
     scoop install git python
     python3 -m pip install pytest
+
     scoop bucket add extras
     scoop install vscode
+
     code --install-extension OnslowCollege.onslow-college-dit-extensions
+    
     code
     echo Done
     ```
 - After copying, right-click on the PowerShell window to paste it
 - Press Enter, then wait for Visual Studio Code to open
 
-# 2. Step-by-step instructions
+# 2. Step-by-step install
 
 ## 2.1 Install Scoop
 
