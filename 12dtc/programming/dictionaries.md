@@ -10,9 +10,7 @@ A standard data structure in Computer Science is the associative array which are
 
 Like lists, dictionaries can easily be changed, shrunk and grown at run time. Dictionaries can be contained in lists and vice versa.
 
-## Lists vs Dictionaries
-
-Lists are ordered sets of objects, whereas dictionaries are unordered sets. The main difference is that items in dictionaries are accessed via keys and not via their position.
+Unlike lists, which are ordered sets of objects, dictionaries are **un**ordered sets. The main difference is that items in dictionaries are accessed via keys and not via their position.
 
 When you have key-value-pairs, the **key** of the dictionary is associated (or mapped) to a **value**. Keys are usually strings, while values can be any Python data type.
 
@@ -59,3 +57,30 @@ foods = ["Pizza", "Sashimi", "Paella", "Panipopo"]
 
 national_foods = dict(zip(countries, foods))
 ```
+
+## Merge two dictionaries
+
+You can merge two dictionaries with the ``update()`` function.
+
+```python
+dict1 = {'a': 10, 'b': 8}
+dict2 = {'d': 6, 'c': 4}
+
+both_dicts = dict2.update(dict1)
+```
+
+# Dictionary functions
+
+The following functions work with dictionaries:
+
+- ``len()``
+- ``for item in dictionary``
+- ``for index in range(len(dictionary))``
+- ``if item in dictionary``
+
+The following functions do **NOT** work with dictionaries:
+
+- ``sort()`` — dictionaries do not have a linear order and cannot be sorted
+- ``reverse()`` — dictionaries do not have a linear order and cannot be reversed
+
+{% include task.html task_code="-r4ZWFMa" %}
