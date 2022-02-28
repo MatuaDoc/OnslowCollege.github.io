@@ -20,7 +20,7 @@ hide_toc: true
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-- | :-- | :-- |
 | [🎉 2. Intro to OOP](introduction-to-oop.md)<br>Add functions to classes | [🛡 3. Members](members.md)<br>Create your first object-oriented code | [🧪 4. Methods](methods.md)<br>Define and protect the data in a class |
-| [👪 5. Inheritance](inheritance.md)<br>Subclass for greater flexibility | [📜 6. Protocols](protocols.md)<br>Define which methods subclasses will implement | [🏆 7. OOP Task](#)<br>Practice task |
+| [👪 5. Inheritance](inheritance.md)<br>Subclass for greater flexibility | [📜 6. Protocols](protocols.md)<br>Define which methods subclasses will implement | [🏆 7. OOP Task](oop-task.md)<br>Create a virtual pet |
 
 ## Graphical User Interfaces
 
