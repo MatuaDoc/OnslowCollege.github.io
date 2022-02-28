@@ -46,12 +46,20 @@ h2 {
     margin-top:2.5rem !important;
 }
 
-h2~p, h2~ul, h2~ol, h2~.highlighter-rouge, h2~table {
+h2~h3, h2~p, h2~ul, h2~ol, h2~.highlighter-rouge, h2~table {
     margin-left: calc(var(--content-indent) * 2) !important;
 }
 
 h2~table {
     width: calc(100% - (var(--content-indent) * 2)) !important;
+}
+
+h3~p, h3~ul, h3~ol, h3~.highlighter-rouge, h3~table {
+    margin-left: calc(var(--content-indent) * 2.5) !important;
+}
+
+h3~table {
+    width: calc(100% - (var(--content-indent) * 2.5)) !important;
 }
 
 h5 {
