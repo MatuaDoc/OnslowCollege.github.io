@@ -69,6 +69,17 @@ dict2 = {'d': 6, 'c': 4}
 both_dicts = dict2.update(dict1)
 ```
 
+# Accessing dictionary items
+
+You can access dictionary items using the key instead of the index. For example:
+
+```python
+print(national_foods["Japan"]) # Sashimi
+
+for country in national_populations:
+    print(national_populations["country"])
+```
+
 # Dictionary functions
 
 The following functions work with dictionaries:
