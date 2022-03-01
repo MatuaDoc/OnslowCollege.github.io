@@ -13,6 +13,8 @@ It's time to put your knowledge of object-oriented programming to the test — w
 
 ### Members and properties
 
+**READ ALL THE REQUIREMENTS BEFORE YOU START**
+
 1. Create a class called ``Pet`` with the following members/properties:
    
     | Name | Type | Description | Has property | Has setter |
@@ -22,7 +24,7 @@ It's time to put your knowledge of object-oriented programming to the test — w
     | ``sounds`` | list | The list of sounds the pet knows | ✅ | ✅ |
     | ``health`` | int | The pet's health, from 0 to 100 | ✅ | ✅ |
     | ``boredom_limit`` | int | The threshold for the pet's boredom; beyond this point, they start to get hungrier | ✅ | |
-    | ``hunger_limit`` | int | The threshold for the pet's hunger; beyond this point, the pet starts to lose health | ✅ | |
+    | ``hunger_limit`` | int | The threshold for the pet's hunger; beyond this point, the pet starts to lose health from starvation | ✅ | |
 
 2. Add default values to the following members:
 
@@ -36,25 +38,27 @@ It's time to put your knowledge of object-oriented programming to the test — w
 
 ### Methods
 
-4. Add an instance method called ``tick`` which takes no arguments
-    - The method increases the pet's boredom by its boredom rate, and its hunger by its hunger rate
-      - The boredom and hunger rates never exceed 100
+**READ ALL THE REQUIREMENTS BEFORE YOU START**
+
+1. Add an instance method called ``tick`` which takes no arguments
+    - The method increases the pet's boredom by its boredom rate (see point 7), and its hunger by its hunger rate (see point 8)
+      - The boredom and hunger levels should never exceed the maximum (for ``Pet``, 100)
     - When hunger exceeds the hunger limit, the method also decreases the pet's health the hunger rate
       - Health never drops below 0
-5. Add an method called ``feed`` that accepts a ``Cake`` (on any ``Cake`` subclass) and replenishes hunger or health (see the Cake requirements section below)
-6. Add a method called ``train`` that accepts a string
+2. Add an method called ``feed`` that accepts a ``Cake`` (on any ``Cake`` subclass) and replenishes hunger or health (see the Cake requirements section below)
+3. Add a method called ``train`` that accepts a string
     - This will add the specified string to the pet's repertoire of ``sound``s and reduce their boredom by 50 (boredom never drops below 0)
     - However, the effort of training makes the pet's hunger go up by 25
     - A pet can only know 5 sounds at a time
-7. Add a property method called ``boredom_rate``
+4. Add a property method called ``boredom_rate``
     - Normally, the boredom rate is 1
     - Whenever the boredom limit is exceeded, the boredom rate is 2
-8. Add a property method called ``hunger_rate``
+5. Add a property method called ``hunger_rate``
     - Normally, the hunger rate is 2
     - When the pet's health drops to 25 or below, the hunger rate drops to 1
     - The hunger rate is doubled if the pet is bored
-    - The hunger rate is quadrupled if the pet is angry (fully bored)
-9.  Add a property method called ``mood`` which returns a list of strings
+    - The hunger rate is quadrupled if the pet is angry (beyond the boredom limit)
+6.  Add a property method called ``mood`` which returns a list of strings
     - Health
       - If the pet's health is between 80 and 100, return "fighting fit"
       - If the pet's health is between 1 and 20, return "sick"
@@ -71,6 +75,8 @@ It's time to put your knowledge of object-oriented programming to the test — w
     - Example: ``["ok", "full", "happy"]``
 
 ## Cake requirements
+
+**READ ALL THE REQUIREMENTS BEFORE YOU START**
 
 1. Create a base class called ``Cake`` with the following members/properties:
    
@@ -102,6 +108,7 @@ It's time to put your knowledge of object-oriented programming to the test — w
 
 ## Program requirements
 
+**READ ALL THE REQUIREMENTS BEFORE YOU START**
 ### Set up
 
 1. Create a variable called ``tick_count`` with a value of 0
@@ -112,6 +119,7 @@ It's time to put your knowledge of object-oriented programming to the test — w
 4. Create a while loop that ends when all the pets in the list are dead
     - (*editor's note: oof, harsh*)
 
+**READ ALL THE REQUIREMENTS BEFORE YOU START**
 ### Tick loop
 
 5. For each run of the loop, print then increment the ``tick_counter``
@@ -152,6 +160,7 @@ It's time to put your knowledge of object-oriented programming to the test — w
 2. Create a subclass of ``Pet`` that has a higher health limit (between 101 and 200, so it lives longer) but a higher hunger rate (so it gets hungry faster)
 3. Create a subclass of ``Cake`` that fully restores health to the pet's maximum and reduces hunger to 0 — but costs 200
 4. Use one of each of these subclasses instead of the base class in your program
+5. Make it so that a pet can't eat two cakes in a row
 
 # Final word
 
