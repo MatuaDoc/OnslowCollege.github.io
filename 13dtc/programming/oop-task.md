@@ -1,8 +1,3 @@
----
-title: OOP Task
-hide_toc: true
----
-
 # Task
 
 ## Scenario
