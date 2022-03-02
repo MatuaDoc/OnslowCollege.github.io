@@ -18,9 +18,9 @@ Why? … Because! That's why.
 
 1. Create a program that allows you to communicate via telegraph machine by converting text to the IRSA
 2. You will be provided with sample text in the assignment. The results will be provided in tests
-  - Make sure that your program converts the sample text to morse code correctly by ensuring that the tests pass
+  - Make sure that your program converts the sample text to IRSA words correctly by ensuring that the tests pass
 
-Feel free to print the morse code as you develop it in order to test that your code is working properly.
+Feel free to print the IRSA words as you develop it in order to test that your code is working properly.
 
 # NATO alphabet
 
