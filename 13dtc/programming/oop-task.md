@@ -55,10 +55,10 @@ It's time to put your knowledge of object-oriented programming to the test — w
 5. Add a property method called ``hunger_rate``
     - Normally, the hunger rate is 4
     - When the pet's health drops to 25 or below, the hunger rate drops to 2
-    - The hunger rate is doubled if the pet is bored
+    - The hunger rate is doubled if the pet is bored (beyond the boredom limit)
       - Therefore, 8 if the pet's health is above 25
       - 4 if the pet's health is at or below 25
-    - The hunger rate is quadrupled if the pet is angry (beyond the boredom limit)
+    - The hunger rate is quadrupled if the pet is angry (at or over 90 boredom)
       - Therefore, 16 if the pet's health is above 25
       - 8 if the pet's health is at or below 25
 6.  Add a property method called ``mood`` which returns a list of strings
@@ -165,3 +165,5 @@ It's time to put your knowledge of object-oriented programming to the test — w
 # Final word
 
 How long can you keep your creations **alive**!? Muahaha!
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/0VkrUG3OrPc?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
