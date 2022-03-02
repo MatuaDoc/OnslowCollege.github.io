@@ -20,8 +20,8 @@ hide_toc: true
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-- | :-- | :-- |
 | [🛒 2. Lists: Search](lists-01-search.md)<br>Search for items, slice lists up | [✂️ 3. Lists: Modifying](lists-02-modifying.md)<br>Add and remove items from lists | [🛍 4. Lists: Other functions](lists-03-functions.md)<br>Create strings, format items, sort and reverse |
-| [📜 5. List Comprehensions](lists-04-comprehensions.md)<br>Transform values in a list | [🧊 6. 2D Lists](lists-05-2d.md)<br>Lists in lists | [🏆 7. Lists Task](lists-task.md)<br>Practice task |
-| [📕 8. Dictionaries](dictionaries.md)<br>Associate data with words | [🏆 9. Collections Task](#)<br>Practice task №2 | |
+| [📜 5. List Comprehensions](lists-04-comprehensions.md)<br>Transform values in a list | [🧊 6. 2D Lists](lists-05-2d.md)<br>Lists in lists | [🏆 7. Lists Task](lists-task.md)<br>Create a flat chores roster |
+| [📕 8. Dictionaries](dictionaries.md)<br>Associate data with words | [🏆 9. Collections Task](collections-task.md)<br>Convert text to morse code | |
 
 ## Functions
 
