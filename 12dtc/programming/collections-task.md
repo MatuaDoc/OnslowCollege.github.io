@@ -49,7 +49,7 @@ For example:
 | g | golf | 7 | setteseven |
 | h | hotel | 8 | oktoeight |
 | i | india | 9 | novenine |
-| j | juliet | 0 | nadazero |
+| j | juliett | 0 | nadazero |
 | k | kilo | full stop | STOP |
 | l | lima |
 | m | mike |
