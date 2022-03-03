@@ -40,7 +40,7 @@ For example:
 
 | Alpha | IRSA | Number | IRSA |
 | --: | :-- | --: | :-- |
-| a | alpha | 1 | unaone |
+| a | alfa | 1 | unaone |
 | b | bravo | 2 | bissotwo |
 | c | charlie | 3 | terrathree |
 | d | delta | 4 | kartefour |
