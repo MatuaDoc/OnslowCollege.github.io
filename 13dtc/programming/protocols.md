@@ -59,7 +59,7 @@ To conform to a protocol:
 @dataclass
 class TableMountainBuilding(AlarmRingable):
 	def ring_alarm(self) -> None:
-		print(self.fire_alarm_sound * 5)
+		print(self.alarm_sound * 5)
 
 	@property
 	def alarm_sound(self) -> str:
@@ -84,7 +84,7 @@ In the following example, multiple classes conform to ``AlarmRingable``. This is
 @dataclass
 class TableMountainBuilding(AlarmRingable):
 	def ring_alarm(self) -> None:
-		print(self.fire_alarm_sound * 5)
+		print(self.alarm_sound * 5)
 
 	@property
 	def alarm_sound(self) -> str:
@@ -136,7 +136,6 @@ To do this:
 We will create a protocol called ``SelfLockable`` that designates that a building can lock itself in case of a fire. Let's make the office able to lock its own doors in case of a lockdown:
 
 ```python
-@dataclass
 class SelfLockable(Protocol):
 	def self_lock(self) -> None:
 		pass
