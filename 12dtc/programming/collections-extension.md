@@ -1,5 +1,5 @@
 ---
-title: Collections Task: Morse code translator
+title: Collections Task — Morse code translator
 ---
 
 # Task
