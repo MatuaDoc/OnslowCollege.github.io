@@ -22,7 +22,7 @@ layout: contents
 | :-: | :-: | :-: |
 | <a href="oop"><image src="img/oop.svg" title="Intro to Object Oriented Programming" width=100><br>Intro to OOP | <a href="properties"><image src="img/properties.svg" title="Properties" width=100><br>Properties | <a href="methods"><image src="img/methods.svg" title="Methods" width=100><br>Methods |
 | Classes, objects, oh my! | Protecting object data with properties | Define and protect the data in a class |
-| <a href="inheritance"><image src="img/inheritance.svg" title="Inheritance" width=100><br>Inheritance | <a href="properties"><image src="img/protocols.svg" title="Protocols" width=100><br>Protocols |
+| <a href="inheritance"><image src="img/inheritance.svg" title="Inheritance" width=100><br>Inheritance | <a href="protocols"><image src="img/protocols.svg" title="Protocols" width=100><br>Protocols |
 | Subclass for greater flexibility | Define which methods subclasses must implement |
 
 ### OOP Tasks
