@@ -29,7 +29,7 @@ layout: contents
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-: | :-: | :-: |
-| <a href="oop"><image src="img/virtual-pet.svg" title="Virtual Pet" width=100><br>Virtual Pet |
+| <a href="virtual-pet"><image src="img/virtual-pet.svg" title="Virtual Pet" width=100><br>Virtual Pet |
 | Create a virtual pet using classes and objects |
 
 ## Graphical User Interfaces
