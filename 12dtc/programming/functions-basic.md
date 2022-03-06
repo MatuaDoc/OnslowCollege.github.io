@@ -1,7 +1,7 @@
 ---
 title: Functions
-learning_intentions: ["Reduce repeated code with functions", "Define a function", "Make the function return a value"]
-success_criteria: ["You have defined a function", "You have made the function return a value"]
+learning_intentions: ["Reduce repeated code with functions", "Define a function", "Call a function", "Modify a global value"]
+success_criteria: ["You have defined a function", "You have called the function", "Calling the function has modified a global value"]
 ---
 
 # Functions
@@ -13,10 +13,10 @@ There are times when your code becomes repetitive. For example, if you ask the u
 3. doing some calculations or running some logic based on what the user entered
 4. doing it all over again later in the program!
 
-## How to write a function
+# How to declare a function
 
 ```python
-def function_no_args():
+def my_wonderful_function():
     # Code goes here
 ```
 
@@ -25,7 +25,7 @@ def function_no_args():
 3. Add a left parenthesis, right parenthesis, and a colon ``():``
 4. Indented to the right, you can write as much code as you want
 
-# Modifying variables declared outside the function
+## Modifying variables declared outside the function
 
 To be able to change variables that are defined outside the function, you need to declare the variable as **global** so that the function is able to access and modify it.
 
@@ -46,11 +46,14 @@ For example, a function that prints a menu and asks the user to choose an item:
 choice = ""
 
 def get_user_menu_choice():
+    # Make choice global
     global choice
     print("Choose an option:")
     print("(1): Add an item")
     print("(2): Delete an item")
     print("(3): List all items")
+
+    # Update choice
     while choice == "":
         choice = input("Type a number: ")
 ```
@@ -75,22 +78,39 @@ else:
     # do the other
 ```
 
-# Returning values from a function
+# Documenting the function
 
-Instead of making all the variables you want to modify into globals, it's sometimes more useful to return a value instead. This means that the value that is returned can be stored in a variable.
+Documenting functions is the same as any other Python code in that it requires using comments. Unlike other comments, function make use of a specific type of comment: **docstrings**.
 
-To return a value, add the ``return`` keyword followed by the value to return. For example, to change the ``get_user_menu_choice()`` function to return the value rather than modify the ``choice`` variable:
+To write a docstring, create a multi-line string (starting and ending with three quotation marks) directly under the function signature:
+
+```python
+def my_wonderful_function():
+    """
+    This is my wonderful docstring
+    """
+```
+
+Your docstrings should briefly explain what the function does. You do not need to explain *how* it does it; for this, you can continue to use normal comments inside the function.
 
 ```python
 def get_user_menu_choice():
+    """
+    Gets the user's menu choice
+    """
+
+    # Make choice global
+    global choice
     print("Choose an option:")
     print("(1): Add an item")
     print("(2): Delete an item")
     print("(3): List all items")
-    new_choice = input("Type a number: ")
-    return new_choice
 
-# Since get_user_menu_choice() now returns a value, the returned
-# value can be assigned to the choice variable directly.
-choice = get_user_menu_choice()
+    # Update choice
+    while choice == "":
+        choice = input("Type a number: ")
 ```
+
+Any place where you call one of your functions, hover your mouse cursor over the function name. The docstring will appear as a tool tip.
+
+![Function's documentation](img/function-tool-tip.png)
