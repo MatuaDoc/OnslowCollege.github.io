@@ -47,7 +47,7 @@ Please type a number to see a fact
 ===========
 1) Whiskers
 2) Tails
-3) 
+3) Night-vision
 4) Falling
 5) Egypt
 ===========
