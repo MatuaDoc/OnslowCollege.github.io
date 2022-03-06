@@ -14,15 +14,15 @@ Bugs can cause real problems. In fact bugs in software can have [catastrophic co
 
 Ultimately you need to test everything that can change the outcome of the program. At our current level, this really just means testing the program's…
 
-	- inputs
-	- calculations
-    - conditions
+- inputs
+- calculations
+- conditions
 
 When we test one aspect of the program we need to run a series of tests on it (not just one). These tests can be grouped into three categories:
 
-	- expected cases
-	- boundary cases
-    - invalid cases
+- expected cases
+- boundary cases
+- invalid cases
 
 ## Expected cases
 
