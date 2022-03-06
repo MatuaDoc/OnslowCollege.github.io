@@ -1,6 +1,7 @@
 ---
 title: 12DTC Programming
 hide_toc: true
+layout: contents
 ---
 
 ## Setup
@@ -12,19 +13,29 @@ hide_toc: true
 ## Recap
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :-- | :-- | :-- |
-| [🐍 1. Recap](recap.md)<br>Revise Python from 11DIT |
+| :-: | :-: | :-: |
+| <a href="intro"><image src="img/intro.svg" title="Intro" width=100><br>Intro |
+| Revise Python from 11DIT |
 
 ## Collections
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :-- | :-- | :-- |
-| [🛒 2. Lists: Search](lists-01-search.md)<br>Search for items, slice lists up | [✂️ 3. Lists: Modifying](lists-02-modifying.md)<br>Add and remove items from lists | [🛍 4. Lists: Other functions](lists-03-functions.md)<br>Create strings, format items, sort and reverse |
-| [📜 5. List Comprehensions](lists-04-comprehensions.md)<br>Transform values in a list | [🧊 6. 2D Lists](lists-05-2d.md)<br>Lists in lists | [🥉 7. Lists Task](lists-task.md)<br>Create a flat chores roster |
-| [📕 8. Dictionaries](dictionaries.md)<br>Associate data with words | [🥈 9. Collections Task](collections-task.md)<br>Convert text to the phonetic alphabet | [🥇 10. Collections Extension](collections-extension.md)<br>Convert text to morse code |
+| :-: | :-: | :-: |
+| <a href="list-search"><image src="img/list-search.svg" title="List Search" width=100><br>List Search | <a href="list-modification"><image src="img/list-modification.svg" title="List Modification" width=100><br>List Modification | <a href="list-functions"><image src="img/list-functions.svg" title="List Functions" width=100><br>List Functions |
+| Search for items, slice lists up | Add and remove items from lists | Create strings, format items, sort and reverse |
+| <a href="list-comprehensions"><image src="img/list-comprehensions.svg" title="List Comprehensions" width=100><br>List Comprehensions | <a href="list-2d"><image src="img/list-2d.svg" title="2D Lists" width=100><br>2D Lists | <a href="dictionaries"><image src="img/dictionaries.svg" title="Dictionaries" width=100><br>Intro to Dictionaries |
+| Transform values in a list | Lists in lists | Associate collection items with a string |
+
+### Collections Tasks
+
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :-: | :-: | :-: |
+| <a href="chores"><image src="img/chores.svg" title="Chores Roster" width=100><br>Chores Roster | <a href="irsa"><image src="img/irsa.svg" title="International Radiotelephony Spelling Alphabet" width=100><br>IRSA | <a href="morse"><image src="img/morse.svg" title="Extension: Morse Code" width=100><br>Extension: Morse Code |
+| Create a chores roster using 2D lists | Convert text using dictionaries | Convert text to morse code — and back |
 
 ## Functions
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :-- | :-- | :-- |
-| [🧪 11. Intro to Functions](functions-01-basic.md)<br>Create your first functions | [🤬 12. Arguments](functions-02-arguments.md)<br>Supply information to functions | [🏆 13. Functions Task](#)<br>Practice task |
+| :-: | :-: | :-: |
+| <a href="functions"><image src="img/functions.svg" title="Intro to Functions" width=100><br>Intro to Functions | <a href="functions-return"><image src="img/functions-return.svg" title="Functions: Returning a value" width=100><br>Functions: Returning a value | <a href="functions-args"><image src="img/functions-args.svg" title="Function Arguments & Parameters" width=100><br>Function Arguments & Parameters |
+| Pack up your code into distinct sections | Get values out of a function | Supply information to functions |

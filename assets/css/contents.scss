@@ -1,0 +1,21 @@
+---
+---
+
+
+td {
+    border-collapse: collapse !important;
+    border-style: none !important;
+}
+
+th {
+    visibility: hidden !important;
+    height: 1px !important;
+}
+
+td:nth-child(2) {
+    border-left: solid 21x lightgrey !important;
+}
+
+tr:nth-child(2), tr:nth-child(4) {
+    border-bottom: solid 1px grey !important;
+}

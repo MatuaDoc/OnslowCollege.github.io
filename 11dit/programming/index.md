@@ -12,18 +12,22 @@ hide_toc: true
 ## Recap
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :-- | :-- | :-- |
-| [🐍 1. Recap](intro.md)<br>Revise Python from 10DIT | [🪜 2. Next Steps](next-steps.md)<br>Loops, floats, and if statements | [💬 3. Comments](comments.md)<br>Document your program |
+| :-: | :-: | :-: |
+| <a href="intro"><image src="img/intro.svg" title="Recap" width=100><br>Recap | <a href="next-steps"><image src="img/next-steps.svg" title="Next Steps" width=100><br>Next Steps | <a href="comments"><image src="img/comments.svg" title="Comments" width=100><br>Comments |
+| Revise Python from 10DIT | Loops, floats, and if statements | Document your program |
 
 ## Programming Basics
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :-- | :-- | :-- |
-| [🛒 4. Lists](lists.md)<br>Store multiple items in one variable | [🎗 5. For loops](for-loops.md)<br>Loop over items in a list | [🟢 6. Password Checker](mastermind.md)<br>Make a guessing game |
-| [🧪 7. Functions](functions.md)<br>Keep your code clean |
+| :-: | :-: | :-: |
+| <a href="lists"><image src="img/lists.svg" title="Lists" width=100><br>Lists | <a href="for-loops"><image src="img/for-loops.svg" title="For Loops" width=100><br>For Loops | <a href="mastermind"><image src="img/mastermind.svg" title="Password Checker" width=100><br>Password Checker |
+| Store multiple items in one variable | Loop over items in a list | Make a guessing game |
+| <a href="functions"><image src="img/functions.svg" title="Functions" width=100><br>Functions |
+| Pack up your code into neat little bundles |
 
 ## Programming Refinement
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :-- | :-- | :-- |
-| [💥 7. Try/Except](tryexcept.md)<br>Prevent crashes in your code | [8️⃣ 8. PEP-8](pep.md)<br>Conform to Python style guidelines | [👩‍🔬 9. Testing](testing.md)<br>Formal testing procedure |
+| :-: | :-: | :-: |
+| <a href="tryexcept"><image src="img/tryexcept.svg" title="Try/Except" width=100><br>Try/Except | <a href="pep"><image src="img/pep8.svg" title="PEP-9" width=100><br>PEP-8 | <a href="testing"><image src="img/testing.svg" title="Testing" width=100><br>Testing |
+| Prevent crashes in your code | Conform to Python style guidelines | Formal testing procedure |
