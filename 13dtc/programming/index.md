@@ -1,6 +1,6 @@
 ---
 title: 13DTC Programming
-hide_toc: true
+layout: contents
 ---
 
 ## Setup
