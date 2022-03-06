@@ -103,7 +103,64 @@ You will be provided with a testing table as part of your assignment. You must f
 
 A copy of the testing table document can be found on [Teams → 11DIT → General → Files → Assessment → AS91883 Testing Table.docx](https://onslowcollege.sharepoint.com/:w:/s/11DIT499/EdGUoaEYHq1FgklSh30Ka-UBo1Kvgww3rByGKQeDBNKCMQ?e=0gnw6S).
 
-# Task 1
+# Task
 
-> **Filename**: testing1.py
+> **Filename**: facts.py
 
+Create a program that displays a menu, allowing users to read facts on a topic of your choice.
+
+**Before you start programming**, you must fill in a copy of the [testing table](https://onslowcollege.sharepoint.com/:w:/s/11DIT499/EdGUoaEYHq1FgklSh30Ka-UBo1Kvgww3rByGKQeDBNKCMQ?e=0gnw6S) with input values for [expected cases](testing.md#expected-cases), [boundary cases](testing.md#boundary-cases), and [invalid cases](testing.md#invalid-cases). This will be uploaded as part of the assignment.
+
+## Testing requirements
+
+As you write the program code, test the program according to your testing table.
+
+If your one of your tests fails:
+
+- add a comment explaining what you think went wrong and what you will change
+- add a new row below the current row
+- copy and paste the test to the new row
+- make changes to the code
+- test again
+
+**DO NOT** leave the testing table until you have made the program fully functional. A testing table that shows no issues would be very suspicious and give your teachers grounds to doubt that:
+
+- you did any testing, or
+- you wrote your own code
+
+## Program requirements
+
+1. Each menu item contains:
+   - a number
+   - a single word that summarises a fact
+2. The menu must be constructed programatically. **Do not use a string**
+3. When the user types in a number corresponding to a menu item, the fact is shown on-screen in full.
+4. The program should repeat until the user types Q to quit.
+
+## Expected output
+
+```
+Welcome to Cat Facts
+Please type a number to see a fact
+
+===========
+1) Whiskers
+2) Tails
+3) Night-vision
+4) Falling
+5) Egypt
+===========
+Q) Quit
+===========
+
+Please type a number: 6
+Please enter a number between 1 and 5.
+
+Please type a number: 5
+Did you know? Cats were revered in ancient Egypt.
+There are even some gods depicted as having cat heads,
+such as Mafdet, Bastet, Sekhmet, and Mut.
+
+Please type a number: Q
+Thanks for using Cat Facts
+```

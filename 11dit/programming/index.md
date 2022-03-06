@@ -31,5 +31,3 @@ layout: contents
 | :-: | :-: | :-: |
 | <a href="tryexcept"><image src="img/tryexcept.svg" title="Try/Except" width=100><br>Try/Except | <a href="pep"><image src="img/pep8.svg" title="PEP-9" width=100><br>PEP-8 | <a href="testing"><image src="img/testing.svg" title="Testing" width=100><br>Testing |
 | Prevent crashes in your code | Conform to Python style guidelines | Formal testing procedure |
-| <a href="test-task"><image src="img/testing.svg" title="Test Task" width=100><br>Test Task |
-| Make a program with a testing table |
