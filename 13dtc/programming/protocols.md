@@ -125,6 +125,38 @@ for building in builds:
 # DKKDKKDKKDKKDKK
 ```
 
+### Checking if a class conforms to a Protocol
+
+Sometimes, you might be dealing with a class where it's not clear whether or not it conforms to a Protocol. Perhaps it has a similar name to conformant classes — but you still aren't sure.
+
+You can check if a class conforms to a protocol using an ``is`` check:
+
+```python
+class CaretakerShed:
+	# This class does NOT conform to AlarmRingable
+	…
+
+room_62 = TableMountainBuilding()
+office = OfficeBuilding()
+caretaker_shed = CaretakerShed()
+gym = GymBuilding()
+
+buildings = [room_62, office, caretaker_shed, gym]
+
+for building in builds:
+	# Check if the building conforms to the protocol
+	if building is AlarmRingable:
+		building.ring_alarm()
+	else:
+		# Does not conform
+		print("We're all gonna die!")
+
+# DINGDINGDINGDINGDING
+# WOOOOOOOOOOOOOOOOOOOOOOOOOO
+# DKKDKKDKKDKKDKK
+# We're all gonna die!
+```
+
 ## Classes conforming to multiple protocols
 
 In the following example, we create another class that conforms to another protocol.
