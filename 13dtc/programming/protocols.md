@@ -35,11 +35,11 @@ Let's declare a protocol. This involves:
 from typing import Protocol
 
 class AlarmRingable(Protocol):
-	def ring_fire_alarm(self) -> None:
+	def ring_alarm(self) -> None:
 		pass
 
 	@property
-	def fire_alarm_sound(self) -> str:
+	def alarm_sound(self) -> str:
 		pass
 ```
 
