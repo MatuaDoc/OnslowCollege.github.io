@@ -8,6 +8,10 @@ title: OOP Task: Virtual Pet
 
 It's time to put your knowledge of object-oriented programming to the test — we are going to bring a virtual pet **TO LIFE!** ⚡️⚡️⚡️
 
+How long can you keep your creations **alive**!? Muahaha!
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/0VkrUG3OrPc?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Pet requirements
 
 ### Members and properties
@@ -20,7 +24,7 @@ It's time to put your knowledge of object-oriented programming to the test — w
     | :-- | :-- | :-- | :-: | :-: |
     | ``boredom`` | int | The pet's boredom level. When it gets too high, the pet gets bored, it also gets hungry faster | ✅ | ✅ |
     | ``hunger`` | int | The pet's level of hunger. When it gets too high, the pet's health starts to go down | ✅ | ✅ |
-    | ``sounds`` | list | The list of sounds the pet knows | ✅ | ✅ |
+    | ``sounds`` | list | The list of sounds the pet knows | ✅ | |
     | ``health`` | int | The pet's health, from 0 to 100 | ✅ | ✅ |
     | ``boredom_limit`` | int | The threshold for the pet's boredom; beyond this point, they start to get hungrier | ✅ | |
     | ``hunger_limit`` | int | The threshold for the pet's hunger; beyond this point, the pet starts to lose health from starvation | ✅ | |
@@ -33,18 +37,27 @@ It's time to put your knowledge of object-oriented programming to the test — w
     | ``boredom_limit`` | a random number between 50 and 90 (inclusive) |
     | ``hunger_limit`` | 80 |
 
+    To do this, write the default values after the member names and an equals sign:
+
+    ```python
+    @dataclass
+    class Pet:
+      # Other members ...
+      health: int = 100
+    ```
+
 3. Protect the members and make sure the properties and setters work
 
 ### Methods
 
 **READ ALL THE REQUIREMENTS BEFORE YOU START**
 
-1. Add an instance method called ``tick`` which takes no arguments
-    - The method increases the pet's boredom by its boredom rate (see point 7), and its hunger by its hunger rate (see point 8)
+1. Add an instance method called ``tick`` which takes no arguments (still requires ``self``)
+    - The method increases the pet's boredom by its boredom rate (see point 4), and its hunger by its hunger rate (see point 5)
       - The boredom and hunger levels should never exceed the maximum (for ``Pet``, 100)
     - When hunger exceeds the hunger limit, the method also decreases the pet's health by half of the hunger rate
       - Health never drops below 0
-2. Add an method called ``feed`` that accepts a ``Cake`` (or any ``Cake`` subclass) and replenishes hunger or health (see the Cake requirements section below)
+2. Add an method called ``feed`` that accepts a ``Cake`` (or any ``Cake`` subclass; see below) and replenishes hunger or health (see the Cake requirements section below)
 3. Add a method called ``train`` that accepts a string
     - This will add the specified string to the pet's repertoire of ``sound``s and reduce their boredom by 50 (boredom never drops below 0)
     - However, the effort of training makes the pet's hunger go up by 25
@@ -162,8 +175,4 @@ It's time to put your knowledge of object-oriented programming to the test — w
 5. Make it so that you can only run a command every 5 ticks
 6. Make it so that a pet can't eat two cakes in a row
 
-# Final word
-
-How long can you keep your creations **alive**!? Muahaha!
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/0VkrUG3OrPc?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include task.html task_code="ewoheeAD" %}
