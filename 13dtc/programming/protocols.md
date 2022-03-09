@@ -134,7 +134,7 @@ You can check if a class conforms to a protocol using an ``is`` check:
 ```python
 class CaretakerShed:
 	# This class does NOT conform to AlarmRingable
-	…
+	pass
 
 room_62 = TableMountainBuilding()
 office = OfficeBuilding()
@@ -143,7 +143,7 @@ gym = GymBuilding()
 
 buildings = [room_62, office, caretaker_shed, gym]
 
-for building in builds:
+for building in buildings:
 	# Check if the building conforms to the protocol
 	if building is AlarmRingable:
 		building.ring_alarm()
