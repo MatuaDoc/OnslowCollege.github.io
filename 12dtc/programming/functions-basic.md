@@ -114,3 +114,5 @@ def get_user_menu_choice():
 Any place where you call one of your functions, hover your mouse cursor over the function name. The docstring will appear as a tool tip.
 
 ![Function's documentation](img/function-tool-tip.png)
+
+{% include task.html task_code="a34KgLdS" %}
