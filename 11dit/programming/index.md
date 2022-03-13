@@ -31,3 +31,9 @@ layout: contents
 | :-: | :-: | :-: |
 | <a href="tryexcept"><image src="img/tryexcept.svg" title="Try/Except" width=100><br>Try/Except | <a href="pep8"><image src="img/pep8.svg" title="PEP-9" width=100><br>PEP-8 | <a href="testing"><image src="img/testing.svg" title="Testing" width=100><br>Testing |
 | Prevent crashes in your code | Conform to Python style guidelines | Formal testing procedure |
+
+## Assessment
+
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :-: | :-: | :-: |
+| <a href="practice"><image src="img/practice.svg" title="Practice Assessment" width=100><br>Practice Assessment |
