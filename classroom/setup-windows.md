@@ -4,8 +4,6 @@ title: Set up your programming environment
 
 # 1. Fast install
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/5l0Q8hOMRU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 - Open Windows PowerShell
 - Copy the following block of commands
   - ```ps
@@ -16,7 +14,7 @@ title: Set up your programming environment
     python3 -m pip install pytest
 
     scoop bucket add extras
-    scoop install vscode
+    scoop install vscode github
 
     code --install-extension OnslowCollege.onslow-college-dit-extensions
     
