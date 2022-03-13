@@ -36,8 +36,9 @@ Example of ways of making a program **flexible and robust** include:
 
 All work must be done your own.
 
-There will be regular submission check-ins to track your progress.
-Your final submission is at the end of your last lesson on the school week ending Term 1.
+The practice assessment is due at the end of week 8.
+
+You may submit earlier for feedback, then resubmit. You may do this at maximum **two times**.
 
 There will be **NO** extensions.
 
