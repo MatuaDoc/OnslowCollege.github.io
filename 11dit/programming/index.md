@@ -36,4 +36,4 @@ layout: contents
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-: | :-: | :-: |
-| <a href="practice"><image src="img/practice.svg" title="Practice Assessment" width=100><br>Practice Assessment |
+| <a href="practice"><image src="/img/practice.svg" title="Practice Assessment" width=100><br>Practice Assessment | <a href="#"><image src="/img/assessment.svg" title="Assessment" width=100><br>Assessment |
