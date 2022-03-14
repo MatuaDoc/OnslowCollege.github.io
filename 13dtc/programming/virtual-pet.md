@@ -1,5 +1,5 @@
 ---
-title: OOP Task: Virtual Pet
+title: OOP Task — Virtual Pet
 ---
 
 # Task

@@ -1,5 +1,5 @@
 ---
-title: Collections Task: NATO alphabet translator
+title: Collections Task — NATO alphabet translator
 ---
 
 # Task
