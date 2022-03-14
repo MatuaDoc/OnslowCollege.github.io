@@ -19,7 +19,7 @@ $baseurl: "{{ site.url }}";
 body {
     font-family: 'Lexend', 'Avenir', sans-serif;
     @media (prefers-color-scheme: dark) {
-        background-color: #2c2f33;
+        background-color: #18191c;
     }
 }
 
@@ -93,6 +93,8 @@ h5 {
 
 table {
     margin: 6px;
+    border-collapse: separate;
+    border-spacing: 0 1em;
 }
 
 #breadcrumbs {
@@ -177,7 +179,7 @@ table {
     list-style-type: none;
     background-color: white;
     @media (prefers-color-scheme: dark) {
-        background-color: black !important;
+        background-color: #2c2f33 !important;
     }
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 8px 8px;
@@ -207,7 +209,7 @@ table {
 }
 
 .dropdown-content a {
-    color: black;
+    color: black !important;
     @media (prefers-color-scheme: dark) {
         color: white !important;
     }
@@ -217,9 +219,8 @@ table {
 }
 
 .dropdown-content img {
-    @media (prefers-color-scheme: dark) {
-        filter: invert(100);
-    }
+    width: 32px;
+    margin-right: 12px;
 }
 
 .dropdown-content a:hover {
@@ -240,10 +241,6 @@ table {
 
 #dropdown-13dtc li a:hover {
     background-color: rgb(var(--thirteen-rgb));
-}
-
-.dropdown-content a:hover img {
-    filter:invert(100%)
 }
 
 .dropdown:hover .dropdown-content {
