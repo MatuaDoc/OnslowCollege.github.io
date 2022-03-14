@@ -5,15 +5,15 @@ layout: contents
 
 ## Setup
 
-| <img width=300 /> | <img width=750 /> | <img width=750 /> |
-| --: | :-: | :-: |
-| **Setup** | <a href="/classroom/setup"><image src="/img/setup.svg" title="Set up" width=100><br>Set up your development environment | <a href="/classroom/github"><image src="/img/github_bw.svg" title="GitHub Guide" width=100><br>GitHub Guide |
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :--: | :-: | :-: |
+| <a href="/classroom/setup-windows"><image src="/img/setup.svg" title="Set up on Windows" width=100><br>Set up on Windows | <a href="/classroom/setup-macos"><image src="/img/setup.svg" title="Set up on macOS" width=100><br>Set up on macOS | <a href="/classroom/github"><image src="/img/github.svg" title="GitHub Guide" width=100><br>GitHub Guide |
 
 ## Recap
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-: | :-: | :-: |
-| <a href="intro"><image src="img/intro.svg" title="Intro" width=100><br>Intro |
+| <a href="intro"><image src="img/programming.svg" title="Intro" width=100><br>Intro |
 | Revise Python from 12DTC |
 
 ## Object-Oriented Programming
