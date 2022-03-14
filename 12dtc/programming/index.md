@@ -6,15 +6,15 @@ layout: contents
 
 ## Setup
 
-| <img width=300 /> | <img width=750 /> | <img width=750 /> |
-| --: | :-: | :-: |
-| **Setup** | <a href="/classroom/setup"><image src="/img/setup.svg" title="Set up" width=100><br>Set up your development environment | <a href="/classroom/github"><image src="/img/github_bw.svg" title="GitHub Guide" width=100><br>GitHub Guide |
+| <img width=500 /> | <img width=500 /> | <img width=500 /> |
+| :--: | :-: | :-: |
+| <a href="/classroom/setup-windows"><image src="/img/setup.svg" title="Set up on Windows" width=100><br>Set up on Windows | <a href="/classroom/setup-macos"><image src="/img/setup.svg" title="Set up on macOS" width=100><br>Set up on macOS | <a href="/classroom/github"><image src="/img/github.svg" title="GitHub Guide" width=100><br>GitHub Guide |
 
 ## Recap
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-: | :-: | :-: |
-| <a href="intro"><image src="img/intro.svg" title="Intro" width=100><br>Intro |
+| <a href="intro"><image src="img/programming.svg" title="Intro" width=100><br>Intro |
 | Revise Python from 11DIT |
 
 ## Collections
@@ -26,7 +26,7 @@ layout: contents
 | <a href="list-comprehensions"><image src="img/list-comprehensions.svg" title="List Comprehensions" width=100><br>List Comprehensions | <a href="list-2d"><image src="img/list-2d.svg" title="2D Lists" width=100><br>2D Lists | <a href="dictionaries"><image src="img/dictionaries.svg" title="Dictionaries" width=100><br>Intro to Dictionaries |
 | Transform values in a list | Lists in lists | Associate collection items with a string |
 
-### Collections Tasks
+## Collections Tasks
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-: | :-: | :-: |
