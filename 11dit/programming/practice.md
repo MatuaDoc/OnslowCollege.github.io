@@ -46,13 +46,14 @@ There will be **NO** extensions.
 
 Maia has been given a collection of jeans and shoes. 
 
-- Jeans
+- **Jeans**
   - 2x pairs of size 26
   - 4x pairs of size 28
   - 1x pair of size 30
   - 2x pairs of size 32
   - 2x pairs of size 34
-- Shoes
+
+- **Shoes**
   - 1x pair of size 7
   - 2x pairs of size 8
   - 3x pairs of size 9
