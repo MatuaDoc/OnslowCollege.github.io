@@ -2,6 +2,8 @@
 title: Set up your programming environment
 ---
 
+<iframe width="100%" height="480" src="https://www.youtube-nocookie.com/embed/a1kuQYEP_fE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # 1. Fast install
 
 - Open Windows PowerShell
