@@ -16,22 +16,6 @@ This will also encourage your program to be modular: automated tests are best at
 
 The basic principle of automatic testing is to **assert** (to state categorically) that a particular bit of code should do a particular thing, return a particular value, or that another variable should be changed in a particular way.
 
-For example:
-
-```python
-# Asserts that one and one make two
-assert 1 + 1 == 2
-
-# Asserts that "Potato" is 6 characters long
-assert len("Potato") == 6
-
-# Asserts that a function, given the arg of 5, returns 10
-assert my_function(5) == 10
-
-# Asserts that an object's member is of a certain type
-assert isinstance(my_object.age, int)
-```
-
 ## What makes a good automatic test?
 
 In general, you will want to stick to the same rules you've always known for tests:
@@ -39,6 +23,36 @@ In general, you will want to stick to the same rules you've always known for tes
 - check input for expected values
 - check input behaves appropriately on boundary values
 - check input handles invalid values
+
+For example:
+
+```python
+# Asserts that one and one make two
+def test_one_and_one():
+    assert 1 + 1 == 2
+
+# Asserts that "Potato" is 6 characters long
+def test_potato_length():
+    assert len("Potato") == 6
+
+# Asserts that a function, given the arg of 5, returns 10
+def test_my_function():
+    assert my_function(5) == 10
+
+# Asserts that an object's member is of a certain type
+def test_object_member():
+    my_object = SomeClass(_age=24)
+    assert isinstance(my_object.age, int)
+
+# Asserts that certain code will raise an Exception
+def test_raises_exception():
+    raised_exception = False
+    try:
+        print(25 / 0)
+    except:
+        raised_exception = True
+    assert raised_exception is True
+```
 
 # How to write a Pytest
 
@@ -73,29 +87,29 @@ age_is_valid = validate_number(age, 12, 18)
 Then, in your testing file:
 
 ```python
-import task  # The name of the file containing the code, minus the .py
+from packagename import module  # The name of the file within the package
 
 def test_valid_age():
     """Tests that a reasonable age is considered valid"""
-    assert task.validate_number("14", 12, 18) is True
+    assert module.validate_number("14", 12, 18) is True
 
 
 def test_lower_bound_age():
     """Tests that the youngest age is accepted, but one younger is not"""
-    assert task.validate_number("12", 12, 18) is True \
-        and task.validate_number("-11", 12, 18) is False
+    assert module.validate_number("12", 12, 18) is True \
+        and module.validate_number("-11", 12, 18) is False
 
 
 def test_upper_bound_age():
     """Tests that the oldest age is accepted, but one older is not"""
-    assert task.validate_number("18", 12, 18) is True \
-        and task.validate_number("19", 12, 18) is False
+    assert module.validate_number("18", 12, 18) is True \
+        and module.validate_number("19", 12, 18) is False
 
 
 def test_invalid_age():
     """Tests that non-numerical strings are rejected"""
-    assert task.validate_number("banana", 12, 18) is False \
-        and task.validate_number("", 12, 18) is False
+    assert module.validate_number("banana", 12, 18) is False \
+        and module.validate_number("", 12, 18) is False
 ```
 
 # How to run **your** Pytests
@@ -103,6 +117,8 @@ def test_invalid_age():
 The procedure for running your own Pytests is very like running the ones defined in the assignments. In Visual Studio Code, you can use the ![Testing](../../img/beaker.svg) Testing tab to run your tests.
 
 However, since your test files should be located in a folder called ``tests``, make sure to select that folder (instead of root directory) when asked where to locate the tests.
+
+## If you chose the wrong folder
 
 If you choose the wrong folder, you can delete the following files/folders within your project to start from scratch:
 
