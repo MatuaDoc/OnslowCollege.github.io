@@ -32,12 +32,12 @@ layout: contents
 | <a href="virtual-pet"><image src="img/virtual-pet.svg" title="Virtual Pet" width=100><br>Virtual Pet |
 | Create a virtual pet using classes and objects |
 
-## Testing
+## Packaging and Testing
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-: | :-: | :-: |
-| <a href="testing"><image src="img/testing.svg" title="Testing" width=100><br>Testing |
-| Create your own Pytests |
+| <a href="packages"><image src="img/packages.svg" title="Packages and Modules" width=100><br>Packages and Modules | <a href="testing"><image src="img/testing.svg" title="Testing" width=100><br>Testing |
+| Split your code into separate files and folders | Create your own Pytests |
 
 ## Graphical User Interfaces
 
