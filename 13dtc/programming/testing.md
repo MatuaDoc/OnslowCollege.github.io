@@ -56,15 +56,32 @@ def test_raises_exception():
 
 # How to write a Pytest
 
-1. Create a folder in your project called ``tests``
-2. In the ``tests`` folder, add files for different tests. For example: ``age_test.py``
-3. Import the filename where the code is that you wish to test
-4. Create functions whose names start with ``test_``
-5. In each of these functions, you will need to ``assert`` something
+1. In the root directory (top-level folder) of your project, add an empty file named ``conftest.py``
+2. Create a folder in your project called ``tests``
+3. In the ``tests`` folder, add files for different tests. For example: ``test_student.py``
+
+```
+13dtc-assignment/
+        conftest.py  # Empty file needed for tests to be found
+        
+        package/
+                student.py
+                staff.py
+
+        tests/
+                test_student.py  # Tests for module01
+                test_staff.py  # Tests for module02
+```
+
+4. Import the filename where the code is that you wish to test
+5. Create functions whose names start with ``test_``
+6. In each of these functions, you will need to ``assert`` something
 
 Ideally, you will be asserting that functions/methods that accept certain arguments (user input) output something. **Avoid testing functions that ask for user input directly**, such as ones that call ``input()``. Instead, ask for user input, then hand that input off to another function, and test the latter function.
 
-In your regular ``task.py``:
+# Example tests
+
+> **Filename**: 13dtc-assignment/mypackage/validator.py
 
 ```python
 # Function that handles input
@@ -84,32 +101,32 @@ age = input("Type your age in years: ")
 age_is_valid = validate_number(age, 12, 18)
 ```
 
-Then, in your testing file:
+> **Filename**: 13dtc-assignment/tests/test_validator.py
 
 ```python
-from packagename import module  # The name of the file within the package
+from mypackage.validator import validate_number  # The name of the file within the package
 
 def test_valid_age():
     """Tests that a reasonable age is considered valid"""
-    assert module.validate_number("14", 12, 18) is True
+    assert validate_number("14", 12, 18) is True
 
 
 def test_lower_bound_age():
     """Tests that the youngest age is accepted, but one younger is not"""
     assert module.validate_number("12", 12, 18) is True \
-        and module.validate_number("-11", 12, 18) is False
+        and validate_number("-11", 12, 18) is False
 
 
 def test_upper_bound_age():
     """Tests that the oldest age is accepted, but one older is not"""
-    assert module.validate_number("18", 12, 18) is True \
-        and module.validate_number("19", 12, 18) is False
+    assert validate_number("18", 12, 18) is True \
+        and validate_number("19", 12, 18) is False
 
 
 def test_invalid_age():
     """Tests that non-numerical strings are rejected"""
-    assert module.validate_number("banana", 12, 18) is False \
-        and module.validate_number("", 12, 18) is False
+    assert validate_number("banana", 12, 18) is False \
+        and validate_number("", 12, 18) is False
 ```
 
 # How to run **your** Pytests
@@ -127,3 +144,5 @@ If you choose the wrong folder, you can delete the following files/folders withi
 - ``.vscode/settings.json``
 
 You can delete these in Visual Studio Code using the ![Explorer](../../img/files.svg) Explorer tab.
+
+{% include task.html task_code="RmSS0yii" %}
