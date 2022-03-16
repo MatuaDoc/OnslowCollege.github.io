@@ -18,7 +18,7 @@ Currently, your file organisation looks like this:
 
 At a basic level, you can split your code into several files. For example, you could have file per class. You can further organise your files into a **package**; each file is then considered to be a **module**.
 
-This allows us to also separate the code that uses your classes into its own file, ``main.py``, and move the tests into their own folder.
+This allows us to also separate the code that uses your classes into its own file, such as ``task.py``.
 
 ```
 13dtc-assignment/
@@ -38,8 +38,15 @@ Remember:
 
 - the **package** is the **folder**
 - the **module** is the **filename** (minus ``.py``)
+## Import a module
 
-This is done with the following syntax:
+```python
+from package import module
+
+object = module.Class()
+```
+
+## Import a class
 
 ```python
 from package.module import Class
@@ -47,12 +54,12 @@ from package.module import Class
 object = Class()
 ```
 
-or 
+## Import a function (not in a class)
 
 ```python
-from package import module
+from package.module import my_function
 
-object = module.Class()
+my_function()
 ```
 
 {% include task.html task_code="rgbMf-Nf" %}
