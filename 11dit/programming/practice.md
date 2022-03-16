@@ -93,7 +93,7 @@ Q. Quit
 
 Please enter a choice: 1
 Please enter a size: 28
-In stock: 1x size 28 jeans
+In stock: 4x size 28 jeans
 
 ========
 1. Jeans
@@ -103,8 +103,8 @@ Q. Quit
 ========
 
 Please enter a choice: 2
-Please enter a size: 40
-In stock: 2x size 40 shoes
+Please enter a size: 13
+In stock: 2x size 13 shoes
 
 ========
 1. Jeans
@@ -114,7 +114,7 @@ Q. Quit
 ========
 Please enter a choice: 3
 
-Number of items of clothing: 18
+Number of items of clothing: 23
 11x pairs of jeans
 12x pairs of shoes
 
