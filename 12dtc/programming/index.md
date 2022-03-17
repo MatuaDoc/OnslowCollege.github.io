@@ -37,5 +37,5 @@ layout: contents
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-: | :-: | :-: |
-| <a href="functions-basic"><image src="img/functions.svg" title="Intro to Functions" width=100><br>Intro to Functions | <a href="functions-return"><image src="img/functions-return.svg" title="Functions: Returning a value" width=100><br>Functions: Returning a value | <a href="functions-args"><image src="img/functions-args.svg" title="Function Arguments & Parameters" width=100><br>Function Arguments & Parameters |
+| <a href="functions-basic"><image src="img/functions.svg" title="Intro to Functions" width=100><br>Intro to Functions | <a href="functions-return"><image src="img/functions-return.svg" title="Functions: Returning a value" width=100><br>Functions: Returning a value | <a href="functions-args"><image src="img/functions-args.svg" title="Function Arguments & Parameters" width=100><br>Function Parameters & Arguments |
 | Pack up your code into distinct sections | Get values out of a function | Supply information to functions |
