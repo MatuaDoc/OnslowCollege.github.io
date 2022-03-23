@@ -134,7 +134,7 @@ def draw_shape(top_x: int = 0, top_y: int = 0, bottom_x: int, bottom_y: int):
 The default values must be specified at the end, so ``top_x`` and ``top_y`` become the last parameters in the brackets:
 
 ```python
-def draw_shape(bottom_x: int = 0, bottom_y: int = 0, top_x: int, top_y: int):
+def draw_shape(bottom_x: int, bottom_y: int, top_x: int = 0, top_y: int = 0):
     pass
 ```
 
