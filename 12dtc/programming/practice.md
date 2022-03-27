@@ -13,6 +13,7 @@ title: 12DTC Programming Practice
 | Use advanced programming techniques to develop a computer program | Use advanced programming techniques to develop an informed computer program | Use advanced programming techniques to develop a refined computer program |
 
 An advanced computer program:
+
 - uses variables storing at least two types of data (e.g. numeric, text, Boolean)
 - uses sequence, selection and iteration control structures
 - takes input from a user, sensors, or other external source
@@ -20,6 +21,7 @@ An advanced computer program:
 - uses two or more advanced programming techniques.
 
 Examples of **advanced programming techniques** include:
+
 - modifying data stored in collections (e.g. lists, arrays, dicionaries)
 - storing multidimensional data in collections
 - creating methods, functions, or procedures that use parameters an- or return values
@@ -29,33 +31,165 @@ Examples of **advanced programming techniques** include:
 
 # Time allowance
 
-You will have two weeks to complete this task.
+You will have until the end of Term 1 to complete this task.
 
 There will be **NO** extensions.
 
 # Task
 
-You have found recent employment at a movie streaming service and have the task to create a program that will keep track of all the movies on the site. You decide that you will implement a system in Python that will allow you to keep track of all the movies, along with how long each one lasts. You realise that this should be automatic, but for this early prototype, you are happy to enter data by hand. 
+You have found recent employment at a movie streaming service called **Onsflix**.
+
+You must create a program that will keep track of all the movies on the system. It will allow you to keep track of all the movies, along with how long each one lasts.
+
+Although in the real world this would be automatic, you will supply the data manually using your program.
 
 Your program will let you:
 
-- record the name and running time of a movie in seconds
-- delete a movie from your records
-- edit the length of a stored movie
-- display the running time of a given movie in hours, minutes an- seconds in the format ``HH:MM:SS``
-- list all the movie names (in alphabetical order) along with their running times in hours, minutes and seconds
+1. record the name and running time of a movie in minutes
+2. delete a movie from your records
+3. edit the length of a stored movie
+4. display the running time of a given movie in hours and minutes in the format ``HH:MM``
+5. list all the movie names (in alphabetical order) along with their running times in the format ``HH:MM``
 
 ## Example menu
 
 ```
-Please enter:
-(A)	to Add a movie
-(D)	to Delete a movie
-(E)	to Edit the length of a movie
-(L)	to get the Length of a movie
-(P)	to print out all the movies and their times
-(Q)	to Quit
+=================
+   🏔 ONSFLIX
+=================
+A: Add a movie
+D: Delete a movie
+E: Edit the length of a movie
+L: List all the movies and their times
+Q: Quit
+=================
+Enter a choice: a
+
+    -----------------
+      ➕ ADD MOVIE
+    -----------------
+    > Title: Scarfies
+    > Length (minutes): 120
+    -----------------
+    Added "Scarfies" (02:00)
+
+=================
+   🏔 ONSFLIX
+=================
+A: Add a movie
+D: Delete a movie
+E: Edit the length of a movie
+L: List all the movies and their times
+Q: Quit
+=================
+> Enter a choice: e
+
+    -----------------
+      ✂️ EDIT LENGTH
+    -----------------
+    > Movie title to edit: My Hero Academia
+    "Scarfies" is currently 02:00
+    > New length (minutes): 90
+    -----------------
+    Edited "Scarfies" (02:00 -> 01:40)
+
+=================
+   🏔 ONSFLIX
+=================
+A: Add a movie
+D: Delete a movie
+E: Edit the length of a movie
+L: List all the movies and their times
+Q: Quit
+=================
+Enter a choice: l
+
+    -----------------
+        🎬 MOVIES
+    -----------------
+    1. Once Were Warriors (01:42)
+    2. Scarfies (01:40)
+    3. What We Do in the Shadows (01:26)
+
+=================
+   🏔 ONSFLIX
+=================
+A: Add a movie
+D: Delete a movie
+E: Edit the length of a movie
+L: List all the movies and their times
+Q: Quit
+=================
+Enter a choice: d
+
+    -----------------
+    🗑 DELETE MOVIE
+    -----------------
+    > Title: Once Were Warriors
+    Are you sure you want to delete Once Were Warriors?
+    Once deleted, this movie cannot be recovered.
+    Type 'yes' to confirm.
+    > Confirm: yes
+    -----------------
+    Deleted "Once Were Warriors"
+
+=================
+   🏔 ONSFLIX
+=================
+A: Add a movie
+D: Delete a movie
+E: Edit the length of a movie
+L: List all the movies and their times
+Q: Quit
+=================
+Enter a choice: q
+
+    Thanks for using Onsflix!
 ```
+
+
+# Assessment Requirements
+
+## Achieved
+
+For Achieved, you must:
+
+- store data in at least **two** (2) types (text, number, boolean, etc.)
+- use conditional statements and/or loops
+- get input from the user
+- test your program, in an organised way, to ensure the program works with expected cases
+
+You must also use at least **two** (2) of the following advanced techniques:
+
+- modify data stored in at least **two** (2) collections (lists or dictionaries)
+- store multidimensional data in collections, including:
+  - lists of lists (2D lists)
+  - lists of dictionaries
+  - dictionaries with lists as the value
+  - dictionaries with dictionaries as the value)
+- create functions that use parameters and/or return values
+- use non-trivial string manipulation
+- use additional non-core libraries
+- 
+
+## Achieved with Merit
+
+For Achieved with Merit, you must:
+
+- follow conventions from the programming language
+- test your program, in an organised way, to ensure the program works with both expected cases and relevant boundary cases
+
+## Achieved with Excellence
+
+For Achieved with Excellence, you must:
+
+- ensure that your program is flexible and robust
+  - it should reduce repeated code througout your program
+  - it should use constants appropriately
+  - it must behave in an expected manner
+  - it must not crash
+- test your program, in an organised way, to ensure the program works with expected and boundary cases, and correctly handles invalid cases
+
 
 # Restrictions
 
