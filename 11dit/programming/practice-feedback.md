@@ -180,8 +180,8 @@ This means that you should explain your choices with each code block. For exampl
 
 ```python
 # Prints message if none found
-if jeans_counter = 0:
-    print("Sorry, no items were found in that size)
+if jeans_counter == 0:
+    print("Sorry, no items were found in that size")
 ```
 
 ### Merit example
@@ -223,7 +223,7 @@ This occurs when your code contains numbers or values within ``if`` statements o
 
 ```python
 # if size >= 26 and size <= 28:
-if size >= MAIA_JEANS_MIN and size >= MAIA_JEANS_MAX:
+if size >= MAIA_JEANS_MIN and size <= MAIA_JEANS_MAX:
 ```
 
 ### Unnecessary repetition
