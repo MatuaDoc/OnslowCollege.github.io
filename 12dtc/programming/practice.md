@@ -63,7 +63,19 @@ E: Edit the length of a movie
 L: List all the movies and their times
 Q: Quit
 =================
-Enter a choice: a
+> Enter a choice: banana
+Sorry, that is not a valid choice.
+
+=================
+   🏔 ONSFLIX
+=================
+A: Add a movie
+D: Delete a movie
+E: Edit the length of a movie
+L: List all the movies and their times
+Q: Quit
+=================
+> Enter a choice: a
 
     -----------------
       ➕ ADD MOVIE
@@ -102,7 +114,7 @@ E: Edit the length of a movie
 L: List all the movies and their times
 Q: Quit
 =================
-Enter a choice: l
+> Enter a choice: l
 
     -----------------
         🎬 MOVIES
@@ -120,10 +132,10 @@ E: Edit the length of a movie
 L: List all the movies and their times
 Q: Quit
 =================
-Enter a choice: d
+> Enter a choice: d
 
     -----------------
-    🗑 DELETE MOVIE
+     🗑 DELETE MOVIE
     -----------------
     > Title: Once Were Warriors
     Are you sure you want to delete Once Were Warriors?
@@ -142,7 +154,7 @@ E: Edit the length of a movie
 L: List all the movies and their times
 Q: Quit
 =================
-Enter a choice: q
+> Enter a choice: q
 
     Thanks for using Onsflix!
 ```
@@ -167,10 +179,9 @@ You must also use at least **two** (2) of the following advanced techniques:
   - lists of dictionaries
   - dictionaries with lists as the value
   - dictionaries with dictionaries as the value)
-- create functions that use parameters and/or return values
+- create at least **two** (2) functions that use parameters and/or return values
 - use non-trivial string manipulation
 - use additional non-core libraries
-- 
 
 ## Achieved with Merit
 

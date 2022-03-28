@@ -41,3 +41,9 @@ layout: contents
 | Pack up your code into distinct sections | Get values out of a function | Supply information to functions |
 | <a href="testing"><image src="img/testing.svg" title="Testing" width=100><br>Testing |
 | Test your program and functions |
+
+## Assessment
+
+| <img width=500 height=1 /> | <img width=500 height=1 /> | <img width=500 height=1 /> |
+| :-: | :-: | :-: |
+| <a href="practice"><image src="/img/practice.svg" title="Practice Assessment" width=100><br>Practice Assessment | <a href="#"><image src="/img/assessment.svg" title="Assessment" width=100><br>Assessment |
