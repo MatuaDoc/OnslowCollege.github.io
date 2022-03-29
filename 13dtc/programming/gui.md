@@ -158,8 +158,21 @@ sys.exit(app.exec())
 
 1. Look through the [QtWidgets documentation](https://doc.qt.io/qtforpython/PySide6/QtWidgets/index.html#module-PySide6.QtWidgets) and see what other kinds of widgets you can add
 2. Replace the ``QLabel`` with the following kinds of widgets:
-   1. Button
-   2. Text field
-   3. Spin box
-   4. Tab widget
-3. Take screenshots of each of these
+   1. Button (``QPushButton``)
+   2. Text field (``QTextEdit``)
+   3. Spin box (``QSpinBox``)
+   4. Tab widget (``QTabWidget``)
+      - You can add multiple tabs with the instance method ``addTab(widget, title)``, where:
+        - ``widget`` is a widget that should show in that tab
+        - ``title`` is the name of the tab
+        - ```python
+          tab_widget = QTabWidget()
+          tab_widget.addTab(QLabel("Hello"), "Tab 1")
+          tab_widget.addTab(QLabel("World"), "Tab 2")
+          ```
+3. Take screenshots of each of these. See if they match what I have:
+
+![Button](img/gui_button.png)
+![Text field](img/gui_textfield.png)
+![Spin box](img/gui_spinbox.png)
+![Tab widget](img/gui_tabs.png)
