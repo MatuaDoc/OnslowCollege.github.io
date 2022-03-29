@@ -99,9 +99,9 @@ Q: Quit
     -----------------
       ✂️ EDIT LENGTH
     -----------------
-    > Movie title to edit: My Hero Academia
+    > Movie title to edit: Scarfies
     "Scarfies" is currently 02:00
-    > New length (minutes): 90
+    > New length (minutes): 100
     -----------------
     Edited "Scarfies" (02:00 -> 01:40)
 
@@ -144,6 +144,23 @@ Q: Quit
     > Confirm: yes
     -----------------
     Deleted "Once Were Warriors"
+
+=================
+   🏔 ONSFLIX
+=================
+A: Add a movie
+D: Delete a movie
+E: Edit the length of a movie
+L: List all the movies and their times
+Q: Quit
+=================
+> Enter a choice: l
+
+    -----------------
+        🎬 MOVIES
+    -----------------
+    1. Scarfies (01:40)
+    2. What We Do in the Shadows (01:26)
 
 =================
    🏔 ONSFLIX
@@ -221,5 +238,7 @@ However, you may **not**:
 
 # Submission
 
-- Your work will be submitted through GitHub Classrooms
+- Your work will be submitted through Microsoft Teams
 - Only the final commit before the due date will be considered — any commits after the due date will not be assessed
+
+{% include task.html task_code="daSE-R9P" %}
