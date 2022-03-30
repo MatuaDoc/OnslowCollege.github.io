@@ -54,6 +54,10 @@ Feel free to use a different toolkit if you like. However, you will be responsib
 
 Follow these steps to install the Qt toolkit and the necessary packages to use Qt in Python:
 
+## Using Pip Manager
+
+Note: this method might take a long time, especially at school. This is suitable for at home.
+
 1. Open Visual Studio Code
 2. Click on the Pip Manager tab
 3. Click ![Add](/img/add.svg) Add Python Package at the top
@@ -62,6 +66,29 @@ Follow these steps to install the Qt toolkit and the necessary packages to use Q
 
 ![Pip Manager showing PySide6](img/pyside.png)
 
+## Manually, using the Terminal
+
+If the Pip Manager method takes too long, try this:
+
+1. Open Visual Studio Code
+2. Click on the ![Settings](/img/settings-gear.svg) Settings icon, then click Settings
+3. In the search bar at the top, enter ``Default interpreter path``
+4. Copy the path shown in the screenshot
+
+![Default interpreter path](img/pyside-path.png)
+
+5. Click on the Terminal menu (at the top of the window or screen)
+6. Click on New Terminal. At the bottom of the screen, a Terminal window will open
+7. Paste the interpreter path, followed by `` -m pip install PySide6`` and press Enter/Return
+    - For example:
+      - **Windows**: ``"C:\Users\Jaesan Ryfle-Turi\scoop\apps\python\current\python.exe" -m pip install PySide6``
+      - **macOS**: ``/Users/matuadoc/.pyenv/versions/3.10.2/bin/python -m pip install PySide6``
+8. You should see PySide6 installing.
+
+![Installing PySide6 using the Terminal](img/pyside-terminal.png)
+
+If you have any issues, contact Matua Doc on Teams.
+
 ## Import the PySide6 package
 
 To create an interface with Qt, you will need to import the ``PySide6`` package. As part of this, you should also import the ``sys`` package.
@@ -69,7 +96,6 @@ To create an interface with Qt, you will need to import the ``PySide6`` package.
 > **Filename**: main.py
 
 ```python
-import sys
 from PySide import QtWidgets
 ```
 
@@ -129,12 +155,12 @@ main_window.setCentralWidget(label)
 Finally, you need to run the ``QApplication`` to make any of the Qt code work.
 
 ```python
-sys.exec(app)
+app.exec()
 ```
 
 # Task
 
-Instead of a GitHub assignment, I want you to play around with PySide.
+Instead of a GitHub assignment, you should play around with PySide to get to know its capabilities.
 
 Create a new Python file and copy down the following code:
 
@@ -150,6 +176,7 @@ main_window.setWindowTitle("My Amazing Program")
 main_window.resize(640, 480)
 main_window.show()
 
+# Add the widget
 label = QtWidgets.QLabel("Hello, world!")
 main_window.setCentralWidget(label)
 
