@@ -55,19 +55,17 @@ This quiz will be used as a study aid. For example, it could help you to remembe
 ## Requirements
 
 1. welcome the user to the quiz. Make the topic clear to the user
-2. the quiz will have **at least** 20 questions (you may add as many as you like)
-3. when the player starts, they are asked 10 questions
-4. each question has four answers each
-5. only one question is correct — the others must be incorrect
-6. when the answers are displayed, they must always be in random order
-   - this is to prevent users from memorising the order
-7. the user must be able to answer each question in some way
+2. the quiz will have **at least** 10 questions (you may add as many as you like)
+3. each question must have a correct answer — you may optionally add some incorrect answers for multi-choice questions (if you wish to have any)
+4. when the player starts, they are asked all 10 questions
+5. each question a correct answer
+6. the user must be able to answer each question in some way
    - if you wish the user to type the answer:
       - you must give the user the point if they use the wrong case (upper, lower, etc.)
       - you do not need to give the user the point if they misspell it
    - if you wish the user to type a letter on number:
       - you must make it clear which letter/number matches which answer
-8. when the quiz is finished, show the player their score
+7. when the quiz is finished, show the player their score
    1. give a big congratulations to the user on a perfect score
    2. give a small congratulations the player on a score between 7-9
    3. if a user scores 6 or fewer, tell them to try again
@@ -81,14 +79,10 @@ For this example, the quiz is only three questions long. Your quiz should be ten
 Welcome to the Python Quiz!
 
 QUESTION 1: What is the keyword used to define a function?
-    1 - func
-    2 - def
-    3 - method
-    4 - sub
-Type the correct number: 2
+Type the correct answer: def
 Correct! You have 1 point.
 
-QUESTION 2: What punctuation mark is placed at the end of an if statement?
+QUESTION 2: Type the punctuation mark is placed at the end of an if statement?
     1 - full stop (.)
     2 - exclamation mark (!)
     3 - colon (:)
@@ -100,12 +94,8 @@ Type the correct number: 4
 Incorrect! The correct answer was 3 - colon (:)
 You have 1 point.
 
-QUESTION 3: Which function is used to check the length of a list?
-    1 - len()
-    2 - count()
-    3 - length()
-    4 - duration()
-Type the correct number: 1
+QUESTION 3: Which function is used to check the length of a list? len or length?
+Type the correct answer: len
 Correct! You have 2 points.
 
 You scored 2 out of 3! Well done!
