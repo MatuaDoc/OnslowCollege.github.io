@@ -96,7 +96,7 @@ To create an interface with Qt, you will need to import the ``PySide6`` package.
 > **Filename**: main.py
 
 ```python
-from PySide import QtWidgets
+from PySide6 import QtWidgets
 ```
 
 ## Create a Qt application
@@ -180,7 +180,7 @@ main_window.show()
 label = QtWidgets.QLabel("Hello, world!")
 main_window.setCentralWidget(label)
 
-sys.exit(app.exec())
+app.exec()
 ```
 
 1. Look through the [QtWidgets documentation](https://doc.qt.io/qtforpython/PySide6/QtWidgets/index.html#module-PySide6.QtWidgets) and see what other kinds of widgets you can add
