@@ -155,6 +155,8 @@ For example, the example below might involve variables named:
 - ``bottom_left_label``
 - ``right_label``
 
+### First layout
+
 ```
 .__________.________.
 |          |        |
@@ -164,6 +166,8 @@ For example, the example below might involve variables named:
 |__________|________|
 ```
 
+### Second layout
+
 ```
 .____.____._______.
 |    |    |       |
@@ -172,6 +176,8 @@ For example, the example below might involve variables named:
 |    3    |   5   |
 |_________|_______|
 ```
+
+### Third layout
 
 ```
 .____.____._______.
