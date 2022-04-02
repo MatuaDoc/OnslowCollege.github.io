@@ -30,7 +30,7 @@ app.exec()
 **Before** the ``main_window.show()`` line, let's add a blank ``QWidget`` as the window's central widget. Because it's blank, we can add other widgets to it — this allows us to have more than one widget.
 
 ```python
-main_window.setCentralWidget(QWidget())
+main_window.setCentralWidget(QtWidgets.QWidget())
 ```
 
 This creates a new ``QWidget`` object and sets it as the central widget. We can now modify this central widget by referring to the ``main_window`` object's ``centralWidget`` method.
@@ -50,14 +50,14 @@ Now, let's add a **layout object** to the central widget. To do this:
 
 ```python
 # 1
-hbox_layout = QHBoxLayout()
+hbox_layout = QtWidgets.QHBoxLayout()
 
 # 2
 main_window.centralWidget().setLayout(hbox_layout)
 
 # 3
-left_label = QLabel("Hello")
-right_label = QLabel("World")
+left_label = QtWidgets.QLabel("Hello")
+right_label = QtWidgets.QLabel("World")
 
 # 4
 hbox_layout.addWidget(left_label)
@@ -115,27 +115,27 @@ To achieve this particular layout, you would:
 
 ```python
 # 1
-hbox_layout = QHBoxLayout()
+hbox_layout = QtWidgets.QHBoxLayout()
 main_window.centralWidget().setLayout(hbox_layout)
 
 # 2
-left_widget = QLabel("Widget 1")
+left_widget = QtWidgets.QLabel("Widget 1")
 hbox_layout.addWidget(left_widget)
 
 # 3
-right_widget = QWidget()
+right_widget = QtWidgets.QWidget()
 hbox_layout.addWidget(right_widget)
 
 # 4
-vbox_layout = QVBoxLayout()
+vbox_layout = QtWidgets.QVBoxLayout()
 right_widget.setLayout(vbox_layout)
 
 # 5
-top_widget = QLabel("Widget 2")
+top_widget = QtWidgets.QLabel("Widget 2")
 vbox_layout.addWidget(top_widget)
 
 # 6
-bottom_widget = QLabel("Widget 3")
+bottom_widget = QtWidgets.QLabel("Widget 3")
 vbox_layout.addWidget(bottom_widget)
 ```
 
@@ -144,6 +144,16 @@ vbox_layout.addWidget(bottom_widget)
 # Task
 
 Try to recreate the following layouts using embedded layout objects.
+
+**Hint**: you should create separate ``QWidget``, ``QHBoxLayout``, and ``QVBoxLayout`` objects stored in their own variables for each side.
+
+For example, the example below might involve variables named:
+- ``hbox_layout``
+- ``left_widget``
+- ``left_vbox_layout``
+- ``top_left_label``
+- ``bottom_left_label``
+- ``right_label``
 
 ```
 .__________.________.
