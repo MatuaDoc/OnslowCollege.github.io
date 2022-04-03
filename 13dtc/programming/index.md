@@ -43,10 +43,10 @@ layout: contents
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-: | :-: | :-: |
-| <a href="gui"><image src="img/gui.svg" title="Intro to GUI" width=100><br>Intro to GUI | <a href="layouts"><image src="img/layouts.svg" title="Layouts" width=100><br>Layouts | <a href="events"><image src="img/events.svg" title="Events" width=100><br>Events |
-| Learn the basics of building a GUI using PyQt6 | Layouts that adapt to different sizes | Respond to UI events |
-| <a href="alerts"><image src="img/alerts.svg" title="Alerts" width=100><br>Alerts | <a href="style"><image src="img/styles.svg" title="Styles" width=100><br>Styles |
-| Alerts, notices, and panels | Style your app like a website |
+| <a href="gui"><image src="img/gui.svg" title="Intro to GUI" width=100><br>Intro to GUI | <a href="layouts"><image src="img/layouts.svg" title="Layouts" width=100><br>Layouts | <a href="form"><image src="img/form.svg" title="Layouts" width=100><br>Form Layouts |
+| Learn the basics of building a GUI using PyQt6 | Layouts that adapt to different sizes | Layout a form for data entry |
+| <a href="events"><image src="img/events.svg" title="Events" width=100><br>Events | <a href="alerts"><image src="img/alerts.svg" title="Alerts" width=100><br>Alerts | <a href="style"><image src="img/styles.svg" title="Styles" width=100><br>Styles |
+| Respond to UI events | Alerts, notices, and panels | Style your app like a website |
 
 ### GUI Task
 
