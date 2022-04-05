@@ -16,7 +16,79 @@ This will also encourage your program to be modular: automated tests are best at
 
 The basic principle of automatic testing is to **assert** (to state categorically) that a particular bit of code should do a particular thing, return a particular value, or that another variable should be changed in a particular way.
 
-## What makes a good automatic test?
+### Assert functions
+
+For example, you can assert that a function returns a specific value. In this case, a function that doubles a number should, if given the input of ``2, return ``4``.
+
+```python
+def double(x: int) -> int:
+    return x * 2
+
+def test_double():
+    assert double(2) == 4
+```
+
+### Assert objects
+
+You can also assert that an object's property accurately reflects the member it protects. For example, the ``Building``'s ``street_name`` property should return the same value as ``_street_name`` (which is determined when the object is created).
+
+```python
+@dataclass
+class Building:
+    _street_name: str
+
+    @property
+    def street_name(self) -> str:
+        return self._street_name
+
+
+def test_street_name():
+    # You can create variables, variables, etc. in a test
+    building = Building(_street_name="Burma Road")
+    assert building.street_name == "Burma Road"
+```
+
+### Assert exceptions
+
+Finally, you can also assert that a setter raises an exception in cases where something invalid occurred. This is useful to test that your class' setters perform proper validation.
+
+In this example, we test that the street name must contain at least one letter if modified using the setter. If the new string is too short, an ``AttributeError`` is raised, and the test can detect this.
+
+```python
+@dataclass
+class Building:
+    _street_name: str
+
+    @property
+    def street_name(self) -> str:
+        return self._street_name
+
+    @street_name.setter
+    def street_name(self, new_name: str):
+        if len(new_name) >= 1:
+            self._street_name = new_name
+        else:
+            raise AttributeError
+
+
+def test_street_name_setter():
+    building = Building(_street_name="Burma Road")
+    raised_exception = False
+
+    try:
+        # Set the street name to "", which should
+        # raise an AttributeError exception
+        building.street_name = ""
+    except AttributeError:
+        # This only runs if the exception was raised
+        raised_exception = True
+
+    # Assert the exception was raised, since that's
+    # the desired behaviour
+    assert raised_exception is True
+```
+
+# What makes a good automatic test?
 
 In general, you will want to stick to the same rules you've always known for tests:
 
@@ -24,27 +96,58 @@ In general, you will want to stick to the same rules you've always known for tes
 - check input behaves appropriately on boundary values
 - check input handles invalid values
 
-For example:
+## Expected
 
 ```python
-# Asserts that one and one make two
+# Expected output
 def test_one_and_one():
     assert 1 + 1 == 2
 
-# Asserts that "Potato" is 6 characters long
+# Expected length
 def test_potato_length():
     assert len("Potato") == 6
 
-# Asserts that a function, given the arg of 5, returns 10
+# Expected output
 def test_my_function():
     assert my_function(5) == 10
 
-# Asserts that an object's member is of a certain type
+# Expected type
 def test_object_member():
     my_object = SomeClass(_age=24)
     assert isinstance(my_object.age, int)
+```
 
-# Asserts that certain code will raise an Exception
+## Boundary
+
+For boundary tests, you could make multiple tests:
+
+- one for the boundary value itself
+- one for one less than the boundary value
+- one for one more than the boundary value
+
+```python
+# Boundary
+def test_drinking_age_boundary():
+    message = can_enter_bar(age=18)
+    assert message == "Welcome, come on in"
+
+# One less than the boundary
+def test_drinking_age_boundary_lower():
+    message = can_enter_bar(age=17)
+    assert message == "Sorry, you can't come in"
+
+# One more than boundary
+def test_drinking_age_boundary_higher():
+    message = can_enter_bar(age=19)
+    assert message == "Welcome, come on in"
+```
+
+## Invalid
+
+The easiest way to test for invalid data with automated tests is to check for raised exceptions:
+
+```python
+# Invalid calculation
 def test_raises_exception():
     raised_exception = False
     try:
@@ -81,12 +184,17 @@ Ideally, you will be asserting that functions/methods that accept certain argume
 
 # Example tests
 
+This example contains a package called ``mypackage`` with a module called ``validator``. Inside this module is a function called ``validate_number``. This function checks whether or not a string (``string``) contains a valid number that is within a certain range (``min`` to ``max``).
+
+The tests will test the ``validate_number`` to ensure that it works with expected, boundary, and invalid cases.
+
 > **Filename**: 13dtc-assignment/mypackage/validator.py
 
 ```python
 # Function that handles input
-def validate_number(string, min, max) -> bool:
-    """Checks that the string is a number, and returns True if valid"""
+def validate_number(string: str, min: int, max: int) -> bool:
+    """Checks that the string is a number and returns True if valid
+    and within the range specified by min and max"""
     try:
         number = int(string)
         if number >= min and number <= max:
@@ -106,23 +214,24 @@ age_is_valid = validate_number(age, 12, 18)
 ```python
 from mypackage.validator import validate_number  # The name of the file within the package
 
+# Expected
 def test_valid_age():
     """Tests that a reasonable age is considered valid"""
     assert validate_number("14", 12, 18) is True
 
-
+# Boundary
 def test_lower_bound_age():
     """Tests that the youngest age is accepted, but one younger is not"""
     assert module.validate_number("12", 12, 18) is True \
         and validate_number("-11", 12, 18) is False
 
-
+# Boundary
 def test_upper_bound_age():
     """Tests that the oldest age is accepted, but one older is not"""
     assert validate_number("18", 12, 18) is True \
         and validate_number("19", 12, 18) is False
 
-
+# Invalid
 def test_invalid_age():
     """Tests that non-numerical strings are rejected"""
     assert validate_number("banana", 12, 18) is False \
