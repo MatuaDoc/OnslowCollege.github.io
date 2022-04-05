@@ -54,6 +54,9 @@ Feel free to use a different toolkit if you like. However, you will be responsib
 
 Follow these steps to install the Qt toolkit and the necessary packages to use Qt in Python:
 
+- [using Pip Manager](#using-pip-manager)
+- [using the Terminal](#manually-using-the-terminal)
+
 ## Using Pip Manager
 
 Note: this method might take a long time, especially at school. This is suitable for at home.
@@ -71,19 +74,17 @@ Note: this method might take a long time, especially at school. This is suitable
 If the Pip Manager method takes too long, try this:
 
 1. Open Visual Studio Code
-2. Click on the ![Settings](/img/settings-gear.svg) Settings icon, then click Settings
-3. In the search bar at the top, enter ``Default interpreter path``
-4. Copy the path shown in the screenshot
+2. Create a new Python file and run the following code
 
-![Default interpreter path](img/pyside-path.png)
-
-5. Click on the Terminal menu (at the top of the window or screen)
-6. Click on New Terminal. At the bottom of the screen, a Terminal window will open
-7. Paste the interpreter path, followed by `` -m pip install PySide6`` and press Enter/Return
-    - For example:
-      - **Windows**: ``"C:\Users\Jaesan Ryfle-Turi\scoop\apps\python\current\python.exe" -m pip install PySide6``
-      - **macOS**: ``/Users/matuadoc/.pyenv/versions/3.10.2/bin/python -m pip install PySide6``
-8. You should see PySide6 installing.
+    - ```python
+      import sys
+      print(f"'{sys.executable}' -m pip install PySide6")
+      ```
+3. You should see a result such as this: ``'C:\Program Files\Python310\python.exe' -m pip install PySide6``. Copy this command, including the quotation marks.
+    - **Don't copy this example! RUN THE SCRIPT IN STEP 2!**
+4. Click on the Terminal menu (at the top of the window or screen)
+5. Click on New Terminal. At the bottom of the screen, a Terminal window will open
+6. Paste the command you got from step 2
 
 ![Installing PySide6 using the Terminal](img/pyside-terminal.png)
 
