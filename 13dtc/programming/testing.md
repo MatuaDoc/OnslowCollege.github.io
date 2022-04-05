@@ -12,11 +12,11 @@ By using automated tests, you don't need to test out different parts of your cod
 
 This will also encourage your program to be modular: automated tests are best at testing individual functions/methods, which further encourages you to decompose your program. (This will come in handy with Project Management)
 
-## How automatic tests work
+# How automatic tests work
 
 The basic principle of automatic testing is to **assert** (to state categorically) that a particular bit of code should do a particular thing, return a particular value, or that another variable should be changed in a particular way.
 
-### Assert functions
+## Assert functions
 
 For example, you can assert that a function returns a specific value. In this case, a function that doubles a number should, if given the input of ``2, return ``4``.
 
@@ -28,7 +28,7 @@ def test_double():
     assert double(2) == 4
 ```
 
-### Assert objects
+## Assert objects
 
 You can also assert that an object's property accurately reflects the member it protects. For example, the ``Building``'s ``street_name`` property should return the same value as ``_street_name`` (which is determined when the object is created).
 
@@ -48,7 +48,7 @@ def test_street_name():
     assert building.street_name == "Burma Road"
 ```
 
-### Assert exceptions
+## Assert exceptions
 
 Finally, you can also assert that a setter raises an exception in cases where something invalid occurred. This is useful to test that your class' setters perform proper validation.
 
