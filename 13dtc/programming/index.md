@@ -45,8 +45,8 @@ layout: contents
 | :-: | :-: | :-: |
 | <a href="gui"><image src="img/gui.svg" title="Intro to GUI" width=100><br>Intro to GUI | <a href="layouts"><image src="img/layouts.svg" title="Layouts" width=100><br>Layouts | <a href="form"><image src="img/form.svg" title="Layouts" width=100><br>Form Layouts |
 | Learn the basics of building a GUI using PyQt6 | Layouts that adapt to different sizes | Layout a form for data entry |
-| <a href="events"><image src="img/events.svg" title="Events" width=100><br>Events | <a href="alerts"><image src="img/alerts.svg" title="Alerts" width=100><br>Alerts | <a href="style"><image src="img/styles.svg" title="Styles" width=100><br>Styles |
-| Respond to UI events | Alerts, notices, and panels | Style your app like a website |
+| <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/widgets/other-widgets/"><image src="img/widgets.svg" title="Widgets" width=100><br>Qt Documentation | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/widgets/customising-widget-appearance/"><image src="img/styles.svg" title="Styles" width=100><br>Styles | <a href="style"><image src="img/events.svg" title="Events" width=100><br>Events |
+| Experiment with widgets on your own using the Qt documentation | Style your app like a website | Respond to clicks, taps, and typing
 
 ### GUI Task
 
