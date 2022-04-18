@@ -1,7 +1,7 @@
 ---
 title: Introduction to Graphical User Interfaces
 learning_intentions: ["Learn to install packages in pip", "Learn about Qt widgets", "Learn to display a basic interface"]
-success_criteria: ["Create a window with a label"]
+success_criteria: ["You can create a window with a label"]
 ---
 
 # Graphical user interfaces
