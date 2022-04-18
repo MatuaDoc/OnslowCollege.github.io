@@ -1,7 +1,7 @@
 ---
 title: Introduction to Graphical User Interfaces
 learning_intentions: ["Learn to install packages in pip", "Learn about Qt widgets", "Learn to display a basic interface"]
-success_criteria: ["Create a window with a label"]
+success_criteria: ["You can create a window with a label"]
 ---
 
 # Graphical user interfaces
@@ -80,7 +80,7 @@ If the Pip Manager method takes too long, try this:
       import sys
       print(f'"{sys.executable}" -m pip install PySide6')
       ```
-3. You should see a result such as this: ``'C:\Program Files\Python310\python.exe' -m pip install PySide6``. Copy this command, including the quotation marks.
+3. You should see a result such as this: ``"C:\Program Files\Python310\python.exe" -m pip install PySide6``. Copy this command, including the quotation marks.
     - **Don't copy this example! RUN THE SCRIPT IN STEP 2!**
 4. Click on the Terminal menu (at the top of the window or screen)
 5. Click on New Terminal. At the bottom of the screen, a Terminal window will open
@@ -99,6 +99,7 @@ To create an interface with Qt, you will need to import the ``PySide6`` package.
 
 ```python
 from PySide6 import QtWidgets
+import sys
 ```
 
 ## Create a Qt application
@@ -195,9 +196,9 @@ app.exec()
         - ``widget`` is a widget that should show in that tab
         - ``title`` is the name of the tab
         - ```python
-          tab_widget = QTabWidget()
-          tab_widget.addTab(QLabel("Hello"), "Tab 1")
-          tab_widget.addTab(QLabel("World"), "Tab 2")
+          tab_widget = QtWidgets.QTabWidget()
+          tab_widget.addTab(QtWidgets.QLabel("Hello"), "Tab 1")
+          tab_widget.addTab(QtWidgets.QLabel("World"), "Tab 2")
           ```
 3. Take screenshots of each of these. See if they match what I have:
 
