@@ -80,7 +80,7 @@ If the Pip Manager method takes too long, try this:
       import sys
       print(f'"{sys.executable}" -m pip install PySide6')
       ```
-3. You should see a result such as this: ``'C:\Program Files\Python310\python.exe' -m pip install PySide6``. Copy this command, including the quotation marks.
+3. You should see a result such as this: ``"C:\Program Files\Python310\python.exe" -m pip install PySide6``. Copy this command, including the quotation marks.
     - **Don't copy this example! RUN THE SCRIPT IN STEP 2!**
 4. Click on the Terminal menu (at the top of the window or screen)
 5. Click on New Terminal. At the bottom of the screen, a Terminal window will open
