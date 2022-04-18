@@ -196,9 +196,9 @@ app.exec()
         - ``widget`` is a widget that should show in that tab
         - ``title`` is the name of the tab
         - ```python
-          tab_widget = QTabWidget()
-          tab_widget.addTab(QLabel("Hello"), "Tab 1")
-          tab_widget.addTab(QLabel("World"), "Tab 2")
+          tab_widget = QtWidgets.QTabWidget()
+          tab_widget.addTab(QtWidgets.QLabel("Hello"), "Tab 1")
+          tab_widget.addTab(QtWidgets.QLabel("World"), "Tab 2")
           ```
 3. Take screenshots of each of these. See if they match what I have:
 
