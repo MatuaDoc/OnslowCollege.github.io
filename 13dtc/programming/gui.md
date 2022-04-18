@@ -99,6 +99,7 @@ To create an interface with Qt, you will need to import the ``PySide6`` package.
 
 ```python
 from PySide6 import QtWidgets
+import sys
 ```
 
 ## Create a Qt application
