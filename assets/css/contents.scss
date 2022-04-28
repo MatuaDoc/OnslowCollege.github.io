@@ -1,6 +1,14 @@
 ---
 ---
 
+table {
+    table-layout: fixed !important;
+}
+
+th, thead {
+    display: none !important;
+}
+
 
 td {
     border-collapse: collapse !important;
