@@ -17,26 +17,23 @@ The design component requires you to produce a lot of documentation. It is impor
 
 ## Task
 
-| <img width=500 height=1 /> | <img width=500 height=1 /> | <img width=500 height=1 /> |
+|  |  |  |
 | :-: | :-: | :-: |
 | <a href="task"><image src="img/task.svg" title="The Task" width=100><br>The Task | <a href="purpose"><image src="img/purpose.svg" title="Purpose & End Users" width=100><br>Purpose & End Users | <a href="implications"><image src="img/implications.svg" title="Relevant Implications" width=100><br>Relevant implications |
 | The task for terms 2 and 3, including resources and documentation | Determine why you are creating the website and for whom | What do you need to bear in mind as you design? |
 
 ## Design analysis
 
-| <img width=500 height=1 /> | <img width=500 height=1 /> | <img width=500 height=1 /> |
+|  |  |  |
 | :-: | :-: | :-: |
 | <a href="hci_01"><image src="img/hci_01.svg" title="User freedom and control" width=100><br>User freedom and control | <a href="hci_02"><image src="img/hci_02.svg" title="Meeting user expectations" width=100><br>Meeting user expectations | <a href="hci_03"><image src="img/hci_03.svg" title="Error prevention and recovery" width=100><br>Error prevention and recovery |
 | Guide the user where they need to go | What icons, terminology, and design elements are users used to? | Prevent users from making a mistake — and help them when they do inevitably make them |
 
 ## Design elements
 
-| <img width=500 height=1 /> | <img width=500 height=1 /> | <img width=500 height=1 /> |
+|  |  |  |
 | :-: | :-: | :-: |
 | <a href="colours"><image src="img/colours.svg" title="Colours" width=100><br>Colours | <a href="typefaces"><image src="img/typefaces.svg" title="Typefaces" width=100><br>Typefaces | <a href="accessibility"><image src="img/accessibility.svg" title="Accessibility" width=100><br>Test |
 | Choosing an attractive and relevant palette | Pick a readable, attractive font for all occasions | Double-check your choices — do they really work for *everyone*? |
 | <a href="layout"><image src="img/layout.svg" title="Layout" width=100><br>Layout |
-| Lay out your pages for optimum effect |
-
-
-
+| Lay out your pages for optimum effect | | |
