@@ -39,3 +39,10 @@ The design component requires you to produce a lot of documentation. It is impor
 | Choosing an attractive and relevant palette | Pick a readable, attractive font for all occasions | Double-check your choices — do they really work for *everyone*? |
 | <a href="layout"><image src="img/layout.svg" title="Layout" width=100><br>Layout |
 | Lay out your pages for optimum effect | | |
+
+## Improvements
+
+|  |  |  |
+| :-: | :-: | :-: |
+| <a href="feedback"><image src="img/feedback.svg" title="Feedback" width=100><br>Getting feedback | <a href="feedforward"><image src="img/feedforward.svg" title="Feedforward" width=100><br>Feedforward | <a href="changes"><image src="img/changes.svg" title="Making changes" width=100><br>Making changes |
+| Ask others what you need to know | Tell others what they need to know | Decide what needs changing once you know |
