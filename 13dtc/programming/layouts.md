@@ -1,7 +1,7 @@
 ---
 title: Layouts
 learning_intentions: ["Learn to lay out widgets on an interface"]
-success_criteria: ["Create a complex layout in your window"]
+success_criteria: ["You can create a complex layout in your window"]
 ---
 
 # Laying out widgets
