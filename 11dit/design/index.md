@@ -1,6 +1,6 @@
 ---
 title: Design & Digital Media
-hide_toc: true
+layout: contents
 ---
 
 In Design & Digital Media, you will work on a project to design and develop a website. This unit will be assessed with three standards:
