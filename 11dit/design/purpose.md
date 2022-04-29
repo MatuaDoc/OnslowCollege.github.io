@@ -74,20 +74,22 @@ For groups of end users, you should also consider the demographic information. T
 
 ## Activity 3
 
-Can you identify the primary target audiences of the following websites? What demographics are likely to 
+Can you identify the **one** (1) end user group of the following websites? What demographics are likely to 
 
-| Website | Primary target audience | Age range | Gender(s) | Locale | Interests |
+| Website | End user group | Age range | Gender(s) | Locale | Interests |
 | :-- | :-- | :-- | :-- | :-- | :-- |
 | [smiggle.co.nz](https://www.smiggle.co.nz) | School-aged children, teenagers | 6-18 | any gender, though mostly targeted at young girls | New Zealand | people who like stationery |
-| [toyota.co.nz](https://www.toyota.co.nz) | |
-| [apple.com](https://www.apple.com/nz) | |
+| [1news.co.nz](https://www.1news.co.nz) | |
+| [metlink.org.nz](http://metlink.org.nz) | |
+| [countdown.co.nz](https://www.countdown.co.nz) | |
+| [apple.com](https://apple.com/nz) | |
 | [barbie.com](https://shop.mattel.com/pages/barbie) | |
 
 ## Activity 4
 
 Can you identify **three** (3) groups of end users for **one** (1) of the following websites, the likely demographic information for each group, and what purpose the website serves for each group?
 
-- [metlink.org.nz](http://metlink.org.nz)
+- [youtube.com](https://youtube.com)
 - [rnz.co.nz](https://www.rnz.co.nz)
 - [en.wikipedia.org](https://en.wikipedia.org/wiki/Main_Page)
 
