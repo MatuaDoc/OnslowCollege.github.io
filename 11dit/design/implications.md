@@ -130,3 +130,18 @@ For the assessment, you must identify, describe, ensure your design meets, and e
      - This section links the accessibility implication to an end user group, students at Onslow College.
  - 🟢 **Addressing**: I will try to make my website accessible by using clear and easy to read fonts at sizes that are comfortable for low-vision users. I will also use colours that are suitable so that the text can be easily read against the background colour.
      - This section explains how the design will ensure that the website is accessible.
+
+## Activity 1
+
+For the following project description, 🟥 define, 🔶 link, and 🟢 address the following implications:
+
+- privacy
+- intellectual property
+
+### Project description
+
+You are to create a website that allows Onslow College coaches to upload photographs of sporting events, tag the students, and post scores. This will allow students, whānau, and the wider community (including competing schools' coaches, students, etc.) to follow how the school is doing.
+
+# Task
+
+Identify **at least two** (2) relevant implications for your chosen website, its requirements, purpose, and end users. Then 🟥 define, 🔶 link, and 🟢 address them in your portfolio.
