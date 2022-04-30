@@ -8,9 +8,9 @@ In 1994, Jakob Nielsen came up with ten general principles for interaction desig
 
 These are:
 
-1. Visibilty of system status
+1. **Visibilty of system status**
 2. Match between system and the real world
-3. User control and freedom
+3. **User control and freedom**
 4. Consistency and standards
 5. Error prevention
 6. Recognition rather than recall
