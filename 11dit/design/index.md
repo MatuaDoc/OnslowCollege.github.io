@@ -26,7 +26,7 @@ The design component requires you to produce a lot of documentation. It is impor
 
 |  |  |  |
 | :-: | :-: | :-: |
-| <a href="hci_01"><image src="img/hci_01.svg" title="User control and system status visibility" width=100><br>User control and system status visibility | <a href="hci_02"><image src="img/hci_02.svg" title="Meeting user expectations" width=100><br>Meeting user expectations | <a href="hci_03"><image src="img/hci_03.svg" title="Error prevention and recovery" width=100><br>Error prevention and recovery |
+| <a href="visibility"><image src="img/hci_01.svg" title="User control and system status visibility" width=100><br>User control and system status visibility | <a href="expectations"><image src="img/hci_02.svg" title="Meeting user expectations" width=100><br>Meeting user expectations | <a href="errors"><image src="img/hci_03.svg" title="Error prevention and recovery" width=100><br>Error prevention and recovery |
 | Guide the user where they need to go | What icons, terminology, and design elements are users used to? | Prevent users from making a mistake — and help them when they do inevitably make them |
 | <a href="analysis"><image src="img/analysis.svg" title="Analyse an existing outcome" width=100><br>Analyse an existing outcome |
 | See what others have already done — what's good, what's not! | | |
