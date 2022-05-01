@@ -116,21 +116,37 @@ This means that you should explain your choices with each code block. For exampl
 - why does the loop repeat a certain number of times?
 - why do you call a particular function?
 
+Furthermore, your comments should have been commented using docstrings. This is also required for compliance with Python conventions. This is documented in all of the functions course: [1](functions-basic.md#documenting-the-function), [2](functions-return.md#documenting-the-return-type), and [3](functions-args.md).
+
+This also includes annotating the type of the returned value as well as each parameter's type.
+
 ### Achieved example
 
 ```python
-# Prints message if movie is too long
-if duration >= MAXIMUM_DURATION:
-    print("Sorry, the duration must be 5999 seconds or fewer. Please try again.")
+def check_duration(duration):
+    # Prints message if movie is too long
+    if duration >= MAXIMUM_DURATION:
+        print("Sorry, the duration must be 5999 seconds or fewer. Please try again.")
+        return False
+    else:
+        return True
 ```
 
 ### Merit example
 
 ```python
-# Checks that the user enters a valid duration. If it is too long,
-# inform the user of the maximum duration and ask them to try again.
-if duration >= MAXIMUM_DURATION:
-    print("Sorry, the duration must be 5999 seconds or fewer. Please try again.")
+def check_duration(duration: int) -> bool:
+    """
+    Returns True if the duration is valid in length
+    (less than or equal to 5999 seconds)
+    """
+    # Checks that the user enters a valid duration. If it is too long,
+    # inform the user of the maximum duration and ask them to try again.
+    if duration >= MAXIMUM_DURATION:
+        print("Sorry, the duration must be 5999 seconds or fewer. Please try again.")
+        return False
+    else:
+        return True
 ```
 
 # Issues that prevented Excellence
