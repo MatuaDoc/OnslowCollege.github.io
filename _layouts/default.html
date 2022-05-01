@@ -29,22 +29,27 @@
     <main id="content" class="main-content" role="main">
         <p id="page-title">{{ page.title }}</p>
 
-        {% if page.learning_intentions %}
-        {% if page.success_criteria %}
-        <div id="lisc">
-            {% include lisc.html learning_intentions=page.learning_intentions success_criteria=page.success_criteria %}
-        </div>
-        {% endif %}
-        {% endif %}
+        <div id="course">
+            <div id="sidebar">
+                {% unless page.hide_toc == true %}
+                <div id="toc">
+                    <p>Table of Contents</p>
+                    {% include toc.html html=content h_max=2 %}
+                </div>
+                {% endunless %}
+            </div>
 
-        {% unless page.hide_toc == true %}
-        <div id="toc">
-            <p>Table of Contents</p>
-            {% include toc.html html=content h_max=2 %}
+            <article>
+                {% if page.learning_intentions %}
+                {% if page.success_criteria %}
+                <div id="lisc">
+                    {% include lisc.html learning_intentions=page.learning_intentions success_criteria=page.success_criteria %}
+                </div>
+                {% endif %}
+                {% endif %}
+                {{ content }}
+            </article>
         </div>
-        {% endunless %}
-
-        {{ content }}
 
         <footer class="site-footer">
             {% if site.github.is_project_page %}
