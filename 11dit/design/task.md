@@ -123,7 +123,11 @@ The deliverables for this project are:
 
 # Required Resources
 
+Please save a copy of these documents to your OneDrive. **DO NOT EDIT THESE DOCUMENTS WITHOUT SAVING A COPY!**
 
+- [Design Portfolio](https://onslowcollege.sharepoint.com/:w:/s/11DIT499/EUDq-lwmVkVKiysy5VPAz2ABsza6-Y-u_1ETVeyaKYM2rw?e=A1LoxA)
+- [Feedback Sheet](https://onslowcollege.sharepoint.com/:w:/s/11DIT499/EU7Y4J3h9D1PqfpnumnPeHwBBLqMSm0EAUwZtve1fJ5giQ?e=YdGLFR)
+- [Testing](https://onslowcollege.sharepoint.com/:w:/s/11DIT499/EYytzem6TsxIpAQKgc6JYSEBB5mNqkQNR-5oeJyVcFsR2w?e=JY7ReK)
 
 # Assessment Requirements
 
