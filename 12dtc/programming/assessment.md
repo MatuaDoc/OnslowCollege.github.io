@@ -115,7 +115,7 @@ Q: Quit
     -----------------
       ✂️ EDIT STOCK
     -----------------
-    > Enter ize (4-8): 6
+    > Enter size (4-8): 6
     There are 40x size 6 eggs
     > Enter new quantity: 48
     -----------------
