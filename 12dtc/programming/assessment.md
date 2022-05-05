@@ -2,7 +2,7 @@
 title: 12DTC Programming Assessment
 ---
 
-# Practice assessment task
+# Assessment task
 
 | Standard | Name | Level | Int/Ext | Credits |
 | :-- | :-- | :-: | :-: | :-: |
