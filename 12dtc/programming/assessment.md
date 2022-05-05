@@ -71,7 +71,7 @@ Your program will let you:
    🥚 EGGSHOP
 =================
 A: Add eggs to stock
-E: Edit egg stock
+E: Edit egg stock and possible combinations
 L: List stock
 S: Sell eggs
 R: View receipts
@@ -84,7 +84,7 @@ Sorry, that is not a valid choice.
    🥚 EGGSHOP
 =================
 A: Add eggs to stock
-E: Edit egg stock
+E: Edit egg stock and possible combinations
 L: List stock
 S: Sell eggs
 R: View receipts
@@ -104,7 +104,7 @@ Q: Quit
    🥚 EGGSHOP
 =================
 A: Add eggs to stock
-E: Edit egg stock
+E: Edit egg stock and possible combinations
 L: List stock
 S: Sell eggs
 R: View receipts
@@ -125,7 +125,7 @@ Q: Quit
    🥚 EGGSHOP
 =================
 A: Add eggs to stock
-E: Edit egg stock
+E: Edit egg stock and possible combinations
 L: List stock
 S: Sell eggs
 R: View receipts
@@ -134,7 +134,7 @@ Q: Quit
 > Enter a choice: l
 
     -----------------
-        🍳 STOCK
+     🍳 COMBINATIONS
     -----------------
     Size 4: 48x
         - cartons of 6:  8x
@@ -161,7 +161,7 @@ Q: Quit
    🥚 EGGSHOP
 =================
 A: Add eggs to stock
-E: Edit egg stock
+E: Edit egg stock and possible combinations
 L: List stock
 S: Sell eggs
 R: View receipts
@@ -173,6 +173,7 @@ Q: Quit
       💰 SELL EGGS
     -----------------
     > Enter size (4-8): 4
+        You can choose from either:
         - 8x cartons of 6
         - 4x cartons of 12
         - 2x cartons of 24
@@ -184,18 +185,20 @@ Q: Quit
     > Add another carton/tray (yes/no): yes
 
     > Enter size (4-8): 4
+        You can choose from either:
         - 6x cartons of 6
         - 3x cartons of 12
         - 1x cartons of 24
     > Enter carton/tray of 6, 12, or 24: 6
-    > Enter quantity of cartons/trays: 24
-        - There aren't enough cartons/trays
+    > Enter quantity of cartons/trays: 999
+        - ⛔️ INVALID QUANTITY! DID NOT MODIFY ORDER!
         - Order:
             - 2x cartons of 6 size 4: $2.51
             - TOTAL: $2.51
     > Add another carton/tray (yes/no): yes
 
-        > Enter size (4-8): 8
+    > Enter size (4-8): 8
+        You can choose from either:
         - 6x cartons of 6
         - 3x cartons of 12
         - 1x cartons of 24
@@ -213,7 +216,7 @@ Q: Quit
    🥚 EGGSHOP
 =================
 A: Add eggs to stock
-E: Edit egg stock
+E: Edit egg stock and possible combinations
 L: List stock
 S: Sell eggs
 R: View receipts
@@ -224,6 +227,7 @@ Q: Quit
     -----------------
        🧾 RECEIPTS
     -----------------
+    # Note: orders 1 and 2 are examples, not reflected above
     ORDER 1:
         - 3x cartons of 12 size 7: $2.51
         - TOTAL: $9.22
