@@ -1,5 +1,5 @@
 ---
-title: 12DTC Programming Practice
+title: 12DTC Programming Assessment
 ---
 
 # Practice assessment task
