@@ -90,3 +90,39 @@ Take a look at this website's interface:
 
 > Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.
 
+This heuristic is about making sure that when a user makes a mistake in an interface, such as navigating to the wrong part of a website or clicking the wrong button on a program, the user can confidently find the means to undo their error.
+
+![Back Button](img/back_button.png)
+
+Of course, a website has the benefit of the browser's Back button — if the user goes to the wrong page, they can click Back to return to the previous page.
+
+Sometimes the Back button can do other useful things:
+
+- ✅ return to the top of the page, if the user clicked on a table of contents link
+- ✅ close a [lightbox](https://en.wikipedia.org/wiki/Lightbox_(JavaScript)) (such as a product image) to return to the version of the same page that does not show the lightbox
+
+However, it can sometimes do some less useful things:
+
+- ⛔️ when a lightbox is showing, it could go back to the previous page rather than simply close the lightbox — this appears to the user as though a single click of the Back button has gone back **two** steps rather than one
+- ⛔️ on mobile devices where the browser's Back button and the device's Back button are merged into a single physical or on-screen button, it can sometimes be unclear if the button will return to the previous page or to the previously-opened app
+- ⛔️ on some websites, particularly ones that want to keep you on their website rather than let you go back to the previous website, the Back button goes to a page that simply reloads the *current* page
+
+## Activity 3
+
+Navigate to the following websites, then click on the preview image of the product to show the lightbox.
+
+![Lightbox location](img/lightbox_location.png)
+
+For each website, make a note where the Back button takes you.
+
+- back to the product page?
+- back to a different page?
+
+1. [Amazon](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
+2. [MightyApe](https://www.mightyape.co.nz/product/user-interface-design/21267887)
+3. [Whitcoulls](https://www.whitcoulls.co.nz/product/windows-11-for-dummies-6694015)
+4. [Fishpond](https://www.fishpond.co.nz/Books/macOS-Monterey-For-Dummies-Bob-LeVitus/9781119836964)
+
+## Activity 4
+
+Looking at the websites above, which behaviour makes more sense to you? Explain why.
