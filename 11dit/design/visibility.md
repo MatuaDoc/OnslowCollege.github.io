@@ -63,7 +63,7 @@ Take a look at this program's interface:
 
 Take a look at this next interface:
 
-[![Apple Music #2](img/hci_01_music_02.png)](img/hci_01_music_01.png){:target="_blank"}
+[![Apple Music #2](img/hci_01_music_02.png)](img/hci_01_music_02.png){:target="_blank"}
 
 4. Is there a song playing?
 5. What **three** (3) possible ways could let you know whether a song is or not?
