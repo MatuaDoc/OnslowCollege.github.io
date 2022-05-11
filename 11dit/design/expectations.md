@@ -13,13 +13,13 @@ These are:
 3. User control and freedom
 4. **Consistency and standards**
 5. Error prevention
-6. **Recognition rather than recall**
+6. Recognition rather than recall
 7. Flexibility and efficiency of use
 8. Aesthetic and minimalist design
 9. Help users recognise, diagnose, and recover from errors
 10. Help and documentation
 
-This page is concerned with heuristics 2, 4, and 6.
+This page is concerned with heuristics 2 and 4.
 
 # Match between system and real world
 
