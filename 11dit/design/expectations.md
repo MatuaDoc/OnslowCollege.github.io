@@ -94,7 +94,7 @@ Take a screenshot of an icon that represents the metaphors below:
 What computing tasks do the following icons typically represent in an interface?
 
 1. 🔍
-2. 🗑
+2. ⏳
 3. ❤️
 
 ## Activity 5
@@ -140,11 +140,12 @@ Typically, you would expect to find the search bar in B or C. Let's look at some
 
 ## Activity 6
 
-Take screenshots of **five** (5) websites and note where the navigation (the links to different parts of the website).
-
-Top, right, bottom, left?
-
-Which is most common?
+1. Take screenshots of **five** (5) different websites and show where the navigation (the links to different parts of the website).
+    - Top
+    - Bottom
+    - Left
+    - Right
+2. Which is most common?
 
 ----
 
@@ -173,10 +174,18 @@ Fill in the table describing the basic look and feel of each control in the scre
 
 ## Activity 8
 
-Take screenshots of the **six** (6) websites showing an example of the following controls:
+Take screenshots of any **six** (6) websites showing an example of the following controls:
 
 - button
 - list (where you can select one item)
 - radio buttons
 - spin box
 - checkboxes
+
+## Activity 9
+
+The following website does **not** conform to consistency and standards **ON PURPOSE**! See how long it takes for you to get through the website.
+
+Take a screenshot of you reaching the end of the task.
+
+[Click here to open User Inyerface](https://userinyerface.com)
