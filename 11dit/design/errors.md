@@ -33,11 +33,10 @@ Generally speaking, you can divide the sort of errors that a user makes into two
 
 - [Error prevention](#error-prevention)
   - [Slips](#slips)
+  - [Mistakes](#mistakes)
   - [Activity 1](#activity-1)
   - [Activity 2](#activity-2)
   - [Activity 3](#activity-3)
-  - [Mistakes](#mistakes)
-  - [Activity 4](#activity-4)
 
 ## Slips
 
@@ -68,6 +67,26 @@ In Aotearoa, landline numbers typically start with a two-digit area code (in Wel
 This allows the user to see that they have entered the number correctly. Otherwise, they might accidentally enter a landline number into a field meant for a mobile number, or vice versa.
 
 ![Phone number formatting](img/errors_phone.gif)
+
+## Mistakes
+
+On the other hand, mistakes happen when a user does not understand what the interface requires. This may be because:
+
+- their understanding of what the interface requires is based on incorrect assumptions
+- the interface does not correspond to their [expectations](expectations.md)
+- the user's goals differ from what the interface is designed to do, but they don't know that
+
+Though mistakes aren't purposeful, they are *conscious* — unlike slips, they are a result of the user's mental model (the picture they have in their head) of the task not matching what the task requires.
+
+One way to prevent a user from making mistakes is to warn before any changes will be made to user data, especially destructive actions.
+
+An action can be described as "destructive" if it will cause information to be changed or deleted. For example, deleting files would be considered destructive. The user may not understand that deleting the files can be a permanent process (especially if they empty the Recycle Bin/Trash!).
+
+Therefore, most operating systems will warn you before files are deleted. Some websites will also warn you about this.
+
+| macOS | Outlook |
+| :-: | :-: |
+| ![macOS confirming deletion](img/errors_bin_01.png) | ![Outlook.com confirming deletion](img/errors_bin_02.png) |
 
 ## Activity 1
 
@@ -101,47 +120,3 @@ Take a look at the following GIF. It shows a form being filled in:
 1. How is the user informed of the restrictions *before* using the interface?
 2. How does the user know if they have made a mistake?
 3. How does the user know if they have entered the correct information?
-
-## Mistakes
-
-On the other hand, mistakes happen when a user does not understand what the interface requires. This may be because:
-
-- their understanding of what the interface requires is based on incorrect assumptions
-- the interface does not correspond to their [expectations](expectations.md)
-- the user's goals differ from what the interface is designed to do, but they don't know that
-
-Though mistakes aren't purposeful, they are *conscious* — unlike slips, they are a result of the user's mental model of the task not matching what the task requires.
-
-One way to prevent users from making mistakes is to make it clear from the beginning what the limitations are as they use the interface.
-
-For example, in the screenshot below, a user might be typing in a long tweet on [Twitter](https://twitter.com/). To begin with, there is a small circular icon to indicate that more characters may be typed.
-
-![Starting a new tweet on Twitter](img/errors_twitter_01.png)
-
-As more characters are added, the indicator changes colour and text appears that shows how many characters are left before hitting the maximum of 240.
-
-![Nearly at max characters on Twitter](img/errors_twitter_02.png)
-
-After the user has exceeded 240 characters, the counter turns red and shows how many characters the user must delete and the text that exceeds the limit is highlighted with the red background. Also, the "Tweet" button is disabled until the extra characters are removed.
-
-![Over max characters on Twitter](img/errors_twitter_03.png)
-
-Another way to prevent errors from making mistakes is to warn before any changes will be made to user data, especially destructive actions.
-
-An action can be described as "destructive" if it will cause information to be changed or deleted. For example, deleting files would be considered destructive.
-
-Therefore, most operating systems will warn you before files are deleted. Some websites will also warn you about this.
-
-| macOS | Outlook |
-| :-: | :-: |
-| ![macOS confirming deletion](img/errors_bin_01.png) | ![Outlook.com confirming deletion](img/errors_bin_02.png) |
-
-## Activity 4
-
-Take a look at these screenshots and identify what mistakes are being prevented:
-
-| | What problem could happen | How does the interface prevent it? |
-| :-: | :-- | :-- |
-|  |
-|  |
-|  |
