@@ -1,6 +1,6 @@
-----
+---
 title: Analysis of an existing outcome
-----
+---
 
 # Research
 
