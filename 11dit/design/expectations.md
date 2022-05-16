@@ -174,7 +174,7 @@ Fill in the table describing the basic look and feel of each control in the scre
 
 ## Activity 8
 
-Take screenshots of any **six** (6) websites showing an example of the following controls:
+Take screenshots of any **five** (5) websites showing an example of the following controls:
 
 - button
 - list (where you can select one item)
