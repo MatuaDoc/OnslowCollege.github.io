@@ -132,6 +132,20 @@ You will develop your own education text-based adventure game on a topic of your
 - [Locate the Lost LEGO](https://news.sky.com/story/lego-lost-at-sea-how-a-search-for-five-million-figurines-lost-off-the-coast-of-cornwall-in-1997-uncovered-an-underwater-world-of-plastic-toys-12531058) — teach users about how things turn from toys to pollution by cleaning up the ocean
 - Where in Onslow College is Irene Indiana? — follow the clues found in each classroom to locate a missing student
 
+# Required Resources
+
+Click on each link, then save a copy of these documents to your OneDrive. **DO NOT EDIT THESE DOCUMENTS DIRECTLY WITHOUT SAVING A COPY!**
+
+- [Project Management Portfolio](https://onslowcollege.sharepoint.com/:w:/s/12DTC2022/EdVOjaHd1HpLjp-Acc4Ii_EBcT-BNCVS5nxC-MnqTmRiJg?e=deHKyK)
+- Project Management tools, including:
+    - [Kanban boards](https://en.wikipedia.org/wiki/Kanban_board)
+    - [GitHub Projects](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
+    - [Microsoft Planner](https://tasks.office.com/)
+    - [Trello](https://trello.com)
+- Version control tools, including:
+    - keep separate versions of the same file/document with a suitable naming scheme
+    - [GitHub](https://github.com/) and associated [tools for Visual Studio Code](/classroom/setup.md)
+
 # Assessment Requirements
 
 ## Achieved
