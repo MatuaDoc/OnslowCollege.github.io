@@ -18,3 +18,7 @@ The standard requires you to produce a lot of documentation. It is important tha
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :--: | :-: | :-: |
 | <a href="task"><image src="/img/assessment.svg" title="The Task" width=100><br>The Task |
+
+### Required resources
+
+- [Project Management Portfolio](https://onslowcollege.sharepoint.com/:w:/s/12DTC2022/EdVOjaHd1HpLjp-Acc4Ii_EBcT-BNCVS5nxC-MnqTmRiJg?e=deHKyK)
