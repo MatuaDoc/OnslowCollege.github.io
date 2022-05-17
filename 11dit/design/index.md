@@ -15,12 +15,18 @@ The design component requires you to produce a lot of documentation. It is impor
 
 > If you lose access to your work because you saved it on a school computer and did not save it to OneDrive, **YOU WILL NOT BE GIVEN AN EXTENSION**!
 
-## Task
+## The Task
 
 |  |  |  |
 | :-: | :-: | :-: |
 | <a href="task"><image src="img/task.svg" title="The Task" width=100><br>The Task | <a href="purpose"><image src="img/purpose.svg" title="Purpose & End Users" width=100><br>Purpose & End Users | <a href="implications"><image src="img/implications.svg" title="Relevant Implications" width=100><br>Relevant implications |
 | The task for terms 2 and 3, including resources and documentation | Determine why you are creating the website and for whom | What do you need to bear in mind as you design? |
+
+### Required Resources
+
+- [Design Portfolio](https://onslowcollege.sharepoint.com/:w:/s/11DIT499/EUDq-lwmVkVKiysy5VPAz2ABsza6-Y-u_1ETVeyaKYM2rw?e=A1LoxA)
+- [Feedback Sheet](https://onslowcollege.sharepoint.com/:w:/s/11DIT499/EU7Y4J3h9D1PqfpnumnPeHwBBLqMSm0EAUwZtve1fJ5giQ?e=YdGLFR)
+- [Testing](https://onslowcollege.sharepoint.com/:w:/s/11DIT499/EYytzem6TsxIpAQKgc6JYSEBB5mNqkQNR-5oeJyVcFsR2w?e=JY7ReK)
 
 ## Design analysis
 
