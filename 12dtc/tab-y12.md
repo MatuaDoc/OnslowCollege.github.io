@@ -1,4 +1,4 @@
 ---
 layout: tab
-year: 12
+course: 12DTC
 ---

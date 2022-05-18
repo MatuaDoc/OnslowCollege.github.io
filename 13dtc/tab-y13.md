@@ -1,4 +1,4 @@
 ---
 layout: tab
-year: 13
+course: 13DTC
 ---

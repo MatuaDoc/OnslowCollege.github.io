@@ -13,9 +13,9 @@
 
 <body>
     <main id="content" class="main-content" role="main">
-        <p id="page-title">Onslow College Digital Technologies</p>
+        <p id="page-title">{{ page.course }}</p>
 
-        <p>Please <a href="{{ page.redir_url }}" target="_blank">click here</a> to view the Onslow College Digital Technologies course materials for Year {{ page.year }}.</p>
+        <p style="text-align: center"><a href="https://onslowcollege.github.io/{{ page.course }}" target="_blank">Click here</a> to view the {{ page.course }} materials.</p>
 
         <footer class="site-footer">
             {% if site.github.is_project_page %}

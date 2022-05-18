@@ -1,4 +1,4 @@
 ---
 layout: tab
-year: 11
+course: 11DIT
 ---
