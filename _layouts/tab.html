@@ -15,7 +15,7 @@
     <main id="content" class="main-content" role="main">
         <p id="page-title">{{ page.course }}</p>
 
-        <p style="text-align: center"><a href="https://onslowcollege.github.io/{{ page.course }}" target="_blank">Click here</a> to view the {{ page.course }} materials.</p>
+        <p style="text-align: center"><a href="https://onslowcollege.github.io/{{ page.course | downcase }}" target="_blank">Click here</a> to view the {{ page.course }} materials.</p>
 
         <footer class="site-footer">
             {% if site.github.is_project_page %}
