@@ -41,7 +41,7 @@ The design component requires you to produce a lot of documentation. It is impor
 
 |  |  |  |
 | :-: | :-: | :-: |
-| <a href="colours"><image src="img/colours.svg" title="Colours" width=100><br>Colours | <a href="typefaces"><image src="img/typefaces.svg" title="Typefaces" width=100><br>Typefaces | <a href="accessibility"><image src="img/accessibility.svg" title="Accessibility" width=100><br>Test |
+| <a href="colours"><image src="img/colours.svg" title="Colours" width=100><br>Colours | <a href="fonts"><image src="img/fonts.svg" title="Fonts" width=100><br>Fonts | <a href="accessibility"><image src="img/accessibility.svg" title="Accessibility" width=100><br>Test |
 | Choosing an attractive and relevant palette | Pick a readable, attractive font for all occasions | Double-check your choices — do they really work for *everyone*? |
 | <a href="layout"><image src="img/layout.svg" title="Layout" width=100><br>Layout |
 | Lay out your pages for optimum effect | | |
