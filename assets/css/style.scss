@@ -257,7 +257,7 @@ h5 {
 .dropdown-content a {
     color: black !important;
     @media (prefers-color-scheme: dark) {
-        color: white !important;
+        color: rgb(91, 82, 82) !important;
     }
     padding: 6px 8px;
     text-decoration: none;
@@ -271,6 +271,7 @@ h5 {
 
 .dropdown-content a:hover {
     border-radius:6px;
+    color: white !important;
 }
 
 #dropdown-generic li a:hover {
