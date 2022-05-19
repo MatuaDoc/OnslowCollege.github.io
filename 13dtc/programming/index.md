@@ -47,6 +47,8 @@ layout: contents
 | Learn the basics of building a GUI using PyQt6 | Layouts that adapt to different sizes | Layout a form for data entry |
 | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/widgets/other-widgets/"><image src="img/widgets.svg" title="Widgets" width=100><br>Qt Documentation | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/widgets/customising-widget-appearance/"><image src="img/styles.svg" title="Styles" width=100><br>Styles | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/events/"><image src="img/events.svg" title="Events" width=100><br>Events |
 | Experiment with widgets on your own using the Qt documentation | Style your app like a website | Respond to clicks, taps, and typing
+| <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/events/getting-widget-information/"><image src="img/events.svg" title="Getting widget data" width=100><br>Getting widget data | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/events/events-and-oop/"><image src="img/events.svg" title="Intro to Events & OOP" width=100><br>Intro to Events & OOP | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/events/events-and-oop-modifying-objects/"><image src="img/events.svg" title="E&O: Modifying objects" width=100><br>E&O: Modifying objects |
+| Get and set widget data | Use classes and objects with GUI code | Set object values |
 
 ### GUI Task
 
