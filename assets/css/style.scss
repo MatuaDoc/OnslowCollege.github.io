@@ -5,16 +5,18 @@
 $baseurl: "{{ site.url }}";
 
 :root {
-    // --onslow-rgb: 28, 91, 82;
-    // --eleven-rgb: 25, 133, 10;
-    // --twelve-rgb: 0, 83, 179;
-    // --thirteen-rgb: 148, 10, 178;
+    --onslow-rgb: 28, 91, 82;
+    --eleven-rgb: 25, 133, 10;
+    --twelve-rgb: 0, 83, 179;
+    --thirteen-rgb: 148, 10, 178;
 
-    // Pink shirt day
-    --onslow-rgb: 220, 122, 172;
-    --eleven-rgb: 220, 122, 172;
-    --twelve-rgb: 220, 122, 172;
-    --thirteen-rgb: 220, 122, 172;;
+    // --event-rgb: 220, 122, 172;
+
+    // // Pink shirt day
+    // --onslow-rgb: var(--event-rgb);
+    // --eleven-rgb: var(--event-rgb);
+    // --twelve-rgb: var(--event-rgb);
+    // --thirteen-rgb: var(--event-rgb);
 
     --main-rgb: var(--onslow-rgb);
     --main-color: rgb(var(--main-rgb));
