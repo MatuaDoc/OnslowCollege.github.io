@@ -52,7 +52,7 @@ layout: contents
 
 | <img width=500 /> | <img width=500 /> | <img width=500 /> |
 | :-: | :-: | :-: |
-|  <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/events/"><image src="img/events.svg" title="Events" width=100><br>Events | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/events/getting-widget-information/"><image src="img/data.svg" title="Getting widget data" width=100><br>Getting widget data | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/events/events-and-oop/"><image src="img/drinks.svg" title="Mixing events & OOP" width=100><br>Mixing events & OOP |
+|  <a href="events"><image src="img/events.svg" title="Events" width=100><br>Events | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/events/getting-widget-information/"><image src="img/data.svg" title="Getting widget data" width=100><br>Getting widget data | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/events/events-and-oop/"><image src="img/drinks.svg" title="Mixing events & OOP" width=100><br>Mixing events & OOP |
 | Respond to clicks, taps, and typing | Get and set widget data | Use classes and objects with GUI code |
 | <a href="https://matuadoc.co.nz/docs/graphical-user-interfaces/events/events-and-oop-modifying-objects/"><image src="img/soda.svg" title="E&O: Modifying objects" width=100><br>E&O: Modifying objects |
 | Set object values |
