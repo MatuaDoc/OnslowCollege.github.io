@@ -29,6 +29,8 @@
     <main id="content" class="main-content" role="main">
         <p id="page-title">{{ page.title }}</p>
 
+        {{ page.preamble | markdownify }}
+
         {% for category in page.categories %}
         <h1>{{ category.category_name }}</h1>
         <table>
