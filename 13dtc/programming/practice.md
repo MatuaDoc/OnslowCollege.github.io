@@ -8,9 +8,9 @@ title: Kai UI
 
 Onslow College is revamping the menu at the café. There will be a move to healthy options that reflect the diversity of the student body. This includes daily special items.
 
-More importantly, students will be able to make purchases via an app loaded on computers placed all around the school. The order will be sent to the café for the students to collect at either interval or lunch time.
+More importantly, students will be able to order food via an app loaded on computers placed all around the school. The order will be sent to the café for the students to collect at either interval or lunch time.
 
-You will create the software used to make purchases.
+You will create the software for students to make orders.
 
 ## User interface
 
