@@ -106,6 +106,7 @@ Save the following images to the same folder as your code is located:
 
 1. add a ``QLabel`` widget to your code called ``picture_label``
 2. add a method to your ``Product`` class called ``load_photo`` with the following code:
+
 ```python
 # Put this at the top of the file
 import os
@@ -120,4 +121,5 @@ def load_photo(label: QLabel):
     # Show the picture in the label
     label.setPixmap(pixmap)
 ```
+
 3. in the code that updates the label when a list item is picked, call the ``Product`` object's ``load_photo`` method (passing in the ``picture_label`` as the first argument)
