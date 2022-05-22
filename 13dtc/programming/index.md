@@ -97,6 +97,9 @@ categories:
         item_desc: Make the widgets on your window look nice
         item_icon: img/styles.svg
         item_page: https://matuadoc.co.nz/docs/graphical-user-interfaces/widgets/customising-widget-appearance/
+  - events:
+    category_name: Event handling
+    category_items:
       - events:
         item_name: Intro to Events
         item_desc: Make the widgets on your window do things
