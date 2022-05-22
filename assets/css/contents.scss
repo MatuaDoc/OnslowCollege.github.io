@@ -1,10 +1,6 @@
 ---
 ---
 
-table {
-    table-layout: fixed !important;
-}
-
 th, thead {
     display: none !important;
 }
@@ -17,6 +13,15 @@ td {
 
 td img {
     width: 64px !important;
+}
+
+.main-content td {
+    vertical-align: middle !important;
+}
+
+.main-content td:nth-child(2) {
+    padding-left: 50px;
+    width: 300px;
 }
 
 th {
@@ -34,5 +39,4 @@ td:nth-child(2) {
 
 .main-content table th, .main-content table td {
     border-style: none;
-    padding: 0 !important;
 }
