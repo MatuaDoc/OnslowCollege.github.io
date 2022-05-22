@@ -120,6 +120,11 @@ categories:
         item_desc: Modify the objects in your window code
         item_icon: img/soda.svg
         item_page: https://matuadoc.co.nz/docs/graphical-user-interfaces/events/events-and-oop-modifying-objects/
+      - events_oop_iii:
+        item_name: Events & OOP III
+        item_desc: Make use of object methods in your window code
+        item_icon: img/juice.svg
+        item_page: events_oop_iii
   - tasks:
     category_name: Tasks
     category_items:
