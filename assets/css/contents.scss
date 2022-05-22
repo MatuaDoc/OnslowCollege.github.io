@@ -19,6 +19,10 @@ td img {
     vertical-align: middle !important;
 }
 
+.main-content td:nth-child(1) {
+    width: 80px;
+}
+
 .main-content td:nth-child(2) {
     padding-left: 50px;
     width: 300px;

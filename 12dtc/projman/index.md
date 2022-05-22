@@ -22,5 +22,9 @@ categories:
         item_icon: /img/projman.svg
         item_page: task
       - resources:
-        item_desc: <a href="https://onslowcollege.sharepoint.com/:w:/s/12DTC2022/EdVOjaHd1HpLjp-Acc4Ii_EBcT-BNCVS5nxC-MnqTmRiJg?e=deHKyK">Download a copy of the portfolio document</a>
+        item_name:
+        item_icon:
+        item_desc: |
+                   <a href="https://onslowcollege.sharepoint.com/:w:/s/12DTC2022/EdVOjaHd1HpLjp-Acc4Ii_EBcT-BNCVS5nxC-MnqTmRiJg?e=deHKyK">Project management portfolio</a>
+        item_page:
 ---
