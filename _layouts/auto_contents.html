@@ -29,7 +29,7 @@
     <main id="content" class="main-content" role="main">
         <p id="page-title">{{ page.title }}</p>
 
-        {% for category in site.data[page.data_file].categories %}
+        {% for category in page.categories %}
         <h1>{{ category.category_name }}</h1>
         <table>
             {% for item in category.category_items %}
@@ -41,6 +41,8 @@
             {% endfor %}
         </table>
         {% endfor %}
+
+        {{ content }}
 
         <footer class="site-footer">
             {% if site.github.is_project_page %}

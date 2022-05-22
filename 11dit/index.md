@@ -1,11 +1,31 @@
 ---
 title: 11DIT Programming & Digital Media
-hide_toc: true
+layout: auto_contents
+categories:
+  - units:
+    category_name: Units
+    category_items:
+      - programming:
+        item_name: Programming
+        item_desc: Introduction to Python, lists, and basic functions
+        item_icon: /img/programming.svg
+        item_page: /11dit/programming
+      - design:
+        item_name: Design
+        item_desc: Learn the design process to construct a website
+        item_icon: /img/design.svg
+        item_page: /11dit/design
+      - website:
+        item_name: Website
+        item_desc: Build the website that you designed
+        item_icon: /img/website.svg
+        item_page: /11dit/website
+      - hci:
+        item_name: Human Computer Interaction
+        item_desc: External — how do people use computers?
+        item_icon: /img/hci.svg
+        item_page: /11dit/hci
 ---
-
-| **Internal 1** | **Internal 2** | **Internal 3** | **External** |
-| :-: | :-: | :-: | :-: |
-| <a href="/11dit/programming"><image src="../img/programming.svg" title="Programming" width=100><br>Programming | <a href="/11dit/design"><image src="../img/design.svg" title="Design" width=100><br>Design | <image src="../img/website.svg" title="Website" width=100><br>Website | <a href="/11dit/hci"><image src="../img/hci.svg" title="HCI" width=100><br>HCI |
 
 # Learning objectives
 
