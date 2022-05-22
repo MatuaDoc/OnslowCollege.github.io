@@ -1,6 +1,7 @@
 ---
 title: Onslow College Digital Technologies
-layout: contents
+layout: auto_contents
+data_file: index
 ---
 
 ## Level 1
