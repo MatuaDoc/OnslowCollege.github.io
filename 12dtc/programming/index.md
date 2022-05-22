@@ -1,50 +1,118 @@
 ---
 title: 12DTC Programming
-hide_toc: true
-layout: contents
+layout: auto_contents
+categories:
+  - setup:
+    category_name: Setup
+    category_items:
+      - setup_windows:
+        item_name: Set up on Windows
+        item_desc: Install VSCode, Python via scoop
+        item_icon: /img/setup.svg
+        item_page: /classroom/setup-windows
+      - setup_macos:
+        item_name: Set up on macOS
+        item_desc: Install VSCode, Python via Homebrew
+        item_icon: /img/setup.svg
+        item_page: /classroom/setup-macos
+      - setup_linux:
+        item_name: Set up on Linux
+        item_desc: Install Python via pyenv
+        item_icon: /img/setup.svg
+        item_page: /classroom/setup-linux
+  - recap:
+    category_name: Recap
+    category_items:
+      - intro:
+        item_name: Intro
+        item_desc: Revise Python from 11DIT
+        item_icon: img/programming.svg
+        item_page: intro
+  - oop:
+    category_name: Collections
+    category_items:
+      - search:
+        item_name: List search
+        item_desc: Detect if items exist in a list, and where to find them
+        item_icon: img/list-search.svg
+        item_page: list-search
+      - modification:
+        item_name: List modification
+        item_desc: Add, remove, and edit the items in a list
+        item_icon: img/list-modification.svg
+        item_page: list-modification
+      - functions:
+        item_name: List functions
+        item_desc: Sorting and shuffling list items
+        item_icon: img/list-functions.svg
+        item_page: list-functions
+      - comprehensions:
+        item_name: List comprehensions
+        item_desc: Filtering items in a list
+        item_icon: img/list-comprehensions.svg
+        item_page: list-comprehensions
+      - 2d_lists:
+        item_name: 2D lists
+        item_desc: Lists that contain other lists … listception
+        item_icon: img/list-2d.svg
+        item_page: list-2d
+      - dictionaries:
+        item_name: Dictionaries
+        item_desc: List items with names
+        item_icon: img/dictionaries.svg
+        item_page: dictionaries
+      - chores:
+        item_name: Chores roster
+        item_desc: Sort out the weekly chores in a flat
+        item_icon: img/chores.svg
+        item_page: chores
+      - irsa:
+        item_name: International Radiotelephony Spelling Alphabet
+        item_desc: Convert letters to secret code — and back!
+        item_icon: img/irsa.svg
+        item_page: irsa
+  - gui:
+    category_name: Functions
+    category_items:
+      - functions:
+        item_name: Intro to functions
+        item_desc: Create basic functions in Python
+        item_icon: img/functions.svg
+        item_page: functions
+      - return:
+        item_name: Functions that return values
+        item_desc: Let functions step in for values
+        item_icon: img/functions-return.svg
+        item_page: functions-return
+      - parameters:
+        item_name: Functions with arguments
+        item_desc: Specify data to your functions
+        item_icon: img/functions-args.svg
+        item_page: functions-args
+  - testing:
+    category_name: Testing
+    category_items:
+      - testing:
+        item_name: Testing
+        item_desc: Make sure your code is working
+        item_icon: img/testing.svg
+        item_page: testing
+  - assessment:
+    category_name: Assessment
+    category_items:
+      - practice:
+        item_name: Practice assessment
+        item_desc: One last go before the real deal
+        item_icon: /img/practice.svg
+        item_page: practice
+      - feedback:
+        item_name: Practice feedback
+        item_desc: Determine your own grade using this schedule
+        item_icon: 
+        item_page: practice-feedback
+      - assessment:
+        item_name: Assessment
+        item_desc: Create an inventory system for an egg shop
+        item_icon: /img/assessment.svg
+        item_page: assessment
 ---
-
-## Setup
-
-| <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :--: | :-: | :-: |
-| <a href="/classroom/setup-windows"><image src="/img/setup.svg" title="Set up on Windows" width=100><br>Set up on Windows | <a href="/classroom/setup-macos"><image src="/img/setup.svg" title="Set up on macOS" width=100><br>Set up on macOS | <a href="/classroom/github"><image src="/img/github.svg" title="GitHub Guide" width=100><br>GitHub Guide |
-
-## Recap
-
-| <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :-: | :-: | :-: |
-| <a href="intro"><image src="img/programming.svg" title="Intro" width=100><br>Intro |
-| Revise Python from 11DIT |
-
-## Collections
-
-| <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :-: | :-: | :-: |
-| <a href="list-search"><image src="img/list-search.svg" title="List Search" width=100><br>List Search | <a href="list-modification"><image src="img/list-modification.svg" title="List Modification" width=100><br>List Modification | <a href="list-functions"><image src="img/list-functions.svg" title="List Functions" width=100><br>List Functions |
-| Search for items, slice lists up | Add and remove items from lists | Create strings, format items, sort and reverse |
-| <a href="list-comprehensions"><image src="img/list-comprehensions.svg" title="List Comprehensions" width=100><br>List Comprehensions | <a href="list-2d"><image src="img/list-2d.svg" title="2D Lists" width=100><br>2D Lists | <a href="dictionaries"><image src="img/dictionaries.svg" title="Dictionaries" width=100><br>Intro to Dictionaries |
-| Transform values in a list | Lists in lists | Associate collection items with a string |
-
-## Collections Tasks
-
-| <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :-: | :-: | :-: |
-| <a href="chores"><image src="img/chores.svg" title="Chores Roster" width=100><br>Chores Roster | <a href="irsa"><image src="img/irsa.svg" title="International Radiotelephony Spelling Alphabet" width=100><br>IRSA | <a href="morse"><image src="img/morse.svg" title="Extension: Morse Code" width=100><br>Extension: Morse Code |
-| Create a chores roster using 2D lists | Convert text using dictionaries | Convert text to morse code — and back |
-
-## Functions
-
-| <img width=500 /> | <img width=500 /> | <img width=500 /> |
-| :-: | :-: | :-: |
-| <a href="functions-basic"><image src="img/functions.svg" title="Intro to Functions" width=100><br>Intro to Functions | <a href="functions-return"><image src="img/functions-return.svg" title="Functions: Returning a value" width=100><br>Functions: Returning a value | <a href="functions-args"><image src="img/functions-args.svg" title="Function Arguments & Parameters" width=100><br>Function Parameters & Arguments |
-| Pack up your code into distinct sections | Get values out of a function | Supply information to functions |
-| <a href="testing"><image src="img/testing.svg" title="Testing" width=100><br>Testing |
-| Test your program and functions |
-
-## Assessment
-
-|  |  |  |
-| :-: | :-: | :-: |
-| <a href="practice"><image src="/img/practice.svg" title="Practice Assessment" width=100><br>Practice Assessment | <a href="assessment"><image src="/img/assessment.svg" title="Assessment" width=100><br>Assessment |
-| [Feedback](practice-feedback.md) |
