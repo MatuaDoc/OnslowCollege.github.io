@@ -18,7 +18,7 @@ In this lesson, you will add methods to your objects.
 
 > These should be independent from the property and setter methods.
 
-A simple method to add: a method to save the product's name and product price. This can be used instead of the product name and price setters.
+A simple method to add: a method to save the product's name and product price.
 
 ```python
 @dataclass
@@ -29,7 +29,7 @@ def Product:
     # Getters and setters here
     # …
 
-    def set_new_name_and_price(new_name: str, new_price: float) -> bool:
+    def set_new_name_and_price(self, new_name: str, new_price: float) -> bool:
         """
         Sets the new name and price from the GUI.
         Returns:
@@ -37,9 +37,6 @@ def Product:
           - False if nothing needs changing,
         Raises a ValueError if an invalid value is supplied.
         """
-        # Tracks whether a change occurred
-        did_change = False
-
         # Check if the name has changed
         if self.name != new_name or self.price != new_price:
             self.name = new_name
