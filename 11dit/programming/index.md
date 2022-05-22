@@ -74,6 +74,11 @@ categories:
         item_desc: Make your code follow industry standard conventions
         item_icon: img/pep8.svg
         item_page: pep8
+      - testing:
+        item_name: Testing
+        item_desc: Make sure your code works properly
+        item_icon: img/testing.svg
+        item_page: testing
   - assessment:
     category_name: Assessment
     category_items:
