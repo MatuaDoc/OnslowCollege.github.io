@@ -59,11 +59,6 @@ categories:
         item_desc: Prevent users from making slips/mistakes — then help clean up the mess
         item_icon: img/hci_03.svg
         item_page: errors
-      - purpose:
-        item_name: Purpose & end users
-        item_desc: Determine for what and whom the website is needed
-        item_icon: img/purpose.svg
-        item_page: purpose
       - analysis:
         item_name: Analysis of existing outcomes
         item_desc: Research what existing websites already do well — or don't
