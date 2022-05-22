@@ -1,11 +1,26 @@
 ---
 title: 13DTC Programming & Computer Science
-hide_toc: true
+layout: auto_contents
+categories:
+  - thirteen:
+    category_name: 13DTC
+    category_items:
+      - programming:
+        item_name: Programming
+        item_desc: Object-oriented programming and GUI in Python
+        item_icon: /img/programming.svg
+        item_page: /13dtc/programming
+      - projman:
+        item_name: Project management
+        item_desc: Plan a project from start to finish
+        item_icon: /img/projman.svg
+        item_page: /13dtc/projman
+      - hci:
+        item_name: Computer science
+        item_desc: External — the big ideas in computer science
+        item_icon: /img/compsci.svg
+        item_page: /13dtc/compsci
 ---
-
-| **Internal 1** | **Internal 2** | **Internal 3** | **External** |
-| :-: | :-: | :-: | :-: |
-| <a href="/13dtc/programming"><image src="../img/programming.svg" title="Programming" width=100><br>Programming | <a href="/13dtc/projman"><image src="../img/projman.svg" title="Project Management" width=100><br>PM | | <a href="/13dtc/compsci"><image src="../img/compsci.svg" title="Computer Science" width=100><br>CompSci |
 
 # Learning objectives
 ## Develop a computer program

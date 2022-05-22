@@ -1,11 +1,26 @@
 ---
 title: 12DTC Programming & Computer Science
-hide_toc: true
+layout: auto_contents
+categories:
+  - twelve:
+    category_name: 12DTC
+    category_items:
+      - programming:
+        item_name: Programming
+        item_desc: Multi-dimensional lists and advanced functions in Python
+        item_icon: /img/programming.svg
+        item_page: /12dtc/programming
+      - design:
+        item_name: Project Management
+        item_desc: Plan a project from start to finish
+        item_icon: /img/projman.svg
+        item_page: /12dtc/projman
+      - compsci:
+        item_name: Computer science
+        item_desc: External — the big ideas in computer science
+        item_icon: /img/compsci.svg
+        item_page: /12dtc/compsci
 ---
-
-| **Internal 1** | **Internal 2** | **Internal 3** | **External** |
-| :-: | :-: | :-: | :-: |
-| <a href="/12dtc/programming"><image src="../img/programming.svg" title="Programming" width=100><br>Programming | <a href="/12dtc/projman"><image src="../img/projman.svg" title="Project Management" width=100><br>PM | <a href="/12dtc/database"><image src="../img/database.svg" title="Database" width=100><br>Database | <a href="/12dtc/compsci"><image src="../img/compsci.svg" title="Computer Science" width=100><br>CompSci |
 
 # Learning objectives
 ## Develop a computer program
