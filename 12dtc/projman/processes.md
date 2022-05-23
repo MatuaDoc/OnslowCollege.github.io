@@ -6,9 +6,37 @@ success_criteria: ["Give two examples of iterative development", "Explain how de
 
 # Iterative development
 
-In your project, iterative development means you will repeat some parts of the process - you will work on components of the project one after the other, each time use testing and trialling to improve that part of the outcome. Your outcome will take shape and change as you develop each of the components.
+In your project, iterative development means you will repeat some parts of the process - you will work on components of the project one after the other, each time use testing and trialling to improve that part of the outcome.
+
+Your outcome will take shape and change as you:
+
+- determine what components make up the outcome
+- work out what each component needs
+- work on a component
+- test it out
+- improve it **or** work on the next component
+- test it out
+- improve it or work on the … etc.
+
+Iterative development means that the outcome is constantly improved upon, not just delivered at the end of the project. It is a continuous process that delivers many outcomes which can be tested.
+
+![Iterative cycle](img/processes_iteration.jpg)
+
+This provides valuable information, such as:
+
+- user trialling and testing to determine which components are completed and which still need work
+- end user feedback on how the outcome works
+- working out what should be prioritised in the process
+
+With each go through the cycle, or **iteration**, you learn from the current version of the outcome in order to know what to do for the *next* version of the outcome.
 
 [Agile project management](https://www.dummies.com/article/business-careers-money/business/project-management/agile-project-management-for-dummies-cheat-sheet-208332/) is an example of iterative development methodology.
+
+Here is an example of an iterative development process:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2NFH3VC6LNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Compare this with a traditional development process, where everything is figured out at the start and the outcome is delivered right at the end of the process — unless something held the process up, in which case **nothing** gets delivered.
 
 # Decomposition
 
