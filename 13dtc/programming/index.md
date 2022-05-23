@@ -3,7 +3,7 @@ title: 13DTC Programming
 layout: auto_contents
 categories:
   - setup:
-    category_name: Setup
+    category_name: First steps
     category_items:
       - setup_windows:
         item_name: Set up on Windows
@@ -20,6 +20,10 @@ categories:
         item_desc: Install Python via pyenv
         item_icon: /img/setup.svg
         item_page: /classroom/setup-linux
+      - glossary:
+        item_name: Glossary
+        item_icon: /12dtc/programming/img/dictionaries.svg
+        item_page: /classroom/glossary
   - recap:
     category_name: Recap
     category_items:
