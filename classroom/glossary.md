@@ -115,7 +115,7 @@ A piece of data that belongs to an [iterable](#iterable) or [collection](#collec
 
 ## Encapsulation
 
-The bundling of [state](#member-variable) and [behaviour](#methods) into a single data structure.
+The bundling of [state](#member-variable) and [behaviour](#methods) into a single [data structure](#data-structure).
 
 ## Expression
 
@@ -215,6 +215,18 @@ In [object-oriented programming](#object-oriented-programming), an object is a [
 
 Unlike a [class](#class), which is a template for an object, the object contains the actual data.
 
+## Object-oriented programming
+
+A style of programming that involves the use of [classes](#class) and [objects](#object) to [encapsulate](#encapsulation) data and behaviour (usually [functions](#function)/[methods](#methods)).
+
+This style of programming encourages code reuse through [inheritance](#inheritance). It can also help to reduce errors by making classes into an easily-verifiable point of failure, rather than across separate, unrelated functions.
+
+However, this comes at the cost of increased complexity, especially for simpler programs.
+
+## OOP
+
+See [object-oriented programming](#object-oriented-programming).
+
 ## Scope
 
 The parts of a program where data or a function within a [code block](#code-block) is considered valid (and, by extension, accessible).
@@ -224,6 +236,16 @@ The parts of a program where data or a function within a [code block](#code-bloc
 A segment of code that denotes the explicit step that a program should carry out.
 
 For example, an [if statement](#if-statement) allows the programmer to specify other statements or [expressions](#expression) to carry out if a particular condition is met.
+
+## struct
+
+A [data structure](#data-structure) to represent related data.
+
+Unlike a [dictionary](#dictionary)'s keys, the [member variables](#member-variables) of a struct are defined before the program is run, so new members cannot be added.
+
+This is similar to a [class](#class), except that structs do not [encapsulate](#encapsulation) behaviour such as [functions](#function).
+
+Python does not have a struct [data type](#data-type). In some programming languages, structs *can* encapsulate behaviour.
 
 ## while loop
 
