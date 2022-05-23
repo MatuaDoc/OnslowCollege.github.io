@@ -141,7 +141,7 @@ Contrary to popular belief, you don't need to make text just black-on-white or w
 
 However, be careful to ensure that the combination of text and background colours remains **readable**. To do this, you will need to perform a contrast check.
 
-Fortunately, Coolors has a tool for this: the [Contrast Checker](https://coolors.co/contrast-checker/).
+Fortunately, Coolors has a tool for this: the [Contrast Checker](https://coolors.co/contrast-checker).
 
 ![Coolors Contrast Checker](img/colours_contrast_checker.png)
 
