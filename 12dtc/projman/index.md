@@ -27,9 +27,17 @@ categories:
         item_desc: |
                    <a href="https://onslowcollege.sharepoint.com/:w:/s/12DTC2022/EdVOjaHd1HpLjp-Acc4Ii_EBcT-BNCVS5nxC-MnqTmRiJg?e=deHKyK">Project management portfolio</a>
         item_page:
+  - processes:
+    category_name: Processes
+    category_items:
       - planning:
         item_name: Planning and process checklist
         item_desc: Tick each box to ensure completion of the project
         item_icon: ../programming/img/testing.svg
         item_page: planning
+      - processes:
+        item_name: Project management processes
+        item_desc: Learn to decompose a project into components
+        item_icon: img/processes.svg
+        item_page: processes
 ---
