@@ -12,15 +12,17 @@ In your project, iterative development means you will repeat some parts of the p
 
 # Decomposition
 
-In biology decomposition means breaking down organic material into smaller parts. In this project you will be breaking your outcome development down into smaller tasks, making it easier to keep track of your progress and improve your outcome iteratively as you develop it. 
+In biology, decomposition means breaking down organic material into smaller parts.
+
+Just like in biology, you will be breaking your outcome development down into smaller tasks, making it easier to keep track of your progress and improve your outcome iteratively as you develop it. 
  
-As you begin your project planning you should break your overall task down into smaller components. This can also be called a work breakdown structure (WBS).
+As you begin your project planning you should break your overall task down into smaller components.
  
 - **outcome** = the item that you are making
 - **component** = a small part of the outcome
 - **developing** = making your outcome
  
-Each component should be a logical ‘chunk’ of the project - a piece that you need to make or a feature that you want to add. These are also sometimes referred to as ‘deliverables’ or ‘work packages’. It helps if each component is something that can be tested before adding it to the outcome. 
+Each component should be a logical chunk of the project — a piece that you need to make or a feature that you want to add. These are also sometimes referred to as **deliverables**. It helps if each component is something that can be tested before adding it to the outcome. 
  
 Some examples of components are:
 
@@ -94,15 +96,21 @@ Create a to-do list with all the ingredients you will need for each meal so that
 
 ## Task 2
 
-Create a decomposition table version of your to-do list.
+Create a decomposition table version of your to-do list from task 1 — but make the following iterative changes:
+
+- students were surveyed and everybody in the class agree they would prefer Japanese mayonnaise instead of wasabi paste
+- self-raising flour is too expensive. The teacher would prefer to use regular flour and baking powder
 
 ## Task 3
 
-Create a mind map version of your to-do list.
+Create a mind map version of your decomposition table from task 2 — but make the following iterative changes:
+
+- students were surveyed and everybody in the class agree they don't like avocado
+- some students can't have dairy so some pancakes will need to be made with a milk alternative
 
 ## Task 4
 
-Evaluate each method of decomposition by creating PMI tables for each:
+Evaluate each method of decomposition by creating PMI tables for each type:
 
 ### To-do list
 
