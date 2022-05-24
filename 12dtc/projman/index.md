@@ -1,6 +1,7 @@
 ---
 title: Project Management
 layout: auto_contents
+hide_toc: true
 preamble: |
   In Project Management, you will work on a project to design and develop a program. This unit will be assessed based on the following standard:
   

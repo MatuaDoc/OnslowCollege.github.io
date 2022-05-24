@@ -1,6 +1,7 @@
 ---
 title: 13DTC Programming & Computer Science
 layout: auto_contents
+hide_toc: true
 categories:
   - thirteen:
     category_name: 13DTC

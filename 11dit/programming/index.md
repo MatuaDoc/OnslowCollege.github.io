@@ -1,6 +1,7 @@
 ---
 title: 11DIT Programming
 layout: auto_contents
+hide_toc: true
 categories:
   - first_steps:
     category_name: First steps

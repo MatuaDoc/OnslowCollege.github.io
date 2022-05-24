@@ -1,6 +1,7 @@
 ---
 title: 13DTC Programming
 layout: auto_contents
+hide_toc: true
 categories:
   - setup:
     category_name: First steps

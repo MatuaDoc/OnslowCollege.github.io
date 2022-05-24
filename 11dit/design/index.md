@@ -15,6 +15,7 @@ preamble: |
 
   <br>
 layout: auto_contents
+hide_toc: true
 categories:
   - design:
     category_name: Design

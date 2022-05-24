@@ -1,6 +1,7 @@
 ---
 title: 11DIT Programming & Digital Media
 layout: auto_contents
+hide_toc: true
 categories:
   - units:
     category_name: Units
