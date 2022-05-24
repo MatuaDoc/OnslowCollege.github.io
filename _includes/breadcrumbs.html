@@ -1,92 +1,40 @@
-<div id="breadcrumbs">
-
-  <div class="breadcrumbs-left">
-    <div class="dropdown" id="dropdown-generic">
-      <a href="/" class="dropdown-icon">
-        <image src="/img/home_nav.png">
-        <image src="/img/home_nav_hover.png" class="dropdown-icon-hover">
-      </a>
-      <ul class="dropdown-content">
-        <li><a href="/">
-            <image src="/img/home.svg"> Home</image>
-          </a>
-        </li>
-        <li><a href="/classroom/setup.html">
-            <image src="/img/setup.svg"> Setup Python & VS Code
-          </a></li>
-        <li><a href="/classroom/github.html">
-            <image src="/img/github.svg"> GitHub Guide
-          </a></li>
-      </ul>
-    </div>
-    <div class="dropdown" id="dropdown-11dit">
-      <a href="/11dit" class="dropdown-icon">
-        <image src="/img/11dit_nav.png">
-        <image src="/img/11dit_nav_hover.png" class="dropdown-icon-hover">
-      </a>
-      <ul class="dropdown-content">
-        <li><a href="/11dit">
-            <image src="/img/home.svg"> Course Outline
-          </a></li>
-        <li><a href="/11dit/programming">
-            <image src="/img/programming.svg"><span>Programming</span>
-          </a></li>
-        <li><a href="/11dit/design">
-            <image src="/img/design.svg"> Design
-          </a></li>
-        <li><a href="/11dit/website">
-            <image src="/img/website.svg"> Website
-          </a></li>
-        <li><a href="/11dit/hci">
-            <image src="/img/hci.svg"> HCI
-          </a></li>
-      </ul>
-    </div>
-    <div class="dropdown" id="dropdown-12dtc">
-      <a href="/12dtc" class="dropdown-icon">
-        <image src="/img/12dtc_nav.png">
-        <image src="/img/12dtc_nav_hover.png" class="dropdown-icon-hover">
-      </a>
-      <ul class="dropdown-content">
-        <li><a href="/12dtc">
-            <image src="/img/home.svg"> Course Outline
-          </a></li>
-        <li><a href="/12dtc/programming">
-            <image src="/img/programming.svg"> Programming
-          </a></li>
-        <li><a href="/12dtc/projman">
-            <image src="/img/projman.svg"> Project Management
-          </a></li>
-        <li><a href="/12dtc/compsci">
-            <image src="/img/compsci.svg"> Computer Science
-          </a></li>
-      </ul>
-    </div>
-    <div class="dropdown" id="dropdown-13dtc">
-      <a href="/13dtc" class="dropdown-icon">
-        <image src="/img/13dtc_nav.png">
-        <image src="/img/13dtc_nav_hover.png" class="dropdown-icon-hover">
-      </a>
-      <ul class="dropdown-content">
-        <li><a href="/13dtc">
-            <image src="/img/home.svg"> Course Outline
-          </a></li>
-        <li><a href="/13dtc/programming">
-            <image src="/img/programming.svg"> Programming
-          </a></li>
-        <li><a href="/13dtc/projman">
-            <image src="/img/projman.svg"> Project Management
-          </a></li>
-        <li><a href="/13dtc/compsci">
-            <image src="/img/compsci.svg"> Computer Science
-          </a></li>
-      </ul>
+<div class="tabs">
+  <a href="/"><img src="/img/home_nav.png" style="margin-bottom: 8px;"></a>
+  <div class="tab">
+    <input type="radio" id="chck1" name="chck">
+    <label class="tab-label" for="chck1">11DIT</label>
+    <div class="tab-content">
+      <p><a href="/11dit">Course Home</a></p>
+      <p><a href="/11dit/programming">Programming</a></p>
+      <p><a href="/11dit/design">Design</a></p>
+      <p><a href="/11dit/website">Website</a></p>
+      <p><a href="/11dit/hci">HCI</a></p>
     </div>
   </div>
-
-  <div class="breadcrumbs-right">
-    <div class="breadcrumb">
-      {{ page.title }}
+  <div class="tab">
+    <input type="radio" id="chck2" name="chck">
+    <label class="tab-label" for="chck2">12DTC</label>
+    <div class="tab-content">
+      <p><a href="/12dtc">Course Home</a></p>
+      <p><a href="/12dtc/programming">Programming</a></p>
+      <p><a href="/12dtc/projman">Project Management</a></p>
+      <p><a href="/12dtc/compsci">Computer Science</a></p>
     </div>
   </div>
+  <div class="tab">
+    <input type="radio" id="chck3" name="chck">
+    <label class="tab-label" for="chck3">13DTC</label>
+    <div class="tab-content">
+      <p><a href="/13dtc">Course Home</a></p>
+      <p><a href="/13dtc/programming">Programming</a></p>
+      <p><a href="/13dtc/projman">Project Management</a></p>
+      <p><a href="/13dtc/compsci">Computer Science</a></p>
+    </div>
+  </div>
+    {% unless page.hide_toc == true %}
+    <div id="toc">
+      <p style="font-weight: bold; text-align: center;">Table of Contents</p>
+      {% include toc.html html=content h_max=2 %}
+    </div>
+    {% endunless %}
 </div>
