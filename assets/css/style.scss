@@ -171,6 +171,14 @@ input {
     width: 200px;
     overflow: scroll;
     font-size: small;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 .tab {
