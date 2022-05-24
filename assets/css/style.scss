@@ -99,6 +99,10 @@ h5 {
     max-width: 200px;
     height: 100vh;
     text-align: left;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 
     ul {
         list-style-type: none;
@@ -113,6 +117,10 @@ h5 {
 
     a {
         color: white;
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
     }
 }
 
@@ -137,6 +145,14 @@ h5 {
     max-width: 220px;
     position: fixed;
     height: 100%;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.page-header::-webkit-scrollbar {
+    display: none;
 }
 
 .page-header img {
