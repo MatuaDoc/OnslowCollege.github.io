@@ -112,11 +112,11 @@ Save the following images to the same folder as your code is located:
 import os
 
 
-def load_photo(label: QLabel):
+def load_photo(self, label: QLabel):
     """Displays the photo in the label"""
     # Load the path to the Python file, where the pictures are
     path = os.path.dirname(os.path.abspath(__file__))
-    pixmap = QPixmap(path + "/" + self.pixmap_filename)
+    pixmap = QPixmap(os.path.join(path, self.pixmap_filename))
 
     # Show the picture in the label
     label.setPixmap(pixmap)
