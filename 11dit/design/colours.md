@@ -163,6 +163,12 @@ At the top of the generator window, click Export, then click Save. You will down
 
 ![Example palette](img/colours_palette.png)
 
+# Try the palette out
+
+You can use the [Colour Tester](/classroom/colours.html) to try the colours with a sample web page. Click on the colour buttons to change the demo's colours, then take a screenshot and add it to your portfolio.
+
+![Colour Tester](img/colours_demo.png)
+
 # Task
 
 In the **Colours** section of your portfolio, discuss what colours you might use and why.

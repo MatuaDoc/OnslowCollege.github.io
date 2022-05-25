@@ -1,0 +1,35 @@
+---
+title: Colour tester
+---
+
+<h1>Colour tester</h1>
+
+<div id="demo-page" style="display: block; border: 1px solid gray; max-width: 500px; padding: 20px; margin: 20px;">
+    <div id="demo-nav" style="min-height: 50px; line-height: 50px; padding-left: 20px; padding-right: 20px; background-color: #4d91ff; color: #ffffff;">
+        <div style="display: flex; justify-content: space-between;">
+            <span id="demo-logo" style="display: flex; padding: 0 20px; min-height: 50px; background-color: #ffaa00">Logo</span>
+            <span>Home | Item | Item | Item</span>
+        </div>
+    </div>
+    <div id="demo-body" style="margin-top: 1em; line-height: 1.5em; text-align: justify">
+        <span id="demo-heading" style="margin-left: 10px; color: #ffaa00; font-size: x-large">Heading</span>
+        <div style="display: flex; justify-content: space-between;">
+            <p style="flex: 1 1 0px; padding: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p id="demo-body-bg" style="flex: 1 1 0px; padding: 10px; background-color: #b8daff">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    <div id="demo-footer" style="text-align: center; background-color: #b8daff">Made with ❤️ by YourNameHere. © 2022.</div>
+</div>
+
+<h2>Change the colours</h2>
+
+<form style="width: 200px; border: 1px solid gray; display: flex; padding: 1em; margin: 20px; flex-wrap: wrap; justify-content: space-between">
+<ul style="list-style-type: none; padding-left: 0;">
+    <li><input id="sec" type="color" onchange="let secColour = document.getElementById('sec').value; document.getElementById('demo-body-bg').style.backgroundColor = secColour; document.getElementById('demo-footer').style.backgroundColor = secColour;" value="#b8daff"><span>Secondary base colour</span></li>
+    <li><input id="pri" type="color" onchange="let priColour = document.getElementById('pri').value; document.getElementById('demo-nav').style.backgroundColor = priColour" value="#4d91ff"><span><b>Primary</b> base colour</span></li>
+    <li><input id="acc" type="color" onchange="let accColour = document.getElementById('acc').value; document.getElementById('demo-logo').style.backgroundColor = accColour; document.getElementById('demo-heading').style.color = accColour" value="#ffaa00"><span>Accent colour</span></li>
+    <li><input id="bg" type="color" onchange="let bgColour = document.getElementById('bg').value; document.getElementById('demo-page').style.backgroundColor = bgColour" value="#ffffff"><span>Background colour</span></li>
+    <li><input id="txt" type="color" onchange="let txtColour = document.getElementById('sec').value; document.getElementById('demo-page').style.color = txtColour" value="#000000"><span>Text colour</span></li>
+    <li><input id="nav" type="color" onchange="let navColour = document.getElementById('nav').value; document.getElementById('demo-nav').style.color = navColour" value="#ffffff"><span>Nav text colour</span></li>
+</ul>
+</form>
