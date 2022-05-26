@@ -38,7 +38,7 @@ categories:
         item_page: processes
       - planning:
         item_name: Planning tools
-        item_desc: Learn agile development tools such as [project boards](planning#project-boards)
+        item_desc: Learn agile development tools such as <a href="planning.html#project-boards">project boards</a>
         item_icon: img/planning.svg
         item_page: planning
 ---
