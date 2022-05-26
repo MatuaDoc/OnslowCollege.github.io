@@ -90,7 +90,6 @@ h5 {
 }
 
 #toc {
-    background-color: darken($onslow_green, 5%);
     color: white;
     font-size: small;
     display: block;
@@ -199,6 +198,14 @@ input {
         max-height: 0;
         padding: 0 1em;
         color: $onslow_green;
+
+        &::after {
+            content: "\276F";
+            width: 1em;
+            height: 1em;
+            text-align: center;
+            transition: all .35s;
+        }
     }
 
     &-content a {
@@ -214,8 +221,13 @@ input:checked {
 
     ~.tab-content {
         display: block;
+        background: darken($onslow_green, 5%);
         max-height: 100vh;
-        padding: 1em;
+        padding: 0.5em;
+
+        +.tab-close {
+            display: block;
+        }
     }
 }
 
