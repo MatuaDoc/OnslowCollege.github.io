@@ -100,7 +100,24 @@ This visual method of displaying the status of tasks is usually a table (whitebo
 
 Having a visual planner such as a project board helps everyone on the team easily see what is going on, encouraging focus and teamwork. A project board is equally useful if you are working alone on your project.
 
-A simple version is using column headings Backlog, In-Progress, QA (or Testing), and Complete. You might want to add a column for testing or other stages in your process.
+### Columns and limits
+
+A simple version uses columns such as:
+
+- Backlog
+- In-Progress
+- QA (or Testing)
+- Complete
+
+For each column, specify a maximum number of components. For example, you could state that in a single sprint, you should work on no more than two components at a time.
+
+Defining a limit like this prevents you from overloading your plate and making your sprint unmanageable.
+
+| Backlog | In-Progress (2) | QA (2) | Complete |
+| :-- | :-- | :-- | :-- | :-- |
+| |
+
+### How to build a project board
 
 | Tool | | Description |
 | :-- | :-: | :-- |
@@ -116,6 +133,14 @@ Here's a tutorial video for Microsoft Planner, which comes free with your Micros
 Here's a tutorial video on how to create a project board with GitHub Projects, which you can associate with a GitHub repository that you create:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YVFa5VljCDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Game
+
+Try the [Kanban Board Game](http://www.kanbanboardgame.com).
+
+You will manage members of a team by assigning them to components on a project board. Each component requires a certain amount of analysis, development, and testing. How much money can you make for the company with good project management?
+
+> You will need to sign up for an account. Use your school email address.
 
 # Reminders 
 
