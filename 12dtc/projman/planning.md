@@ -90,7 +90,7 @@ It’s also a good time to update your planning. This is when you would:
 - based on the testing and trialling, refine your backlog (strip out any unnecessary components, add in others that were determined during your sprint)
 - determine what components need to be worked on next
 
-## Project boards
+# Project boards
 
 Project boards are methods of displaying the tasks you need to do. They are also called kanban boards (from the Japanese 看板, meaning 'signboard').
 
@@ -100,7 +100,7 @@ This visual method of displaying the status of tasks is usually a table (whitebo
 
 Having a visual planner such as a project board helps everyone on the team easily see what is going on, encouraging focus and teamwork. A project board is equally useful if you are working alone on your project.
 
-### Columns and limits
+## Columns and limits
 
 A simple version uses columns such as:
 
@@ -117,7 +117,7 @@ Defining a limit like this prevents you from overloading your plate and making y
 | :-- | :-- | :-- | :-- | :-- |
 | |
 
-### How to build a project board
+## How to build a project board
 
 | Tool | | Description |
 | :-- | :-: | :-- |
@@ -134,7 +134,7 @@ Here's a tutorial video on how to create a project board with GitHub Projects, w
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YVFa5VljCDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Game
+## Game
 
 Try the [Kanban Board Game](http://www.kanbanboardgame.com).
 
