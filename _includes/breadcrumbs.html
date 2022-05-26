@@ -1,8 +1,11 @@
 <div class="tabs">
   <a href="/"><img src="/img/home_nav.png" style="margin-bottom: 8px;"></a>
   <div class="tab">
-    <input type="radio" id="chck1" name="chck">
-    <label class="tab-label" for="chck1">11DIT</label>
+    <input type="radio" id="unchck" name="chck">
+  </div>
+  <div class="tab">
+    <input type="radio" id="chck1" name="chck" {% if page.url contains '11dit' %}checked{% endif %}>
+    <label class="tab-label" for="chck1"><span>11DIT</span><label class="tab-close" for="unchck">x</label></label>
     <div class="tab-content">
       <p><a href="/11dit">Course Home</a></p>
       <p><a href="/11dit/programming">Programming</a></p>
@@ -12,8 +15,8 @@
     </div>
   </div>
   <div class="tab">
-    <input type="radio" id="chck2" name="chck">
-    <label class="tab-label" for="chck2">12DTC</label>
+    <input type="radio" id="chck2" name="chck" {% if page.url contains '12dtc' %}checked{% endif %}>
+    <label class="tab-label" for="chck2"><span>12DTC</span><label class="tab-close" for="unchck">x</label></label>
     <div class="tab-content">
       <p><a href="/12dtc">Course Home</a></p>
       <p><a href="/12dtc/programming">Programming</a></p>
@@ -22,19 +25,25 @@
     </div>
   </div>
   <div class="tab">
-    <input type="radio" id="chck3" name="chck">
-    <label class="tab-label" for="chck3">13DTC</label>
+    <input type="radio" id="chck3" name="chck" {% if page.url contains '13dtc' %}checked{% endif %}>
+    <label class="tab-label" for="chck3"><span>13DTC</span><label class="tab-close" for="unchck">x</label></label>
     <div class="tab-content">
       <p><a href="/13dtc">Course Home</a></p>
       <p><a href="/13dtc/programming">Programming</a></p>
       <p><a href="/13dtc/projman">Project Management</a></p>
       <p><a href="/13dtc/compsci">Computer Science</a></p>
     </div>
-  </div>
-    {% unless page.hide_toc == true %}
-    <div id="toc">
-      <p style="font-weight: bold; text-align: center;">Table of Contents</p>
-      {% include toc.html html=content h_max=2 %}
+  <div class="tab">
+    <input type="radio" id="chck4" name="chck">
+    <label class="tab-label" for="chck4"><span>Tools</span><label class="tab-close" for="unchck">x</label></label>
+    <div class="tab-content">
+      <p><a href="/classroom/colours.html">Colour Checker</a></p>
     </div>
-    {% endunless %}
+  </div>
+  {% unless page.hide_toc == true %}
+  <div id="toc">
+    <p style="font-weight: bold; text-align: center;">Table of Contents</p>
+    {% include toc.html html=content h_max=2 %}
+  </div>
+  {% endunless %}
 </div>
