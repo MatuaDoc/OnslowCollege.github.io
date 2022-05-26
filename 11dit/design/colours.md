@@ -169,6 +169,15 @@ You can use the [Colour Tester](/classroom/colours.html) to try the colours with
 
 ![Colour Tester](img/colours_demo.png)
 
+- Click on the colour box
+    - If you use Chrome or Edge, click on the "RGB" button twice until it shows "HEX"
+    - If you use Safari, click on "More Colours" → second icon → change the slider type to "RGB Sliders"
+    - Firefox does not support entering hex codes on Windows, but it does on macOS
+- Copy-paste the hex code from your colour palette
+- Take a screenshot
+
+Bear in mind, this is just a **demonstration** of the colours you have chosen. You may use the colours differently on your website — but this gives a "good enough" impression on how they could be used.
+
 # Task
 
 In the **Colours** section of your portfolio, discuss what colours you might use and why.
