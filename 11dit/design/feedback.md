@@ -142,3 +142,13 @@ Great idea, I haven't done one yet. Let me get right on it!
 > ⛔️ I don't like the handwriting font.
 
 Well, I wish you'd said what kind of font you *do* like. 🙄
+
+# Task
+
+Give each other feedback on your:
+
+- colour palettes
+- font pairings
+- layouts
+
+Make sure to give **feedback** (opinion) and **feedforward** (ideas).
