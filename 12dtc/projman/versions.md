@@ -65,13 +65,19 @@ Once you have created the repository on GitHub, you can **clone** it to bring th
 
 You can also clone other repositories on GitHub. You've already done this with your programming assignments.
 
+Git downloads the repository to a specified folder. That folder is called the **working directory** and contains all the files you edit. The actual repository itself is stored in a hidden folder (called ``.git``) and is called the **local repository** or **HEAD**.
+
 ## Commits
 
-When you make changes to your code, you **commit** it. With each commit, you add a commit message that explains the changes you have made to your code.
+When you make changes to the code in your working directory, you **stage** the relevant files. You can stage just one file or many, it's up to you — the files you stage should represent the minimum number of files needed for a given change in the code.
 
-Therefore, each commit represents a version of your code.
+Once the files are staged, they are marked as ready to be recorded as a **commit**.  A commit is like a separate version of the project within your code; the staged files contain the changes, making it clear what you edited.
 
-When you **push** the code to GitHub, any commits you've made since your last push are sent to the server. Now your commits are backed up so that you won't lose any of your versions.
+With each commit, you add a commit message that explains the changes you have made to your code. [Learn to write good commit messages](https://medium.com/compass-true-north/writing-good-commit-messages-fc33af9d6321).
+
+Once committed, you can **push** the commit to GitHub. When you do this, any commits in your local repository that you've made since your last push are sent to the **remote repository**. They are uploaded to GitHub!
+
+Now your commits are backed up so that you won't lose any of your versions!
 
 Since each commit saves a copy of your code at the time you committed, you can **revert** back to a previous commit in case you want to undo a mistake.
 
@@ -95,9 +101,13 @@ Every repository is equipped with a default branch called ``main`` (in older pro
 
 You can create copies of ``main`` with a name that you specify. For example, if you have code that presents a menu in one way, and you want to trial a different way, you could create a branch called ``alt_menu`` or something similar.
 
-You can continue to commit your code. Which branch the code is committed to depends on your ``git`` settings or your editor, so be careful.
+Each branch has its own local repository within the hidden ``.git`` folder; this is what keeps the changes separate. Therefore, you need to be careful to select the branch to which you want to commit — you might accidentally commit code to the ``main`` branch then get confused as to why there is nothing to push to your new branch!
 
 When you are happy with the code and wish to make it available to the ``main`` branch, you can **merge** your other branches back into ``main``.
+
+## Glossary
+
+[Read the project management glossary](/classroom/glossary#project-management).
 
 ## Resources
 

@@ -260,3 +260,81 @@ A visual element on a [graphical user interface](#graphical-user-interface) that
 ![Widgets](img/widgets.png)
 
 Examples of widgets include labels, buttons, check boxes, radio buttons, text fields/line edits, text areas, steppers/spin boxes, etc.
+
+# Project management
+
+## Branch
+
+As a noun, an alternate version of a [repository](#repository) that can be used for developing a specific feature.
+
+All repositories are created with a default branch called ``main`` (previously ``master``). You must give a name to any other branches that you create.
+
+As a verb, to make a branch.
+
+## Clone
+
+To make a local copy of a [repository](#repository) hosted on a service such as GitHub.
+
+## Commit
+
+As a noun, this represents a version of your project when a particular change is made. As part of this, files are [staged](#stage) to associate them with the commit.
+
+Commits mark points where it is possible to return to an earlier version of the project.
+
+As a verb, the act of making a commit.
+
+## Fetch
+
+Similar to a [pull](#pull), except that the files are not directly added to your [working directory](#working-directory). This gives you an opportunity to examine what changes were made and select which changes you wish to [merge](#merge) so that your working directory's files are not overwritten immediately.
+
+## HEAD
+
+Also called a local [repository](#repository), this is the copy of the project stored on your local computer.
+
+Not to be confused with a [working directory](#working-directory), which is the folder containing the files you work on. Though these do belong to the project, these files do not represent the [commit](#commit) history.
+
+This is typically stored in a hidden folder called ``.git`` inside your working directory.
+
+## Merge
+
+When relating to [branches](#branch), this means to copy the changes (including adding new files, editing existing files, or even deleting files) from one branch to another.
+
+When relating to [fetching](#fetch), this is the action taken to copy files from the [local repository](#head) to the [working directory](#working-directory).
+
+## Pull
+
+To download [commits](#commit) from a [remote](#remote) [repository](#repository) directly into your [working directory](#working-directory).
+
+## Push
+
+To upload [commits](#commit) from your [local](#head) [repository](#repository) to a [remote](#remote) repository.
+
+## Local repository
+
+See [HEAD](#head).
+
+## Remote
+
+A [repository](#repository) stored on a distant or online server, such as GitHub, Gitlab, etc.
+
+## Repository 
+
+Similar to a folder, it contains the files for your project and their [commit](#commit) history.
+
+## Revert
+
+To return a [repository](#repository) or [working directory](#working-directory) to the state it was in at the time of a specified [commit](#commit).
+
+## Stage
+
+To mark a file as containing changes related to a [commit](#commit).
+
+## Staging area
+
+See [stage](#stage).
+
+## Working directory
+
+The folder on your computer containing the [repository](#repository) that you are editing.
+
+Not to be confused with a [local repository](#head), which is contained within a hidden folder called ``.git`` inside the project directory. It contains your [commit](#commit) history, whilst the working directory is "live".
