@@ -28,9 +28,6 @@ categories:
         item_desc: |
                    <a href="https://onslowcollege.sharepoint.com/:w:/s/12DTC2022/EdVOjaHd1HpLjp-Acc4Ii_EBcT-BNCVS5nxC-MnqTmRiJg?e=deHKyK">Project management portfolio</a>
         item_page:
-  - processes:
-    category_name: Processes
-    category_items:
       - processes:
         item_name: Project management processes
         item_desc: Learn to decompose a project into components
@@ -38,7 +35,17 @@ categories:
         item_page: processes
       - planning:
         item_name: Planning tools
-        item_desc: Learn agile development tools such as <a href="planning.html#project-boards">project boards</a>
+        item_desc: Learn iterative development methodologies and tools
         item_icon: img/planning.svg
         item_page: planning
+      - project_boards:
+        item_name: Project boards
+        item_desc: Create project boards to keep track of what components you work on
+        item_icon: img/project-boards.svg
+        item_page: project-boards
+      - version_control:
+        item_name: Version control
+        item_desc: Track your iteration outcomes
+        item_icon: img/versions.svg
+        item_page: versions
 ---
