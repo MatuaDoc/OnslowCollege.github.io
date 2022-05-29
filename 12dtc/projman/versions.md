@@ -81,7 +81,9 @@ If you pushed code to your GitHub repository from one computer (i.e. your laptop
 
 ⚠️ If there are newer commits on GitHub than in your **working copy** (the version of the project on your computer), then you must pull from GitHub first before you are allowed to push.
 
-![Git workflow](img/versions_workflow.gif)
+[![Git workflow](img/versions_workflow.gif)](img/versions_workflow.gif)
+
+[Click here for non-animated version](img/versions_workflow.png)
 
 ## Branches
 
