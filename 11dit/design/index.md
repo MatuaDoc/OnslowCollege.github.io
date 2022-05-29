@@ -91,9 +91,4 @@ categories:
         item_desc: Ask others what you need to know — and give useful advice back
         item_icon: img/feedback.svg
         item_page: feedback
-      - changes:
-        item_name: Making changes based on feedback
-        item_desc: How to interpret the feedback you're given
-        item_icon: img/changes.svg
-        item_page: changes
 ---
