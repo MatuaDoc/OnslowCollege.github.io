@@ -166,7 +166,7 @@ input {
 }
 
 /* Accordion styles */
-.tabs {
+#tabs {
     width: 200px;
     overflow: scroll;
     font-size: small;
@@ -230,6 +230,21 @@ input:checked {
             display: block;
         }
     }
+}
+
+#tabs-toggle {
+    position: fixed;
+    top: 90px;
+    left: 220px;
+
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(var(--main-rgb));
+    padding: 0.5em;
+
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    cursor: pointer;
 }
 
 .main-content {
