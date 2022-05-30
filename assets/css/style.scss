@@ -148,6 +148,8 @@ h5 {
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+
+    transition: all 0.5s ease-in-out;
 }
 
 .page-header::-webkit-scrollbar {
@@ -238,13 +240,15 @@ input:checked {
     left: 220px;
 
     border-radius: 0 10px 10px 0;
-    background-color: rgb(var(--main-rgb));
+    background-color: rgb(var(--onslow-rgb));
     padding: 0.5em;
 
     color: white;
     writing-mode: vertical-rl;
     text-orientation: mixed;
     cursor: pointer;
+
+    transition: all 0.5s ease-in-out;
 }
 
 .main-content {
