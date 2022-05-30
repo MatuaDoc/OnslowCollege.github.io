@@ -19,6 +19,8 @@ If you were drawing a picture, you're likely to:
 
 When we make digital items it’s the same - we don’t usually make the whole thing all at once and get it right the first time.
 
+![Stars](img/versions_stars.png)
+
 As you develop your outcome, it is important to save versions of your work to show its development over time. This also makes it easier if you find something doesn’t work and you need to revert to an earlier version — *or erase some lines and draw them again*.
 
 There are two main ways to save versions of your work.
