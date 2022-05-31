@@ -84,7 +84,7 @@ h5 {
 }
 
 .main-content {
-    padding: 0;
+    padding: 0 2em;
     // padding-top: 10em;
     margin: 0 auto;
 }
@@ -137,9 +137,7 @@ h5 {
 
 .page-header {
     background: rgb(var(--onslow-rgb)) !important;
-    background: rgb(var(--onslow-rgb)) !important;
     padding: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
     min-width: 220px;
     max-width: 220px;
     position: fixed;
@@ -149,7 +147,12 @@ h5 {
     scrollbar-width: none;
     /* Firefox */
 
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    @media (prefers-color-scheme: dark) {
+        background: darken($onslow_green, 12%) !important;
+        border-right: 1px solid grey;
+    }
 }
 
 .page-header::-webkit-scrollbar {
@@ -234,13 +237,12 @@ input:checked {
     }
 }
 
-#tabs-toggle {
+.toggle {
     position: fixed;
-    top: 90px;
-    left: 220px;
+    left: 219px;
 
     border-radius: 0 10px 10px 0;
-    background-color: rgb(var(--onslow-rgb));
+    background-color: $onslow_green;
     padding: 0.5em;
 
     color: white;
@@ -248,15 +250,31 @@ input:checked {
     text-orientation: mixed;
     cursor: pointer;
 
-    transition: all 0.5s ease-in-out;
+    @media (prefers-color-scheme: dark) {
+        background-color: darken($onslow_green, 12%) !important;
+        border-top: 1px solid grey;
+        border-right: 1px solid grey;
+        border-bottom: 1px solid grey;
+        border-lefh: 1px solid darken($onslow_green, 12%);
+    }
+
+    transition: all 0.2s ease-in-out;
+}
+
+#presentation-toggle {
+    top: 50px;
+}
+
+#tabs-toggle {
+    top: 87px;
 }
 
 .main-content {
     // padding-top: 8em;
     padding: 0 2em;
-    margin-left: 260px;
+    margin: 0 auto;
     min-width: 800px;
-    max-width: 1000px;
+    max-width: 800px;
 }
 
 .main-content table {
@@ -325,4 +343,14 @@ input:checked {
 
 .highlight .cp, .highlight .cs, .highlight .gs, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .k, .highlight .kv, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .ow, .highlight .o {
     font-weight: 700
+}
+
+@media only screen and (max-width: 1200px) {
+    #tabs-toggle-chck+.main-content {
+            padding-left: 3em;
+        }
+
+    #tabs-toggle-chck:checked+.main-content {
+        padding-left: 220px;
+    }
 }

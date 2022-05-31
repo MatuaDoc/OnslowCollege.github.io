@@ -19,12 +19,10 @@
 <body>
     {% include breadcrumbs.html %}
 
+    <input type="checkbox" id="tabs-toggle-chck" style="display: none" checked>
     <main id="content" class="main-content" role="main">
-        <p id="page-title">{{ page.title }}</p>
-
         <div id="course">
-            <div id="sidebar">
-            </div>
+            <div id="page-title">{{ page.title }}</div>
 
             <article>
                 {% if page.learning_intentions %}

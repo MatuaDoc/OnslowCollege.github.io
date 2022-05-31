@@ -6,29 +6,38 @@
       document.getElementsByClassName('page-header')[0].style.minWidth = '0';
       document.getElementsByClassName('page-header')[0].style.maxWidth = '0';
       document.getElementsByClassName('page-header')[0].style.opacity = '0%';
+      document.getElementById('onslow-logo').style.opacity = '0%';
       setTimeout(() => {
         document.getElementsByClassName('page-header')[0].style.display = 'none';
-      }, 500);
-      document.getElementsByClassName('main-content')[0].style.margin = '0 auto';
-      document.getElementById('unchck').checked = true;
+      }, 200);
       
     } else {
       document.getElementById('tabs-toggle-chck').checked = true;
-      document.getElementById('tabs-toggle').style.left = '220px';
-      document.getElementsByClassName('page-header')[0].style.display = 'block';
+      document.getElementById('tabs-toggle').style.removeProperty('left');
+      document.getElementsByClassName('page-header')[0].style.removeProperty('display');
+      document.getElementById('onslow-logo').style.removeProperty('opacity');
       setTimeout(() => {
-        document.getElementsByClassName('page-header')[0].style.minWidth = '220px';
-        document.getElementsByClassName('page-header')[0].style.maxWidth = '220px';
-        document.getElementsByClassName('page-header')[0].style.opacity = '100%';
-      }, 1)
-      document.getElementsByClassName('main-content')[0].style.marginLeft = '260px';
+        document.getElementsByClassName('page-header')[0].style.removeProperty('min-width');
+        document.getElementsByClassName('page-header')[0].style.removeProperty('max-width');
+        document.getElementsByClassName('page-header')[0].style.removeProperty('opacity');
+      }, 1);
+    }
+  }
+
+  function togglePresentation() {
+    if (document.getElementById('presentation-toggle-chck').checked) {
+      document.getElementById('presentation-toggle-chck').checked = false;
+      // document.getElementsByClassName('main-content')[0].style.transform = "initial";
+    } else {
+      document.getElementById('presentation-toggle-chck').checked = true;
+      // document.getElementsByClassName('main-content')[0].style.transform = "scale(1.5)";
     }
   }
 </script>
 <header class="page-header" role="banner">
   <nav>
     <div id="tabs">
-      <a href="/"><img src="/img/home_nav.png" style="margin-bottom: 8px;"></a>
+      <a href="/"><img id="onslow-logo" src="/img/home_nav.png" style="margin-bottom: 8px; transition: all 0.15ms ease-in-out;"></a>
       <div class="tab">
         <input type="radio" id="unchck" name="chck">
       </div>
@@ -79,5 +88,6 @@
     </div>
   </nav>
 </header>
-<input type="checkbox" id="tabs-toggle-chck" style="display: none" checked>
-<div id="tabs-toggle" onclick="toggleSidebar();">Show/hide sidebar</div>
+<input type="checkbox" id="presentation-toggle-chck" style="display: none">
+<!-- <div id="presentation-toggle" class="toggle" onclick="togglePresentation();">Aa</div> -->
+<div id="tabs-toggle" class="toggle" onclick="toggleSidebar();">Show/hide sidebar</div>
