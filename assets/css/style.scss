@@ -189,6 +189,7 @@ input {
     width: 100%;
     color: white;
     overflow: hidden;
+    transition: all 0.1ms ease-in-out;
 
     &-label {
         display: flex;
@@ -218,6 +219,10 @@ input {
 input:checked {
     +.tab-label {
         background: darken($onslow_green, 5%);
+
+        @media (prefers-color-scheme: dark) {
+            background: darken($onslow_green, 12%);
+        }
 
         .tab-close {
             display: flex;

@@ -1,0 +1,8 @@
+<input type="checkbox" id="tabs-toggle-chck" style="display: none">
+<script>
+    if ((document.cookie.match('(^|;)\\s*' + 'hide_sidebar' + '\\s*=\\s*([^;]+)')?.pop() || '') == 'true') {
+        toggleSidebar();
+    } else {
+        document.getElementById('tabs-toggle-chck').checked = true;
+    }
+</script>
