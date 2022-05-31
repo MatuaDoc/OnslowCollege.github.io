@@ -48,4 +48,9 @@ categories:
         item_desc: Track your iteration outcomes
         item_icon: img/versions.svg
         item_page: versions
+      - implications:
+        item_name: Relevant implications
+        item_desc: What aspects do you need to consider relating to the project to ensure its success?
+        item_icon: img/implications.svg
+        item_page: implications
 ---
