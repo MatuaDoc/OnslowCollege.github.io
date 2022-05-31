@@ -15,6 +15,8 @@ For example, a website isn't made just for the person who makes it — it's made
 
 The following bullet points contain the implications, taken directly from the achievement standard, with example questions to help you consider whether or not these are **relevant** to your outcome.
 
+![Implications](img/implications_poster.png)
+
 ## Social
 
 A digital outcome can affect different social groups in different ways. Social groupings can be considered in terms of ethnicity, age, gender, religious beliefs, socio-economic status, and more. You need to ensure your digital outcome avoids offending anyone, mis-representing a social group or stereotyping people. Your outcome should appeal to all social groups, if possible. It should also be appropriate for the organisation it represents and for the target users.
@@ -25,6 +27,10 @@ Here are some questions to consider:
 - Does it meet any societal needs?
 - How do people relate to the outcome?
 - How does it relate to people?
+
+**Watch**: This video will get you started in your thinking - it talks about the impacts that smartphones are having on society.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_ANXYDYk36k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Cultural
 
@@ -41,7 +47,7 @@ Here are some questions to consider:
 
 ## Legal
 
-Will your outcome obey all relevant laws? These might include the Privacy Act, the Copyright Act, or Harmful Digital Communications laws. For example, make sure your digital outcome doesn’t make false allegations, denigrate a person’s ethnic origin or sexual orientation, contains no private information and contains no intellectual property that you don’t have permission to include.
+Will your outcome obey all relevant laws? These might include the [Privacy Act](https://www.consumer.org.nz/articles/privacy-law#article-what-the-act-covers), the [Copyright Act](https://www.copyright.co.nz/understanding-copyright/what-is-copyright), or [Harmful Digital Communications](https://privacy.org.nz/further-resources/knowledge-base/view/299) laws. For example, make sure your digital outcome doesn’t make false allegations, denigrate a person’s ethnic origin or sexual orientation, contains no private information and contains no intellectual property that you don’t have permission to include.
 
 Here are some questions to consider:
 
@@ -90,9 +96,13 @@ Here are some questions to consider:
 - Have you received permission to use certain content?
 - Does your outcome adequately acknowledge other peoples' IP?
 
+**Watch**: learn about Creative Commons licences with this short video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AeTlXtEOplA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Privacy
 
-As digital designers, we often have access to other people’s data, images or personal information. There are strict laws governing the storage and use of personal information in NZ. You can read more about the 12 principles of NZ’s Privacy Act here. 
+As digital designers, we often have access to other people’s data, images or personal information. There are strict laws governing the storage and use of personal information in NZ. [Read more about the 12 principles of NZ’s Privacy Act](https://www.consumer.org.nz/articles/privacy-law#article-what-the-act-covers). 
  
 Think about how you will keep other people’s personal information safe and confidential. For example, if you are using images of other people in your website, do you have their permission? If your database contains private addresses, are these kept hidden from other users?
 
@@ -124,11 +134,15 @@ Here are some questions to consider:
 - Are there specific features built for the needs of users with accessibility needs?
 - What tools have you made use of in order to make the outcome accessible?
 
+**Watch**: short video from NZ organisation Be.Accessible which explains why accessible design is important to our communities: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RyqMjFgi5Vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Usability
 
 While designing your digital outcome you will think about what your users need to do and how to help them do this. For example you may consider how the user inputs text into a text box and whether you can make this easy for them using prompts and a large, visible input box.   
  
-In year 11 you may have learned about human-computer interaction(HCI) and usability heuristics. These are ideas and ‘rules of thumb’ you can follow to make the use of your outcome easier for users. If you need a refresher or you didn’t learn about this last year, please make use of the information and activities available in the CS Fieldguide, or ask your teacher to register you for the DT & HM Online HCI module.
+In year 11 you may have learned about human-computer interaction(HCI) and usability heuristics. These are ideas and ‘rules of thumb’ you can follow to make the use of your outcome easier for users. If you need a refresher or you didn’t learn about this last year, please make use of the information and activities available in the [CS Field Guide](https://csfieldguide.org.nz/en/chapters/human-computer-interaction/usability-heuristics/), or ask your teacher to register you for the DT & HM Online HCI module.
 
 Here are some questions to consider:
 
