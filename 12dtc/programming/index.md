@@ -83,7 +83,7 @@ categories:
         item_name: Intro to functions
         item_desc: Create basic functions in Python
         item_icon: img/functions.svg
-        item_page: functions
+        item_page: functions-basic
       - return:
         item_name: Functions that return values
         item_desc: Let functions step in for values
