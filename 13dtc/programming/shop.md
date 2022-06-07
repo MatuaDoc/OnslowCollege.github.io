@@ -36,11 +36,14 @@ You may lay the interface out however you like.
 
 ## Object-oriented programming
 
-You should create classes for the following aspects of the program:
+Here are some ideas for classes you could include in your program:
 
 - **Product**: contains the information about the product
 - **ProductCategory**: contains the products by category
-- **Order**: contains the contents of the order
+- **Stock**: contains which products/categories are available
+- **Order**: contains the contents of each order
+
+These are not **mandatory**, just suggestions!
 
 Remember to create relevant properties, setters, and methods.
 
