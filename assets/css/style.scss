@@ -25,21 +25,25 @@ $onslow_green: rgb(28, 91, 82);
 
 body {
     font-family: 'Lexend', 'Avenir', sans-serif;
+
     @media (prefers-color-scheme: dark) {
-        background-color: #18191c;
+        background-color: darken(darkgrey, 60%);
     }
+    
     display: flex;
 }
 
 p, li {
     @media (prefers-color-scheme: dark) {
-        color: #99aab5 !important;
+        color: lighten(slategray, 20%) !important;
     }
 }
 
 a {
+    color: $onslow_green !important;
+
     @media (prefers-color-scheme: dark) {
-        color: skyblue !important;
+        color: lighten($onslow_green, 40%) !important;
     }
 }
 
@@ -90,7 +94,7 @@ h5 {
 }
 
 #toc {
-    color: white;
+    color: black;
     font-size: small;
     display: block;
     padding-top: 4px;
@@ -98,28 +102,25 @@ h5 {
     max-width: 200px;
     height: 100vh;
     text-align: left;
-    -ms-overflow-style: none;
+    //-ms-overflow-style: none;
     /* IE and Edge */
-    scrollbar-width: none;
+    //scrollbar-width: none;
     /* Firefox */
 
     ul {
+        overflow-y: scroll;
         list-style-type: none;
         padding: 0;
         margin: 0;
         margin-left: 10px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
         
         li {
             margin: 1em 0;
         }
-    }
-
-    a {
-        color: white;
-    }
-
-    &::-webkit-scrollbar {
-        display: none;
     }
 }
 
@@ -136,7 +137,8 @@ h5 {
 }
 
 .page-header {
-    background: rgb(var(--onslow-rgb)) !important;
+    background: darken(white, 5%);
+    border-right: 1px solid grey;
     padding: 10px;
     min-width: 220px;
     max-width: 220px;
@@ -150,8 +152,7 @@ h5 {
     transition: all 0.2s ease-in-out;
 
     @media (prefers-color-scheme: dark) {
-        background: darken($onslow_green, 12%) !important;
-        border-right: 1px solid grey;
+        background: black;
     }
 }
 
@@ -168,6 +169,14 @@ input {
     position: absolute;
     opacity: 0;
     z-index: -1;
+}
+
+#tabs-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 12px;
+    transition: all 0.1ms ease-in-out;
 }
 
 /* Accordion styles */
@@ -187,57 +196,34 @@ input {
 
 .tab {
     width: 100%;
-    color: white;
     overflow: hidden;
     transition: all 0.1ms ease-in-out;
-
-    &-label {
-        display: flex;
-        justify-content: space-between;
-        padding: 1em;
-        font-weight: bold;
-        cursor: pointer;
-
-        .tab-close {
-            display: none;
-        }
-    }
+    font-size: small;
+    text-align: left;
 
     &-content {
+        margin-top: 12px;
+        width: 200px;
         display: none;
         max-height: 0;
         padding: 0 1em;
-        color: $onslow_green;
     }
 
     &-content a {
-        color: white;
+        color: $onslow_green;
     }
 }
 
 // :checked
 input:checked {
-    +.tab-label {
-        background: darken($onslow_green, 5%);
-
-        @media (prefers-color-scheme: dark) {
-            background: darken($onslow_green, 12%);
-        }
-
-        .tab-close {
-            display: flex;
-            cursor: pointer;
-        }
-    }
-
     ~.tab-content {
         display: block;
-        background: darken($onslow_green, 5%);
+        background: white;
         max-height: 100vh;
         padding: 0.5em;
 
-        +.tab-close {
-            display: block;
+        @media (prefers-color-scheme: dark) {
+            background: lighten(black, 10%);
         }
     }
 }
@@ -247,16 +233,16 @@ input:checked {
     left: 219px;
 
     border-radius: 0 10px 10px 0;
-    background-color: $onslow_green;
+    background-color: white;
+    border: 1px solid grey;
     padding: 0.5em;
 
-    color: white;
     writing-mode: vertical-rl;
     text-orientation: mixed;
     cursor: pointer;
 
     @media (prefers-color-scheme: dark) {
-        background-color: darken($onslow_green, 12%) !important;
+        background-color: black !important;
         border-top: 1px solid grey;
         border-right: 1px solid grey;
         border-bottom: 1px solid grey;
