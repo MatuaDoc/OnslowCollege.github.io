@@ -207,6 +207,7 @@ input {
         display: none;
         max-height: 0;
         padding: 0 1em;
+        color: gray;
     }
 
     &-content a {
@@ -246,7 +247,6 @@ input:checked {
         border-top: 1px solid grey;
         border-right: 1px solid grey;
         border-bottom: 1px solid grey;
-        border-lefh: 1px solid darken($onslow_green, 12%);
     }
 
     transition: all 0.2s ease-in-out;
