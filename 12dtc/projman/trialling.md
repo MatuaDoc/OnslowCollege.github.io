@@ -118,7 +118,7 @@ From all of the feedback the teachers gave it is obvious that Te Reo will need t
 
 Kia Ora koutou katoa and thank you for choosing Simple math quiz for your classroom. The aim of the program is to help you to ascertain student’s previous maths knowledge in a fun and engaging way. Research determined that uncertainty of an upcoming reward has been a great motivator for the students to keep playing the game and learning essential math skills in the process. As a teacher you have an option to change the questions to make them easier or harder, depending on the year level. The student’s will be able to rate the questions difficulty, giving you an indication of their confidence levels. The report printed at the end will have all the questions answered with rating the student gave them. Hope you and your students enjoy the game. For support email contact@simplemaths.co.nz or call 0800 FUNMATH. 
 
-## Example 1
+## Example 2
 
 ***What components are you going to trial?***
 
