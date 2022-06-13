@@ -43,6 +43,11 @@ categories:
         item_desc: Create project boards to keep track of what components you work on
         item_icon: img/project-boards.svg
         item_page: project-boards
+      - testing_trialling:
+        item_name: Testing & trialling
+        item_desc: Make sure your components work — and are the best they can be
+        item_icon: /img/compsci.svg
+        item_page: trialling
       - version_control:
         item_name: Version control
         item_desc: Track your iteration outcomes
