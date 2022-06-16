@@ -25,6 +25,11 @@ categories:
         item_name: Glossary
         item_icon: /12dtc/programming/img/dictionaries.svg
         item_page: /classroom/glossary
+      - cheatsheet:
+        item_name: Cheat Sheet
+        item_desc: Helpful code snippets
+        item_icon: /12dtc/programming/img/dictionaries.svg
+        item_page: cheatsheet
   - recap:
     category_name: Recap
     category_items:
