@@ -83,6 +83,11 @@ categories:
         item_desc: Let users focus on the relevant content
         item_icon: img/layout.svg
         item_page: layouts
+      - site-map:
+        item_name: Site map
+        item_desc: Plan the pages on your website
+        item_icon: img/map.svg
+        item_page: site-map
   - improvements:
     category_name: Improvements
     category_items:
