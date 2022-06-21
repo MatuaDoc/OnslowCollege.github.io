@@ -14,9 +14,11 @@ One final task before the practice assessment…
     - the full name of the course
     - the teacher's code
     - the teacher's full name (i.e. Miss Voropaeva/Whaea Tina)
-    - the time the class starts and ends
+    - the times the class starts and ends
 
-To save time, just create the same classes for every day of the week.
+To save time, just create the same classes for every day of the week — then just change one class per day to make them different.
+
+**If you have time**, use your actual, full timetable.
 
 ## Requirements
 
