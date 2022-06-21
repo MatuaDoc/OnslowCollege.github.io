@@ -24,3 +24,7 @@ To save time, just create the same classes for every day of the week — then ju
 
 - You must use object-oriented techniques (create classes and objects)
 - You must create a GUI
+
+## Extension
+
+Instead of selecting a day of the week using a combo box or list widget, use a ``QCalendarWidget``.
