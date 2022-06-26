@@ -50,7 +50,7 @@ For Achieved, you must:
 - uses conditional statements and/or loops
 - get input from the user
 - set out code clearly and document the code with comments
-- test your program, in an organised way, to ensure the program works with expected cases
+- test your program, in an organised way, to ensure the program works with expected cases ([view sample testing table](sample_testing.docx))
 
 You must also use at least **two** (2) of the following complex techniques:
 
@@ -69,7 +69,7 @@ For Achieved with Merit, you must:
 - document the code's function and behaviour in an organised way
     - this includes docstrings for classes, functions, and methods
 - use appropriate and meaningful variable, constant, class, function, and method names
-- test your program, in an organised way, to ensure the program works with both expected cases and relevant boundary cases
+- test your program, in an organised way, to ensure the program works with both expected cases and relevant boundary cases ([view sample testing table](sample_testing.docx))
 
 ## Achieved with Excellence
 
@@ -80,7 +80,7 @@ For Achieved with Excellence, you must:
       - move repeated code into functions, methods, or properties
   - it must behave in an expected manner
   - it must not crash
-- test your program, in an organised way, to ensure the program works with expected and boundary cases, and correctly handles invalid cases
+- test your program, in an organised way, to ensure the program works with expected and boundary cases, and correctly handles invalid cases ([view sample testing table](sample_testing.docx))
 
 # Restrictions
 
