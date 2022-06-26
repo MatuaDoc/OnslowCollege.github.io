@@ -148,9 +148,12 @@ categories:
         item_desc: Create an ordering system for the Onslow café
         item_icon: img/shop.svg
         item_page: shop
-      - ultimate:
-        item_name: Ultimate Task
-        item_desc: One last task before the practice assessment…
-        item_icon: img/programming.svg
-        item_page: ultimate
+  - assessments:
+    category_name: Assessment
+    category_items:
+      - assessment_one:
+        item_name: Assessment Opportunity ONE
+        item_desc: Practice assessment
+        item_icon: img/practice.svg
+        item_page: assessment_one
 ---
