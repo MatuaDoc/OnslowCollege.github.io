@@ -157,3 +157,5 @@ categories:
         item_icon: img/practice.svg
         item_page: assessment_one
 ---
+
+[Sample testing document](sample_testing.docx)
