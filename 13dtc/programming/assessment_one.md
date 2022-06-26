@@ -125,13 +125,12 @@ You **may** work on this task in your own time.
 
 # Submission
 
-- You should continually commit and push your code to GitHub.
-- 
+- You should continually commit and push your code to GitHub
 - The work to be marked will be either:
     - the final commit to your GitHub repository before the due date
     - code submitted to Microsoft Teams before the due date
 
-If you choose to perform testing using the supplied testing table ,be sure to stage the testing document as part of each commit.
+If you choose to perform testing using the supplied testing table, be sure to stage the testing document as part of each commit. **You should be testing as you go, not just at the end!**
 
 If you have problems committing and pushing before the due date, zip your folder and submit it to Teams.
 
