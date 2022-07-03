@@ -18,18 +18,23 @@ title: Assessment opportunity ONE
 
 In these years impacted by COVID-19, it is important for students to be able to manage their time. Though an assortment of tools exist, such as calendars and reminders apps, it would be ideal to have a tool suited to the needs of Onslow College's year 13 cohort.
 
-You must create a graphical program to help students keep track of what classes they have, when they are, and if there is any homework.
+You must create a graphical program to help students keep track of what classes they have during this pandemic year.
 
 You program will let you:
 
 1. select a day of the week (Monday-Friday), and it will list your classes.
+    - **clarification**: use your own timetable. It does not need to be editable by the user.
+        - however, for Excellence, your design should still be flexible enough to accommodate changes to the timetable without requiring significant changes to the code
+    - this includes Ako classes and study spells
+    - study spells still require attendance to be filled out
+    - you do not need to include interval and lunch time
 2. select a class, and it will list:
     - the full name of the course
     - the teacher's code
     - the teacher's full name (i.e. Miss Voropaeva/Whaea Tina)
     - the times the class starts and ends
 3. mark if spell 5 has been cancelled for the week
-    - if so, remove spell 5 from the GUI or change it to say "cancelled", etc.
+    - if so, remove spell 5 from the GUI **OR** change it to say "cancelled", etc.
     - you should be able to undo this in case you made a mistake (that is, all the spell 5 classes will show again as normal)
 4. mark your own attendance by entering an attendance code for each class
     - how the user enters the code is up to you
