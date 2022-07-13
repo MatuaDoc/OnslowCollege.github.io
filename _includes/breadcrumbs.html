@@ -14,6 +14,9 @@
           <img src="/img/13dtc_nav_hover.png" alt="13DTC" title="13DTC" style="height: 30px;">
         </a>
       </div>
+      <div class="tabs-search">
+        {% include search-lunr.html %}
+      </div>
       <div class="tab">
         <input type="radio" id="chck1" name="chck" {% if page.url contains '11dit' %}checked{% endif %}>
         <div class="tab-content">
