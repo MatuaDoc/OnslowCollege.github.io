@@ -19,7 +19,7 @@ categories:
     category_items:
       - the_task:
         item_name: The Task
-        item_desc: An explanation of the standard and task for Term 2 and 3
+        item_desc: An explanation of the standard and task for Term 3 and 4
         item_icon: /img/projman.svg
         item_page: task
       - resources:
