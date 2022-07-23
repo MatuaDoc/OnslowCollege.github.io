@@ -26,7 +26,7 @@ categories:
         item_name:
         item_icon:
         item_desc: |
-                   <a href="https://onslowcollege.sharepoint.com/:w:/s/12DTC2022/EdVOjaHd1HpLjp-Acc4Ii_EBcT-BNCVS5nxC-MnqTmRiJg?e=deHKyK">Project management portfolio</a>
+                   <a href="https://onslowcollege.sharepoint.com/:w:/s/13DTC2022/EdWbZ3IKuLNJjoh2zjxFDvwBkDvpfYGl6Dg7BFQeL1jEiw?e=1grUkx">Project management portfolio</a>
         item_page:
       - processes:
         item_name: Project management processes

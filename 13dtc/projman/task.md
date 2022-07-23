@@ -164,4 +164,4 @@ However, you may **not**:
 
 # Submission
 
-Submission will be completed on Teams.
+Submission of the [portfolio](https://onslowcollege.sharepoint.com/:w:/s/13DTC2022/EdWbZ3IKuLNJjoh2zjxFDvwBkDvpfYGl6Dg7BFQeL1jEiw?e=1grUkx) will be completed on Teams. You may submit your code via Teams or on GitHub.
