@@ -14,13 +14,19 @@
           <img src="/img/13dtc_nav_hover.png" alt="13DTC" title="13DTC" style="height: 30px;">
         </a>
       </div>
-      <div class="tabs-search">
-        {% include search-lunr.html %}
+      <div class="tab">
+        <input type="radio" id="chck1" name="chck" {% if page.url == '/' %}checked{% endif %}>
+        <div class="tab-content">
+          <p><a href="/11dit/website">11DIT Website</a></p>
+          <hr>
+          <p><a href="/12dtc/projman">12DTC Project Management</a></p>
+          <hr>
+          <p><a href="/13dtc/projman">13DTC Project Management</a></p>
+        </div>
       </div>
       <div class="tab">
-        <input type="radio" id="chck1" name="chck" {% if page.url contains '11dit' %}checked{% endif %}>
+        <input type="radio" id="chck2" name="chck" {% if page.url contains '11dit' %}checked{% endif %}>
         <div class="tab-content">
-          <p><a href="/11dit">11DIT Home</a></p>
           <p><a href="/11dit/programming">Programming</a></p>
           <p><a href="/11dit/design">Design</a></p>
           <p><a href="/11dit/website">Website</a></p>
@@ -31,18 +37,16 @@
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="chck2" name="chck" {% if page.url contains '12dtc' %}checked{% endif %}>
+        <input type="radio" id="chck3" name="chck" {% if page.url contains '12dtc' %}checked{% endif %}>
         <div class="tab-content">
-          <p><a href="/12dtc">12DTC Home</a></p>
           <p><a href="/12dtc/programming">Programming</a></p>
           <p><a href="/12dtc/projman">Project Management</a></p>
           <p><a href="/12dtc/compsci">Computer Science</a></p>
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="chck3" name="chck" {% if page.url contains '13dtc' %}checked{% endif %}>
+        <input type="radio" id="chck4" name="chck" {% if page.url contains '13dtc' %}checked{% endif %}>
         <div class="tab-content">
-          <p><a href="/13dtc">13DTC Home</a></p>
           <p><a href="/13dtc/programming">Programming</a></p>
           <p><a href="/13dtc/projman">Project Management</a></p>
           <p><a href="/13dtc/compsci">Computer Science</a></p>
@@ -57,55 +61,3 @@
     </div>
   </nav>
 </header>
-<div id="tabs-toggle" class="toggle" onclick="toggleSidebar();">Show/hide sidebar</div>
-<script>
-  function hideSidebar() {
-      document.getElementById('tabs-toggle').style.removeProperty('left');
-      document.getElementsByClassName('page-header')[0].style.removeProperty('display');
-      Array.prototype.forEach.call(document.getElementsByClassName('tab'), function(element) {
-        element.style.removeProperty('width');
-      });
-      setTimeout(() => {
-        document.getElementsByClassName('page-header')[0].style.removeProperty('min-width');
-        document.getElementsByClassName('page-header')[0].style.removeProperty('max-width');
-        document.getElementsByClassName('page-header')[0].style.removeProperty('opacity');
-        document.getElementById('tabs-buttons').style.removeProperty('opacity');
-      }, 1);
-  }
-
-  function showSidebar() {
-      document.getElementById('tabs-toggle').style.left = '219px';
-      document.getElementsByClassName('page-header')[0].style.minWidth = '220px';
-      document.getElementsByClassName('page-header')[0].style.maxWidth = '220px';
-      document.getElementsByClassName('page-header')[0].style.opacity = '100%';
-      document.getElementById('tabs-buttons').style.opacity = '100%';
-      Array.prototype.forEach.call(document.getElementsByClassName('tab'), function(element) {
-        element.style.width = '100%';
-      });
-      setTimeout(() => {
-        document.getElementsByClassName('page-header')[0].style.display = 'block';
-      }, 200);
-  }
-
-  function setUpSidebar() {
-    var shouldHide = localStorage.getItem("sidebar");
-    if (shouldHide == "show") {
-      showSidebar();
-    }
-  }
-
-  function toggleSidebar() {
-    var shouldHide = localStorage.getItem("sidebar");
-
-    if (shouldHide == "show" || shouldHide == null) {
-      localStorage.setItem("sidebar", "hide");
-      hideSidebar();
-      
-    } else {
-      localStorage.setItem("sidebar", "show");
-      showSidebar();
-    }
-  }
-
-  setUpSidebar();
-</script>
