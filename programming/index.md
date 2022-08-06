@@ -31,37 +31,37 @@ categories:
       - intro:
         item_name: Intro to programming
         item_desc: Decompose a program, create variables
-        item_icon: img/programming.svg
-        item_page: 01-variables
+        item_icon: img/01-intro.svg
+        item_page: 01-intro
       - data:
         item_name: Data types
         item_desc: Text, numbers, and more
-        item_icon: img/next-steps.svg
-        item_page: 02-data
+        item_icon: img/02-data-types.svg
+        item_page: 02-data-types
       - functions:
         item_name: Functions
         item_desc: Blocks of code that you can run any time
-        item_icon: img/comments.svg
+        item_icon: img/03-functions.svg
         item_page: 03-functions
       - collections:
         item_name: Collections
         item_desc: Store multiple data in one variable
-        item_icon: img/lists.svg
+        item_icon: img/04-collections.svg
         item_page: 04-collections
       - for_loops:
         item_name: Loops
         item_desc: Repeat code for each item in a collection
-        item_icon: img/loops.svg
+        item_icon: img/05-loops.svg
         item_page: 05-loops
       - functions:
         item_name: Exceptions
         item_desc: Stop your program from crashing!
-        item_icon: img/functions.svg
+        item_icon: img/06-exceptions.svg
         item_page: 06-exceptions
       - mastermind:
         item_name: Mastermind
         item_desc: Make a guessing game
-        item_icon: img/password.svg
+        item_icon: img/a-mastermind.svg
         item_page: a-mastermind
 
 ---
