@@ -1,63 +1,9 @@
 <header class="page-header" role="banner">
-  <nav>
-      <div id="tabs-buttons">
-        <a href="/" class="tab-label">
-          <img src="/img/home_nav_hover.png" alt="Tools" title="Tools" style="height: 30px;">
-        </a>
-        <a href="/11dit/" class="tab-label">
-          <img src="/img/11dit_nav_hover.png" alt="11DIT" title="11DIT" style="height: 30px;">
-        </a>
-        <a href="/12dtc/" class="tab-label">
-          <img src="/img/12dtc_nav_hover.png" alt="12DTC" title="12DTC" style="height: 30px;">
-        </a>
-        <a href="/13dtc/" class="tab-label">
-          <img src="/img/13dtc_nav_hover.png" alt="13DTC" title="13DTC" style="height: 30px;">
-        </a>
-      </div>
-      <div class="tab">
-        <input type="radio" id="chck1" name="chck" {% if page.url == '/' %}checked{% endif %}>
-        <div class="tab-content">
-          <p><a href="/11dit/website">11DIT Website</a></p>
-          <hr>
-          <p><a href="/12dtc/projman">12DTC Project Management</a></p>
-          <hr>
-          <p><a href="/13dtc/projman">13DTC Project Management</a></p>
-        </div>
-      </div>
-      <div class="tab">
-        <input type="radio" id="chck2" name="chck" {% if page.url contains '11dit' %}checked{% endif %}>
-        <div class="tab-content">
-          <p><a href="/11dit/programming">Programming</a></p>
-          <p><a href="/11dit/design">Design</a></p>
-          <p><a href="/11dit/website">Website</a></p>
-          <p><a href="/11dit/hci">HCI</a></p>
-          <hr>
-          <p>Tools</p>
-          <p><a href="/classroom/colours.html">Colour Checker</a></p>
-        </div>
-      </div>
-      <div class="tab">
-        <input type="radio" id="chck3" name="chck" {% if page.url contains '12dtc' %}checked{% endif %}>
-        <div class="tab-content">
-          <p><a href="/12dtc/programming">Programming</a></p>
-          <p><a href="/12dtc/projman">Project Management</a></p>
-          <p><a href="/12dtc/compsci">Computer Science</a></p>
-        </div>
-      </div>
-      <div class="tab">
-        <input type="radio" id="chck4" name="chck" {% if page.url contains '13dtc' %}checked{% endif %}>
-        <div class="tab-content">
-          <p><a href="/13dtc/programming">Programming</a></p>
-          <p><a href="/13dtc/projman">Project Management</a></p>
-          <p><a href="/13dtc/compsci">Computer Science</a></p>
-        </div>
-        {% unless page.hide_toc == true %}
-        <div id="toc">
-          <p style="font-weight: bold; text-align: center;">Table of Contents</p>
-          {% include toc.html html=content h_max=2 %}
-        </div>
-        {% endunless %}
-      </div>
-    </div>
-  </nav>
+  <h1 style="color: white !important;">Onslow College Digital Technologies</h1>
+  <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 100px;">
+    <a href="/"><img src="/img/home_nav.png" alt="Home"></a>
+    <a href="/11dit"><img src="/img/11dit_nav.png" alt="11DIT"></a>
+    <a href="/12dtc"><img src="/img/12dtc_nav.png" alt="12DTC"></a>
+    <a href="/13dtc"><img src="/img/13dtc_nav.png" alt="13DTC"></a>
+  </div>
 </header>
