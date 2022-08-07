@@ -173,16 +173,30 @@ h5 {
     font-weight: 700
 }
 
+.half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
 .shout-markdown {
     text-align: justify !important;
+    flex-direction: column !important;
     margin: 0 !important;
 }
 
 .left-align, .right-align {
-    vertical-align: middle !important;
     margin: 0 !important;
 }
 
 .left-align .emote, .right-align .emote {
     font-size: 48pt;
+}
+
+.right-align-half {
+    min-width: 75%;
+    max-width: 75%;
+    text-align: right;
 }
