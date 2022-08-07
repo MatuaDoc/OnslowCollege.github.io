@@ -1,0 +1,12 @@
+<div class="half">
+<div style="flex-grow: 1" markdown="1">
+{{ include.markdown }}
+</div>
+{% if include.image %}
+<a href="{{ include.image }}" markdown="1"><img src="{{ include.image }}"></a>
+{% elsif include.right_markdown %}
+<div style="flex-grow: 1" markdown="1">
+{{ include.right_markdown }}
+</div>
+{% endif %}
+</div>

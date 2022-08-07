@@ -1,5 +1,3 @@
-{::options parse_block_html="true" /}
-
 <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap: 50px;">
 {% if include.side == "left" %}
 {% if include.image %}
@@ -9,7 +7,7 @@
 {% endif %}
 {% endif %}
 
-<p class="shout-markdown">{{ include.markdown }}</p>
+<span class="shout-markdown" markdown="1">{{ include.markdown }}</span>
 
 {% if include.side == "right" %}
 {% if include.image %}
