@@ -119,12 +119,11 @@ print("Generated the following email:")
 print(email)
 ```
 
-The user will see:
-
-```
+{% capture right_markdown %}```
 Generated the following email:
 roimata.davis@student.onslow.school.nz
-```
+```{% endcapture %}
+{% include half.html markdown="The user will see:" right_markdown=right_markdown %}
 
 You could also join the strings together inside the ``print()`` function call:
 
@@ -132,18 +131,16 @@ You could also join the strings together inside the ``print()`` function call:
 print("Generated the following email: " + email)
 ```
 
-The user will see:
-
-```
+{% capture right_markdown %}```
 Generated the following email: roimata.davis@student.onslow.school.nz
-```
-
+```{% endcapture %}
+{% include half.html markdown="The user will see:" right_markdown=right_markdown %}
 
 ## Step 4: Put it all together
 
 If you have followed this guide, the final code will be:
 
-```python
+{% capture markdown %}```python
 # Ask the user for the student's first name
 first_name = input("Please enter the student's first name: ")
 
@@ -157,4 +154,6 @@ full_name = first_name + "." + last_name
 email = full_name + "@student.onslow.school.nz"
 print("Generated the following email:")
 print(email)
-```
+```{% endcapture %}
+
+{%include half.html markdown=markdown image="img/01-example.png" %}
