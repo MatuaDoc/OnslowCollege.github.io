@@ -24,6 +24,7 @@ body {
     }
     
     display: flex;
+    align-content: stretch;
 }
 
 p, li {
@@ -131,12 +132,9 @@ h5 {
 }
 
 .page-header {
-    display: block;
     background: darken(white, 5%);
     border-right: 1px solid grey;
     padding: 10px;
-    position: fixed;
-    height: 100%;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
