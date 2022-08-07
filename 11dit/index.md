@@ -9,22 +9,22 @@ categories:
       - programming:
         item_name: Programming
         item_desc: Introduction to Python, lists, and basic functions
-        item_icon: /img/programming.svg
+        item_icon: 🐍
         item_page: /11dit/programming
       - design:
         item_name: Design
         item_desc: Learn the design process to construct a website
-        item_icon: /img/design.svg
+        item_icon: 🧑‍🎨
         item_page: /11dit/design
       - website:
         item_name: Website
         item_desc: Build the website that you designed
-        item_icon: /img/website.svg
+        item_icon: 🌐
         item_page: /11dit/website
       - hci:
         item_name: Human Computer Interaction
         item_desc: External — how do people use computers?
-        item_icon: /img/hci.svg
+        item_icon: 🚪
         item_page: /11dit/hci
 ---
 

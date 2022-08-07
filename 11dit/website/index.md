@@ -21,6 +21,6 @@ categories:
       - set-up:
         item_name: Set up the website
         item_desc: Create a Wix account and start setting up your home page
-        item_icon: img/purpose.svg
+        item_icon: 🌐
         item_page: set-up
 ---

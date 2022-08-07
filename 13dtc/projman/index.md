@@ -19,8 +19,8 @@ categories:
     category_items:
       - the_task:
         item_name: The Task
-        item_desc: An explanation of the standard and task for Term 3 and 4
-        item_icon: /img/projman.svg
+        item_desc: An explanation of the standard and task for Term 2 and 3
+        item_icon: 💬
         item_page: task
       - resources:
         item_name:
@@ -31,31 +31,16 @@ categories:
       - processes:
         item_name: Project management processes
         item_desc: Learn to decompose a project into components
-        item_icon: img/processes.svg
+        item_icon: 🪵
         item_page: processes
       - planning:
         item_name: Planning tools
         item_desc: Learn iterative development methodologies and tools
-        item_icon: img/planning.svg
+        item_icon: 📝
         item_page: planning
-      - project_boards:
-        item_name: Project boards
-        item_desc: Create project boards to keep track of what components you work on
-        item_icon: img/project-boards.svg
-        item_page: project-boards
-      - testing_trialling:
-        item_name: Testing & trialling
-        item_desc: Make sure your components work — and are the best they can be
-        item_icon: /img/compsci.svg
-        item_page: trialling
-      - version_control:
-        item_name: Version control
-        item_desc: Track your iteration outcomes
-        item_icon: img/versions.svg
-        item_page: versions
       - implications:
         item_name: Relevant implications
         item_desc: What aspects do you need to consider relating to the project to ensure its success?
-        item_icon: img/implications.svg
+        item_icon: 🤔
         item_page: implications
 ---

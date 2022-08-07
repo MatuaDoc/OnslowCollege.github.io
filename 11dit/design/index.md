@@ -23,7 +23,7 @@ categories:
       - the_task:
         item_name: The Task
         item_desc: An explanation of the standard and task for Term 2 and 3
-        item_icon: img/task.svg
+        item_icon: 💬
         item_page: task
       - resources:
         item_desc: |
@@ -35,12 +35,12 @@ categories:
       - purpose:
         item_name: Purpose & end users
         item_desc: Determine for what and whom the website is needed
-        item_icon: img/purpose.svg
+        item_icon: 🙋
         item_page: purpose
       - implications:
         item_name: Relevant implications
         item_desc: What do you need to bear in mind as you design the website?
-        item_icon: img/implications.svg
+        item_icon: 🤔
         item_page: implications
   - analysis:
     category_name: Design analysis
@@ -48,22 +48,22 @@ categories:
       - visibility:
         item_name: Visibility of system status & user control and freedom
         item_desc: Guide the user where they need to go
-        item_icon: img/hci_01.svg
+        item_icon: 🚪
         item_page: visibility
       - expectations:
         item_name: Meeting user expectations
         item_desc: What icons, terminology, and design elements are users used to?
-        item_icon: img/hci_02.svg
+        item_icon: 🚪
         item_page: expectations
       - errors:
         item_name: Error prevention and recovery
         item_desc: Prevent users from making slips/mistakes — then help clean up the mess
-        item_icon: img/hci_03.svg
+        item_icon: 🚪
         item_page: errors
       - analysis:
         item_name: Analysis of existing outcomes
         item_desc: Research what existing websites already do well — or don't
-        item_icon: img/analysis.svg
+        item_icon: 🔍
         item_page: analysis
   - elements:
     category_name: Design elements
@@ -71,22 +71,22 @@ categories:
       - colours:
         item_name: Colours
         item_desc: Choosing an attractive, relevant, accessible colour palette
-        item_icon: img/colours.svg
+        item_icon: 🎨
         item_page: colours
       - fonts:
         item_name: Fonts
         item_desc: Picking readable, attractive fonts for your text content
-        item_icon: img/fonts.svg
+        item_icon: 🔠
         item_page: fonts
       - layout:
         item_name: Layouts
         item_desc: Let users focus on the relevant content
-        item_icon: img/layout.svg
+        item_icon: 🏗️
         item_page: layouts
       - site-map:
         item_name: Site map
         item_desc: Plan the pages on your website
-        item_icon: img/map.svg
+        item_icon: 🗺️
         item_page: site-map
   - improvements:
     category_name: Improvements
@@ -94,6 +94,6 @@ categories:
       - feedback:
         item_name: Feedback and Feedforward
         item_desc: Ask others what you need to know — and give useful advice back
-        item_icon: img/feedback.svg
+        item_icon: 💭
         item_page: feedback
 ---
