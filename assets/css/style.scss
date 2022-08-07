@@ -8,16 +8,9 @@ $onslow_green: rgb(28, 91, 82);
 
 :root {
     --onslow-rgb: 28, 91, 82;
-    --eleven-rgb: 25, 133, 10;
-    --twelve-rgb: 0, 83, 179;
-    --thirteen-rgb: 148, 10, 178;
 
     // --event-rgb: 220, 122, 172;
-
     // --onslow-rgb: var(--event-rgb);
-    // --eleven-rgb: var(--event-rgb);
-    // --twelve-rgb: var(--event-rgb);
-    // --thirteen-rgb: var(--event-rgb);
 
     --main-rgb: var(--onslow-rgb);
     --main-color: rgb(var(--main-rgb));
@@ -40,7 +33,7 @@ p, li {
 }
 
 a {
-    color: $onslow_green !important;
+    color: lighten($onslow_green, 15%) !important;
 
     @media (prefers-color-scheme: dark) {
         color: lighten($onslow_green, 40%) !important;
@@ -52,13 +45,13 @@ h1, h2, h3, h4, h5, h6 {
     @media (prefers-color-scheme: dark) {
         color: white !important;
     }
+    border-bottom: 1px solid darkgrey;
 }
 
 h1 {
     margin-top: 10rem !important;
     margin-bottom: 2rem !important;
     padding-bottom: 1rem !important;
-    border-bottom: 1px solid darkgrey;
     @media (prefers-color-scheme: dark) {
         color: lightgray !important;
     }
@@ -138,13 +131,10 @@ h5 {
 }
 
 .page-header {
-    display: none;
+    display: block;
     background: darken(white, 5%);
     border-right: 1px solid grey;
     padding: 10px;
-    min-width: 0;
-    max-width: 0;
-    opacity: 0%;
     position: fixed;
     height: 100%;
     -ms-overflow-style: none;
@@ -179,7 +169,6 @@ input {
     justify-content: space-between;
     align-items: stretch;
     margin-top: 12px;
-    opacity: 0%;
     transition: all 0.1ms ease-in-out;
 }
 
@@ -199,7 +188,6 @@ input {
 }
 
 .tab {
-    width: 0;
     overflow: hidden;
     transition: all 0.1ms ease-in-out;
     font-size: small;
@@ -231,38 +219,6 @@ input:checked {
             background: lighten(black, 10%);
         }
     }
-}
-
-.toggle {
-    position: fixed;
-    left: 219px;
-
-    border-radius: 0 10px 10px 0;
-    background-color: white;
-    border: 1px solid grey;
-    padding: 0.5em;
-
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    cursor: pointer;
-
-    @media (prefers-color-scheme: dark) {
-        background-color: black !important;
-        border-top: 1px solid grey;
-        border-right: 1px solid grey;
-        border-bottom: 1px solid grey;
-    }
-
-    transition: all 0.2s ease-in-out;
-}
-
-#presentation-toggle {
-    top: 50px;
-}
-
-#tabs-toggle {
-    top: 70px;
-    left: 0px;
 }
 
 .main-content {
@@ -333,12 +289,28 @@ input:checked {
     vertical-align:top
 }
 
+.main-content .category_item {
+    overflow: hidden;
+    height: 120px;
+    white-space: nowrap;
+}
+
+.main-content .item_name {
+    vertical-align: top;
+}
+
+.main-content .item_icon {
+    font-size: 48px;
+}
+
 .highlight .cm, .highlight .c1, .highlight .cs, .highlight .c, .highlight .cd, .highlight .ge {
     font-style:italic
 }
 
 .highlight .cp, .highlight .cs, .highlight .gs, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .k, .highlight .kv, .highlight .nc, .highlight .nd, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .ow, .highlight .o {
     font-weight: 700
+<<<<<<< HEAD
+=======
 }
 
 @media only screen and (max-width: 1200px) {
@@ -349,4 +321,18 @@ input:checked {
     #tabs-toggle-chck:checked+.main-content {
         padding-left: 220px;
     }
+}
+
+.shout-markdown {
+    text-align: justify !important;
+    margin: 0 !important;
+}
+
+.left-align, .right-align {
+    vertical-align: middle !important;
+    margin: 0 !important;
+}
+
+.left-align .emote, .right-align .emote {
+    font-size: 48pt;
 }

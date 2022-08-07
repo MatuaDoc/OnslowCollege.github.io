@@ -1,0 +1,21 @@
+{::options parse_block_html="true" /}
+
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap: 50px;">
+{% if include.side == "left" %}
+{% if include.image %}
+<img src="{{ include.image }}" class="left-align">
+{% elsif include.emote %}
+<p class="left-align"><span class="emote">{{ include.emote }}</span></p>
+{% endif %}
+{% endif %}
+
+<p class="shout-markdown">{{ include.markdown }}</p>
+
+{% if include.side == "right" %}
+{% if include.image %}
+<img src="{{ include.image }}" class="right-align">
+{% elsif include.emote %}
+<p class="right-align"><span class="emote">{{ include.emote }}</span></p>
+{% endif %}
+{% endif %}
+</div>

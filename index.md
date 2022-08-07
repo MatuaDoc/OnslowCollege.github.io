@@ -62,4 +62,12 @@ categories:
         item_desc: External — the big ideas in computer science
         item_icon: /img/compsci.svg
         item_page: /13dtc/compsci
+  - categories:
+    category_name: Categories
+    category_items:
+      - software_development:
+        item_name: Software development
+        item_desc: Learn to develop software
+        item_icon: /img/programming.svg
+        item_page: /programming
 ---
