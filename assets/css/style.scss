@@ -52,13 +52,13 @@ h1, h2, h3, h4, h5, h6 {
     @media (prefers-color-scheme: dark) {
         color: white !important;
     }
+    border-bottom: 1px solid darkgrey;
 }
 
 h1 {
     margin-top: 10rem !important;
     margin-bottom: 2rem !important;
     padding-bottom: 1rem !important;
-    border-bottom: 1px solid darkgrey;
     @media (prefers-color-scheme: dark) {
         color: lightgray !important;
     }
@@ -333,6 +333,20 @@ input:checked {
     vertical-align:top
 }
 
+.main-content .category_item {
+    overflow: hidden;
+    height: 120px;
+    white-space: nowrap;
+}
+
+.main-content .item_name {
+    vertical-align: top;
+}
+
+.main-content .item_icon {
+    font-size: 48px;
+}
+
 .highlight .cm, .highlight .c1, .highlight .cs, .highlight .c, .highlight .cd, .highlight .ge {
     font-style:italic
 }
@@ -349,4 +363,18 @@ input:checked {
     #tabs-toggle-chck:checked+.main-content {
         padding-left: 220px;
     }
+}
+
+.shout-markdown {
+    text-align: justify !important;
+    margin: 0 !important;
+}
+
+.left-align, .right-align {
+    vertical-align: middle !important;
+    margin: 0 !important;
+}
+
+.left-align .emote, .right-align .emote {
+    font-size: 48pt;
 }

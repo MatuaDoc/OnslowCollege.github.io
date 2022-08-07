@@ -29,9 +29,9 @@
         <h1>{{ category.category_name }}</h1>
         <table>
             {% for item in category.category_items %}
-            <tr>
-                <td><a href="{{ item.item_page }}"><img src="{{ item.item_icon }}"></a></td>
-                <td><a href="{{ item.item_page }}">{{ item.item_name }}</a></td>
+            <tr class="category_item">
+                <td class="item_icon"><a href="{{ item.item_page }}">{{ item.item_icon }}</a></td>
+                <td class="item_name"><a href="{{ item.item_page }}">{{ item.item_name }}</a></td>
                 <td>{{ item.item_desc }}</td>
             </tr>
             {% endfor %}

@@ -10,7 +10,7 @@ Every lesson will begin with a problem statement. By the end of the lesson, you 
 
 # Problem statement
 
-> At Onslow College, the year 9 dean would like a program that can automatically generate new students' email addresses based on their first and last name. They will enter a student's full name and the email address will be generated, with a dot between the names and ending in ``@student.onslow.school.nz``.
+{% include shout.html side="left" emote="💬" markdown="At Onslow College, the year 9 dean would like a program that can automatically generate new students' email addresses based on their first and last name. They will enter a student's full name and the email address will be generated, with a dot between the names and ending in ``@student.onslow.school.nz``." %}
 
 ## Step 1: Determine the requirements
 
@@ -23,7 +23,9 @@ First, you need to work out the **requirements** of the program: what does it ne
 
 ## Step 2: Let's write some comments
 
-The first code you will write will be **comments**. Comments help you to know what Python code you need to write. They are also useful for anybody else who reads your code.
+The first code you will write will be **comments**.
+
+{% include shout.html side="right" emote="💭" markdown="Comments help you to know what Python code you need to write. They are also useful for anybody else who reads your code." %}
 
 To write a comment, start a line with a pound symbol (``#``).
 
@@ -56,7 +58,7 @@ Underneath each comment, let's write the code to fulfil the requirements.
 
 First, let's learn about **variables**.
 
-A variable is a piece of information, a **value**, that we want to store for safe keeping later on. At some later part in the program, we can re-use that value — as part of an equation, an [expression](/programming/glossary#expression), or to show the user.
+{% include shout.html side="right" emote="📦" markdown="A variable is a piece of information, a **value**, that we want to store for safe keeping later on. At some later part in the program, we can re-use that value — as part of an equation, an [expression](/programming/glossary#expression), or to show the user." %}
 
 To create a variable, write the name that you would like to store the value in, an equals sign, and then the value.
 
@@ -66,7 +68,7 @@ For example, if you want to store a student's first name, you could write the fo
 first_name = "roimata"
 ```
 
-**(Please note that because the value is text, it is contained in ``"``quotation marks``"``)**
+{% include shout.html emote="🚨" markdown='**(Please note that because the value is text, it is contained in ``"``quotation marks``"``)**' %}
 
 Variable names must respect the following rules:
 
@@ -81,7 +83,7 @@ Next, let's learn about the ``input()`` function.
 
 A [function](/programming/glossary#function) is a section of code that can be run as many times as you want by [calling](/programming/glossary#call) it. We are going to call the ``input()`` function in order to do something.
 
-The ``input()`` function allows you to ask a question. The user can then type in a reply to the question. You can then store the user's reply in a variable.
+{% include shout.html side="right" emote="🙋" markdown="The ``input()`` function allows you to ask a question. The user can then type in a reply to the question. You can then store the user's reply in a variable." %}
 
 For example, to ask the user's first_name, you could write the following:
 
@@ -93,7 +95,7 @@ first_name = input("Please enter your first name: ")
 
 Next, let's join some text together.
 
-You can use the ``+`` symbol between two [string](/programming/glossary#string) [literals](/programming/glossary#literal) (text surrounded by quotation marks) or variables containing a string value to join them together.
+{% include shout.html side="right" emote="🖇" markdown="You can use the ``+`` symbol between two [string](/programming/glossary#string) [literals](/programming/glossary#literal) (text surrounded by quotation marks) or variables containing a string value to join them together." %}
 
 The joined text can then be stored in a variable, including one that already exists.
 
@@ -108,7 +110,7 @@ email = full_name + "@student.onslow.school.nz"
 
 Finally, let's learn about the ``print()`` function.
 
-The ``print()`` function allows you to show the user a string.
+{% include shout.html side="right" emote="🖨️" markdown="The ``print()`` function allows you to show the user a string." %}
 
 For example, to print the user's email, you could write the following:
 
@@ -135,7 +137,8 @@ The user will see:
 ```
 Generated the following email: roimata.davis@student.onslow.school.nz
 ```
-
+
+
 ## Step 4: Put it all together
 
 If you have followed this guide, the final code will be:
