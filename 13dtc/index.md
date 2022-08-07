@@ -9,17 +9,17 @@ categories:
       - programming:
         item_name: Programming
         item_desc: Object-oriented programming and GUI in Python
-        item_icon: /img/programming.svg
+        item_icon: 🐍
         item_page: /13dtc/programming
       - projman:
         item_name: Project management
         item_desc: Plan a project from start to finish
-        item_icon: /img/projman.svg
+        item_icon: 🕰️
         item_page: /13dtc/projman
       - hci:
         item_name: Computer science
         item_desc: External — the big ideas in computer science
-        item_icon: /img/compsci.svg
+        item_icon: 🔬
         item_page: /13dtc/compsci
 ---
 
