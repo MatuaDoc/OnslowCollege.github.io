@@ -1,5 +1,5 @@
 ---
-title: Onslow College Digital Technologies
+title: Home
 layout: auto_contents
 hide_toc: true
 categories:
