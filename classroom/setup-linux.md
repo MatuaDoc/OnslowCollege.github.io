@@ -7,7 +7,7 @@ title: Set up your programming environment
 # 1. Fast install
 
 - Open Terminal
-- Copy the following block of commands
+- Copy the following block of commands (this assumes you are using ``bash``)
   - ```bash
     sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev git
     
@@ -17,14 +17,17 @@ title: Set up your programming environment
     echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.bashrc
     ~/.pyenv install 3.10:latest
     ~/.pyenv global 3.10:latest
-    pip -m install pytest
+    pip -m install pytest pyside6
 
     wget -q "https://go.microsoft.com/fwlink/?LinkID=760868" -O "vscode.deb"
     dpkg -i ./vscode.deb
 
     code --install-extension OnslowCollege.onslow-college-dit-extensions
     code
-    echo "Done"
+    
+    wget "https://ftp.yz.yamagata-u.ac.jp/pub/qtproject/official_releases/qtcreator/8.0/8.0.1/qt-creator-opensource-linux-x86_64-8.0.1.run"
+    chmod a+x ./qt-creator-opensource-linux-x86_64-8.0.1.run
+    ./qt-creator-opensource-linux-x86_64-8.0.1.run
     ```
 - Paste the commands into Terminal
 - Press Enter

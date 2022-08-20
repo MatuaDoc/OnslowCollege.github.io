@@ -13,10 +13,10 @@ title: Set up your programming environment
     iwr -useb get.scoop.sh | iex
 
     scoop install git python
-    python3 -m pip install pytest
+    python3 -m pip install pytest pyside6
 
     scoop bucket add extras
-    scoop install vscode github
+    scoop install vscode qt-creator
 
     code --install-extension OnslowCollege.onslow-college-dit-extensions
     

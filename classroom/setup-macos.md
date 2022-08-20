@@ -36,9 +36,9 @@ You will require Apple's command-line tools installed. There are two options:
     brew install pyenv
     pyenv install 3.10:latest
     pyenv global 3.10:latest
-    python3 -m pip install pytest
+    python3 -m pip install pytest pyside6
 
-    brew install --cask visual-studio-code
+    brew install --cask visual-studio-code qt-creator
     code --install-extension OnslowCollege.onslow-college-dit-extensions
 
     code
