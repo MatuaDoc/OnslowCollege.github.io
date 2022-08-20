@@ -117,6 +117,8 @@ h5 {
     line-height:2em
 }
 
+.main-content:first-child { margin-top: 1em !important; }
+
 .main-content img {
     max-height:300px
 }
@@ -191,7 +193,7 @@ h5 {
     margin: 0 !important;
 }
 
-.left-align .emote, .right-align .emote {
+.emote {
     font-size: 48pt;
 }
 

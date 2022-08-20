@@ -1,5 +1,9 @@
 <div class="half">
+{% if include.shout == "true" %}
+<div class="emote" style="flex-grow: 1" markdown="1">
+{% else %}
 <div style="flex-grow: 1" markdown="1">
+{% endif %}
 {{ include.markdown }}
 </div>
 {% if include.image %}
