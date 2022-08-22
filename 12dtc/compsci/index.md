@@ -16,17 +16,20 @@ preamble: |
 
   <br>
 categories:
-  - compsci:
+  - security:
     category_name: Computer Science
     category_items:
-      - infosec:
+      - sec_intro:
         item_name: Computer Security
         item_desc: Keep data secure, allow those with access to use it, keep everybody else out
         item_icon: 👮
-        item_page: infosec
+        item_page: sec_intro
+  - ai:
+    category_name: Artificial Intelligence
+    category_items:
       - ai:
-        item_name: Artificial Intelligence
+        item_name: Introduction to Artificial Intelligence
         item_desc: The opportunities, and issues, that come from making computers 'think'
         item_icon: 🧠
-        item_page: ai
+        item_page: ai_intro
 ---
