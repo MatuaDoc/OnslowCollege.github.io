@@ -1,7 +1,7 @@
 ---
 title: (Re)Intro to Python
 grand_parent: 11DIT
-parent: 11DIT Programming
+parent: Programming
 nav_order: "aa"
 learning_intentions: ["To assign and use data stored in variables", "Printing text and getting user input", "Converting strings to numbers and back"]
 success_criteria: ["You have created the 'Hello, student!' program, tested it, and shown your teacher that it works", "You have created the basic wall calculator program"]

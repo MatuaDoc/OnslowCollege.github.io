@@ -1,7 +1,7 @@
 ---
 title: Testing
 grand_parent: 11DIT
-parent: 11DIT Programming
+parent: Programming
 nav_order: "cc"
 learning_intentions: ["Why testing your program is important", "How to fill in a testing table"]
 success_criteria: ["Edit your first testing table"]

@@ -1,7 +1,7 @@
 ---
 title: Comments
 grand_parent: 11DIT
-parent: 11DIT Programming
+parent: Programming
 nav_order: "ac"
 learning_intentions: ["Revise good commenting practices"]
 success_criteria: ["You have added comment headers to ``hello.swift`` and ``paint3.swift``"]

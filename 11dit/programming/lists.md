@@ -1,7 +1,7 @@
 ---
 title: Intro to Lists
 grand_parent: 11DIT
-parent: 11DIT Programming
+parent: Programming
 nav_order: "ba"
 learning_intentions: ["To store multiple items in a single variable", "To access an item stored in a list"]
 success_criteria: ["You have successfully declared and populated a list", "You access the first, last, and any other item in the list", "You have printed a list item"]

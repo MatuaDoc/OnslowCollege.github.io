@@ -1,7 +1,7 @@
 ---
 title: Password Checker
 grand_parent: 11DIT
-parent: 11DIT Programming
+parent: Programming
 nav_order: "bd"
 ---
 

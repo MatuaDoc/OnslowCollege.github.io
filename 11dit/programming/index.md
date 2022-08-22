@@ -1,5 +1,5 @@
 ---
-title: 11DIT Programming
+title: Programming
 layout: auto_contents
 
 has_children: true
