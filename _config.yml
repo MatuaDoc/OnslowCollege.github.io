@@ -8,7 +8,7 @@ aux_links:
   "Onslow College":
     - "https://onslow.school.nz/"
 aux_links_new_tab: true
-color_scheme: light
+color_scheme: onslow
 
 compress_html:
   ignore:

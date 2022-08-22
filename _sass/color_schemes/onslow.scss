@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Lexend:wght@400;600;700;900&display=swap');
+$body-font-family: "Lexend", system-ui, -apple-system, blinkmacsystemfont, "Helvetica Neue", "Segoe UI", arial, sans-serif;
+$mono-font-family: "Fira Code", "SFMono-Regular", menlo, consolas, monospace;
+
+$onslow-green: #1f6e66;
+$onslow-red: rgb(182, 49, 16);
+
+$btn-primary-color: $onslow-green;
+$sidebar-color: $onslow-green;
+$link-color: $onslow-red;
+
+@media (min-width: 66.5rem) {
+    .side-bar {
+        max-width: 264px;
+    }
+}
+
+.site-logo {
+    background-position: center !important;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
+    background-image: linear-gradient(-90deg, $onslow-red 0%, rgba(182, 49, 16, 0.8) 80%, rgba(182, 49, 16, 0) 100%) !important;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link, .nav-list-link, .site-footer a, .nav-list-expander, #menu-button {
+    color: white !important;
+}
+
+.main-content {
+    p {
+        line-height: 2.0em !important;
+    }
+
+    img {
+        max-height:300px;
+    }
+}
+
+.site-footer {
+    background-color: darken($onslow-green, 5%) !important;
+    color: $grey-lt-000 !important;
+}
+
+blockquote {
+    background: $grey-lt-000;
+}
+
+.half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.shout-markdown {
+    text-align: justify !important;
+    flex-direction: column !important;
+    margin: 0 !important;
+}
+
+.left-align, .right-align {
+    margin: 0 !important;
+}
+
+.emote {
+    font-size: 48pt;
+}
+
+.right-align-half {
+    min-width: 75%;
+    max-width: 75%;
+    text-align: right;
+}
