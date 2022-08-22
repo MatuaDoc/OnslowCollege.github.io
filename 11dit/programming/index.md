@@ -1,7 +1,10 @@
 ---
 title: 11DIT Programming
 layout: auto_contents
-hide_toc: true
+
+has_children: true
+nav_order: 1
+parent: 11DIT
 categories:
   - first_steps:
     category_name: First steps

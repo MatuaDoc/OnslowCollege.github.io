@@ -1,5 +1,8 @@
 ---
 title: Project management processes
+grand_parent: 12DTC
+parent: Advanced Processes
+nav_order: "ba"
 learning_intentions: ["Understand what iterative development means", "Understand what decomposition is in project management"]
 success_criteria: ["Give two examples of iterative development", "Explain how decomposition will benefit project management"]
 ---

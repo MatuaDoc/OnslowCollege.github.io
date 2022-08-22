@@ -1,5 +1,8 @@
 ---
 title: Relevant Implications
+grand_parent: 11DIT
+parent: Digital Media
+nav_order: "ac"
 ---
 
 When discussing a technological outcome's implications, it means thinking about all the aspects that make an outcome suitable for the audience in various ways.

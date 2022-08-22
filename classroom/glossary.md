@@ -1,5 +1,7 @@
 ---
 title: Glossary
+
+parent: Resources
 ---
 
 # Programming terms

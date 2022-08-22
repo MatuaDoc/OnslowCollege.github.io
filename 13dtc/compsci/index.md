@@ -1,7 +1,9 @@
 ---
-title: Analyse an area of computer science
+title: L3 Computer Science
 layout: auto_contents
-hide_toc: true
+nav_order: 3
+parent: 13DTC
+has_children: true
 preamble: |
   # Standard
 

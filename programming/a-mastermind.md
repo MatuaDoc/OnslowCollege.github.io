@@ -1,5 +1,6 @@
 ---
 title: Password Checker
+nav_exclude: true
 ---
 
 # Task 1: Password Checker

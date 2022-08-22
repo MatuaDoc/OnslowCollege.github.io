@@ -1,5 +1,8 @@
 ---
 title: Iterative development tools
+grand_parent: 12DTC
+parent: Advanced Processes
+nav_order: "bb"
 learning_intentions: ["Understand what agile development is", "Understand what a scrum is", "Understand the use of sprints", "Create a kanban board"]
 success_criteria: ["Explain the benefits of agile over traditional 'waterfall' development", "Name two parts of a scrum framework", "Explain the duration of a sprint"]
 ---

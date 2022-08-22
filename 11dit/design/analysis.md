@@ -1,5 +1,8 @@
 ---
 title: Analysis of an existing outcome
+grand_parent: 11DIT
+parent: Digital Media
+nav_order: "bd"
 ---
 
 # Research

@@ -1,5 +1,8 @@
 ---
 title: Functions that Accept Parameters/Arguments
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "cc"
 learning_intentions: ["Specify parameters, the values that functions can accept", "Provide arguments to functions that accept values", "Use the arguments in your function code"]
 success_criteria: ["You have defined paramaters, including their types", "You have called a function with arguments", "You have created a function that accepts parameters **and** returns a function"]
 ---

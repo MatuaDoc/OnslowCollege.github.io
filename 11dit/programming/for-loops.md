@@ -1,5 +1,8 @@
 ---
 title: for loops
+grand_parent: 11DIT
+parent: 11DIT Programming
+nav_order: "bb"
 learning_intentions: ["To loop over list items with a for loop"]
 success_criteria: ["You have used a for loop to print every item in a list, one at a time", "You have added some special logic to your loops to only print certain items"]
 ---

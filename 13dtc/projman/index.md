@@ -1,7 +1,9 @@
 ---
-title: Project Management
+title: Complex Processes
 layout: auto_contents
-hide_toc: true
+nav_order: 2
+parent: 13DTC
+has_children: true
 preamble: |
   In Project Management, you will work on a project to design and develop a program. This unit will be assessed based on the following standard:
   
@@ -28,6 +30,11 @@ categories:
         item_desc: |
                    <a href="https://onslowcollege.sharepoint.com/:w:/s/13DTC2022/EdWbZ3IKuLNJjoh2zjxFDvwBkDvpfYGl6Dg7BFQeL1jEiw?e=1grUkx">Project management portfolio</a>
         item_page:
+      - implications:
+        item_name: Relevant implications
+        item_desc: What aspects do you need to consider relating to the project to ensure its success?
+        item_icon: 🤔
+        item_page: implications
       - processes:
         item_name: Project management processes
         item_desc: Learn to decompose a project into components
@@ -38,9 +45,19 @@ categories:
         item_desc: Learn iterative development methodologies and tools
         item_icon: 📝
         item_page: planning
-      - implications:
-        item_name: Relevant implications
-        item_desc: What aspects do you need to consider relating to the project to ensure its success?
-        item_icon: 🤔
-        item_page: implications
+      - project_boards:
+        item_name: Project boards
+        item_desc: Create project boards to keep track of what components you work on
+        item_icon: 📊
+        item_page: project-boards
+      - version_control:
+        item_name: Version control
+        item_desc: Track your iteration outcomes
+        item_icon: 🐱
+        item_page: versions
+      - testing_trialling:
+        item_name: Testing & trialling
+        item_desc: Make sure your components work — and are the best they can be
+        item_icon: 🧪
+        item_page: trialling
 ---

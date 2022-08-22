@@ -1,5 +1,8 @@
 ---
 title: Kai UI
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "fa"
 ---
 
 # Task

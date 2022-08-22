@@ -1,5 +1,8 @@
 ---
 title: 2D Lists
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "be"
 learning_intentions: ["Learn how to store lists inside lists", "Access values inside lists … inside lists"]
 success_criteria: ["You have added at least two lists inside another list", "You have accessed a list inside a list", "You have accessed an item inside a list … inside another list"]
 ---

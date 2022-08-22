@@ -1,5 +1,6 @@
 ---
 title: Try/Except
+nav_exclude: true
 learning_intentions: ["Prevent crashes in your program my handling errors and exceptions"]
 success_criteria: ["Prevent a crash when trying to convert a string to a number", "Prevent a crash when trying to access a list item that does not exist"]
 ---

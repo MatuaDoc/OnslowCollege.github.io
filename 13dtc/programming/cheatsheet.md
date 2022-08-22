@@ -1,5 +1,7 @@
 ---
 title: Cheat Sheet
+grand_parent: 13DTC
+parent: Complex Programming
 ---
 
 # Object Oriented Programming

@@ -1,5 +1,8 @@
 ---
-title: 11DIT Programming Practice
+title: Assessment Practice
+grand_parent: 11DIT
+parent: 11DIT Programming
+nav_order: "za"
 ---
 
 | Standard | Name | Level | Int/Ext | Credits |

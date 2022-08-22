@@ -1,5 +1,8 @@
 ---
-title:  Protocols
+title: Protocols
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "be"
 learning_intentions: ["What a protocol is", "When to use a protocol", "How to declare a protocol class", "How to declare that a class conforms to a protocol"]
 success_criteria: ["You have declared a protocol class", "You have declared at least two classes that conform to the protocol by implementing the necessary methods"]
 ---

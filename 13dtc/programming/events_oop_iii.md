@@ -1,5 +1,8 @@
 ---
 title: Events & OOP III — Methods and GUI code
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "ee"
 ---
 
 # Methods

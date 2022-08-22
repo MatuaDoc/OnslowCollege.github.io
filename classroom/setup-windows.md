@@ -1,5 +1,6 @@
 ---
-title: Set up your programming environment
+title: Set up on Windows
+parent: Resources
 ---
 
 <iframe width="100%" height="480" src="https://www.youtube-nocookie.com/embed/a1kuQYEP_fE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

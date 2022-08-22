@@ -1,5 +1,8 @@
 ---
 title: Testing
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "da"
 learning_intentions: ["Why testing your program is important", "How to fill in a testing table"]
 success_criteria: ["Edit your first testing table"]
 ---

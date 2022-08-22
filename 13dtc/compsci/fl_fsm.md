@@ -1,5 +1,8 @@
 ---
 title: Finite-State Machines
+grand_parent: 13DTC
+parent: L3 Computer Science
+nav_order: "ab"
 learning_intentions: ["Learn what a finite-state machine is", "Learn how to represent states in diagrams and tables"]
 attribution: Based on the [Computer Science Field Guide](https://www.csfieldguide.org.nz/en/chapters/formal-languages/), adapted under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
@@ -194,24 +197,94 @@ Create a state transition diagram for the following machine that looks for a val
 
 Further, instead of the transitions representing "digit" and "decimal point", you should add transitions for each of the inputs: "0", "1", "2", … etc.
 
+# Stateful programming
+
+You can recreate an FSM in code by explicitly keeping track of your current state. This will become particularly useful when [parsing](fl_grammar#parsing).
+
+Of course, you can keep track of your program's state with a variable. The state could be represented by a string or a particular number. However, to fully emulate a finite state machine, with its predetermined number of states, it would be better to use an enumeration.
+
+An enumeration, usually called an enum, is a type in most programming languages, including Python, that represents a single choice of a specified set of values.
+
+To create an enum class in Python, you must import and subclass ``Enum`` from the ``enum`` package:
+
+```python
+from enum import Enum, auto
+
+class TrafficStates(Enum):
+    """Represents the states of a traffic light"""
+    RED = auto()
+    AMBER = auto()
+    GREEN = auto()
+```
+
+You can then create an object of your enum class.
+
+```python
+# Creating the object
+traffic_state = TrafficStates.RED
+
+# Changing to another state
+traffic_state = TrafficStates.GREEN
+```
+
+These states can be compared using ``while``, ``if``, and the recent ``match`` statements. In Python, you must use the ``is`` and ``is not`` comparison rather than ``==`` and ``!=``:
+
+```python
+counter = 0
+traffic_state = TrafficStates.GREEN
+transition_counter = 3
+
+# Change from green to red at least three times
+while transition_counter > 0:
+    # Counter goes up by 1 each second
+    counter = counter + 1
+
+    # Check the traffic state and how many seconds have passed
+    match [traffic_state, counter]:
+        case [TrafficStates.GREEN, 45]:  # Time to change to amber
+            traffic_state = TrafficStates.AMBER
+            counter = 0
+        case [TrafficStates.AMBER, 10]:  # Time to change to red
+            traffic_state = TrafficStates.RED
+            counter = 0
+        case [TrafficStates.RED, 55]:    # Time to change to green
+            traffic_state = TrafficStates.GREEN
+            counter = 0
+            transition_counter = transition_counter - 1
+```
+
+# Task 3
+
+Write a simple, stateful Python program using an enum to represent the FSM you diagrammed in task 2.
+
+The program must:
+
+- parse the following inputs: `1.0`, `24`, `.78`, `05`, `0.345`, `abc`, ` `
+- print whether the input is valid based on the state
+
+Use the following template to get started:
+
+```python
+from enum import Enum, auto
+
+class ParseStates(Enum):
+    """Represents the states for parsing a number"""
+    case START = auto()
+    case FAILURE = auto()
+    # Add other states here
+
+parse_state = ParseStates.START
+inputs = ["1.0", "24", ".78", "05", "0.345", "abc", " "]
+
+for input_string in inputs:
+    while parse_state is not ParseStates.FAILURE:
+        # Add code for parsing the input_string
+```
+
 # Next steps
 
-Finite-state machines help us define the rules for a formal language. Let's go back to the code snippet from the previous page.
+Finite-state machines help us define the rules for a formal language — and a formal language can describe what a finite-state machine does.
 
-{% capture left_markdown %}
-Right:
-```python
-x = (a+b) * (c+d)
-```
-{% endcapture %}
-{% capture right_markdown %}
-Wrong:
-```python
-x = (a+b) * c+d)
-```
-{% endcapture %}
-{% include half.html markdown=left_markdown right_markdown=right_markdown %}
-
-At a very basic level, we could describe the difference between these two pieces of code as being in a **Valid** state and an **Invalid** state. How we enter these states depends on the text that is typed.
+At a very basic level, we could describe the difference between these two pieces of code as being in a **Valid** state and an **Invalid** state. How we enter these states depends on the text that is typed. We've done some basic parsing, but let's look at the theory behind what's happening when parsing.
 
 {% include shout.html emote="➡️" side="left" markdown="We will use our knowledge of state machines to examine formal grammars, parsing text into tokens against these grammars, and being able to monitor state. These are covered in [Formal Grammar](fl_grammar.md)." %}

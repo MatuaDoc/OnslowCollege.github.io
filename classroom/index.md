@@ -1,17 +1,23 @@
 ---
-title: Classroom
-hide_toc: true
+title: Resources
+has_toc: false
+has_children: true
 ---
+
+# Glossary
+
+- [Glossary of Programming Terms](glossary.md)
 
 # Set up
 
-- [📦 Set up your development environment](setup.md)
-  - Install Python 3.10.2
-  - Install GitHub Desktop
-  - Install Visual Studio Code and extensions
+Instructions to set up on…
+
+- [Windows](setup-windows.md) (Windows 10, Windows 11)
+- [macOS](setup-macos.md) (macOS 10.15+, Intel and Apple Silicon)
+- [Linux](setup-linux.md) (Ubuntu 20.04 LTS+)
 
 # GitHub
 
-- [![GitHub](/img/github.svg) GitHub guide](github.md)
+- [GitHub guide](github.md)
   - Check out assignments from GitHub
   - Commit code to GitHub

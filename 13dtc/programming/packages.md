@@ -1,5 +1,8 @@
 ---
 title: Packages and Modules
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "ca"
 learning_intentions: ["Split your single-file projects into multiple files", "Import your code from one file into another", "Use packages and modules to separate classes, functions, etc."]
 success_criteria: ["Moved code across multiple files", "Created your own package and modules"]
 ---

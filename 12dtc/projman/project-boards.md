@@ -1,5 +1,8 @@
 ---
 title: Project boards
+grand_parent: 12DTC
+parent: Advanced Processes
+nav_order: "bc"
 ---
 
 Project boards are methods of displaying the tasks you need to do. They are also called kanban boards (from the Japanese 看板, meaning 'signboard').

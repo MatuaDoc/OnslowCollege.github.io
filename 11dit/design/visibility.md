@@ -1,5 +1,8 @@
 ---
 title: User control and visibility of system status
+grand_parent: 11DIT
+parent: Digital Media
+nav_order: "ba"
 ---
 
 In technology, design refers to both **aesthetics** (how something looks) and **functionality** (how something works). You can't have one without the other.

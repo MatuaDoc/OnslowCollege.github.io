@@ -1,5 +1,8 @@
 ---
-title: 11DIT Programming Assessment
+title: Assessment Task
+grand_parent: 11DIT
+parent: 11DIT Programming
+nav_order: "zc"
 ---
 
 | Standard | Name | Level | Int/Ext | Credits |

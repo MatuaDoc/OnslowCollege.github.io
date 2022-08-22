@@ -1,5 +1,8 @@
 ---
 title: PEP-8
+grand_parent: 11DIT
+parent: 11DIT Programming
+nav_order: "cb"
 learning_intentions: ["Apply conventions for formatting Python code"]
 success_criteria: ["Correctly apply PEP8 code formatting conventions to a sample of Python code until no PEP-8 errors are detected by an automated checker"]
 ---

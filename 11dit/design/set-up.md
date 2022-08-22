@@ -1,5 +1,8 @@
 ---
 title: Set up the website
+grand_parent: 11DIT
+parent: Digital Media
+nav_order: "fa"
 ---
 
 # Create a Wix account

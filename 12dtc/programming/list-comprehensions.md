@@ -1,5 +1,8 @@
 ---
 title: List comprehensions
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "bd"
 learning_intentions: ["Learn what a list comprehension can do", "Quickly create a new list based on an existing list using a comprehension", "Transform the values in a list and store them in a new list"]
 success_criteria: ["You have created a new list based on an existing list using a comprehension", "You have transformed values in a list using a comprehension"]
 ---

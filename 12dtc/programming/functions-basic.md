@@ -1,5 +1,8 @@
 ---
 title: Functions
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "ca"
 learning_intentions: ["Reduce repeated code with functions", "Define a function", "Call a function", "Modify a global value"]
 success_criteria: ["You have defined a function", "You have called the function", "Calling the function has modified a global value"]
 ---

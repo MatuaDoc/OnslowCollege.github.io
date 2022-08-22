@@ -1,5 +1,8 @@
 ---
 title: Members & Properties
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "bb"
 learning_intentions: ["What a class member is and how to declare one", "How to protect members", "How to expose a member as a property", "How to make properties immutable (non-editable)"]
 success_criteria: ["You have declared members for a class", "You have exposed members as properties", "You have marked some properties as mutable and others as immutable"]
 ---

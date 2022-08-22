@@ -1,5 +1,8 @@
 ---
 title: Returning Values from a Function
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "cb"
 learning_intentions: ["Make a function return a value"]
 success_criteria: ["You have made a function return a value", "You have used that value in your code"]
 ---

@@ -1,5 +1,8 @@
 ---
 title: Dictionaries
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "bf"
 learning_intentions: ["Learn how to store data with a string index using dictionaries", "Access values inside dictionaries"]
 success_criteria: ["You have stored data in a dictionary", "You have accessed data from within a dictionary"]
 ---

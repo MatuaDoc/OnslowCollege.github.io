@@ -1,5 +1,8 @@
 ---
 title: Next steps
+grand_parent: 11DIT
+parent: 11DIT Programming
+nav_order: "ab"
 learning_intentions: ["Use loops to repeat code", "Convert numbers to floating point values (numbers with decimals)", "Use conditional statements (such as ``if``, ``else``, and ``elif``) to apply logic"]
 success_criteria: ["Added new features to the wall paint calculator according to the new specifications"]
 ---

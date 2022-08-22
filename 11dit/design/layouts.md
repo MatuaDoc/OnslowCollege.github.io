@@ -1,5 +1,8 @@
 ---
 title: Layouts
+grand_parent: 11DIT
+parent: Digital Media
+nav_order: "cc"
 ---
 
 After you have chosen your [colour palettes](colours.md) and [font pairings](fonts.md), you will need to decide how you are going to lay out your page.

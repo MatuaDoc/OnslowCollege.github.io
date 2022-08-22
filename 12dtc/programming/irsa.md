@@ -1,5 +1,8 @@
 ---
 title: Collections Task — NATO alphabet translator
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "bh"
 ---
 
 # Task

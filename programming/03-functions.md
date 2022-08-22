@@ -1,5 +1,6 @@
 ---
 title: Functions
+nav_exclude: true
 learning_intentions: ["Reduce repeated code with functions", "Define a function", "Make the function return a value"]
 success_criteria: ["You have defined a function", "You have made the function return a value"]
 ---

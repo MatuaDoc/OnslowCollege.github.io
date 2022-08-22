@@ -1,7 +1,7 @@
 ---
-title: 11DIT Programming & Digital Media
+title: 11DIT
 layout: auto_contents
-hide_toc: true
+has_children: true
 categories:
   - units:
     category_name: Units
@@ -13,14 +13,9 @@ categories:
         item_page: /11dit/programming
       - design:
         item_name: Design
-        item_desc: Learn the design process to construct a website
+        item_desc: Learn the process to design and build a website
         item_icon: 🧑‍🎨
         item_page: /11dit/design
-      - website:
-        item_name: Website
-        item_desc: Build the website that you designed
-        item_icon: 🌐
-        item_page: /11dit/website
       - hci:
         item_name: Human Computer Interaction
         item_desc: External — how do people use computers?

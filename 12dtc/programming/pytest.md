@@ -1,5 +1,7 @@
 ---
 title: Testing with Pytest
+grand_parent: 12DTC
+parent: Advanced Programming
 learning_intentions: ["To create automated tests using Pytest"]
 success_criteria: ["You have created your own test(s) using Pytest for the sample task"]
 ---

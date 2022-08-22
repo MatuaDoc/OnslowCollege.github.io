@@ -1,5 +1,8 @@
 ---
 title: OOP Task — Virtual Pet
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "fb"
 ---
 
 # Task

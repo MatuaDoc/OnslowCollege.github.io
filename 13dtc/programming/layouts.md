@@ -1,5 +1,8 @@
 ---
 title: Layouts
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "db"
 learning_intentions: ["Learn to lay out widgets on an interface"]
 success_criteria: ["You can create a complex layout in your window"]
 ---

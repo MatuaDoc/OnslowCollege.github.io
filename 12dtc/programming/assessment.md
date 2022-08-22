@@ -1,5 +1,8 @@
 ---
-title: 12DTC Programming Assessment
+title: Advanced Programming Assessment
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "zc"
 ---
 
 # Assessment task

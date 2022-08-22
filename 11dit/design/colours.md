@@ -1,5 +1,8 @@
 ---
 title: Colours
+grand_parent: 11DIT
+parent: Digital Media
+nav_order: "ca"
 ---
 
 # About colour

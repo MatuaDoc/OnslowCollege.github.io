@@ -1,5 +1,6 @@
 ---
-title: Set up your programming environment
+title: Set up on macOS
+parent: Resources
 ---
 
 # 1. Get ready

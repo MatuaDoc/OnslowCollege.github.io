@@ -1,5 +1,8 @@
 ---
 title: Meeting user expectations
+grand_parent: 11DIT
+parent: Digital Media
+nav_order: "bb"
 ---
 
 In technology, design refers to both **aesthetics** (how something looks) and **functionality** (how something works). You can't have one without the other.

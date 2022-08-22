@@ -1,5 +1,8 @@
 ---
 title: List functions
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "bc"
 learning_intentions: ["Foramtting the printed output of a list", "Sorting items in a list"]
 success_criteria: ["You have printed a list with custom formatting for each item", "You have printed a list slice with custom formatting", "You have sorted the items in a list in order", "You have reversed the order of items in a list"]
 ---

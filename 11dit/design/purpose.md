@@ -1,5 +1,8 @@
 ---
 title: Purpose and End Users
+grand_parent: 11DIT
+parent: Digital Media
+nav_order: "ab"
 ---
 
 # Purpose

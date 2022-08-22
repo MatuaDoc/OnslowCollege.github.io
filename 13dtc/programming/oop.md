@@ -1,5 +1,8 @@
 ---
-title:  Introduction to object-oriented programming
+title: Introduction to object-oriented programming
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "ba"
 learning_intentions: ["What benefits object-oriented programming can provide", "How to define a class", "How to instantiate a class to create an object"]
 success_criteria: ["You have completed the Intro to OOP task"]
 ---

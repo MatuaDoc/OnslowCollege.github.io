@@ -1,5 +1,6 @@
 ---
 title: Introduction to programming
+nav_exclude: true
 learning_intentions: ["Determine a program's requirements", "Break those requirements into a series of steps", "Write a comment for each step", "Write your first program in Python based on your comments"]
 success_criteria: ["You have created your first program in Python"]
 ---

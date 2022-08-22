@@ -1,5 +1,8 @@
 ---
-title: 12DTC Programming Practice
+title: Advanced Programming Practice
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "za"
 ---
 
 | Standard | Name | Level | Int/Ext | Credits |

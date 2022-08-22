@@ -1,5 +1,8 @@
 ---
 title: Lists Task
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "bg"
 ---
 
 # Task

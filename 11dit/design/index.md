@@ -1,5 +1,5 @@
 ---
-title: Design & Digital Media
+title: Digital Media
 preamble: |
   In Design & Digital Media, you will work on a project to design and develop a website. This unit will be assessed with three standards:
 
@@ -15,7 +15,10 @@ preamble: |
 
   <br>
 layout: auto_contents
-hide_toc: true
+has_children: true
+nav_order: 2
+parent: 11DIT
+
 categories:
   - design:
     category_name: Design
@@ -96,4 +99,12 @@ categories:
         item_desc: Ask others what you need to know — and give useful advice back
         item_icon: 💭
         item_page: feedback
+  - website:
+    category_name: Web Site
+    category_items:
+      - set-up:
+        item_name: Set up Wix web site
+        item_desc: Get your design off the ground with Wix
+        item_icon: 🌐
+        item_page: set-up
 ---

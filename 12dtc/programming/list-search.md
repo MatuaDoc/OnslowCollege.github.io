@@ -1,5 +1,8 @@
 ---
 title: Lists
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "ba"
 learning_intentions: ["Search for specific items/ranges within a list", "Get a range of items in a list"]
 success_criteria: ["You have checked if an item is in a list", "You have determined the index of an item in the list", "You have created a list subsection containing the specified items"]
 ---

@@ -1,5 +1,8 @@
 ---
 title: Introduction to Formal Languages
+grand_parent: 13DTC
+parent: L3 Computer Science
+nav_order: "aa"
 learning_intentions: ["Learn what a formal language is", "Give examples of what formal languages are used for"]
 attribution: Based on the [Computer Science Field Guide](https://www.csfieldguide.org.nz/en/chapters/formal-languages/), adapted under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---

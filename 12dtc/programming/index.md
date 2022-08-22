@@ -1,7 +1,9 @@
 ---
-title: 12DTC Programming
+title: Advanced Programming
 layout: auto_contents
-hide_toc: true
+has_children: true
+nav_order: 1
+parent: 12DTC
 categories:
   - setup:
     category_name: First steps

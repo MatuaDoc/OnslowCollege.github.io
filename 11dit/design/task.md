@@ -1,5 +1,8 @@
 ---
-title: Design and Develop a Digital Media Outcome
+title: Assessment Task
+grand_parent: 11DIT
+parent: Digital Media
+nav_order: "aa"
 ---
 
 | Standard | Name | Level | Int/Ext | Credits |

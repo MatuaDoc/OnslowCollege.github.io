@@ -1,5 +1,6 @@
 ---
-title: Set up your programming environment
+title: Set up on Linux
+parent: Resources
 ---
 
 **Important**: the following instructions apply to **Ubuntu 20.04.03** and later. These instructions may also apply to Debian, Linux Mint, and ChromeOS with Linux.

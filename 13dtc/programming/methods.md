@@ -1,5 +1,8 @@
 ---
-title:  Methods
+title: Methods
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "bc"
 learning_intentions: ["What a method is", "How to declare an instance method"]
 success_criteria: ["You have declared an instance method in a class", "You have called a method on an object"]
 ---

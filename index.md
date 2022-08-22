@@ -1,7 +1,8 @@
 ---
-title: Home
+title: Onslow College Digital Technologies
 layout: auto_contents
-hide_toc: true
+nav_exclude: true
+has_children: true
 categories:
   - eleven:
     category_name: 11DIT

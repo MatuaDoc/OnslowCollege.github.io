@@ -4,7 +4,11 @@
 {% else %}
 <div style="flex-grow: 1" markdown="1">
 {% endif %}
+{% if include.html %}
+{{ include.html }}
+{% else %}
 {{ include.markdown }}
+{% endif %}
 </div>
 {% if include.image %}
 <a href="{{ include.image }}" markdown="1"><img src="{{ include.image }}"></a>

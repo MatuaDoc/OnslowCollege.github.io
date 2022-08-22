@@ -1,5 +1,8 @@
 ---
 title: Password Checker
+grand_parent: 11DIT
+parent: 11DIT Programming
+nav_order: "bd"
 ---
 
 # Task 1: Password Checker

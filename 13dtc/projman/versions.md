@@ -1,5 +1,8 @@
 ---
 title: Version control
+grand_parent: 13DTC
+parent: Complex Processes
+nav_order: "ca"
 learning_intentions: ["Understand how version control fits into iterative processes", "Understand version control methods", "Understand how to use GitHub"]
 success_criteria: ["Name two version control options", "In your own words, explain the difference between push and pull"]
 ---

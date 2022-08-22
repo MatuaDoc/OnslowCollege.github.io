@@ -1,5 +1,8 @@
 ---
 title: Testing & trialling
+grand_parent: 12DTC
+parent: Advanced Processes
+nav_order: "be"
 ---
 
 As part of your project, you are required to test and trial the components that you develop. These are the basic requirements for **Achieved**, so you should not skip out on this important part of the process.

@@ -1,5 +1,8 @@
 ---
 title: Inheritance
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "bd"
 learning_intentions: ["What inheritance is", "When to use inheritance", "What base classes, superclasses, and superclasses are", "How to declare a base class", "How to declare a subclass which inherits from a base class or superclass"]
 success_criteria: ["You have declared a base class (A)", "You have declared two subclasses (B, C) that inherit from the base class (A)", "You have declared two more subclasses (D, E), one each inheriting from the already-defined subclasses (D inherits from B, E inherits from C)"]
 ---

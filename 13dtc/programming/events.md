@@ -1,5 +1,8 @@
 ---
 title: Introduction to Events
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "ea"
 ---
 
 # Signals

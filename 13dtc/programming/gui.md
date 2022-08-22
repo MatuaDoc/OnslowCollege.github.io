@@ -1,5 +1,8 @@
 ---
 title: Introduction to Graphical User Interfaces
+grand_parent: 13DTC
+parent: Complex Programming
+nav_order: "da"
 learning_intentions: ["Learn to install packages in pip", "Learn about Qt widgets", "Learn to display a basic interface"]
 success_criteria: ["You can create a window with a label"]
 ---

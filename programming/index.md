@@ -1,7 +1,8 @@
 ---
 title: Software development
 layout: auto_contents
-hide_toc: true
+nav_exclude: true
+
 categories:
   - first_steps:
     category_name: First steps

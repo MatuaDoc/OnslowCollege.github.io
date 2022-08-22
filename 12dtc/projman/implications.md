@@ -1,5 +1,8 @@
 ---
 title: Relevant Implications
+grand_parent: 12DTC
+parent: Advanced Processes
+nav_order: "ab"
 ---
 
 When discussing a technological outcome's implications, it means thinking about all the aspects that make an outcome suitable for the audience in various ways.

@@ -1,5 +1,8 @@
 ---
 title: (Re)Intro to Python
+grand_parent: 12DTC
+parent: Advanced Programming
+nav_order: "aa"
 learning_intentions: ["To assign and use data stored in variables", "Printing text and getting user input", "Converting strings to numbers and back", "Repeating code with loops", "Checking for conditions with ``if``, ``else``, and ``elif`` statements"]
 success_criteria: ["You have created a functioning version of the Room Area/Volume Calculator"]
 ---

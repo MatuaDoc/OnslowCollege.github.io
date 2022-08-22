@@ -1,5 +1,7 @@
 ---
 title: GitHub Guide
+
+parent: Resources
 ---
 
 # 1. Getting started with GitHub

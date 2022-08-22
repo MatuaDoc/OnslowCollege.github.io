@@ -1,7 +1,7 @@
 ---
-title: 12DTC Programming & Computer Science
+title: 12DTC
 layout: auto_contents
-hide_toc: true
+has_children: true
 categories:
   - twelve:
     category_name: 12DTC

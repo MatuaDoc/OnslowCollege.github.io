@@ -1,7 +1,9 @@
 ---
-title: 13DTC Programming
+title: Complex Programming
 layout: auto_contents
-hide_toc: true
+has_children: true
+parent: 13DTC
+nav_order: 1
 categories:
   - setup:
     category_name: First steps
@@ -30,14 +32,6 @@ categories:
         item_desc: Helpful code snippets
         item_icon: 📘
         item_page: cheatsheet
-  - recap:
-    category_name: Recap
-    category_items:
-      - intro:
-        item_name: Intro
-        item_desc: Revise Python from 12DTC
-        item_icon: 🐍
-        item_page: intro
   - oop:
     category_name: Object-oriented programming
     category_items:

@@ -1,5 +1,8 @@
 ---
 title: Try/Except
+grand_parent: 11DIT
+parent: 11DIT Programming
+nav_order: "ca"
 learning_intentions: ["Prevent crashes in your program my handling errors and exceptions"]
 success_criteria: ["Prevent a crash when trying to convert a string to a number", "Prevent a crash when trying to access a list item that does not exist"]
 ---

@@ -1,5 +1,8 @@
 ---
 title: Feedback and Feedforward
+grand_parent: 11DIT
+parent: Digital Media
+nav_order: "ea"
 ---
 
 We all know what it means to give your opinion on something — it's reporting how you feel about it. However, what you feel can be expressed as elaborately as
