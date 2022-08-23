@@ -163,7 +163,7 @@ For this machine, the start state would be checking for a digit — after all, a
 
 An **accepting state** is a state where the machine produces a correct output. It's called the *accepting* state because if the last input puts the machine in this state, the input is accepted — it follows the rules. If the last input puts the machine in any other state, the input is rejected — it does *not* follow the rules.
 
-A basic finite state machine can only have one accepting state. This rule is sufficient for our purposes.
+A basic finite state machine can have many accepting states. If the machine finishes processing on **any** of the accepting states, the input is considered valid.
 
 For this machine, we can also treat the start state as the accepting state — after all, a valid number ends with a digit.
 
