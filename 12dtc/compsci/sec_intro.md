@@ -39,7 +39,7 @@ Computer Security is concerned with these main areas:
 6. Authorisation: only authorised users have access to the information
 7. Accountability: every activity can be attributed to a known person
 
-# Task
+# Task 1
 
 Let's start the topic with a bit of research. You may work in groups to research these answers, but you should submit your own responses. Find out:
 
@@ -59,3 +59,7 @@ These additional resources may help you in your research:
 | [A Day in the Life of a Penetration Tester](https://www.youtube.com/watch?v=_NVxgQdA45g) |
 | [Top Hacker Shows How It's Done](https://www.youtube.com/watch?v=hqKafI7Amd8) — TED Talk |
 | [Have I Been Pwned?](https://haveibeenpwned.com/) |
+
+# Task 2
+
+{% include shout.html side="right" emote="👾" markdown="Play [Cybersecurity Lab](https://www.pbs.org/wgbh/nova/labs/lab/cyber/) by Nova Labs. Start a new web site and protect the company from cybersecurity attacks!" %}
