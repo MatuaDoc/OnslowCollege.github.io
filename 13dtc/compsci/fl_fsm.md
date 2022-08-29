@@ -18,7 +18,7 @@ Finite state machines are theoretical but are useful for describing anything **s
 ## Example 1: Light bulb
 
 {% capture right_markdown %}
-For example, let's think of an FSA for a light bulb. A light bulb has two states:
+For example, let's think of an FSM for a light bulb. A light bulb has two states:
 
 | State 1 | State 2 |
 | :-: | :-: |
@@ -193,9 +193,11 @@ Create a state transition diagram for the following machine that looks for a val
 - there can only be one decimal point or none at all
 - the decimal point must have numbers on either side
 - there can be any number of digits before and after the decimal point
-- **NEW**: the first digit cannot be zero *except* if the next character is a decimal point
+- **NEW**: the first digit cannot be 0 *except* if the next character is a decimal point **or** the number is one digit long
 
 Further, instead of the transitions representing "digit" and "decimal point", you should add transitions for each of the inputs: "0", "1", "2", … etc.
+
+> **Hints**: the first state is *not* accepting. There are at least two accepting states in this diagram.
 
 # Stateful programming
 
