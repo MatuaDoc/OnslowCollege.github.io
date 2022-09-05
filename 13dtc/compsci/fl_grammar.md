@@ -32,10 +32,10 @@ The alphabet in a formal language is manipulated according to the language's rul
 
 For example, let's add a new feature to our number parser: let's add a currency symbol (``$``, dollar sign) to the front to build a currency string.
 
-The number parser has the following rules:
+The number parser has the following specifications:
 
 - it is a valid currency string only if it contains 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a decimal point, or a dollar sign
-- there can only be one (1) decimal point or none at all
+- there can only be one (1) decimal point
 - the decimal point must have numbers on either side
 - there can be any number of digits before the decimal point
 - there must only be two (2) digits after the decimal point
@@ -136,7 +136,7 @@ And here are some invalid inputs:
 
 Based on your understanding of how this FSM works, let's define the formal language to express the rules for determining if input is valid and what the output should be.
 
-In groups, fill out this table (in a Word document or on paper) then fill out the details for the language's alphabet and formal grammar:
+As a class, we'll fill out this table together. Create a copy for yourself (in a Word document or on paper) so that you have a version to use for Task 3.
 
 | | | |
 | :-- | :-- | --: |
@@ -154,13 +154,51 @@ Using the grammar (``∑``, ``N``, ``S``, and ``R``) you've come up with, determ
 
 1. `1234`
 2. `JADE`
-3. `1B3D`
-4. `ACCP`
+3. `ACCP`
+4. `1B3D`
 5. `75Z4`
 
-Show the steps in the following format (this example is for the currency parser, **do your task for the number-letter converter**):
+In a Word document or on paper, show the steps in the following format (this example is for the currency parser, **do your task for the number-letter converter**):
 
 | Input | Rule | Output |
 | :-- | :-: | :-- |
 | `$128.39` | 1 | `$n.dd` |
 | `$n.dd` | | |
+
+# Task 4: create your own grammar
+
+Create a formal grammar for a program that **creates** a sentence.
+
+{% include shout.html emote="⚠️" side="left" markdown="This grammar does not accept input. Instead, it will only create output. Bear that in mind as you create the alphabet." %}
+
+This program has the following specifications:
+
+- the sentence must start with 'A' or 'The'
+- the second word must be one of the following adjectives:
+  - big
+  - small
+  - furry
+  - squishy
+  - wet
+  - dry
+- the third word must be one of the following nouns:
+  - cat
+  - dog
+  - cheese
+  - cloud
+  - student
+- the fourth word must be one of the following verbs:
+  - runs
+  - eats
+  - sits
+  - wobbles
+  - shakes
+- the last word must be one of the following adverbs:
+  - quickly
+  - hastily
+  - disturbingly
+  - awfully
+  - pleasantly
+- Finally, the end of the sentence must have an exclamation mark
+
+For example, the program could output: `The big cat runs quickly!`
