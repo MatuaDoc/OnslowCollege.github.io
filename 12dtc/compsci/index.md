@@ -24,12 +24,22 @@ categories:
         item_desc: Keep data secure, allow those with access to use it, keep everybody else out
         item_icon: 👮
         item_page: sec_intro
-  - ai:
-    category_name: Artificial Intelligence
+      - sec_data:
+        item_name: Protecting data
+        item_desc: What kinds of data get collected, by whom, and why?
+        item_icon: 🍦
+        item_page: sec_data
+      - sec_hacking:
+        item_name: Hacking
+        item_desc: What is hacking? What kinds of people hack? Why?
+        item_icon: 🪓
+        item_page: sec_hacking
+  - com:
+    category_name: Complexity and Tractability
     category_items:
-      - ai:
-        item_name: Introduction to Artificial Intelligence
-        item_desc: The opportunities, and issues, that come from making computers 'think'
+      - com:
+        item_name: Introduction
+        item_desc: Are there problems that computers can't solve?
         item_icon: 🧠
-        item_page: ai_intro
+        item_page: com_intro
 ---
