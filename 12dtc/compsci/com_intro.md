@@ -1,7 +1,7 @@
 ---
 title: Introduction to Complexity & Tractability
-grand_parent: 13DTC
-parent: L3 Computer Science
+grand_parent: 12DTC
+parent: L2 Computer Science
 nav_order: "ba"
 ---
 
@@ -48,12 +48,79 @@ Generally speaking, complexity is the time it takes to solve a problem. However,
 
 However, it can be helpful to get a rough idea of the inherent behaviour of an algorithm in advance.
 
-Computer scientists often start by estimating the number of steps the algorithm will take for `n` items; `n` represents how many items are in a collection (such as a list, set, etc.). For example:
+Computer scientists often start by estimating the number of steps the algorithm will take for ***n*** items; ***n*** represents how many items are in a collection (such as a list, set, etc.). For example:
 
-- a linear search can end up checking each of `n` items to be searched, so the algorithm will take `n` steps
-- an algorithm that compares every pair of values in a list of `n` items will have to make `n²` comparisons so it will take `n²` steps
+- a linear search can end up checking each of ***n*** items to be searched, so the algorithm will take ***n*** steps
+- an algorithm that compares every pair of values in a list of ***n*** items will have to make ***n<sup>2</sup>*** comparisons so it will take ***n<sup>2</sup>*** steps
 
 Having a rough idea of the complexity of a problem helps to estimate how long it is likely to take, rather than actually have to spend a lot of time waiting.
 
 For example, if you write a program and run it with a simple input, but it doesn't finish after 10 minutes, you must decide: should you quit or wait for it to finish? If you can estimate the number of steps it needs to make, you can extrapolate (deduce based on the time it takes other, similar programs to do a similar task).
 
+{% include shout.html side="right" emote="⏰" markdown="Use this [Algorithm Timer](https://www.csfieldguide.org.nz/en/interactives/algorithm-timer/) to find out how long complex algorithms will take to compute." %}
+
+## The Towers of Hanoi
+
+The Towers of Hanoi problem is a challenge where you have a stack of disks of increasing size on one peg, and two empty pegs. The challenge is to move all the disks from one peg to another, but you may not put a larger disk on top of a smaller one. There's a description of it at [Wikipedia](https://en.wikipedia.org/wiki/Towers_of_Hanoi).
+
+{% include shout.html side="left" emote="🎮" markdown="[Play Towers of Hanoi](https://www.mathsisfun.com/games/towerofhanoi.html)" %}
+
+This problem cannot be solved in fewer than ***2<sup>n</sup> − 1*** moves, so it's an intractable problem (a computer program that lists all the moves to make would use at least ***2<sup>n</sup> − 1*** steps). For six disks, it only needs 63 moves, but for 50 disks this would be 1,125,899,906,842,623 moves.
+
+We usually characterise a problem like this as having a complexity of ***2<sup>n</sup>***, as subtracting one to get a precise value makes almost no difference, and the shorter expression is simpler to communicate to others.
+
+The Towers of Hanoi is one problem where we know for sure that it will take exponential time. There are many intractable problems where this isn't the case – we don't have tractable solutions for them, but we don't know for sure if they don't exist. Plus this isn't a real problem – it's just a game (although there is a backup system based on it). But it is a nice example of an exponential time algorithm, where adding one disk will double the number of steps required to produce a solution.
+
+For more information, check out [FreeCodeCamp's illustrated algorithm guide](https://www.freecodecamp.org/news/analyzing-the-algorithm-to-solve-the-tower-of-hanoi-problem-686685f032e3/) for this problem.
+
+# Algorithmic complexity
+
+There are many algorithms, or ways to solve certain problems, for any given problem.
+
+Two of the more basic examples are searching and sorting algorithms. These deal with finding an item within a set and taking a set of items and sorting them into some order, such as lowest number to highest number, alphabetical order, etc.
+
+To find an item in a set, you could use one of many algorithms. The specific types of algorithm we'll look at are **linear** and **binary**.
+
+## Linear algorithm
+
+If items in a set are out of order, there's really only one way to find a specific item — check each and every one.
+
+Imagine a line of boxes numbered one to ten. Under one of the boxes is a dollar coin. To find the dollar coin, you need to check under each box along the line.
+
+This is a **linear search**.
+
+Now, imagine the boxes are put in numerical order and the coin is moved to a different box. Would a linear search improve the process? No, because you would still be checking every box.
+
+You could get lucky and find the coin under the first box — or unlucky, and it's under the tenth.
+
+<iframe src="https://www.csfieldguide.org.nz/en/interactives/searching-algorithms/?start-level=0&end-level=1"></iframe>
+
+## Binary algorithm
+
+On the other hand, a binary search is much more efficient for certain kinds of searches.
+
+Imagine the boxes are in random order but facing away from you. You're not looking for a coin anymore but rather a specific box — number 7.
+
+Instead of blinding checking each box, you could:
+
+1. start with the middle box
+2. turn it around, and check what number is written on it
+3. It's 5, so we know to check the box to the right
+4. It's 6, we're on the right track. Next box!
+5. It's 7, we found it
+
+<iframe src="https://www.csfieldguide.org.nz/en/interactives/searching-algorithms/?start-level=2"></iframe>
+
+This is called binary search because you are checking pairs of items — the first item, then the next item. Then, "next" item becomes the "first" item, and so on.
+
+Binary means two, pairs are twos, hence binary search.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KXJSjte_OAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Task
+
+Answer the following questions in a Word document or OneNote page:
+
+1. in your own words, explain the difference between complexity and tractability
+2. try the Towers of Hanoi game. Work out how many steps would be needed for 20 disks
+3. explain why binary search is more efficient than linear search

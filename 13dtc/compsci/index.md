@@ -66,27 +66,4 @@ categories:
         item_desc: Matching text within text
         item_icon: 🔍
         item_page: fl_regex
-  - vision:
-    category_name: Computer Vision
-    category_items:
-      - cv_intro:
-        item_name: Intro to Computer Vision
-        item_desc: Let's learn about formal languages
-        item_icon: 👁️
-        item_page: cv_intro
-      - cv_processing:
-        item_name: Image processing
-        item_desc: If this, then that — or that — or that
-        item_icon: 📸
-        item_page: cv_processing
-      - cv_detection:
-        item_name: Object detection
-        item_desc: That stain on the wall that looks like a face…
-        item_icon: 🫥
-        item_page: cv_detection
-      - cv_depth:
-        item_name: Depth detection
-        item_desc: Objects in the image may be closer than they appear
-        item_icon: 🐋
-        item_page: cv_depth
 ---
