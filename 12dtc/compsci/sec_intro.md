@@ -2,6 +2,7 @@
 title: Introduction to Computer Security
 grand_parent: 12DTC
 parent: L2 Computer Science
+nav_order: "aa"
 ---
 
 # What is Computer Security?

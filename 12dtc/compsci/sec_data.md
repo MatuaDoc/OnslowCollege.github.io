@@ -2,6 +2,7 @@
 title: Protecting Data
 grand_parent: 12DTC
 parent: L2 Computer Science
+nav_order: "ab"
 ---
 
 # What is data?
