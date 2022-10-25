@@ -61,9 +61,9 @@ categories:
         item_desc: How to describe what you're looking for
         item_icon: 📗
         item_page: fl_grammar
-      - fl_regex:
-        item_name: Regular expressions
-        item_desc: Matching text within text
-        item_icon: 🔍
-        item_page: fl_regex
+      - fl_reg:
+        item_name: Regular vs Context-Free
+        item_desc: What's the difference?
+        item_icon: 🤷
+        item_page: fl_reg
 ---
