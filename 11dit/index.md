@@ -6,26 +6,43 @@ categories:
   - units:
     category_name: Units
     category_items:
+      - database:
+        item_name: Database
+        item_desc: Introduction to databases
+        item_icon: 💾
+        item_page: database
       - programming:
         item_name: Programming
         item_desc: Introduction to Python, lists, and basic functions
         item_icon: 🐍
-        item_page: /11dit/programming
+        item_page: programming
       - design:
-        item_name: Design
+        item_name: Web Design
         item_desc: Learn the process to design and build a website
         item_icon: 🧑‍🎨
-        item_page: /11dit/design
+        item_page: design
       - hci:
         item_name: Human Computer Interaction
         item_desc: External — how do people use computers?
         item_icon: 🚪
-        item_page: /11dit/hci
+        item_page: hci
 ---
 
 # Learning objectives
 
+## Develop a digital outcome to manage data
+
+- using appropriate tools and techniques to structure, organise, query and present data for a purpose and end user 
+- applying appropriate data integrity and testing procedures 
+- describing relevant implications. 
+- using information from testing procedures to improve the quality and functionality of the outcome 
+- structuring, organising and querying the data logically 
+- addressing relevant implications. 
+- iterative improvement throughout the development and testing process 
+- presenting the data effectively for the purpose and to meet end-user requirements
+
 ## Develop a computer program
+
 - writing code for a program that performs a specified task using a suitable
 programming language
     - in this course, we will be teaching Python 3.10 and higher
@@ -58,10 +75,12 @@ function and behaviour
 
 # Standards
 
-* Programming (3 credits)
-    * [**AS91883**: Develop a computer program](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91883.pdf) (3 credits)
-* Design & Digital Media (7 credits)
-    * [**AS91878**: Develop a design for a digital outcome](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91878.pdf) (3 credits)
-    * [**AS91880**: Develop a digital media outcome](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91880.pdf) (4 credits)
-* External assessments (3 credits)
-    * [**AS91886**: Demonstrate understanding of human computer interaction](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91886.pdf) (3 credits)
+- Database (4 credits)
+  - [**AS91879**: Develop a digital technologies outcome to manage data](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91879.pdf) (4 credits)
+- Programming (3 credits)
+  - [**AS91883**: Develop a computer program](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91883.pdf) (3 credits)
+- Design & Digital Media (7 credits)
+  - [**AS91878**: Develop a design for a digital outcome](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91878.pdf) (3 credits)
+  - [**AS91880**: Develop a digital media outcome](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91880.pdf) (4 credits)
+- External assessments (3 credits)
+  - [**AS91886**: Demonstrate understanding of human computer interaction](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2019/as91886.pdf) (3 credits)
