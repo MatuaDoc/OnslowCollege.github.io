@@ -1,6 +1,7 @@
 remote_theme: just-the-docs/just-the-docs
 # theme: just-the-docs
 title: Onslow College Digital Technology
+repository: OnslowCollege/onslowcollege.github.io
 search_enabled: true
 nav_sort: case_insensitive
 logo: "/assets/images/logo.png"
